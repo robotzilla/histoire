@@ -3,10 +3,15 @@
 function addItems(rawText, start, end) {
     const list = document.getElementById("thelist");
 
-    const addItem = line => {
+    const addItem = (line, link) => {
         const item = document.createElement("li");
         const text = document.createTextNode(line);
-        item.appendChild(text);
+        if (link) {
+            const ahref = document.createElement("a");
+            ahref.setAttribute("href", link);
+            ahref.appendChild(text);
+            item.appendChild(ahref);
+        }
         list.appendChild(item);
     };
 
@@ -16,11 +21,15 @@ function addItems(rawText, start, end) {
         const [_, when, channel, message] = line.match(/^(\S+) (\S+) (.*)/);
         if (when < start || when > end)
             continue;
-        addItem((new Date(when * 1000)).toLocaleString() + " - " + message);
+        const info = (new Date(when * 1000)).toLocaleString() + " - " + message;
+        if (channel.startsWith("#"))
+            addItem(info, `http://logs.glob.uno/?a=link_to&c=${channel}&n=${user}&t=${when}`);
+        else
+            addItem(info);
     }
 }
 
-function dataLoaded(xhr, start, end, info) {
+function dataLoaded(xhr, user, start, end, info) {
     info.sofar++;
 
     console.log("fetched, status = " + xhr.status);
@@ -28,7 +37,7 @@ function dataLoaded(xhr, start, end, info) {
     // 404 is ok; there might not be any entries for that time range.
     if (xhr.status != 404) {
         info.found++;
-        addItems(xhr.responseText, start, end);
+        addItems(xhr.responseText, user, start, end);
     }
 
     if (info.sofar < info.total)
@@ -54,7 +63,7 @@ function loadNotes(user, when, start, end, info) {
     // does not allow CORS, but the raw.githubusercontent.com link.
 
     const xhr = new XMLHttpRequest();
-    xhr.addEventListener('load', ev => dataLoaded(xhr, start, end, info));
+    xhr.addEventListener('load', ev => dataLoaded(xhr, user, start, end, info));
     xhr.open("GET", `https://raw.githubusercontent.com/mrgiggles/histoire/master/users/${user}/${user}.${when}.txt`);
     xhr.send();
 }
