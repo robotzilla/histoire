@@ -45,11 +45,19 @@ function dataLoaded(xhr, start, end, info) {
 }
 
 function loadNotes(user, when, start, end, info) {
+    // index.html and index.js are loaded through rawgit.com, which routes them
+    // through a CDN that caches aggressively. That doesn't work for the data
+    // files, which are expected to be updated frequently. Sadly, just going to
+    // github for those files doesn't work because github disallows CORS
+    // (except on github Pages, but you only get one of those per account and
+    // I'd like to be able to support multiple "webapps".)
+
     const xhr = new XMLHttpRequest();
     xhr.addEventListener('load', ev => dataLoaded(xhr, start, end, info));
     //xhr.open("GET", `users/${user}/${user}.${when}.txt`);
     //xhr.open("GET", `https://api.codetabs.com/cors-proxy/https://github.com/mrgiggles/histoire/raw/master/users/${user}/${user}.${when}.txt`);
-    xhr.open("GET", `https://crossorigin.me/https://github.com/mrgiggles/histoire/raw/master/users/${user}/${user}.${when}.txt`);
+    //xhr.open("GET", `https://robwu.nl/cors-anywhere.html/https://github.com/mrgiggles/histoire/raw/master/users/${user}/${user}.${when}.txt`);
+    xhr.open("GET", `https://raw.githubusercontent.com/mrgiggles/histoire/master/users/${user}/${user}.${when}.txt`);
     xhr.send();
 }
 
