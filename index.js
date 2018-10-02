@@ -13,11 +13,9 @@ function addItems(rawText, start, end) {
     for (const line of rawText.split("\n")) {
         if (line == "")
             continue;
-        const pos = line.indexOf(" ");
-        const when = line.substr(0, pos);
+        const [_, when, channel, message] = line.match(/^(\S+) (\S+) (.*)/);
         if (when < start || when > end)
             continue;
-        const message = line.substr(pos + 1);
         addItem((new Date(when * 1000)).toLocaleString() + " - " + message);
     }
 }
