@@ -79,4 +79,4 @@ function loadUserNotes(user, start, end) {
 
 var params = new URL(document.location).searchParams;
 var user = params.get("user");
-ploadUserNotes(user, params.get("start"), params.get("end"));
+loadUserNotes(user, params.get("start"), params.get("end"));
