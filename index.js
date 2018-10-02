@@ -48,7 +48,7 @@ function loadNotes(user, when, start, end, info) {
     const xhr = new XMLHttpRequest();
     xhr.addEventListener('load', ev => dataLoaded(xhr, start, end, info));
     //xhr.open("GET", `users/${user}/${user}.${when}.txt`);
-    xhr.open("GET", `http://cors.io/?u=https://github.com/mrgiggles/histoire/blob/master/users/${user}/${user}.${when}.txt`);
+    xhr.open("GET", `https://cors.io/?u=https://github.com/mrgiggles/histoire/blob/master/users/${user}/${user}.${when}.txt`);
     xhr.send();
 }
 
