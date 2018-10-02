@@ -11,6 +11,8 @@ function addItems(rawText, user, start, end) {
             ahref.setAttribute("href", link);
             ahref.appendChild(text);
             item.appendChild(ahref);
+        } else {
+            item.appendChild(text);
         }
         list.appendChild(item);
     };
