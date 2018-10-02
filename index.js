@@ -1,6 +1,6 @@
 // FIXME! This always appends at the end. If we're loading multiple chunks, we
 // want them inserted in order.
-function addItems(rawText, start, end) {
+function addItems(rawText, user, start, end) {
     const list = document.getElementById("thelist");
 
     const addItem = (line, link) => {
