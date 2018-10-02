@@ -14,3 +14,4 @@
 1538420585 
 1538498903 second day, test 1
 1538498967 why didn't you say "recording"? also, force sync
+1538499116 ugh, that'll go back to None
