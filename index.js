@@ -47,7 +47,8 @@ function dataLoaded(xhr, start, end, info) {
 function loadNotes(user, when, start, end, info) {
     const xhr = new XMLHttpRequest();
     xhr.addEventListener('load', ev => dataLoaded(xhr, start, end, info));
-    xhr.open("GET", `users/${user}/${user}.${when}.txt`);
+    //xhr.open("GET", `users/${user}/${user}.${when}.txt`);
+    xhr.open("GET", `https://github.com/mrgiggles/histoire/master/users/${user}/${user}.${when}.txt`);
     xhr.send();
 }
 
