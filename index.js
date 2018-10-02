@@ -23,6 +23,8 @@ function addItems(rawText, start, end) {
 function dataLoaded(xhr, start, end, info) {
     info.sofar++;
 
+    console.log("fetched, status = " + xhr.status);
+
     // 404 is ok; there might not be any entries for that time range.
     if (xhr.status != 404) {
         info.found++;
