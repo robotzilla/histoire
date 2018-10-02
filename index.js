@@ -50,4 +50,7 @@ function loadUserNotes(user, start, end) {
 }
 
 var params = new URL(document.location).searchParams;
-loadUserNotes(params.get("user"), params.get("start"), params.get("end"));
+var user = params.get("user");
+var header = document.getElementById("header");
+header.textContent = "Some updates for " + user;
+loadUserNotes(user, params.get("start"), params.get("end"));
