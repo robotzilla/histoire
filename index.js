@@ -52,9 +52,12 @@ function dataLoaded(xhr, user, start, end, info) {
     if (info.found == 0) {
         var header = document.getElementById("header");
         header.textContent = "No updates found!";
-    } else {
-        header.textContent = "Updates for " + user;
+        return;
     }
+
+    const start_str = (new Date(start)).toLocaleString();
+    const end_str = (new Date(end)).toLocaleString();
+    header.textContent = `Updates for ${user} from ${start_str} to ${end_str}`;
 }
 
 function loadNotes(user, when, start, end, info) {
@@ -83,12 +86,12 @@ function loadUserNotes(user, start, end) {
         start = end - 60 * 60 * 24 * 7;
 
     // Look back 1 week
-    let count = 0;
+    let total = 0;
     for (let t = computeEra(start); t <= computeEra(end); t += eraSeconds)
-        count++;
+        total++;
 
     const info = {
-        'total': count,
+        total,
         'sofar': 0,
         'found': 0
     };
