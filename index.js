@@ -55,8 +55,8 @@ function dataLoaded(xhr, user, start, end, info) {
         return;
     }
 
-    const start_str = (new Date(start)).toLocaleString();
-    const end_str = (new Date(end)).toLocaleString();
+    const start_str = (new Date(start * 1000)).toLocaleString();
+    const end_str = (new Date(end * 1000)).toLocaleString();
     header.textContent = `Updates for ${user} from ${start_str} to ${end_str}`;
 }
 
