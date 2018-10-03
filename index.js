@@ -25,7 +25,7 @@ function addItems(rawText, user, start, end) {
             continue;
         const info = (new Date(when * 1000)).toLocaleString() + " - " + message;
         if (channel.startsWith("#"))
-            addItem(info, `http://logs.glob.uno/?a=link_to&c=${channel}&n=${user}&t=${when}`);
+            addItem(info, `http://mozilla.logbot.info/${channel.substr(1)}/link/${when}/${user}`);
         else
             addItem(info);
     }
@@ -83,9 +83,8 @@ function loadUserNotes(user, start, end) {
     if (!end)
         end = Date.now() / 1000; // ms -> sec
     if (!start)
-        start = end - 60 * 60 * 24 * 7;
+        start = end - 60 * 60 * 24 * 7; // -1 week
 
-    // Look back 1 week
     let total = 0;
     for (let t = computeEra(start); t <= computeEra(end); t += eraSeconds)
         total++;
