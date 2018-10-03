@@ -60,7 +60,7 @@ function dataLoaded(xhr, user, start, end, info) {
     header.textContent = `Updates for ${user} from ${start_str} to ${end_str}`;
 }
 
-function loadNotes(user, when, start, end, info) {
+function loadNotes(user, when, now, start, end, info) {
     // index.html and index.js are loaded through rawgit.com, which routes them
     // through a CDN that caches aggressively. That doesn't work for the data
     // files, which are expected to be updated frequently. So we go through
@@ -69,7 +69,7 @@ function loadNotes(user, when, start, end, info) {
 
     const xhr = new XMLHttpRequest();
     xhr.addEventListener('load', ev => dataLoaded(xhr, user, start, end, info));
-    xhr.open("GET", `https://raw.githubusercontent.com/mrgiggles/histoire/master/users/${user}/${user}.${when}.txt`);
+    xhr.open("GET", `https://raw.githubusercontent.com/mrgiggles/histoire/master/users/${user}/${user}.${when}.txt?at=${now}`);
     xhr.send();
 }
 
@@ -80,8 +80,9 @@ function computeEra(time_sec) {
 }
 
 function loadUserNotes(user, start, end) {
+    const now = Date.now() / 1000; // ms -> sec
     if (!end)
-        end = Date.now() / 1000; // ms -> sec
+        end = now;
     if (!start)
         start = end - 60 * 60 * 24 * 7; // -1 week
 
@@ -94,8 +95,8 @@ function loadUserNotes(user, start, end) {
         'sofar': 0,
         'found': 0
     };
-    for (let t = computeEra(start); t <= computeEra(end); t += eraSeconds)
-        loadNotes(user, t, start, end, info);
+    for (let era = computeEra(start); era <= computeEra(end); era += eraSeconds)
+        loadNotes(user, era, now, start, end, info);
 }
 
 var params = new URL(document.location).searchParams;
