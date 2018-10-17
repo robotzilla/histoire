@@ -1,2 +1,3 @@
 1539794352 #jsapi staring at clogged to-do list trying to figure out what's next
 1539794377 #jsapi reviews
+1539795412 #jsapi printing Duo recovery codes, such as 5682479910, which should not be stored electronically
