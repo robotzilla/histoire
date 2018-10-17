@@ -1,1 +1,2 @@
 1539796127 #jsapi Rewritte LifoAlloc doubling of chunk sizes to restrict patches to the minimal set of modifications.
+1539796156 #jsapi (Bug 1489572)
