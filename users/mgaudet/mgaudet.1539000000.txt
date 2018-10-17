@@ -1,1 +1,2 @@
 1539727397 #jsapi I spent a surprising amount of time rebasing patches today
+1539812014 #jsapi More cleaning up -- Fixed two (but not all apparently) GC bugs in FastPlainObjectConstruction patch.  Started addressing review feedback on D8918
