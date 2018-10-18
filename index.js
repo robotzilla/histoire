@@ -1,17 +1,22 @@
+// How long ago to look for log messages.
+var LOOKBACK_SECONDS = 60 * 60 * 24 * 7 * 4; // 4 weeks
+
 // FIXME! This always appends at the end. If we're loading multiple chunks, we
 // want them inserted in order.
 function addItems(rawText, user, start, end) {
     const list = document.getElementById("thelist");
 
-    const addItem = (line, link) => {
+    const addItem = (when, message, link) => {
         const item = document.createElement("li");
-        const text = document.createTextNode(line);
         if (link) {
             const ahref = document.createElement("a");
             ahref.setAttribute("href", link);
-            ahref.appendChild(text);
+            ahref.textContent = when;
             item.appendChild(ahref);
+            const text = document.createTextNode(` - ${message}`);
+            item.appendChild(text);
         } else {
+            const text = document.createTextNode(`${when_str} - ${message}`);
             item.appendChild(text);
         }
         list.appendChild(item);
@@ -23,11 +28,11 @@ function addItems(rawText, user, start, end) {
         const [_, when, channel, message] = line.match(/^(\S+) (\S+) (.*)/);
         if (when < start || when > end)
             continue;
-        const info = (new Date(when * 1000)).toLocaleString() + " - " + message;
+        const when_str = (new Date(when * 1000)).toLocaleString();
         if (channel.startsWith("#"))
-            addItem(info, `http://mozilla.logbot.info/${channel.substr(1)}/link/${when}/${user}`);
+            addItem(when_str, message, `http://mozilla.logbot.info/${channel.substr(1)}/link/${when}/${user}`);
         else
-            addItem(info);
+            addItem(when_str, message);
     }
 }
 
@@ -83,7 +88,7 @@ function loadUserNotes(user, start, end) {
     if (!end)
         end = Date.now() / 1000; // ms -> sec
     if (!start)
-        start = end - 60 * 60 * 24 * 7; // -1 week
+        start = end - LOOKBACK_SECONDS;
 
     let total = 0;
     for (let t = computeEra(start); t <= computeEra(end); t += eraSeconds)
