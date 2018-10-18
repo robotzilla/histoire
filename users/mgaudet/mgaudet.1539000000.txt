@@ -1,2 +1,3 @@
 1539727397 #jsapi I spent a surprising amount of time rebasing patches today
 1539812014 #jsapi More cleaning up -- Fixed two (but not all apparently) GC bugs in FastPlainObjectConstruction patch.  Started addressing review feedback on D8918
+1539903133 #jsapi uploading old trivial cleanup patches, opening moz-phab bugs. Spent the rest of the day addressing review feedback. Handed out all of jitreview's bugs.
