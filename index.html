@@ -7,8 +7,8 @@
   </ul>
   <script src="index.js"></script>
   <hr>
-  <button id='about' onclick='document.getElementById("abouttext").style.visibility="block"'>About</button>
-  <span id="abouttext" style="visibility:hidden">
+  <button onclick='document.getElementById("abouttext").style = "visibility:block"'>About</button>
+  <div id="abouttext" style="visibility:hidden">
   This is a simple mechanism for recording timestamped messages. Add a message by saying "confession: &lt;whatever&gt;" in an IRC channel. All messages are stored in <a href="https://github.com/mrgiggles/histoire">https://github.com/mrgiggles/histoire</a>. Note that this message store, and the whole mechanism, is 100% completely public.
     <p>
       If you wish to modify any existing messages, you can <a href='https://github.com/mrgiggles/histoire/tree/master/users/sfink'>submit a PR</a> to the github repository. Currently, you will also need to ping sfink on IRC or email sfink@mozilla.com to have updates merged, but I plan to enable one of the many auto-merge bots to just blindly accept anything (once I figure out which one to use.) The IRC bot uses a special append-only merge driver, so hopefully won't conflict with any modifications unless you delete files or something.
@@ -16,5 +16,5 @@
     <p>
       Feel free to file issues on the github repo. mrgiggles will feel free to ignore them. At some point I'll figure out how to forward his mail to me so I can see them.
     </p>
-  </span>
+  </div>
 </body>
