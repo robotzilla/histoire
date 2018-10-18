@@ -73,6 +73,7 @@ function loadNotes(user, when, start, end, info) {
     // does not allow CORS, but the raw.githubusercontent.com link.
 
     const xhr = new XMLHttpRequest();
+    xhr.responseType = 'text';
     xhr.addEventListener('load', ev => dataLoaded(xhr, user, start, end, info));
     xhr.open("GET", `https://raw.githubusercontent.com/mrgiggles/histoire/master/users/${user}/${user}.${when}.txt`);
     xhr.send();
