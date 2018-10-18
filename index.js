@@ -16,7 +16,7 @@ function addItems(rawText, user, start, end) {
             const text = document.createTextNode(` - ${message}`);
             item.appendChild(text);
         } else {
-            const text = document.createTextNode(`${when_str} - ${message}`);
+            const text = document.createTextNode(`${when} - ${message}`);
             item.appendChild(text);
         }
         list.appendChild(item);
