@@ -3,8 +3,8 @@ var LOOKBACK_SECONDS = 60 * 60 * 24 * 7 * 4; // 4 weeks
 
 // FIXME! This always appends at the end. If we're loading multiple chunks, we
 // want them inserted in order.
-function addItems(rawText, user, start, end) {
-    const list = document.getElementById("thelist");
+function addItems(rawText, era, user, start, end) {
+    const eraNode = document.getElementById("era" + era);
 
     const addItem = (when, message, link) => {
         const item = document.createElement("li");
@@ -19,7 +19,7 @@ function addItems(rawText, user, start, end) {
             const text = document.createTextNode(`${when} - ${message}`);
             item.appendChild(text);
         }
-        list.appendChild(item);
+        eraNode.appendChild(item);
     };
 
     for (const line of rawText.split("\n")) {
@@ -36,15 +36,13 @@ function addItems(rawText, user, start, end) {
     }
 }
 
-function dataLoaded(xhr, user, start, end, info) {
+function dataLoaded(xhr, when, user, start, end, info) {
     info.sofar++;
-
-    console.log("fetched, status = " + xhr.status);
 
     // 404 is ok; there might not be any entries for that time range.
     if (xhr.status != 404) {
         info.found++;
-        addItems(xhr.responseText, user, start, end);
+        addItems(xhr.responseText, when, user, start, end);
     }
 
     if (info.sofar < info.total)
@@ -65,6 +63,12 @@ function dataLoaded(xhr, user, start, end, info) {
     header.textContent = `Updates for ${user} from ${start_str} to ${end_str}`;
 }
 
+function clearNode(node) {
+    var n;
+    while (n = node.lastChild)
+        node.removeChild(n);
+}
+
 function loadNotes(user, when, start, end, info) {
     // index.html and index.js are loaded through rawgit.com, which routes them
     // through a CDN that caches aggressively. That doesn't work for the data
@@ -74,9 +78,10 @@ function loadNotes(user, when, start, end, info) {
 
     const xhr = new XMLHttpRequest();
     xhr.responseType = 'text';
-    xhr.addEventListener('load', ev => dataLoaded(xhr, user, start, end, info));
+    xhr.addEventListener('load', ev => dataLoaded(xhr, when, user, start, end, info));
     xhr.open("GET", `https://raw.githubusercontent.com/mrgiggles/histoire/master/users/${user}/${user}.${when}.txt`);
-    xhr.send();
+
+    return xhr;
 }
 
 var eraSeconds = 1000000;
@@ -100,9 +105,20 @@ function loadUserNotes(user, start, end) {
         'sofar': 0,
         'found': 0
     };
-    for (let t = computeEra(start); t <= computeEra(end); t += eraSeconds)
-        loadNotes(user, t, start, end, info);
+
+    const list = document.getElementById("thelist");
+    clearNode(list);
+    const queries = [];
+    for (let t = computeEra(start); t <= computeEra(end); t += eraSeconds) {
+        const span = document.createElement("span");
+        span.id = "era" + t;
+        list.appendChild(span);
+        queries.push(loadNotes(user, t, start, end, info));
+    }
+    for (const xhr of queries)
+        xhr.send();
 }
+
 
 var params = new URL(document.location).searchParams;
 var user = params.get("user");
