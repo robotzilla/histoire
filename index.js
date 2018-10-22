@@ -1,24 +1,51 @@
 // How long ago to look for log messages.
 var LOOKBACK_SECONDS = 60 * 60 * 24 * 7 * 4; // 4 weeks
 
-// FIXME! This always appends at the end. If we're loading multiple chunks, we
-// want them inserted in order.
+var DOM = {
+    create(...args) { return document.createElement(...args) },
+    createText(...args) { return document.createTextNode(...args) },
+};
+
+var urls = {
+    logbot(channel, when, user) {
+        return `http://mozilla.logbot.info/${channel}/link/${when}/${user}`;
+    },
+    edit(user, era) {
+        return `https://github.com/mrgiggles/histoire/edit/master/users/${user}/${user}.${era}.txt`;
+    },
+    data(user, when) {
+        return `https://raw.githubusercontent.com/mrgiggles/histoire/master/users/${user}/${user}.${when}.txt`;
+    },
+}
+
 function addItems(rawText, era, user, start, end) {
     const eraNode = document.getElementById("era" + era);
 
     const addItem = (when, message, link) => {
-        const item = document.createElement("li");
+        const item = DOM.create("li");
+
         if (link) {
-            const ahref = document.createElement("a");
+            const ahref = DOM.create("a");
             ahref.setAttribute("href", link);
             ahref.textContent = when;
             item.appendChild(ahref);
-            const text = document.createTextNode(` - ${message}`);
+            const text = DOM.createText(` - ${message}`);
             item.appendChild(text);
         } else {
-            const text = document.createTextNode(`${when} - ${message}`);
+            const text = DOM.createText(`${when} - ${message}`);
             item.appendChild(text);
         }
+
+        const edit = DOM.create("a");
+        edit.setAttribute("href", urls.edit(user, era));
+        edit.setAttribute("target", "_blank");
+        const edit_icon = DOM.create("img");
+        edit_icon.src = "icons/edit.png";
+        edit_icon.height = 10;
+        edit.appendChild(edit_icon);
+        item.appendChild(DOM.createText(" "));
+        item.appendChild(edit);
+
         eraNode.appendChild(item);
     };
 
@@ -30,7 +57,7 @@ function addItems(rawText, era, user, start, end) {
             continue;
         const when_str = (new Date(when * 1000)).toLocaleString();
         if (channel.startsWith("#"))
-            addItem(when_str, message, `http://mozilla.logbot.info/${channel.substr(1)}/link/${when}/${user}`);
+            addItem(when_str, message, urls.logbot(channel.substr(1), when, user));
         else
             addItem(when_str, message);
     }
@@ -79,7 +106,7 @@ function loadNotes(user, when, start, end, info) {
     const xhr = new XMLHttpRequest();
     xhr.responseType = 'text';
     xhr.addEventListener('load', ev => dataLoaded(xhr, when, user, start, end, info));
-    xhr.open("GET", `https://raw.githubusercontent.com/mrgiggles/histoire/master/users/${user}/${user}.${when}.txt`);
+    xhr.open("GET", urls.data(user, when));
 
     return xhr;
 }
@@ -110,7 +137,7 @@ function loadUserNotes(user, start, end) {
     clearNode(list);
     const queries = [];
     for (let t = computeEra(start); t <= computeEra(end); t += eraSeconds) {
-        const span = document.createElement("span");
+        const span = DOM.create("span");
         span.id = "era" + t;
         list.appendChild(span);
         queries.push(loadNotes(user, t, start, end, info));
