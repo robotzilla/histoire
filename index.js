@@ -2,7 +2,12 @@
 var LOOKBACK_SECONDS = 60 * 60 * 24 * 7 * 4; // 4 weeks
 
 var DOM = {
-    create(...args) { return document.createElement(...args) },
+    create(tag, attrs = {}) {
+        const node = document.createElement(tag);
+        for (const [name, value] of Object.entries(attrs))
+            node.setAttribute(name, value);
+        return node;
+    },
     createText(...args) { return document.createTextNode(...args) },
 };
 
@@ -25,8 +30,7 @@ function addItems(rawText, era, user, start, end) {
         const item = DOM.create("li");
 
         if (link) {
-            const ahref = DOM.create("a");
-            ahref.setAttribute("href", link);
+            const ahref = DOM.create("a", {href: link});
             ahref.textContent = when;
             item.appendChild(ahref);
             const text = DOM.createText(` - ${message}`);
@@ -36,14 +40,9 @@ function addItems(rawText, era, user, start, end) {
             item.appendChild(text);
         }
 
-        const edit = DOM.create("a");
-        edit.setAttribute("href", urls.edit(user, era));
-        edit.setAttribute("target", "_blank");
-        const edit_icon = DOM.create("img");
-        edit_icon.src = "icons/edit.png";
-        edit_icon.height = 10;
-        edit.appendChild(edit_icon);
         item.appendChild(DOM.createText(" "));
+        const edit = DOM.create("a", {href: urls.edit(user, era), target: "_blank"});
+        edit.appendChild(DOM.create("img", {src: "icons/edit.png", height: 10}));
         item.appendChild(edit);
 
         eraNode.appendChild(item);
@@ -137,9 +136,7 @@ function loadUserNotes(user, start, end) {
     clearNode(list);
     const queries = [];
     for (let t = computeEra(start); t <= computeEra(end); t += eraSeconds) {
-        const span = DOM.create("span");
-        span.id = "era" + t;
-        list.appendChild(span);
+        list.appendChild(DOM.create("span", {id: "era" + t}));
         queries.push(loadNotes(user, t, start, end, info));
     }
     for (const xhr of queries)
