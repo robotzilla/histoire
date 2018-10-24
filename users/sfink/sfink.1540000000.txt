@@ -1,2 +1,3 @@
 1540247920 #myself life is 💩
 1540338800 #jsapi stalling off landing next series of hazard fixes due to clang 7 dependency
+1540423902 #jsapi weakmarking: removed some unnecessary barriers and related special case handling that I convinced myself is unneeded, checking current state of disaster with a try push
