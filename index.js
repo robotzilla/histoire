@@ -25,7 +25,8 @@ var DOM = {
     }
 };
 
-var $HEADER = DOM.byId('header');
+var $HEADER_TITLE = DOM.byId('header-title');
+var $HEADER_DATE = DOM.byId('header-date');
 var $LIST = DOM.byId('thelist');
 
 var urls = {
@@ -113,7 +114,7 @@ function dataLoaded(xhr, era, user, start, end, info) {
     // All attempted data is loaded.
 
     if (info.found == 0) {
-        $HEADER.textContent = "No updates found!";
+        $HEADER_TITLE.textContent = "No updates found!";
         return;
     }
 
@@ -128,7 +129,8 @@ function dataLoaded(xhr, era, user, start, end, info) {
 
     const start_str = (new Date(start * 1000)).toLocaleString();
     const end_str = (new Date(end * 1000)).toLocaleString();
-    $HEADER.textContent = `Updates for ${user} from ${start_str} to ${end_str}`;
+    $HEADER_TITLE.textContent = `Updates for ${user}`;
+    $HEADER_DATE.textContent = `from ${start_str} to ${end_str}`;
 }
 
 function loadNotes(user, era, start, end, info) {
@@ -152,7 +154,7 @@ function computeEra(time_sec) {
 
 function loadUserNotes(user, start, end) {
     if (!user) {
-        $HEADER.textContent = "No user specified!";
+        $HEADER_TITLE.textContent = "No user specified!";
         return;
     }
 
