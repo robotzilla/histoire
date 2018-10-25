@@ -43,59 +43,57 @@ var urls = {
     }
 }
 
-function addItems(rawText, era, user, start, end) {
-    const eraNode = DOM.byId("era" + era);
+function addItem({era, when, user, message, channel}) {
+    const when_str = (new Date(when * 1000)).toLocaleString();
 
-    const addItem = (when, message, channel) => {
-        const when_str = (new Date(when * 1000)).toLocaleString();
+    const item = DOM.create("li");
+    if (channel.startsWith("#")) {
+        let link = urls.logbot(channel.substr(1), when, user);
+        const ahref = DOM.create("a", {href: link});
+        ahref.textContent = when_str;
+        item.appendChild(ahref);
+    } else {
+        const text = DOM.createText(`${when_str}`);
+        item.appendChild(text);
+    }
 
-        const item = DOM.create("li");
-        if (channel.startsWith("#")) {
-            let link = urls.logbot(channel.substr(1), when, user);
-            const ahref = DOM.create("a", {href: link});
-            ahref.textContent = when_str;
-            item.appendChild(ahref);
-        } else {
-            const text = DOM.createText(`${when_str}`);
-            item.appendChild(text);
-        }
+    // Let's try to find bug numbers.
+    let matchBugNumber = message.match(/bug (\d+)/);
+    if (matchBugNumber !== null) {
+        let [matched, bugNumber] = matchBugNumber;
+        let beforeText = message.substr(0, message.indexOf(matched));
+        let afterText = message.substr(message.indexOf(matched) + matched.length, message.length);
 
-        // Let's try to find bug numbers.
-        let matchBugNumber = message.match(/bug (\d+)/);
-        if (matchBugNumber !== null) {
-            let [matched, bugNumber] = matchBugNumber;
-            let beforeText = message.substr(0, message.indexOf(matched));
-            let afterText = message.substr(message.indexOf(matched) + matched.length, message.length);
+        item.appendChild(DOM.createText(` - ${beforeText}`));
 
-            item.appendChild(DOM.createText(` - ${beforeText}`));
+        let link = DOM.create("a", {href: urls.bug(bugNumber)});
+        link.textContent = matched;
+        item.appendChild(link);
 
-            let link = DOM.create("a", {href: urls.bug(bugNumber)});
-            link.textContent = matched;
-            item.appendChild(link);
+        item.appendChild(DOM.createText(` ${afterText}`));
+    } else {
+        const text = DOM.createText(` - ${message}`);
+        item.appendChild(text);
+    }
 
-            item.appendChild(DOM.createText(` ${afterText}`));
-        } else {
-            const text = DOM.createText(` - ${message}`);
-            item.appendChild(text);
-        }
+    item.appendChild(DOM.createText(" "));
+    const edit = DOM.create("a", {href: urls.edit(user, era), target: "_blank"});
+    edit.appendChild(DOM.create("img", {src: "icons/edit.png", height: 10}));
+    item.appendChild(edit);
 
-        item.appendChild(DOM.createText(" "));
-        const edit = DOM.create("a", {href: urls.edit(user, era), target: "_blank"});
-        edit.appendChild(DOM.create("img", {src: "icons/edit.png", height: 10}));
-        item.appendChild(edit);
+    $LIST.appendChild(item);
+};
 
-        eraNode.appendChild(item);
-    };
-
-    for (const line of rawText.split("\n")) {
-        if (line == "") {
+function parseResults(info, responseText, user, era, start, end) {
+    for (let line of responseText.split('\n')) {
+        if (line === '') {
             continue;
         }
         const [_, when, channel, message] = line.match(/^(\S+) (\S+) (.*)/);
         if (when < start || when > end) {
             continue;
         }
-        addItem(when, message, channel);
+        info.results.push({user, era, when, channel, message});
     }
 }
 
@@ -105,7 +103,7 @@ function dataLoaded(xhr, era, user, start, end, info) {
     // 404 is ok; there might not be any entries for that time range.
     if (xhr.status != 404) {
         info.found++;
-        addItems(xhr.responseText, era, user, start, end);
+        parseResults(info, xhr.responseText, user, era, start, end);
     }
 
     if (info.sofar < info.total) {
@@ -118,6 +116,15 @@ function dataLoaded(xhr, era, user, start, end, info) {
         $HEADER.textContent = "No updates found!";
         return;
     }
+
+    // Sort results by reverse date before rendering them.
+
+    info.results.sort((a, b) => {
+        return a.when < b.when  ? 1
+             : a.when >= b.when ? -1
+                                : 0;
+    });
+    info.results.map(addItem);
 
     const start_str = (new Date(start * 1000)).toLocaleString();
     const end_str = (new Date(end * 1000)).toLocaleString();
@@ -164,13 +171,13 @@ function loadUserNotes(user, start, end) {
     const info = {
         total,
         sofar: 0,
-        found: 0
+        found: 0,
+        results: []
     };
 
     DOM.clearChildren($LIST);
 
     for (let era = computeEra(end); era >= computeEra(start); era -= ERA_SECONDS) {
-        $LIST.appendChild(DOM.create("span", {id: "era" + era}));
         loadNotes(user, era, start, end, info).send();
     }
 }
