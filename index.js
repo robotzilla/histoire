@@ -11,6 +11,8 @@ var DOM = {
     createText(...args) { return document.createTextNode(...args) },
 };
 
+var $HEADER = document.getElementById('header');
+
 var urls = {
     logbot(channel, when, user) {
         return `http://mozilla.logbot.info/${channel}/link/${when}/${user}`;
@@ -76,17 +78,14 @@ function dataLoaded(xhr, when, user, start, end, info) {
 
     // All attempted data is loaded.
 
-    var header = document.getElementById("header");
-
     if (info.found == 0) {
-        var header = document.getElementById("header");
-        header.textContent = "No updates found!";
+        $HEADER.textContent = "No updates found!";
         return;
     }
 
     const start_str = (new Date(start * 1000)).toLocaleString();
     const end_str = (new Date(end * 1000)).toLocaleString();
-    header.textContent = `Updates for ${user} from ${start_str} to ${end_str}`;
+    $HEADER.textContent = `Updates for ${user} from ${start_str} to ${end_str}`;
 }
 
 function clearNode(node) {
@@ -117,6 +116,11 @@ function computeEra(time_sec) {
 }
 
 function loadUserNotes(user, start, end) {
+    if (!user) {
+        $HEADER.textContent = "No user specified!";
+        return;
+    }
+
     if (!end)
         end = Date.now() / 1000; // ms -> sec
     if (!start)
