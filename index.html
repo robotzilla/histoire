@@ -1,21 +1,28 @@
-<head>
-  <link rel="shortcut icon" type="image/x-icon" href="icons/favicon.ico">
-  <title>User updates</title>
-</head>
-<body>
-  <p id="header">Loading...</p>
-  <ul id="thelist">
-  </ul>
-  <script src="index.js"></script>
-  <hr>
-  <button onclick='this.toggled = !this.toggled; document.getElementById("abouttext").style = "visibility:" + (this.toggled ? "block":"hidden")'>About</button>
-  <div id="abouttext" style="visibility:hidden">
-  This is a simple mechanism for recording timestamped messages. Add a message by saying "confession: &lt;whatever&gt;" in an IRC channel that contains the 'confession' bot. All messages are stored in <a href="https://github.com/mrgiggles/histoire">https://github.com/mrgiggles/histoire</a>. Note that this message store, and the whole mechanism, is 100% completely public.
-    <p>
-      If you wish to modify any existing messages, you can <a href='https://github.com/mrgiggles/histoire/tree/master/users/sfink'>submit a PR</a> to the github repository. Currently, you will also need to ping sfink on IRC or email sfink@mozilla.com to have updates merged, but I plan to enable one of the many auto-merge bots to just blindly accept anything (once I figure out which one to use.) The IRC bot uses a special append-only merge driver, so hopefully will not get conflicts unless you delete files or something.
-    </p>
-    <p>
-      Feel free to file issues on the github repo. mrgiggles will feel free to ignore them. At some point I'll figure out how to forward his mail to me so I can see them.
-    </p>
-  </div>
-</body>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" type="image/x-icon" href="icons/favicon.ico">
+    <link rel="stylesheet" href="style.css" />
+    <title>User updates</title>
+  </head>
+  <body>
+    <a id="backtoindex" href="?">Back to index</a>
+    <h2 id="header-title">Loading...</h2>
+    <h3 id="header-date"></h3>
+    <ul id="thelist">
+    </ul>
+    <script src="index.js"></script>
+    <hr>
+    <button onclick='this.toggled = !this.toggled; document.getElementById("abouttext").style = "visibility:" + (this.toggled ? "block":"hidden")'>About</button>
+    <div id="abouttext" style="visibility:hidden">
+    This is a simple mechanism for recording timestamped messages. Add a message by saying "confession: &lt;whatever&gt;" in an IRC channel that contains the 'confession' bot. All messages are stored in <a href="https://github.com/mrgiggles/histoire">https://github.com/mrgiggles/histoire</a>. Note that this message store, and the whole mechanism, is 100% completely public.
+      <p>
+        If you wish to modify any existing messages, you can <a href='https://github.com/mrgiggles/histoire/tree/master/users/sfink'>submit a PR</a> to the github repository. Currently, you will also need to ping sfink on IRC or email sfink@mozilla.com to have updates merged, but I plan to enable one of the many auto-merge bots to just blindly accept anything (once I figure out which one to use.) The IRC bot uses a special append-only merge driver, so hopefully will not get conflicts unless you delete files or something.
+      </p>
+      <p>
+        Feel free to file issues on the github repo. mrgiggles will feel free to ignore them. At some point I'll figure out how to forward his mail to me so I can see them.
+      </p>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,34 @@
+@import url(https://fonts.googleapis.com/css?family=Zilla+Slab);
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+html {
+    max-width: 800px;
+    margin: auto;
+}
+
+body {
+    font-family: 'Roboto', serif;
+    font-size: 1.2em;
+    line-height: 1.5em;
+}
+
+h2, h3 {
+    font-family: 'Zilla Slab', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+li {
+    padding-bottom: 0.5em;
+}
+
+#abouttext {
+    margin-top: 1em;
+}
+
+#backtoindex {
+    float: right;
+}
