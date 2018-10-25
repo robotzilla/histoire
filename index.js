@@ -38,6 +38,9 @@ var urls = {
     data(user, era) {
         return `https://raw.githubusercontent.com/mrgiggles/histoire/master/users/${user}/${user}.${era}.txt`;
     },
+    bug(bugNumber) {
+        return `https://bugzilla.mozilla.org/show_bug.cgi?id=${bugNumber}`;
+    }
 }
 
 function addItems(rawText, era, user, start, end) {
@@ -52,10 +55,27 @@ function addItems(rawText, era, user, start, end) {
             const ahref = DOM.create("a", {href: link});
             ahref.textContent = when_str;
             item.appendChild(ahref);
-            const text = DOM.createText(` - ${message}`);
-            item.appendChild(text);
         } else {
-            const text = DOM.createText(`${when_str} - ${message}`);
+            const text = DOM.createText(`${when_str}`);
+            item.appendChild(text);
+        }
+
+        // Let's try to find bug numbers.
+        let matchBugNumber = message.match(/bug (\d+)/);
+        if (matchBugNumber !== null) {
+            let [matched, bugNumber] = matchBugNumber;
+            let beforeText = message.substr(0, message.indexOf(matched));
+            let afterText = message.substr(message.indexOf(matched) + matched.length, message.length);
+
+            item.appendChild(DOM.createText(` - ${beforeText}`));
+
+            let link = DOM.create("a", {href: urls.bug(bugNumber)});
+            link.textContent = matched;
+            item.appendChild(link);
+
+            item.appendChild(DOM.createText(` ${afterText}`));
+        } else {
+            const text = DOM.createText(` - ${message}`);
             item.appendChild(text);
         }
 
