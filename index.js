@@ -9,9 +9,11 @@ var DOM = {
         return node;
     },
     createText(...args) { return document.createTextNode(...args) },
+    byId(id) { return document.getElementById(id); }
 };
 
-var $HEADER = document.getElementById('header');
+var $HEADER = DOM.byId('header');
+var $LIST = DOM.byId('thelist');
 
 var urls = {
     logbot(channel, when, user) {
@@ -26,7 +28,7 @@ var urls = {
 }
 
 function addItems(rawText, era, user, start, end) {
-    const eraNode = document.getElementById("era" + era);
+    const eraNode = DOM.byId("era" + era);
 
     const addItem = (when, message, link) => {
         const item = DOM.create("li");
@@ -136,11 +138,10 @@ function loadUserNotes(user, start, end) {
         'found': 0
     };
 
-    const list = document.getElementById("thelist");
-    clearNode(list);
+    clearNode($LIST);
     const queries = [];
     for (let t = computeEra(start); t <= computeEra(end); t += eraSeconds) {
-        list.appendChild(DOM.create("span", {id: "era" + t}));
+        $LIST.appendChild(DOM.create("span", {id: "era" + t}));
         queries.push(loadNotes(user, t, start, end, info));
     }
     for (const xhr of queries)
