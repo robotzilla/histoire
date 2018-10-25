@@ -11,8 +11,18 @@ var DOM = {
         }
         return node;
     },
-    createText(...args) { return document.createTextNode(...args) },
-    byId(id) { return document.getElementById(id); }
+    createText(...args) {
+        return document.createTextNode(...args);
+    },
+    byId(id) {
+        return document.getElementById(id);
+    },
+    clearChildren(node) {
+        var n;
+        while (n = node.lastChild) {
+            node.removeChild(n);
+        }
+    }
 };
 
 var $HEADER = DOM.byId('header');
@@ -97,13 +107,6 @@ function dataLoaded(xhr, era, user, start, end, info) {
     $HEADER.textContent = `Updates for ${user} from ${start_str} to ${end_str}`;
 }
 
-function clearNode(node) {
-    var n;
-    while (n = node.lastChild) {
-        node.removeChild(n);
-    }
-}
-
 function loadNotes(user, era, start, end, info) {
     // index.html and index.js are loaded through rawgit.com, which routes them
     // through a CDN that caches aggressively. That doesn't work for the data
@@ -147,7 +150,7 @@ function loadUserNotes(user, start, end) {
         found: 0
     };
 
-    clearNode($LIST);
+    DOM.clearChildren($LIST);
 
     for (let era = computeEra(end); era >= computeEra(start); era -= ERA_SECONDS) {
         $LIST.appendChild(DOM.create("span", {id: "era" + era}));
