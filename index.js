@@ -1,11 +1,14 @@
 // How long ago to look for log messages.
 var LOOKBACK_SECONDS = 60 * 60 * 24 * 7 * 4; // 4 weeks
 
+var ERA_SECONDS = 1000000;
+
 var DOM = {
     create(tag, attrs = {}) {
         const node = document.createElement(tag);
-        for (const [name, value] of Object.entries(attrs))
+        for (const [name, value] of Object.entries(attrs)) {
             node.setAttribute(name, value);
+        }
         return node;
     },
     createText(...args) { return document.createTextNode(...args) },
@@ -53,16 +56,19 @@ function addItems(rawText, era, user, start, end) {
     };
 
     for (const line of rawText.split("\n")) {
-        if (line == "")
+        if (line == "") {
             continue;
+        }
         const [_, when, channel, message] = line.match(/^(\S+) (\S+) (.*)/);
-        if (when < start || when > end)
+        if (when < start || when > end) {
             continue;
+        }
         const when_str = (new Date(when * 1000)).toLocaleString();
-        if (channel.startsWith("#"))
+        if (channel.startsWith("#")) {
             addItem(when_str, message, urls.logbot(channel.substr(1), when, user));
-        else
+        } else {
             addItem(when_str, message);
+        }
     }
 }
 
@@ -75,8 +81,9 @@ function dataLoaded(xhr, when, user, start, end, info) {
         addItems(xhr.responseText, when, user, start, end);
     }
 
-    if (info.sofar < info.total)
+    if (info.sofar < info.total) {
         return;
+    }
 
     // All attempted data is loaded.
 
@@ -92,8 +99,9 @@ function dataLoaded(xhr, when, user, start, end, info) {
 
 function clearNode(node) {
     var n;
-    while (n = node.lastChild)
+    while (n = node.lastChild) {
         node.removeChild(n);
+    }
 }
 
 function loadNotes(user, when, start, end, info) {
@@ -111,10 +119,8 @@ function loadNotes(user, when, start, end, info) {
     return xhr;
 }
 
-var eraSeconds = 1000000;
-
 function computeEra(time_sec) {
-    return time_sec - (time_sec % eraSeconds);
+    return time_sec - (time_sec % ERA_SECONDS);
 }
 
 function loadUserNotes(user, start, end) {
@@ -123,14 +129,17 @@ function loadUserNotes(user, start, end) {
         return;
     }
 
-    if (!end)
+    if (!end) {
         end = Date.now() / 1000; // ms -> sec
-    if (!start)
+    }
+    if (!start) {
         start = end - LOOKBACK_SECONDS;
+    }
 
     let total = 0;
-    for (let t = computeEra(start); t <= computeEra(end); t += eraSeconds)
+    for (let t = computeEra(start); t <= computeEra(end); t += ERA_SECONDS) {
         total++;
+    }
 
     const info = {
         total,
@@ -140,14 +149,14 @@ function loadUserNotes(user, start, end) {
 
     clearNode($LIST);
     const queries = [];
-    for (let t = computeEra(start); t <= computeEra(end); t += eraSeconds) {
+    for (let t = computeEra(start); t <= computeEra(end); t += ERA_SECONDS) {
         $LIST.appendChild(DOM.create("span", {id: "era" + t}));
         queries.push(loadNotes(user, t, start, end, info));
     }
-    for (const xhr of queries)
+    for (const xhr of queries) {
         xhr.send();
+    }
 }
-
 
 var params = new URL(document.location).searchParams;
 var user = params.get("user");
