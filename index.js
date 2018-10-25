@@ -34,16 +34,17 @@ function addItems(rawText, era, user, start, end) {
     const eraNode = DOM.byId("era" + era);
 
     const addItem = (when, message, link) => {
-        const item = DOM.create("li");
+        const when_str = (new Date(when * 1000)).toLocaleString();
 
+        const item = DOM.create("li");
         if (link) {
             const ahref = DOM.create("a", {href: link});
-            ahref.textContent = when;
+            ahref.textContent = when_str;
             item.appendChild(ahref);
             const text = DOM.createText(` - ${message}`);
             item.appendChild(text);
         } else {
-            const text = DOM.createText(`${when} - ${message}`);
+            const text = DOM.createText(`${when_str} - ${message}`);
             item.appendChild(text);
         }
 
@@ -63,11 +64,10 @@ function addItems(rawText, era, user, start, end) {
         if (when < start || when > end) {
             continue;
         }
-        const when_str = (new Date(when * 1000)).toLocaleString();
         if (channel.startsWith("#")) {
-            addItem(when_str, message, urls.logbot(channel.substr(1), when, user));
+            addItem(when, message, urls.logbot(channel.substr(1), when, user));
         } else {
-            addItem(when_str, message);
+            addItem(when, message);
         }
     }
 }
