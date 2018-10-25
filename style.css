@@ -28,3 +28,7 @@ li {
 #abouttext {
     margin-top: 1em;
 }
+
+#backtoindex {
+    float: right;
+}

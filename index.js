@@ -41,6 +41,12 @@ var urls = {
     },
     bug(bugNumber) {
         return `https://bugzilla.mozilla.org/show_bug.cgi?id=${bugNumber}`;
+    },
+    list_users() {
+        return `https://api.github.com/repos/mrgiggles/histoire/contents/users`;
+    },
+    user_page(username) {
+        return `?user=${username}`;
     }
 }
 
@@ -133,6 +139,35 @@ function dataLoaded(xhr, era, user, start, end, info) {
     $HEADER_DATE.textContent = `from ${start_str} to ${end_str}`;
 }
 
+function renderUser(name) {
+    let li = DOM.create("li");
+    let link = DOM.create("a", {href: urls.user_page(name)});
+    link.textContent = name;
+    li.appendChild(link);
+    $LIST.appendChild(li);
+}
+
+function didLoadUsers(xhr) {
+    let json;
+    try {
+        json = JSON.parse(xhr.responseText);
+    } catch (ex) {
+        console.error("Error when fetching the list of users: " + ex.toString());
+        return;
+    }
+    json.map(x => x.name)
+        .filter(name => name !== '.gitattributes')
+        .map(renderUser);
+    $HEADER_TITLE.textContent = "Users";
+}
+
+function loadUsers() {
+    const xhr = new XMLHttpRequest();
+    xhr.addEventListener('load', ev => didLoadUsers(xhr));
+    xhr.open("GET", urls.list_users());
+    xhr.send();
+}
+
 function loadNotes(user, era, start, end, info) {
     // index.html and index.js are loaded through rawgit.com, which routes them
     // through a CDN that caches aggressively. That doesn't work for the data
@@ -144,7 +179,6 @@ function loadNotes(user, era, start, end, info) {
     xhr.responseType = 'text';
     xhr.addEventListener('load', ev => dataLoaded(xhr, era, user, start, end, info));
     xhr.open("GET", urls.data(user, era));
-
     return xhr;
 }
 
@@ -153,11 +187,6 @@ function computeEra(time_sec) {
 }
 
 function loadUserNotes(user, start, end) {
-    if (!user) {
-        $HEADER_TITLE.textContent = "No user specified!";
-        return;
-    }
-
     if (!end) {
         end = Date.now() / 1000; // ms -> sec
     }
@@ -186,4 +215,8 @@ function loadUserNotes(user, start, end) {
 
 var params = new URL(document.location).searchParams;
 var user = params.get("user");
-loadUserNotes(user, params.get("start"), params.get("end"));
+if (user) {
+    loadUserNotes(user, params.get("start"), params.get("end"));
+} else {
+    loadUsers();
+}
