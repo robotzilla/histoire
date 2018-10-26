@@ -1,1 +1,2 @@
 1540460560 #jsapi uploaded a bunch of dynamic module import patches for review
+1540548619 #jsapi I renamed some GC methods that have been bothering me for ages
