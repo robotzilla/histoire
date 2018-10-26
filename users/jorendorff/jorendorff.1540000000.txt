@@ -1,1 +1,2 @@
 1540557184 #jsapi I need to look at that _impl patch again to make sure it's correct.
+1540593637 #jsapi now i know why till faked up pipeTo and pipeThrough methods
