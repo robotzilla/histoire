@@ -3,6 +3,9 @@ var LOOKBACK_SECONDS = 60 * 60 * 24 * 7 * 4; // 4 weeks
 
 var ERA_SECONDS = 1000000;
 
+var LOCALSTORAGE_USERS_KEY = 'users';
+var LOCALSTORAGE_USERS_LAST_ETAG_KEY = 'users-last-etag';
+
 var DOM = {
     create(tag, attrs = {}) {
         const node = document.createElement(tag);
@@ -148,16 +151,46 @@ function renderUser(name) {
 }
 
 function didLoadUsers(xhr) {
-    let json;
-    try {
-        json = JSON.parse(xhr.responseText);
-    } catch (ex) {
-        console.error("Error when fetching the list of users: " + ex.toString());
+    let status = (xhr.status / 100 | 0);
+    // If the status code isn't in the 200 or 300 family, it's an error.
+    if (status !== 2 && status !== 3) {
+        let message;
+        try {
+            let json = JSON.parse(xhr.responseText);
+            if (typeof json.message !== 'undefined') {
+                message = json.message;
+            } else {
+                throw new Error();
+            }
+        } catch (_) {
+            message = xhr.responseText;
+        }
+        $HEADER_TITLE.textContent = `Error when fetching the list of users: ${message}`;
         return;
     }
-    json.map(x => x.name)
-        .filter(name => name !== '.gitattributes')
-        .map(renderUser);
+
+    let users;
+    if (xhr.status === 304) {
+        // Content not modified; reload from the cache.
+        users = JSON.parse(localStorage.getItem(LOCALSTORAGE_USERS_KEY));
+    } else {
+        let json;
+        try {
+            json = JSON.parse(xhr.responseText);
+        } catch (ex) {
+            alert("Error when parsing the list of users: " + ex.toString());
+            return;
+        }
+        users = json.map(x => x.name).filter(name => name !== '.gitattributes');
+
+        let etag = xhr.getResponseHeader('ETag');
+        if (etag !== null) {
+            localStorage.setItem(LOCALSTORAGE_USERS_LAST_ETAG_KEY, etag);
+            localStorage.setItem(LOCALSTORAGE_USERS_KEY, JSON.stringify(users))
+        }
+    }
+
+    users.map(renderUser);
     $HEADER_TITLE.textContent = "Users";
 }
 
@@ -165,6 +198,12 @@ function loadUsers() {
     const xhr = new XMLHttpRequest();
     xhr.addEventListener('load', ev => didLoadUsers(xhr));
     xhr.open("GET", urls.list_users());
+
+    let lastEtag = localStorage.getItem(LOCALSTORAGE_USERS_LAST_ETAG_KEY);
+    if (lastEtag !== null) {
+        xhr.setRequestHeader('If-None-Match', lastEtag);
+    }
+
     xhr.send();
 }
 
