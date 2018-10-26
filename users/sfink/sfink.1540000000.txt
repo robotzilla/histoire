@@ -2,3 +2,4 @@
 1540338800 #jsapi stalling off landing next series of hazard fixes due to clang 7 dependency
 1540423902 #jsapi weakmarking: removed some unnecessary barriers and related special case handling that I convinced myself is unneeded, checking current state of disaster with a try push
 1540580275 #jsapi DSL connection has been hopefully repaired
+1540580313 #jsapi crawling through binary log to attempt to figure out latest weakmap problem
