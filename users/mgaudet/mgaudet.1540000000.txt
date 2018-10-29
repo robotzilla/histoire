@@ -2,3 +2,4 @@
 1540493969 #jsapi Trying to load a c1spew log to see if it's still valuable. Stuck trying to get a java 7 (!?) vm to load c1visualizer. Maybe we should just delete the c1spewer.
 1540580171 #jsapi Heads down implementing a prototype, so tuning out; if you need me, slack DMs will bong phone, or ni? (Landed Bugs 1442630 and 1502159 this afternoon after some snafus this morning, lest I don't return before EOD)
 1540840991 #jsapi First sensible emission from prototype.
+1540848741 #jsapi Have an (uglier than I would like) structured logger prototype with two channels producing information that's then easy enough to dig through with the tool jq (A tool which feels like it was designed in 1975, in the best possible way). Filtering based on channel works. Tomorrow, cleanup, better/stronger filtering
