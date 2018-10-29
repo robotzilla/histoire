@@ -1,3 +1,4 @@
 1540420624 #jsapi Addressed review feedback on 1499544, landed 1500215  and 1500920. Thinking about JitSpew, and how to make it better.
 1540493969 #jsapi Trying to load a c1spew log to see if it's still valuable. Stuck trying to get a java 7 (!?) vm to load c1visualizer. Maybe we should just delete the c1spewer.
 1540580171 #jsapi Heads down implementing a prototype, so tuning out; if you need me, slack DMs will bong phone, or ni? (Landed Bugs 1442630 and 1502159 this afternoon after some snafus this morning, lest I don't return before EOD)
+1540840991 #jsapi First sensible emission from prototype.
