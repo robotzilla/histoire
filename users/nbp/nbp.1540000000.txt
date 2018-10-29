@@ -1,1 +1,2 @@
 1540577205 #jsapi (Bug 1489572) Attempt to reproduce the same Valgrind error locally, no success. (Bug 1489142) Finalize a patch to get rid of long off-thread compilations.
+1540831083 #jsapi achievement: Is now admin on one of Mozilla's github repository for building Firefox.
