@@ -1,1 +1,2 @@
 1540841231 #jsapi got the JS shell executing files passed on the command line using "-f" directly from UTF-8 source text without inflating it
+1540841258 #jsapi promptly bitrotted that patchwork in doing reviewer-friendly cleanup ever since that time, still digging out
