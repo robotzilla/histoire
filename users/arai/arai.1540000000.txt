@@ -1,3 +1,4 @@
 1540861155 #jsapi landed bug bug 1497788, bug 1501537, and bug 1497784
 1540861170 #jsapi reviewed bug 1499125
 1540861213 #jsapi looking into error reporting in BinAST parser, for bug 1417886
+1540862300 #jsapi opened https://github.com/mrgiggles/histoire/pull/6 to linkify all bug numbers
