@@ -1,3 +1,4 @@
 1540841231 #jsapi got the JS shell executing files passed on the command line using "-f" directly from UTF-8 source text without inflating it
 1540841258 #jsapi promptly bitrotted that patchwork in doing reviewer-friendly cleanup ever since that time, still digging out
 1540854738 #jsapi got compilation direct from UTF-8 without inflating working again
+1540874646 #jsapi earned tcampbell's eternal enmity by patch-bombing him with 34 patches for bug 1503086, bug 1498320, bug 1503104, bug 1503105, and bug 1503109 -- but on the plus side, once those are cleared out we can parse the UTF-8 contents of files directly without inflating when they're passed using "-u" or "--utf8-file"!  (albeit with known bugs in some case, and doubtless unknown bugs in others)
