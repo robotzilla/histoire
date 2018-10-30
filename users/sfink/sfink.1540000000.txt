@@ -4,3 +4,4 @@
 1540580275 #jsapi DSL connection has been hopefully repaired
 1540580313 #jsapi crawling through binary log to attempt to figure out latest weakmap problem
 1540913592 #jsapi filed bug 1503296 about Nightly woes
+1540937152 #jsapi after spending half a day attempting to craft a test case that marks things in a specific order and runs JS code in between two of them, giving up and just fixing the damn bug
