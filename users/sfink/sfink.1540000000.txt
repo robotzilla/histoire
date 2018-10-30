@@ -3,3 +3,4 @@
 1540423902 #jsapi weakmarking: removed some unnecessary barriers and related special case handling that I convinced myself is unneeded, checking current state of disaster with a try push
 1540580275 #jsapi DSL connection has been hopefully repaired
 1540580313 #jsapi crawling through binary log to attempt to figure out latest weakmap problem
+1540913592 #jsapi filed bug 1503296 about Nightly woes
