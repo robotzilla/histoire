@@ -3,3 +3,4 @@
 1540861213 #jsapi looking into error reporting in BinAST parser, for bug 1417886
 1540862300 #jsapi opened https://github.com/mrgiggles/histoire/pull/6 to linkify all bug numbers
 1540877704 #jsapi filed bug 1503142 and preparing a patch
+1540879039 #jsapi opened https://github.com/mrgiggles/histoire/pull/8
