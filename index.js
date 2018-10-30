@@ -53,6 +53,24 @@ var urls = {
     }
 }
 
+function toDateString(when) {
+  const date = new Date(when * 1000);
+  try {
+    return new Intl.DateTimeFormat(navigator.languages, {
+      year: 'numeric',
+      month: '2-digit',
+      day: '2-digit',
+      weekday: "short",
+      hour: '2-digit',
+      minute: '2-digit',
+      second: '2-digit',
+      hour12: false
+    }).format(date);
+  } catch (e) {
+    return date.toLocaleString();
+  }
+}
+
 // Linkify `message` string and add it to `parent` node.
 function linkifyAndAdd(parent, message) {
     while (true) {
@@ -78,7 +96,7 @@ function linkifyAndAdd(parent, message) {
 }
 
 function addItem({era, when, user, message, channel}) {
-    const when_str = (new Date(when * 1000)).toLocaleString();
+    const when_str = toDateString(when)
 
     const item = DOM.create("li");
     if (channel.startsWith("#")) {
@@ -145,8 +163,8 @@ function dataLoaded(xhr, era, user, start, end, info) {
     });
     info.results.map(addItem);
 
-    const start_str = (new Date(start * 1000)).toLocaleString();
-    const end_str = (new Date(end * 1000)).toLocaleString();
+    const start_str = toDateString(start);
+    const end_str = toDateString(end);
     $HEADER_TITLE.textContent = `Updates for ${user}`;
     $HEADER_DATE.textContent = `from ${start_str} to ${end_str}`;
 }
