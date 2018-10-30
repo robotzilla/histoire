@@ -3,3 +3,4 @@
 1540461366 #jsapi landed bug 1501703
 1540468300 #jsapi made confession more useful and more beautiful: https://bnjbvr.github.io/histoire
 1540896002 #jsapi added way to link all the URLs in confessions https://github.com/mrgiggles/histoire/pull/9
+1540904911 confession worked on bug 1502886
