@@ -53,6 +53,30 @@ var urls = {
     }
 }
 
+// Linkify `message` string and add it to `parent` node.
+function linkifyAndAdd(parent, message) {
+    while (true) {
+        const matchBugNumber = message.match(/bug (\d+)/i);
+        if (matchBugNumber === null) {
+            const text = DOM.createText(message);
+            parent.appendChild(text);
+            break;
+        }
+
+        const [matched, bugNumber] = matchBugNumber;
+        const beforeText = message.substr(0, message.indexOf(matched));
+        const afterText = message.substr(message.indexOf(matched) + matched.length, message.length);
+
+        parent.appendChild(DOM.createText(beforeText));
+
+        const link = DOM.create("a", {href: urls.bug(bugNumber)});
+        link.textContent = matched;
+        parent.appendChild(link);
+
+        message = afterText;
+    }
+}
+
 function addItem({era, when, user, message, channel}) {
     const when_str = (new Date(when * 1000)).toLocaleString();
 
@@ -68,23 +92,8 @@ function addItem({era, when, user, message, channel}) {
     }
 
     // Let's try to find bug numbers.
-    let matchBugNumber = message.match(/bug (\d+)/);
-    if (matchBugNumber !== null) {
-        let [matched, bugNumber] = matchBugNumber;
-        let beforeText = message.substr(0, message.indexOf(matched));
-        let afterText = message.substr(message.indexOf(matched) + matched.length, message.length);
-
-        item.appendChild(DOM.createText(` - ${beforeText}`));
-
-        let link = DOM.create("a", {href: urls.bug(bugNumber)});
-        link.textContent = matched;
-        item.appendChild(link);
-
-        item.appendChild(DOM.createText(` ${afterText}`));
-    } else {
-        const text = DOM.createText(` - ${message}`);
-        item.appendChild(text);
-    }
+    item.appendChild(DOM.createText(" - "));
+    linkifyAndAdd(item, message);
 
     item.appendChild(DOM.createText(" "));
     const edit = DOM.create("a", {href: urls.edit(user, era), target: "_blank"});
