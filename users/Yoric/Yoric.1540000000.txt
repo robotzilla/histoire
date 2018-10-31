@@ -1,3 +1,4 @@
 1540891487 #jsapi Bug 1503089 Intermittent AddressSanitizer: SEGV - reviewed
 1540891509 #jsapi Bug 1502309 - Platform birth date test isn't being run - reviewed
 1540994427 #jsapi Filling PIONEER paperwork.
+1540994460 #jsapi Back to measuring actual performance in WebExtension. Still don't know whether I'll be able to use it, though :/
