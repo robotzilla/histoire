@@ -1,0 +1,1 @@
+1541029055 #jsapi You know what else I learnt about hardware watchpoints?  A 8 byte write to a 4 byte watch point doesn't seem to trap.
