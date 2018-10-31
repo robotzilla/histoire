@@ -5,3 +5,4 @@
 1540877704 #jsapi filed bug 1503142 and preparing a patch
 1540879039 #jsapi opened https://github.com/mrgiggles/histoire/pull/8
 1540969564 #jsapi testing patch for bug 1501928
+1540998146 #jsapi reviewed bug 1503542 and reading bug 1499324
