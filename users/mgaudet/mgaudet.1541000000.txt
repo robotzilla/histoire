@@ -1,2 +1,3 @@
 1541024274 #jsapi Produced a test patch for Bug 1488763, and worked on prototype structured spew more.
 1541080765 #jsapi Thinking about how to get bytecode interface done (or at least tracked sensibly). Opened Bug 1503864 to record thoughts and gather discussion
+1541105678 #jsapi Posted structured spewer prototype for feedback to Bug 1504005 -- all feedback welcome!
