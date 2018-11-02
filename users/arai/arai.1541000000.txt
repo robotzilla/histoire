@@ -1,0 +1,1 @@
+1541144635 #jsapi looking into BinAST's error reporting code, in order to achieve similar structure as regular parser
