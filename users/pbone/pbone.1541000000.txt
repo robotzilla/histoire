@@ -4,3 +4,4 @@
 1541116758 #jsapi More work on Bug 1433007, I have some (expected) asan failures so it's time to fix those.
 1541137803 #jsapi Moved some of my Bug 1433007 patches to a new Bug 1504080
 1541137836 #jsapi Trying to fix some asan problems in my patches for Bug 1433007
+1541144271 #jsapi Can't repro my asan failures locally today (will try more on monday). TEsting a fix on try.  I also suspect there's a pathological performance problem causing some timeouts, also Monday.
