@@ -3,3 +3,4 @@
 1541391098 #jsapi reviewed bug 1504463
 1541396584 #jsapi Posted patch for bug 1498101
 1541397071 #jsapi posted patch for bug 1504597
+1541401950 #jsapi opened https://github.com/tc39/proposal-binary-ast/pull/67
