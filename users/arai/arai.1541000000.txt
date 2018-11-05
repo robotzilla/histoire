@@ -1,3 +1,4 @@
 1541144635 #jsapi looking into BinAST's error reporting code, in order to achieve similar structure as regular parser
 1541145321 #jsapi grappling with ICE
 1541391098 #jsapi reviewed bug 1504463
+1541396584 #jsapi Posted patch for bug 1498101
