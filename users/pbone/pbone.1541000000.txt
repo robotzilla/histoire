@@ -6,3 +6,4 @@
 1541144271 #jsapi Can't repro my asan failures locally today (will try more on monday). TEsting a fix on try.  I also suspect there's a pathological performance problem causing some timeouts, also Monday.
 1541388587 #jsapi Landed Bug 1504080
 1541388628 #jsapi Passed along messages for Bug 1503425.
+1541388707 #jsapi Trying to fix asan failures for Bug 1433007's patches
