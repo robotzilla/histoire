@@ -1,1 +1,2 @@
 1541513997 #jsapi Make a benchmark for Bug 1489142 and use "perf" to see profile differences.
+1541530319 #jsapi Test the new perf-html.io support of perf profiles! This is awesome, finally a great perf UI, even for JS shell profiles :)
