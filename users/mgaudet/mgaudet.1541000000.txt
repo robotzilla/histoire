@@ -2,3 +2,4 @@
 1541080765 #jsapi Thinking about how to get bytecode interface done (or at least tracked sensibly). Opened Bug 1503864 to record thoughts and gather discussion
 1541105678 #jsapi Posted structured spewer prototype for feedback to Bug 1504005 -- all feedback welcome!
 1541455393 #jsapi Landed patch for  Bug 1488763, and cleaned up some left behind remains (Bug 1504727). Started addressing feedback on Bug 1488579 (which produces a simpler patch to be sure. Spent some time thinking about and self-criticizing Bug 1504005. Not sure if criticism is fatal, or just expands the scope more than I'd like.
+1541524062 #jsapi writing HTML and JS, and learning lots :)
