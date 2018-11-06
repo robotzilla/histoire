@@ -2,3 +2,4 @@
 1541510703 #jsapi Trying to design a new mechanosm for BinAST Telemetry.
 1541510712 #jsapi  Bug 1504597 [BinAST] Use NodeName::to_rc_string  - reviewed
 1541511193 #jsapi Bug 1498101 [BinAST] Do not generate code for not-fully-supported part
+1541511203 #jsapi Switching back to entropy.
