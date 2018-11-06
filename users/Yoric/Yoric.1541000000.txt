@@ -5,3 +5,4 @@
 1541511203 #jsapi Switching back to entropy.
 1541511262 #jsapi Bug 1497784 [BinAST] Lexical scope is not handled properly - reviewed
 1541511281 #jsapi Native I/O Mentoring
+1541514246 #jsapi binjs-ref: Loading previously saved probability tables/string tables for use in (de)compression.
