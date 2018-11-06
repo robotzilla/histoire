@@ -1,1 +1,2 @@
 1541108065 #jsapi figured out how to make bug 1485800 patchwork work properly with Rust bindings goo
+1541471459 #jsapi fixing bugs in column/offset handling in UTF-8 compilation and error reporting
