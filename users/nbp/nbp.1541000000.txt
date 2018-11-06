@@ -1,0 +1,1 @@
+1541513997 #jsapi Make a benchmark for Bug 1489142 and use "perf" to see profile differences.
