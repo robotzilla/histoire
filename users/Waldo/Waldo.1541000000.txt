@@ -2,3 +2,4 @@
 1541471459 #jsapi fixing bugs in column/offset handling in UTF-8 compilation and error reporting
 1541471494 #jsapi stack of unlanded, mostly unreviewed patches now 45 deep
 1541471508 #jsapi forgot about confession til other people were just using it
+1541530248 #jsapi filed bug 1505129 to make the shell print line-of-context for syntax errors respecting non-ASCII (or maybe non-Latin-1) code points in that context
