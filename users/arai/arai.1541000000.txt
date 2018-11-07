@@ -6,3 +6,4 @@
 1541401950 #jsapi opened https://github.com/tc39/proposal-binary-ast/pull/67
 1541470893 #jsapi exploring error reporting in frontend
 1541564730 #jsapi posted bug 1502280 patch
+1541564925 #jsapi prepared a patch for bug 1502792
