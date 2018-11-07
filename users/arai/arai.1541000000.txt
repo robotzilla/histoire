@@ -9,3 +9,4 @@
 1541564925 #jsapi prepared a patch for bug 1502792
 1541565120 #jsapi posted a patch for bug 1500836
 1541571307 #jsapi landed bug 1498101 and bug 1504597.  prepared a patch for bug 1505267
+1541571640 #jsapi filed bug 1505269
