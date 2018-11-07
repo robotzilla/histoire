@@ -4,3 +4,4 @@
 1541526711 #jsapi reviews in bug 1500203 (nested shell testing primitives for wasm)
 1541610764 confession worked on sec bug 1503326
 1541613673 confession talked with the Kotlin team about their needs for compiling to wasm
+1541613705 confession read about ELF, Mach microkernel in Darwin, NLL in Rust
