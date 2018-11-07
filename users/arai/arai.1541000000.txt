@@ -7,3 +7,4 @@
 1541470893 #jsapi exploring error reporting in frontend
 1541564730 #jsapi posted bug 1502280 patch
 1541564925 #jsapi prepared a patch for bug 1502792
+1541565120 #jsapi posted a patch for bug 1500836
