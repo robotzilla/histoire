@@ -8,3 +8,4 @@
 1541514246 #jsapi binjs-ref: Loading previously saved probability tables/string tables for use in (de)compression.
 1541518077 #jsapi WIP: New implementation of entropy compression
 1541592243 #jsapi Bug 1454613 [BinAST] Build binsource when building SpiderMonkey - greenlighting
+1541593177 #jsapi Bug 1505343 [BinAST] Rename binsource => binast - filed
