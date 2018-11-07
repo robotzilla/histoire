@@ -11,3 +11,4 @@
 1541571307 #jsapi landed bug 1498101 and bug 1504597.  prepared a patch for bug 1505267
 1541571640 #jsapi filed bug 1505269
 1541572959 #jsapi posted bug 1489003 patch
+1541574242 #jsapi preparing a patch for bug 1498775
