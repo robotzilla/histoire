@@ -2,3 +2,4 @@
 1541534775 #jsapi removed some blockers from bug 1389628 because I want to land it today. guess they weren't so very blocky
 1541548875 #jsapi landed bug 1389628 even though the OS X test jobs are AWOL on try server
 1541627784 #jsapi 33% through patching bug 1503718
+1541688323 #jsapi I don't really understand why a cross-compartment test I wrote is crashing yet
