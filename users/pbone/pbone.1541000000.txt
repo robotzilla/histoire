@@ -11,3 +11,4 @@
 1541397716 #jsapi I think I've fixed my asan issue, now I have a weird compacting issue...
 1541550062 #jsapi Reading, doing admin tasks, complaining about accessability.
 1541568537 #jsapi Reorganising patches for Bug 1433007, While I wait for builds reviewing the state of Bug 1466020
+1541635330 #jsapi I've filed Bug 1505622, Bug 1505624 and https://github.com/devtools-html/perf.html/issues/1474 for bz's repeated last ditch GCs problem.  Bug 1505624 is a good-first-bug.
