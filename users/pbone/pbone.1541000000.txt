@@ -12,3 +12,4 @@
 1541550062 #jsapi Reading, doing admin tasks, complaining about accessability.
 1541568537 #jsapi Reorganising patches for Bug 1433007, While I wait for builds reviewing the state of Bug 1466020
 1541635330 #jsapi I've filed Bug 1505622, Bug 1505624 and https://github.com/devtools-html/perf.html/issues/1474 for bz's repeated last ditch GCs problem.  Bug 1505624 is a good-first-bug.
+1541646394 #jsapi Woot, rebased my patches onto a more recent cental and my intermittent failures went away.
