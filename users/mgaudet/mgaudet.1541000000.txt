@@ -6,3 +6,4 @@
 1541546565 #jsapi Noodled over the patch for Bug 1488579 most of the afternoon, before giving up and asking for feedback.
 1541631938 #jsapi Benchmarking unboxed objects removal in Bug 1505574
 1541691203 #jsapi Summarized performance impact of turning off unboxed objects in https://bugzilla.mozilla.org/show_bug.cgi?id=1505574#c2
+1541717752 #jsapi Thought a lot about entered counts, and how to reason with them. Wrote patch to reset them on attachment.
