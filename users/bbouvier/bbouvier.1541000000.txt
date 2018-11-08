@@ -6,3 +6,4 @@
 1541613673 confession talked with the Kotlin team about their needs for compiling to wasm
 1541613705 confession read about ELF, Mach microkernel in Darwin, NLL in Rust http://smallcultfollowing.com/babysteps/blog/2018/10/31/mir-based-borrowck-is-almost-here/ https://blog.mozilla.org/nnethercote/2018/11/06/how-to-speed-up-the-rust-compiler-in-2018-nll-edition/
 1541625427 confession watched Cliff Click's talk "bits of advices for VM writers" https://www.youtube.com/watch?v=vzzABBxo44g
+1541690998 #jsapi wrote patch to detect lzcnt / bm1 / bm2 sets of instructions on x86 in bug 1488726
