@@ -1,2 +1,3 @@
 1541513997 #jsapi Make a benchmark for Bug 1489142 and use "perf" to see profile differences.
 1541530319 #jsapi Test the new perf-html.io support of perf profiles! This is awesome, finally a great perf UI, even for JS shell profiles :)
+1541703848 #jsapi Profilling Cranelift, we need to uncomment lines in js/src/wasm/cranelift/Cargo.toml and compile with RUSTFLAGS='-C force-frame-pointers=yes' (and maybe recompile rust libraries the same way :/)
