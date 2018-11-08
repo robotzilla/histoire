@@ -14,3 +14,4 @@
 1541574242 #jsapi preparing a patch for bug 1498775
 1541650853 #jsapi reviewed bug 1505566
 1541657261 #jsapi looking into mass test failure for bug 1498775
+1541658907 #jsapi posted patch for bug 1505667 and bug 1505670
