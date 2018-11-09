@@ -17,3 +17,4 @@
 1541658907 #jsapi posted patch for bug 1505667 and bug 1505670
 1541665824 #jsapi filed bug 1505701
 1541667163 #jsapi posted patch for bug 1505707
+1541744893 #jsapi landed bug 1492716 for configure script things
