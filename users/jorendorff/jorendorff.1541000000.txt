@@ -3,3 +3,4 @@
 1541548875 #jsapi landed bug 1389628 even though the OS X test jobs are AWOL on try server
 1541627784 #jsapi 33% through patching bug 1503718
 1541688323 #jsapi I don't really understand why a cross-compartment test I wrote is crashing yet
+1541781157 #jsapi just got done bumping the priority of several of my bugs that aren't about streams, don't tell anyone
