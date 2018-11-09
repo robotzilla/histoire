@@ -15,3 +15,4 @@
 1541685425 #jsapi First roundtrip wity entropy \o/
 1541764927 #jsapi Starting to work on embedding strings in files.
 1541779365 #jsapi Deprioritizing Telemetry
+1541781111 #jsapi Trying to come up with a good way to store/model/represent strings.
