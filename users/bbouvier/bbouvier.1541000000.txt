@@ -9,3 +9,4 @@
 1541690998 #jsapi wrote patch to detect lzcnt / bm1 / bm2 sets of instructions on x86 in bug 1488726
 1541691043 #jsapi don't clobber Rust log level in (bug 1505559)
 1541691070 #jsapi reviewed Cranelift bump in Spidermonkey \o/
+1541786864 #jsapi Cranelift: renamings (PR #590), build step: simplified generation of register classes (PR #592) + started migrating settings generation code to Rust
