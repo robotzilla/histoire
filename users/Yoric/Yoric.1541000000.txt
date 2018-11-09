@@ -13,3 +13,4 @@
 1541599424 #jsapi Early prototype of Entropy decoder.
 1541682189 #jsapi Towards a roundtrip with entropy + external dictionaries - PR
 1541685425 #jsapi First roundtrip wity entropy \o/
+1541764927 #jsapi Starting to work on embedding strings in files.
