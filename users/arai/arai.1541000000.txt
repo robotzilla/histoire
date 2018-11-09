@@ -19,3 +19,4 @@
 1541667163 #jsapi posted patch for bug 1505707
 1541744893 #jsapi landed bug 1492716 for configure script things
 1541744896 #jsapi landed bug 1505667, bug 1505670 for Promise things
+1541744902 #jsapi landed bug 1489003, bug 1334813 for misc JS things
