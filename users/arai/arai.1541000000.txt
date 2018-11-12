@@ -22,3 +22,4 @@
 1541744902 #jsapi landed bug 1489003, bug 1334813 for misc JS things
 1541744909 #jsapi landed bug 1505267, bug 1501928 for BinAST
 1541995108 #jsapi reviewed bug 1506380 and bug 1506426
+1541999329 #jsapi filed bug 1506502
