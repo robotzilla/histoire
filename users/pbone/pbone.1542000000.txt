@@ -1,2 +1,3 @@
 1542000071 #jsapi I've been doing some profiling of some hot paths in Nursery collection. so far nothing stands out in an obvious easy-to-tweek way.
 1542000605 #jsapi By reducing nursery size hopefully I can amke better use of cache, but constant factors prevent it from getting super-small  Namely root marking.
+1542079596 #jsapi I've been fine-tuning Bug 1433007 and following review feedback and I'm fairly happy with it.
