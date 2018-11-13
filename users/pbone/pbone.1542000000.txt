@@ -2,3 +2,4 @@
 1542000605 #jsapi By reducing nursery size hopefully I can amke better use of cache, but constant factors prevent it from getting super-small  Namely root marking.
 1542079596 #jsapi I've been fine-tuning Bug 1433007 and following review feedback and I'm fairly happy with it.
 1542088483 #jsapi Writing patches for
+1542088494 #jsapi Writing patches for Bug 1497873
