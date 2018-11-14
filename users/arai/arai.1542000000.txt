@@ -2,3 +2,4 @@
 1542033898 #jsapi partially reviewed https://github.com/binast/binjs-ref/pull/195
 1542158835 #jsapi merged https://github.com/binast/binjs-ref/pull/193
 1542166877 #jsapi reviewed https://github.com/binast/binjs-ref/pull/195
+1542167915 #jsapi filed bug 1507042
