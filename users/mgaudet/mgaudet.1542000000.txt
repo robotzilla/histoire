@@ -1,2 +1,3 @@
 1542151960 #jsapi Abusing the tools I know to produce a webpage that sort of looks how I want: https://mgaudet.github.io/AreWeBytecodeStill/ Also, put polish on Bug 1504005, and reviewed an ARM64 patch.
 1542151982 #jsapi (I shouldn't be allowed to write JS code)
+1542234692 #jsapi Investigated a problem in the structured spewer, on my way to try to use it for gathering some data points.
