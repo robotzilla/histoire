@@ -6,3 +6,4 @@
 1542168068 #jsapi landed bug 1503142, bug 1497784, and bug 1502280
 1542171046 #jsapi posted bug 1502792 patch
 1542173100 #jsapi rebasing patch for bug 1501155, which conflicted hardly with perf-patch
+1542246877 #jsapi reviewed https://github.com/binast/binjs-ref/pull/201
