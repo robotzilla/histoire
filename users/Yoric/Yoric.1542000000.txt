@@ -2,3 +2,4 @@
 1542222849 #jsapi Towards roundtrip - landed
 1542224674 #jsapi Handle lazy functions in entropy #203
 1542279173 #jsapi Now gathering statistics on entropy coding.
+1542297915 #jsapi In entropy, try to compress string indices with Brotli - filed
