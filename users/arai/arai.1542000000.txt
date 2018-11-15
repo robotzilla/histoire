@@ -8,3 +8,4 @@
 1542173100 #jsapi rebasing patch for bug 1501155, which conflicted hardly with perf-patch
 1542246877 #jsapi reviewed https://github.com/binast/binjs-ref/pull/201
 1542248156 #jsapi posted patch for bug 1501155
+1542251461 #jsapi investigate bug 1506655 and filed bug 1507375
