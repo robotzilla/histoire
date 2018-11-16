@@ -15,3 +15,4 @@
 1542340108 #jsapi reviewed bug 1503012. and reviewing bug 1503324
 1542342979 #jsapi reviewed https://github.com/binast/binjs-ref/pull/207
 1542343979 #jsapi opened https://github.com/mrgiggles/histoire/pull/17
+1542349191 #jsapi reviewed bug 1503324
