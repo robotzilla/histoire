@@ -12,3 +12,4 @@
 1542260199 #jsapi opened https://github.com/devtools-html/debugger.html/pull/7276 for bug 1505701
 1542287892 #jsapi reviewed https://github.com/binast/binjs-ref/pull/201
 1542333898 #jsapi reviewed bug 1504893 and bug 1504802
+1542340108 #jsapi reviewed bug 1503012. and reviewing bug 1503324
