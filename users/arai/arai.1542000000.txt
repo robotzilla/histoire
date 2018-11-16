@@ -16,3 +16,4 @@
 1542342979 #jsapi reviewed https://github.com/binast/binjs-ref/pull/207
 1542343979 #jsapi opened https://github.com/mrgiggles/histoire/pull/17
 1542349191 #jsapi reviewed bug 1503324
+1542363639 #jsapi reviewed https://github.com/binast/binjs-ref/pull/210 and https://github.com/binast/binjs-ref/pull/211
