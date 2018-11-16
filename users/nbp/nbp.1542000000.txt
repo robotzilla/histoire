@@ -1,2 +1,3 @@
 1542037514 #jsapi Just received a package named "Softiron" (arm64 box), and apparently this has nothing to do with ironning unless you keep clothes under the package for a day.
 1542294708 #jsapi I managed to reproduce a failure on 2 test cases on the whole test suite, then to minimize it to … an empty file ?! I am confused.
+1542378254 #jsapi Find out the clang might generate terrible code, which in addition pisses valgrind. Now working on a valgrind patch to get Bug 1489572 landed.
