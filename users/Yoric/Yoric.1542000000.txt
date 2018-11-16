@@ -5,3 +5,4 @@
 1542297915 #jsapi In entropy, try to compress string indices with Brotli - filed
 1542362997 #jsapi Mentoring Linux and MacOS FileWatcher
 1542365730 #jsapi Entropy roundtrip test
+1542372674 #jsapi More statistics on entropy.
