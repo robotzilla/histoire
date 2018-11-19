@@ -7,3 +7,4 @@
 1542365730 #jsapi Entropy roundtrip test
 1542372674 #jsapi More statistics on entropy.
 1542372679 #jsapi More cleanups.
+1542616425 #jsapi Make sure that dictionary sorting is stable across process restarts #217
