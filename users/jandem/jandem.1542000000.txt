@@ -1,2 +1,3 @@
 1542180395 #jsapi posted patch for bug 1499644. Landed many cleanup patches preparing for it
 1542180443 #jsapi used WinDbg's record-replay/reverse-execution feature to track down an OOM issue that didn't repro with local builds, bug 1504587
+1542649735 #jsapi landed a patch to change JS_{PUBLIC,FRIEND}_{API,DATA} so they're clang-format-ready
