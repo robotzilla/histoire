@@ -2,3 +2,4 @@
 1542151982 #jsapi (I shouldn't be allowed to write JS code)
 1542234692 #jsapi Investigated a problem in the structured spewer, on my way to try to use it for gathering some data points.
 1542322367 #jsapi Working through review feedback on structured spewer, and improving some ergonomics therein. Played with Profiler Counters today too.
+1542668436 #jsapi cleaning up review on a variety of patches, most of which has involved hitting cmd-z as I change my mind about approach, repeatedly.
