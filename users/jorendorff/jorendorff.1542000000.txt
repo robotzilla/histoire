@@ -5,3 +5,4 @@
 1542407907 #jsapi took inventory of test failure annotations in testing/web-platform/meta/streams/readable-streams, filed bugs for all of them: bug 1507920, bug 1507943, bug 1507945, bug 1507950, bug 1507952
 1542410461 #jsapi looked at the calendar from now to soft freeze, wept a little inside
 1542648791 #jsapi landed bug 1507845. When this propagates, we will have no remaining TODO comments in Stream.cpp ...which I think means the code is perfect and need never be changed again
+1542650968 #jsapi filed a bug and uploaded a patch mainly to get rid of it (bug 1508346)
