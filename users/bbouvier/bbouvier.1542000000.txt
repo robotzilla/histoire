@@ -1,2 +1,3 @@
 1542050785 #jsapi spent a day with my beloved rr trying to understand what was going on in bug 1476251 and provided some help there
 1542304440 #jsapi diverted to work on awsm, my wasm fuzzer, and found a few bugs in cranelift and spidermonkey
+1542621253 #jsapi investigated crash in Cranelift running code in bug 1506675 and made a PR https://github.com/CraneStation/cranelift/pull/601
