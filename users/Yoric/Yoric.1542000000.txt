@@ -11,3 +11,4 @@
 1542624447 #jsapi fix(tool): update rand crate to the latest version #216 - reviewed
 1542624463 #jsapi Testing window-based prediction.
 1542624953 #jsapi Getting in touch with zstd people.
+1542636285 #jsapi Resolves #218: Get rid of entropy.strings
