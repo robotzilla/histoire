@@ -6,3 +6,4 @@
 1542410461 #jsapi looked at the calendar from now to soft freeze, wept a little inside
 1542648791 #jsapi landed bug 1507845. When this propagates, we will have no remaining TODO comments in Stream.cpp ...which I think means the code is perfect and need never be changed again
 1542650968 #jsapi filed a bug and uploaded a patch mainly to get rid of it (bug 1508346)
+1542662651 #jsapi Landed bug 1503324 ("forAuthorCode") ...while putting off rewriting the spec to match our implementation (see <https://github.com/whatwg/streams/issues/964#issuecomment-439869841>).
