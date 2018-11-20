@@ -1,3 +1,4 @@
 1542037514 #jsapi Just received a package named "Softiron" (arm64 box), and apparently this has nothing to do with ironning unless you keep clothes under the package for a day.
 1542294708 #jsapi I managed to reproduce a failure on 2 test cases on the whole test suite, then to minimize it to … an empty file ?! I am confused.
 1542378254 #jsapi Find out the clang might generate terrible code, which in addition pisses valgrind. Now working on a valgrind patch to get Bug 1489572 landed.
+1542725387 #jsapi I give up on installing any other system on the SoftIron Overdrive 1000, as the USB when it is recognize does not boot :/ Let's use OpenSus in the mean time, and Nix to properly handle SpiderMonkey / Firefox dev-dependencies.
