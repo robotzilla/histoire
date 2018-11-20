@@ -6,3 +6,4 @@
 1542154693 #jsapi Working on Bug 1497873
 1542324358 #jsapi Pushing another task on the stack, Bug 1507379 would be really helpful to have done right now, so let's do that.
 1542597273 #jsapi Testing for Bug 1497873, it seems that if I tweek the pretenure condition I can remove most of the regressions, waiting to see if any remain.
+1542681106 #jsapi Pushed Bug 1507379 to inbound, now tidying up perf.html half.
