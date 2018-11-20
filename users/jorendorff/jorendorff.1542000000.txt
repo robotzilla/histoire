@@ -9,3 +9,4 @@
 1542662651 #jsapi Landed bug 1503324 ("forAuthorCode") ...while putting off rewriting the spec to match our implementation (see <https://github.com/whatwg/streams/issues/964#issuecomment-439869841>).
 1542737776 #jsapi landed bug 1508438
 1542739049 #jsapi did not actually read the entire patch I just rubber-stamped in bug 1508680
+1542748382 #jsapi patched bug 1508813 instead of doing anything useful
