@@ -4,3 +4,4 @@
 1542760657 #jsapi maybe wrote an implementation of a bigint/double comparison function that is well-commented and readable
 1542760763 #jsapi verified the confession bot implements at least some very minimal error handling
 1542789971 #jsapi the bigint Review Of Doom is Done For Now *maniacal laugh*
+1542842864 #jsapi actually reading the WTF-8 spec, to verify hazy presumptive understandings of it that til now haven't needed confirmation
