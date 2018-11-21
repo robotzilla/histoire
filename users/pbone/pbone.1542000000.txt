@@ -9,3 +9,4 @@
 1542681106 #jsapi Pushed Bug 1507379 to inbound, now tidying up perf.html half.
 1542682050 #jsapi The perf.html half: https://github.com/devtools-html/perf.html/pull/1512
 1542687047 #jsapi worried it's time to learn JavaScript (a bit more) and also React.
+1542777427 #jsapi I've spent the day learning React and Redux.  Watch out perf.html!
