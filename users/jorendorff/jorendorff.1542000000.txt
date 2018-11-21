@@ -12,3 +12,4 @@
 1542748382 #jsapi patched bug 1508813 instead of doing anything useful
 1542759305 #jsapi patched bug 1501666 with jimb's help
 1542759467 #jsapi i also patched bug 1507952 today
+1542760586 #jsapi I updated a new patch in bug 1507248 even though `mach build` isn't finished running yet
