@@ -1,2 +1,0 @@
-1542738098 #jsapi mental mush and I have no idea what day it is any more because bigint
-1542760644 #jsapi maybe wrote an implementation of a bigint/double comparison function that is well-commented and readable
