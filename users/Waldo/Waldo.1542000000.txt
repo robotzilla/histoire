@@ -1,3 +1,4 @@
 1542070201 #jsapi reviews
 1542159863 #jsapi up to about line 1050 in BigInt.cpp in the bigint review, ~1500 lines to go or so
 1542738110 #jsapi mental mush and I have no idea what day it is any more because bigint
+1542760657 #jsapi maybe wrote an implementation of a bigint/double comparison function that is well-commented and readable
