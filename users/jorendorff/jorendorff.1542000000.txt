@@ -10,3 +10,4 @@
 1542737776 #jsapi landed bug 1508438
 1542739049 #jsapi did not actually read the entire patch I just rubber-stamped in bug 1508680
 1542748382 #jsapi patched bug 1508813 instead of doing anything useful
+1542759305 #jsapi patched bug 1501666 with jimb's help
