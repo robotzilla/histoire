@@ -15,3 +15,4 @@
 1542731839 #jsapi Gathering additional statistics.
 1542737503 #jsapi Sorting is important not only for symbol indices but also for probabilities
 1542796188 #jsapi Mentoring
+1542902543 #jsapi Improving auto-generated documentation.
