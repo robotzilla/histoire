@@ -18,3 +18,4 @@
 1542902543 #jsapi Improving auto-generated documentation.
 1542902550 #jsapi New type ASTEverything.
 1542902581 #jsapi Looking at a strategy to detect/predict AST node repeats.
+1542902842 #jsapi Looking at the bonfire of vanities.
