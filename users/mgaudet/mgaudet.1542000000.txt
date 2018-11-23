@@ -4,3 +4,4 @@
 1542322367 #jsapi Working through review feedback on structured spewer, and improving some ergonomics therein. Played with Profiler Counters today too.
 1542668436 #jsapi cleaning up review on a variety of patches, most of which has involved hitting cmd-z as I change my mind about approach, repeatedly.
 1542927697 #jsapi editing patches based on feedback, which ate -far- more of my day than I would have expected.
+1542999700 #jsapi Being bitten by namespaces, nested name specifiers and dependent templates. Hooray.
