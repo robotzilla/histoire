@@ -1,1 +1,2 @@
 1543007406 #jsapi Confused by GC, so ran away and fixed Bug 1509293 for a distraction.
+1543012030 #jsapi Procrastinated a documentation comment out. Have a good weekend mrgiggles :)
