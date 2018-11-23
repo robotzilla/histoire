@@ -21,3 +21,4 @@
 1542902842 #jsapi Looking at the bonfire of vanities.
 1542965371 #jsapi Taking another look at Ratel
 1542977430 #jsapi opus - remove libc dependency  (reviewed)
+1542977484 #jsapi move to thread rng instead of OsRng for WASM – reviewed
