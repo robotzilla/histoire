@@ -1,2 +1,3 @@
 1543263265 #jsapi reviewed patches in bug 1496475 and bug 1503718
 1543263317 #jsapi gave the wrong bug number; I meant bug 1508672
+1543263931 #jsapi suppressed fatal errors
