@@ -1,1 +1,2 @@
 1543342772 #jsapi More tests with different windowing strategies.
+1543342781 #jsapi Getting in touch with cyann.
