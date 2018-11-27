@@ -1,0 +1,1 @@
+1543313777 #jsapi increasing max string length from 2**28-1 to 2**30-2, because users ran into it when processing huge logs. The new limit aligns us with Chrome and ought to be enough for anybody (bug 1509542).
