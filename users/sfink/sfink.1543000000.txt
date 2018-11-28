@@ -1,2 +1,3 @@
 1543263368 #jsapi clearing out redundant test jobs, bug 1509992 and bug 1508738
 1543263414 #jsapi I get more enjoyment from hacking on confession-bot than using it
+1543434506 #jsapi turning back on the code coverage variants of the Jit jobs that I killed
