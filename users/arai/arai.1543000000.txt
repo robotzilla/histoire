@@ -2,3 +2,4 @@
 1543211104 #jsapi posted a patch for bug 1509768
 1543218228 #jsapi implemented custom JSON serializer for https://github.com/binast/binjs-ref/issues/194  , going to work on deserializer
 1543313962 #jsapi landed bug 1509768
+1543382258 #jsapi landed bug 1501155 patch
