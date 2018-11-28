@@ -1,3 +1,4 @@
 1543007406 #jsapi Confused by GC, so ran away and fixed Bug 1509293 for a distraction.
 1543012030 #jsapi Procrastinated a documentation comment out. Have a good weekend mrgiggles :)
 1543271546 #jsapi Wrote some SMDOC patches for callWithABI and callVM. Praying a rebase onto a more up to date central makes my GC problems magically go away. Will find out tomorrow
+1543442566 #jsapi Thwarted in my investigation of a webreplay failure by it not failing on linux under rr...
