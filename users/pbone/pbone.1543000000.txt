@@ -5,3 +5,4 @@
 1543403808 #jsapi Filed Bug 1510560 for a rabbithole to spinoff from Bug
 1543457401 #jsapi Code reviews
 1543484338 #jsapi Got nothing done today because Firefox wouldn't compile.
+1543535505 #jsapi still arguing with my laptop about C compilers.
