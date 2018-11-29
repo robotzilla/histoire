@@ -2,3 +2,4 @@
 1543263317 #jsapi gave the wrong bug number; I meant bug 1508672
 1543263931 #jsapi suppressed fatal errors
 1543264567 #jsapi worked on https://github.com/whatwg/streams/pull/969
+1543490426 #jsapi only bothered to look at bug 1391756 after removing it as a blocker, my priorities are upside down
