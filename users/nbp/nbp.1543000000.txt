@@ -1,0 +1,1 @@
+1543499359 #jsapi Consistency of coding style within SpiderMonkey is valuable, so even if I disagree with the upcoming trashing of whitespaces, by moving from 4 spaces to 2 spaces indentation, I still fixed Bug 1499323 :(
