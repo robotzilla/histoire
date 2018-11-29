@@ -5,3 +5,4 @@
 1543490426 #jsapi only bothered to look at bug 1391756 after removing it as a blocker, my priorities are upside down
 1543505726 #jsapi patched error handling in a mochitest in bug 1511040
 1543532957 #jsapi landed bug 1507248, bug 1391756, and bug 1511040
+1543532995 #jsapi can't let go of the dream in bug 1503012, pushed another diagnostic patch to the try server
