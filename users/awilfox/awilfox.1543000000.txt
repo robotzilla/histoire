@@ -1,0 +1,1 @@
+1543493724 #jsapi solved most of bug 1504834 by just making swizzling unnecessary, after reading sun/oracle's firefox 60 patchset
