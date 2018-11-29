@@ -4,3 +4,4 @@
 1543401876 #jsapi Tests look good for Bug 1497873 so I'm tidying up my patches before I request review.
 1543403808 #jsapi Filed Bug 1510560 for a rabbithole to spinoff from Bug
 1543457401 #jsapi Code reviews
+1543484338 #jsapi Got nothing done today because Firefox wouldn't compile.
