@@ -3,3 +3,4 @@
 1543271546 #jsapi Wrote some SMDOC patches for callWithABI and callVM. Praying a rebase onto a more up to date central makes my GC problems magically go away. Will find out tomorrow
 1543442566 #jsapi Thwarted in my investigation of a webreplay failure by it not failing on linux under rr...
 1543611229 #jsapi There's a non-zero chance this might be my last day of work for 8 weeks. Cleaning up bugs and revisions so they're in a state for someone to commandeer them should they so desire.
+1543611441 #jsapi I can't use mach apparently (mach run mochitest --headless is -not the same- as ./mach mochtest --headless)
