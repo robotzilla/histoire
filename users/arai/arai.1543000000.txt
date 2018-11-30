@@ -14,3 +14,4 @@
 1543557827 #jsapi prototyped a converter from a JSON with possibly-invalid file tree structure to BinAST file
 1543557874 #jsapi the next step is to create a filter command to create a invalid structure
 1543570955 #jsapi opened https://github.com/binast/binjs-ref/pull/238
+1543603970 #jsapi posted bug 1511393 patch
