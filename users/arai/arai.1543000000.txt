@@ -10,3 +10,4 @@
 1543421126 #jsapi landed bug 1508063 patch
 1543483797 #jsapi prototyped JSON reader/writer for BinAST to automatically create test file with invalid structure
 1543506926 #jsapi fixed https://github.com/binast/binjs-ref/pull/237
+1543540656 #jsapi reviewed https://github.com/binast/binjs-ref/pull/236
