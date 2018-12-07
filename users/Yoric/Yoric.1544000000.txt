@@ -5,3 +5,4 @@
 1544112336 #jsapi Trying to come up with sets of samples for cyann.
 1544113783 #jsapi Filed a few issues on side-channel timing attacks on BinAST dictionaries.
 1544180511 #jsapi Document what happens with superfluous parens - filed
+1544197328 #jsapi Specify loading the external dictionary: CORS, same-origin policy, prefetch.
