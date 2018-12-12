@@ -1,2 +1,3 @@
 1544031859 #jsapi spent some time debugging why mach clang-format fails for me, filed bug 1512253
 1544033306 #jsapi scratching an itch, made `hg newbug -C Lint` not think I might mean `bugzilla.mozilla.org :: Extensions: Splinter' when 'Build System :: Lint and Formatting' exists
+1544632666 #jsapi filed bug 1513580 and bug 1513584
