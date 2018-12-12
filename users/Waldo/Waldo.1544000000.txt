@@ -1,1 +1,2 @@
 1544576426 #jsapi made JSM/component loading mandate UTF-8 encoding
+1544576447 #jsapi made .sjs scripts have to be UTF-8-encoded
