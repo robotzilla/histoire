@@ -7,3 +7,4 @@
 1544180511 #jsapi Document what happens with superfluous parens - filed
 1544197328 #jsapi Specify loading the external dictionary: CORS, same-origin policy, prefetch.
 1544629642 #jsapi Brainstorming security issues wrt Rust integration in Firefox and other projects: https://internals.rust-lang.org/t/an-idea-to-mitigate-attacks-through-malicious-crates/9006
+1544693410 #jsapi I have heard of OS.File.
