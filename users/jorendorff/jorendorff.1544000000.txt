@@ -2,3 +2,4 @@
 1544574154 #jsapi 74% done with a manual trawl through the whole of Stream.cpp for bug 1504464
 1544630255 #jsapi reviewed a rather amazing patch in bug 1512989 to fix up an entire giant test suite (browser js/src/tests) that was silently not reporting errors for the better part of a year
 1544657259 #jsapi reviews in bug 1513040
+1544661294 #jsapi finished audit for bug 1504464, but still need to shape the changes into coherent patches.
