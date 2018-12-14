@@ -3,3 +3,4 @@
 1544576534 #jsapi very very very nearly finished auditing all callers of loadSubScript, changing the ones passed only ASCII to use a new runUtf8Script, and adjusting the ones currently passed UTF-8 that's really interpreted as Latin-1 so that they will be correct when loaded as UTF-8
 1544576594 #jsapi landed most of accurate column-tracking code, save for the final bit to actually enable it -- because some devtools tests leak windows with the final bit in place (and do not appear to hit any other failures in the process)
 1544668154 #jsapi pretty sure "done" changing loadSubScript to require UTF-8, as far as auditing all subscripts (and fixing the ones that would break) goes
+1544747130 #jsapi enabled support for emojis in PAC scripts
