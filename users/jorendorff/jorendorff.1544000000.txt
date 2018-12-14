@@ -4,3 +4,4 @@
 1544657259 #jsapi reviews in bug 1513040
 1544661294 #jsapi finished audit for bug 1504464, but still need to shape the changes into coherent patches.
 1544747094 #jsapi triage; a few reviews; bury Waldo in mostly trivial patch reviews for bug 1504464; file bug 1514051; finally get something workable posted for bug 1513570 (feels good); which sounds like a lot but does not move the ball much :-\
+1544747124 #jsapi listened to the Rust Rap twice
