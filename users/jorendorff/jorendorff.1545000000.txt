@@ -1,1 +1,2 @@
 1545084377 #jsapi worked on bug 1477084; filed bug 1514851 (toLocaleString is slow); landed something for the timeouts in bug 1491924 (wish me luck)
+1545084473 #jsapi cleared my review queue --- generally clearing the decks to hit the ground running on bug 1495072 in the new year
