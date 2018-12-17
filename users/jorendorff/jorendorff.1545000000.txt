@@ -1,0 +1,1 @@
+1545084377 #jsapi worked on bug 1477084; filed bug 1514851 (toLocaleString is slow); landed something for the timeouts in bug 1491924 (wish me luck)
