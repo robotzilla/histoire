@@ -2,3 +2,4 @@
 1545034406 #jsapi looking into bug 1514673
 1545042681 #jsapi looking into bug 1514699
 1545047070 #jsapi looking into binjs-ref issues backlog
+1545157844 #jsapi reviewed https://github.com/tc39/proposal-binary-ast/pull/69
