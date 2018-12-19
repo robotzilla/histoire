@@ -1,1 +1,2 @@
 1545072475 #jsapi tracking down xpconnect issues exposed by putting all system globals in a single compartment
+1545231791 #jsapi more xpconnect adventures; moving XPCWrappedNativeScope from global to compartment to fix WrappedNative identity problems
