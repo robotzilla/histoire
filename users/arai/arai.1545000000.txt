@@ -5,3 +5,4 @@
 1545157844 #jsapi reviewed https://github.com/tc39/proposal-binary-ast/pull/69
 1545181542 #jsapi prepared patch for bug 1515224
 1545281117 #introduction posted bug 1510586 patch
+1545319758 #jsapi fixed bug 1498775
