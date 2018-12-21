@@ -1,2 +1,3 @@
 1545158263 #jsapi implemented a risky new hazard analysis feature regarding data flow propagation of known safe constant values, all to remove... 1 false positive hazard
 1545355897 #jsapi added a "builtin" hazard testing mechanism that allows annotating a function with "expect a hazard in this function". It's not an error if it reports one, and it is an error if it doesn't.
+1545355945 #jsapi successfully rebased weakmap stuff over incremental gray marking changes, but made a rather extreme change in the process
