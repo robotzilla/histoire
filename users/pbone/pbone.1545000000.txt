@@ -6,3 +6,4 @@
 1545265899 #jsapi Experimenting with increasing the deadzone for the tenure rate in Bug 1497873
 1545288585 #jsapi Been staring at test results, waiting for inspiration.  Inspiration didn't come.  Wrote up my findings so far and starting some more benchmarks, maybe it's already good enough?
 1545355778 #jsapi Tried to plug in my new PC.  It has something called Mini DisplayPort.  I feel old because I can't plugin a computer..  Going to the store to get a new cable.
+1545369630 #jsapi Happy holidays, I'll be back December 31st.
