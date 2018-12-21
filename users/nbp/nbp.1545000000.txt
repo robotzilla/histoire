@@ -1,1 +1,2 @@
 1545320972 #jsapi implementing MPowHalfD for ARM64.
+1545405411 #jsapi Seeking for a deassembling table in the ARM documentation, to figure out if there is a bug in vixl or in the simulator.
