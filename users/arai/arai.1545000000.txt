@@ -8,3 +8,4 @@
 1545319758 #jsapi fixed bug 1498775
 1545390107 #jsapi reviewed bug 1515754
 1545708806 #jsapi looking into another solution for bug 1509384
+1545741795 #jsapi posted bug 1509384 patch
