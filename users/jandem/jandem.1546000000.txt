@@ -1,0 +1,1 @@
+1546618404 #jsapi landed patches to put chrome windows and sandboxes in the loader compartment, some nice talos wins: https://treeherder.mozilla.org/perf.html#/alerts?id=18562
