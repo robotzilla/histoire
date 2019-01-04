@@ -1,3 +1,4 @@
 1546567436 #jsapi reviewed bug 1516697, bug 1516713, bug 1516742, and bug 1516796
 1546569588 #jsapi reviewed bug 1517624
 1546572032 #jsapi landed bug 1509384
+1546577886 #jsapi reviewed bug 1517674
