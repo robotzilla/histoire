@@ -3,3 +3,4 @@
 1546488567 #jsapi My patches for Bug 1497873 regres the ares 6 babylon test, the test has more non-incremental GCs which blows out the worst case and average-worst times.  Now trying to collect more data to figure out why.
 1546563218 #jsapi Answering bugmail (code review & needinfos).
 1546563303 #jsapi Working on Bug 1517409 because I want to measure/confirm why Bug 1497873 causes more GCs during the Ares6 Babylon benchmark
+1546837538 #jsapi Writing patches for Bug 1517409, about 66% done.
