@@ -1,2 +1,3 @@
 1546618404 #jsapi landed patches to put chrome windows and sandboxes in the loader compartment, some nice talos wins: https://treeherder.mozilla.org/perf.html#/alerts?id=18562
 1546853858 #jsapi investigated tp5o responsiveness benchmark regression from chrome compartment changes - benchmark is flawed, posted analysis in https://bugzilla.mozilla.org/show_bug.cgi?id=1517758#c4
+1546854657 #jsapi fixing some minor follow-ups for chrome compartment changes, review boris's WindowProxy patches, get back to interpreter work
