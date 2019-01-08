@@ -4,3 +4,4 @@
 1546563218 #jsapi Answering bugmail (code review & needinfos).
 1546563303 #jsapi Working on Bug 1517409 because I want to measure/confirm why Bug 1497873 causes more GCs during the Ares6 Babylon benchmark
 1546837538 #jsapi Writing patches for Bug 1517409, about 66% done.
+1546917666 #jsapi Addressing a review and writing more patches for Bug 1517409
