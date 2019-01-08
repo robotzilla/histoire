@@ -6,3 +6,4 @@
 1546818561 #jsapi rebasing bug 1501576 etc on the top of format change
 1546837358 #jsapi cleaning up bug 1501577 patch
 1546915494 #jsapi landed bug 1502792, bug 1500836, and bug 1517868
+1546939437 #jsapi testing patches for bug 1501576, bug 1501577, bug 1501578, and bug 1473796
