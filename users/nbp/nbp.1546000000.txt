@@ -1,2 +1,3 @@
 1546612754 #jsapi What can you do when you can only compare against 12 / 5 bits immediate :/
 1546612804 #jsapi Use sign extension when extracting bit-fields and use CNN instead of CMP to check for equality.
+1546971106 #jsapi I just met heisenbug 1518565, he was waving at me until I added this watchpoint. :/
