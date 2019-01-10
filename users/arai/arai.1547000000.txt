@@ -1,3 +1,4 @@
 1547002672 #jsapi posted bug 1518662 patch
 1547088997 #jsapi landed bug 1510586
 1547089007 #jsapi testing fixed patch for bug 1518662
+1547089375 #jsapi posted patch for bug 1501576 and bug 1501577
