@@ -1,3 +1,4 @@
 1547008224 #jsapi Filed and have a patch for Bug 1518713
 1547009124 #jsapi Landing Bug 1517684
 1547009619 #jsapi Preparing Bug 1518713 for review - and rebasing it and Bug 1517409 further along on central.
+1547085214 #jsapi Landed Bug 1518713, fixing a warning I saw on the console while testing.
