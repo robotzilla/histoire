@@ -2,3 +2,4 @@
 1547009124 #jsapi Landing Bug 1517684
 1547009619 #jsapi Preparing Bug 1518713 for review - and rebasing it and Bug 1517409 further along on central.
 1547085214 #jsapi Landed Bug 1518713, fixing a warning I saw on the console while testing.
+1547088591 #jsapi More work on Bug 1517409.  Soon we will know how many bytes are allocated in each zone at any time.
