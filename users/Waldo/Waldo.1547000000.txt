@@ -1,2 +1,3 @@
 1547087768 #jsapi reviewed stuff, bigint review all done but for comparing the last-reviewed thing against the newest iteration across stylemageddon which is making me want to go home and rethink my life
 1547087790 #jsapi but I will probably stop at just the former tonight
+1547186828 #jsapi made asm.js parsing in UTF-8 work according to the most cursory testing imaginable (i.e. running |dbg/js/src/js -u jit-test/tests/asm.js/bug1306506.js  -w| and seeing the expected console-spew)
