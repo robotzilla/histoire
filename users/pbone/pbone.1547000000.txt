@@ -8,3 +8,4 @@
 1547166111 #jsapi I think premarking is throwing off my calculations for Bug 1517409.  I'll either have to handle it differently or put this one on the back burner (I have Ideas(tm) about premarking)
 1547177927 #jsapi Yep,  Gonna break Bug 1517409 into it and Bug 1519298. the latter will depend on some premarking changes.
 1547419005 #jsapi Good morning,  code reviews and bugmail.  Then dentist :-/
+1547445892 #jsapi I've been re-organising my patches, preparing some for review.
