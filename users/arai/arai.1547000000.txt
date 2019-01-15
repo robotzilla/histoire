@@ -11,3 +11,4 @@
 1547287806 #jsapi posted bug 1519612 patch
 1547511314 #jsapi landed bug 1519612
 1547513326 #jsapi posted bug 1519302 patch
+1547536264 #jsapi investigate source notes in prologue bytecode for bug 1519005
