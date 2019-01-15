@@ -2,3 +2,4 @@
 1547083141 #jsapi experimenting with __attribute__((annotate("Method does not use 'this'")))
 1547509892 #jsapi first attempt at using lando. Initial impression: iz good!
 1547595770 #jsapi working on fixing SM(tsan)'s predilection for OOMing hard enough to kill the infra processes
+1547595803 #jsapi trying and failing to reproduce my nursery strings rr recording that now crashes rr on replay :(
