@@ -9,3 +9,4 @@
 1547177927 #jsapi Yep,  Gonna break Bug 1517409 into it and Bug 1519298. the latter will depend on some premarking changes.
 1547419005 #jsapi Good morning,  code reviews and bugmail.  Then dentist :-/
 1547445892 #jsapi I've been re-organising my patches, preparing some for review.
+1547524564 #jsapi Bug 1517409 ready for review
