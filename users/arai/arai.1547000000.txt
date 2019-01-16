@@ -16,3 +16,4 @@
 1547598565 #jsapi filed bug 1520353
 1547598589 #jsapi creating a list of jit-test subset for BinAST
 1547619046 #jsapi filed bug 1520392
+1547651481 #jsapi landed bug 1519302
