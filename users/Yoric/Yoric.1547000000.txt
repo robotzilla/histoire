@@ -1,3 +1,4 @@
 1547123074 #jsapi Bug 1519080 [BinAST] Version accept header - filed
 1547200746 #jsapi Grammar extension strategy for entropy - filed
 1547631824 #jsapi Utility: ContentInfo::get_mut_b
+1547631835 #jsapi Additional dependency: smallvec
