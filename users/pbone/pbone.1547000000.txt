@@ -13,3 +13,4 @@
 1547527854 #jsapi Tidying up some patches for Bug 1519298
 1547528131 #jsapi Reading about data structures for implementing remembered sets (curious, want to remind myself) (while I wait for mercurial)
 1547599830 #jsapi Filed bug 1520357
+1547600786 #jsapi Working on Bug 1470369, mostly rebasing it from my months-old patches and figuring out what was wrong with them.
