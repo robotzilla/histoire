@@ -4,3 +4,4 @@
 1547631835 #jsapi Additional dependency: smallvec
 1547631843 #jsapi Additional TokenReaderError error cases
 1547631852 #jsapi Debug: More complete debug messages for Path
+1547631859 #jsapi Utility: SharedStrings can now be converted to slices of bytes
