@@ -7,3 +7,4 @@
 1547631859 #jsapi Utility: SharedStrings can now be converted to slices of bytes
 1547631865 #jsapi Fixup: Increasing default compression quality for Brotli
 1547631873 #jsapi Byte-level: Implementing varfloat
+1547631883 #jsapi Doc: The library generator produces more comments
