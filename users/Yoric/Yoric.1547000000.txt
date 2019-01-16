@@ -6,3 +6,4 @@
 1547631852 #jsapi Debug: More complete debug messages for Path
 1547631859 #jsapi Utility: SharedStrings can now be converted to slices of bytes
 1547631865 #jsapi Fixup: Increasing default compression quality for Brotli
+1547631873 #jsapi Byte-level: Implementing varfloat
