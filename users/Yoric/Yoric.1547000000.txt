@@ -9,3 +9,4 @@
 1547631873 #jsapi Byte-level: Implementing varfloat
 1547631883 #jsapi Doc: The library generator produces more comments
 1547720935 #jsapi Published updated range-encoding crate.
+1547721159 #jsapi Published updated binjs_meta.
