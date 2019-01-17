@@ -17,3 +17,4 @@
 1547618807 #jsapi Got my patches rebased.  Now working out what kind of state they're in and what works/doesn't.
 1547685002 #jsapi Writing a patch for Bug 1520357 to help avoid adding new telemetry fields in GC objects.
 1547698479 #jsapi Posted patches for Bug 1520357
+1547701242 #jsapi Writing a 5th patch for Bug 1517409 to use Bug 1520357 and not add any new telemetry data.
