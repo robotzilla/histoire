@@ -10,3 +10,4 @@
 1547631883 #jsapi Doc: The library generator produces more comments
 1547720935 #jsapi Published updated range-encoding crate.
 1547721159 #jsapi Published updated binjs_meta.
+1547723828 #jsapi Bug 1520353 - Detect lexical variable earlier in BinAST. r?Yoric - reviewed
