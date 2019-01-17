@@ -1,1 +1,2 @@
 1547479655 #jsapi Investigate Bug 1519401 by reducing a test case using differential testing between x64 and arm64 (simulator).
+1547725020 #jsapi Fixing abusive memory consumption on Facebook based on jesup's logs (Bug 1520366)
