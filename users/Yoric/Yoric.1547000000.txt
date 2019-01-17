@@ -8,3 +8,4 @@
 1547631865 #jsapi Fixup: Increasing default compression quality for Brotli
 1547631873 #jsapi Byte-level: Implementing varfloat
 1547631883 #jsapi Doc: The library generator produces more comments
+1547720935 #jsapi Published updated range-encoding crate.
