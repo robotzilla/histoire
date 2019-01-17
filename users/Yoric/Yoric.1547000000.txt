@@ -11,3 +11,4 @@
 1547720935 #jsapi Published updated range-encoding crate.
 1547721159 #jsapi Published updated binjs_meta.
 1547723828 #jsapi Bug 1520353 - Detect lexical variable earlier in BinAST. r?Yoric - reviewed
+1547734754 #jsapi Bug 1495611 - Part 1: Add script to encode jit-tests into BinAST files. - reviewed
