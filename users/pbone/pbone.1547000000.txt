@@ -20,3 +20,4 @@
 1547701242 #jsapi Writing a 5th patch for Bug 1517409 to use Bug 1520357 and not add any new telemetry data.
 1547715513 #jsapi Prepearing perf.html part of Bug 1517409
 1547772590 #jsapi Working on Bug 1520076
+1547781340 #jsapi Addressing review and landing Bug 1520357
