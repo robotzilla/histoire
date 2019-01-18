@@ -13,3 +13,4 @@
 1547723828 #jsapi Bug 1520353 - Detect lexical variable earlier in BinAST. r?Yoric - reviewed
 1547734754 #jsapi Bug 1495611 - Part 1: Add script to encode jit-tests into BinAST files. - reviewed
 1547806206 #jsapi Investigate mechanisms to reduce the length of indices in content streams
+1547806226 #jsapi Investigate non-compressed streams
