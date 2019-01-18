@@ -15,3 +15,4 @@
 1547806206 #jsapi Investigate mechanisms to reduce the length of indices in content streams
 1547806226 #jsapi Investigate non-compressed streams
 1547806236 #jsapi Examine other forms of string sorting
+1547807476 #jsapi Entropy 0.2 ready for review!
