@@ -1,1 +1,2 @@
 1547822545 #jsapi landed more baseline refactorings; landed bytecode emitter prologue/main split to prepare for IC index changes; removing unused loopunroller code
+1547822600 #jsapi er, removed the prologue/main split
