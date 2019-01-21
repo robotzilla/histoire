@@ -1,2 +1,3 @@
 1548029336 #jsapi Submitted a new patch for Bug 1520076
 1548030821 #jsapi Back to performance testing for Bug 1497873
+1548040502 #jsapi Discovered some patches I had made to perf.html that I forgot to share.  Tidying them up a bit and seeing what's valuable.
