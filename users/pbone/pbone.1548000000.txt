@@ -3,3 +3,4 @@
 1548040502 #jsapi Discovered some patches I had made to perf.html that I forgot to share.  Tidying them up a bit and seeing what's valuable.
 1548049958 #jsapi reviewed Bug 1512042
 1548123036 #jsapi reviewed Bug 1521562
+1548127799 #jsapi New patch for Bug 1520076
