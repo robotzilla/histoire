@@ -1,3 +1,4 @@
 1548171735 #jsapi Brainstorming with arai best way to introduce and land a manner of producing deliberately-broken ASTs for testing.
 1548174445 #jsapi Measuring myself the size of a few files. With optimal dictionary, I get x1.02-x1.1 wrt Brotli on frameworks.
 1548252508 #jsapi Wasting time with Workday.
+1548254007 #jsapi Attempting to diagnose Bug 1521980 - moz-phab freezing during submission of potentially large commit
