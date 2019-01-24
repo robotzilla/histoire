@@ -4,3 +4,4 @@
 1548254007 #jsapi Attempting to diagnose Bug 1521980 - moz-phab freezing during submission of potentially large commit
 1548255780 #jsapi More tests for entropy 0.2
 1548272681 #jsapi Re-measuring Facebook compression with Entropy 0.2 and optimal dictionary, I get Brotli x 0.92
+1548338188 #jsapi Early prototype of fallback dictionary generator.
