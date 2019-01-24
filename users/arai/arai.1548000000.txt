@@ -2,3 +2,4 @@
 1548172694 #jsapi looking into bug 1521696
 1548210358 #jsapi landed bug 1495611 again
 1548235149 #jsapi investigating bug 1521696
+1548319874 #jsapi posted bug 1521696 patch. testing bug 1522096 patch
