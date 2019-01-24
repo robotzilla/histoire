@@ -6,3 +6,4 @@
 1548127799 #jsapi New patch for Bug 1520076
 1548129338 #jsapi Trying to bring my perf.html patches forward.
 1548210832 #developers Landed Bug 1520076
+1548304585 #jsapi rebased my changes that were regressing some things, now they're on central they seem to be making things faster.  THis is good but I don't know why.  Can I claim it as a victory even if I don't understand what's actually changed?  (Bug 1497873)
