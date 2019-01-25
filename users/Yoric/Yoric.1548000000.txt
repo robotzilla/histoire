@@ -9,3 +9,4 @@
 1548408210 #jsapi Bug 1522759 I'm still alive and I'd like to land patches :) - filed
 1548409053 #jsapi Bug 1522756 - Make it possible to encode specific files to BinAST, and add description - reviewed
 1548409184 #jsapi Bug 1522756 - Part 2: Add README.md to js/src/jit-test/tests/binast/ - reviewed
+1548409481 #jsapi  Bug 1522754 Intermittent make[3]: *** [force-cargo-host-program-build] Error 101 | After recipe for target 'force-cargo-host-program-build' failed - investigating
