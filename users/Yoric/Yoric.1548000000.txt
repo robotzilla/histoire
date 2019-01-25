@@ -8,3 +8,4 @@
 1548361729 #jsapi Bug 1521980 moz-phab freezing during submission when a diff contains binary files - investigating. Fun fact: ~4Mb in the patch seem to be the full content of files being *removed*.
 1548408210 #jsapi Bug 1522759 I'm still alive and I'd like to land patches :) - filed
 1548409053 #jsapi Bug 1522756 - Make it possible to encode specific files to BinAST, and add description - reviewed
+1548409184 #jsapi Bug 1522756 - Part 2: Add README.md to js/src/jit-test/tests/binast/ - reviewed
