@@ -10,3 +10,4 @@
 1548374920 #jsapi Kind of excited about the results for Bug 1497873. there are no major regressions and quite a few speedups.
 1548374941 #jsapi Now preparing Bug 1497873's patches for review.
 1548376356 #jsapi Learning about phabricator & lando.
+1548392192 #jsapi phabricator, lando, arcanist, phab-moz, herald and hg-evolve.  Oh my!
