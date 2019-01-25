@@ -11,3 +11,4 @@
 1548374941 #jsapi Now preparing Bug 1497873's patches for review.
 1548376356 #jsapi Learning about phabricator & lando.
 1548392192 #jsapi phabricator, lando, arcanist, phab-moz, herald and hg-evolve.  Oh my!
+1548396067 #jsapi Testing for Bug 1470369
