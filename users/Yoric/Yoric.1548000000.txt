@@ -6,3 +6,4 @@
 1548272681 #jsapi Re-measuring Facebook compression with Entropy 0.2 and optimal dictionary, I get Brotli x 0.92
 1548338188 #jsapi Early prototype of fallback dictionary generator.
 1548361729 #jsapi Bug 1521980 moz-phab freezing during submission when a diff contains binary files - investigating. Fun fact: ~4Mb in the patch seem to be the full content of files being *removed*.
+1548408210 #jsapi Bug 1522759 I'm still alive and I'd like to land patches :) - filed
