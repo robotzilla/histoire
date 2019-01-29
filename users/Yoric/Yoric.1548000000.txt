@@ -14,3 +14,4 @@
 1548430271 #jsapi First roundtrips with baseline dictionary.
 1548445671 #jsapi Compression results with Entropy 0.3 for Facebook samples seem to match the experience with framework samples, both in the optimal case (optimal dictionary – size unaffected wrt Entropy 0.2) and in the worst case (no/inapplicable dictionary – size = Brotli x 1.5)
 1548449960 #jsapi Preparing for FOSDEM.
+1548772395 #jsapi Ahah, made Entropy 0.3 muuuuuuch faster.
