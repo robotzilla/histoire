@@ -14,3 +14,4 @@
 1548396067 #jsapi Testing for Bug 1470369
 1548721829 #jsapi /win 10
 1548726848 #jsapi Preparing to land Bug 1497873
+1548728134 #jsapi Working on Bug 1470369 for a while, looks like I'm just going assertion-by-assertion to fix things up.
