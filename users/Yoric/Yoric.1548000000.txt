@@ -16,3 +16,4 @@
 1548449960 #jsapi Preparing for FOSDEM.
 1548772395 #jsapi Ahah, made Entropy 0.3 muuuuuuch faster.
 1548774666 #jsapi Entropy 0.3: Implementing baseline dictionaries #262 - up for review
+1548784368 #jsapi Determine which streams we need to focus on compressing better #258 - extracting some data
