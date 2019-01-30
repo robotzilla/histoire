@@ -16,3 +16,4 @@
 1548728134 #jsapi Working on Bug 1470369 for a while, looks like I'm just going assertion-by-assertion to fix things up.1548806185 #jsapi Working on Bug 1470369, fingers crossed for a green try run.
 1548811885 #jsapi Filed and wrote a patch for Bug 1523816, now teaking my phabricator command line stuff some more.
 1548812837 #jsapi YAY. filing bugs against moz-phab
+1548824590 #jsapi Rebasing and testing and stuff for Bug 1433007
