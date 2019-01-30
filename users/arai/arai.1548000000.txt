@@ -23,3 +23,4 @@
 1548836212 #jsapi landed bug 1519005
 1548837173 #jsapi thinking some more about BinAST+debugger
 1548837265 #jsapi reviewed bug 1523831
+1548845994 #jsapi reviewed https://github.com/binast/binjs-ref/pull/262
