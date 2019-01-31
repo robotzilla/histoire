@@ -21,3 +21,4 @@
 1548915686 #jsapi Reaching out to cyann.
 1548917059 #jsapi Entropy 0.3 is now PRed.
 1548928916 #jsapi Support WTF-8 in JSON format - reviewing.
+1548935070 #jsapi Entropy 0.3 has landed \o/
