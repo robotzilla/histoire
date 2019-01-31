@@ -19,3 +19,4 @@
 1548784368 #jsapi Determine which streams we need to focus on compressing better #258 - extracting some data
 1548858009 #jsapi Implement Library::spec()
 1548915686 #jsapi Reaching out to cyann.
+1548917059 #jsapi Entropy 0.3 is now PRed.
