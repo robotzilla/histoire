@@ -28,3 +28,4 @@
 1548863383 #jsapi merged https://github.com/binast/binjs-ref/pull/261
 1548864058 #jsapi opened https://github.com/binast/binjs-ref/pull/266
 1548930926 #jsapi reviewed https://github.com/binast/binjs-ref/pull/267
+1548954334 #jsapi landed bug 1501578
