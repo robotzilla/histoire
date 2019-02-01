@@ -1,2 +1,3 @@
 1549028538 confession two weeks of sick leave in January
 1549028568 confession revamped compiler switches in bug 1509441
+1549028594 confession bump cranelift in spidermonkey to 0.28 in bug 1522173
