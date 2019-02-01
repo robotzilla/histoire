@@ -4,3 +4,4 @@
 1549028615 confession investigated z3 emscripten-compiled regression in bug 1522458 and fixed it
 1549028635 confession updated Rust toolchain of aarch64 to use the latest stable in bug 1522803
 1549028666 confession make IONFLAGS logs more useful for wasm, and flag selection better in bug 1522882
+1549028693 confession investigated wasm compilation issue on aarch64 in bug 1523263 and proposed a patch (that might be the right one!)
