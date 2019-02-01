@@ -3,3 +3,4 @@
 1549028594 confession bump cranelift in spidermonkey to 0.28 in bug 1522173
 1549028615 confession investigated z3 emscripten-compiled regression in bug 1522458 and fixed it
 1549028635 confession updated Rust toolchain of aarch64 to use the latest stable in bug 1522803
+1549028666 confession make IONFLAGS logs more useful for wasm, and flag selection better in bug 1522882
