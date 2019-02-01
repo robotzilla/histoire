@@ -1,1 +1,2 @@
 1549018627 #jsapi almost figured out this devtools failure
+1549018674 #jsapi suckered myself into thinking I would find the fix to this devtools bug if I did just a *tad* bit more investigation, and now it's 03:00 and I should go home and rethink my decisions
