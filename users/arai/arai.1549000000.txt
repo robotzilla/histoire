@@ -7,3 +7,4 @@
 1549288575 #jsapi posted bug 1524969 patch
 1549288609 #jsapi filed bug 1524967
 1549294908 #jsapi posted bug 1524965 patch
+1549309653 #jsapi opened https://github.com/mrgiggles/histoire/pull/23
