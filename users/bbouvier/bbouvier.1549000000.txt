@@ -8,3 +8,4 @@
 1549028713 confession use test-also directive instead of custom test-also-wasm* directives in testing in bug 1523876
 1549028726 confession enhance debug capabilities for wasm in bug 1523993
 1549028852 confession added tests and a README file to https://github.com/bnjbvr/file-per-thread-logger
+1549359173 #jsapi reduced the Tanks demo to a shell test case to reproduce a Cranelift crash locally for bug 1506675
