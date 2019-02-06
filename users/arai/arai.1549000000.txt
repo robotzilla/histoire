@@ -10,3 +10,4 @@
 1549309653 #jsapi opened https://github.com/mrgiggles/histoire/pull/23
 1549313823 #jsapi landed bug 1524969
 1549379021 #jsapi landed bug 1518391
+1549435627 #jsapi posted possible fix for bug 1519037
