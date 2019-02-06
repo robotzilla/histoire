@@ -1,2 +1,3 @@
 1549253196 #jsapi Rebasing patches for Bug 1433007.
 1549415917 #jsapi I have working patches for Bug 1433007 and will now begin performance testing again.  Meanwhile working on Bug 1506761
+1549427689 #jsapi Scratching my chin looking at Bug 1519037 with arai
