@@ -11,3 +11,4 @@
 1549359173 #jsapi reduced the Tanks demo to a shell test case to reproduce a Cranelift crash locally for bug 1506675
 1549466049 #jsapi finished reducing Tanks demo into a Cranelift bug and fixed it https://github.com/CraneStation/cranelift/pull/667
 1549471532 #jsapi updated patches in bug 1523993 and sent them over to autoland
+1549556006 #jsapi back-and-forth on landing bug 1523993 (wasm debug enhancements)
