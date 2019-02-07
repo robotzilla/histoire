@@ -7,3 +7,4 @@
 1549105837 #jsapi Cleanup deps #269 - reviewed
 1549105841 #jsapi @FOSDEM
 1549106799 #jsapi Size script + early-flush corpus #276 - reviewing
+1549573113 #jsapi Issue #256 - Refactor to simplify experiments on indices. - PR
