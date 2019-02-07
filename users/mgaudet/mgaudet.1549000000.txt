@@ -2,3 +2,4 @@
 1549417474 #jsapi Posted patch for Bug 1519077, briefly looked at 1523515, and started implementing a pref for unboxed objects (needs testing)
 1549573389 #jsapi Battling mercurial: histedit hanging...
 1549580977 #jsapi Found and fixed Bug 1526024, wrote unit tests
+1549581088 #jsapi Background battling GC issues in Bug 1488579, hope to foreground soonish
