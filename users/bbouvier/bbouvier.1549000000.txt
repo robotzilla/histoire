@@ -12,3 +12,4 @@
 1549466049 #jsapi finished reducing Tanks demo into a Cranelift bug and fixed it https://github.com/CraneStation/cranelift/pull/667
 1549471532 #jsapi updated patches in bug 1523993 and sent them over to autoland
 1549556006 #jsapi back-and-forth on landing bug 1523993 (wasm debug enhancements)
+1549556055 #jsapi landed the temporary workaround to preserve TLS state when calling into Cranelift in bug 1525873
