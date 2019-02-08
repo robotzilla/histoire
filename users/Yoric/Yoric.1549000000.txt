@@ -10,3 +10,4 @@
 1549573113 #jsapi Issue #256 - Refactor to simplify experiments on indices. - PR
 1549631389 #jsapi New command-line tool: investigate_streams
 1549631398 #jsapi Test with bzip2
+1549631402 #jsapi Test with lzma
