@@ -3,3 +3,4 @@
 1549573389 #jsapi Battling mercurial: histedit hanging...
 1549580977 #jsapi Found and fixed Bug 1526024, wrote unit tests
 1549581088 #jsapi Background battling GC issues in Bug 1488579, hope to foreground soonish
+1549667182 #jsapi Run aground on a GC bug (may be attempting the impossible). It's friday though, so running away!
