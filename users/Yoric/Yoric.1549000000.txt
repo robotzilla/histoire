@@ -11,3 +11,4 @@
 1549631389 #jsapi New command-line tool: investigate_streams
 1549631398 #jsapi Test with bzip2
 1549631402 #jsapi Test with lzma
+1549639211 #jsapi Minor cleanup in/around LazyStream
