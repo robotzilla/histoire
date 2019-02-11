@@ -14,3 +14,4 @@
 1549556006 #jsapi back-and-forth on landing bug 1523993 (wasm debug enhancements)
 1549556055 #jsapi landed the temporary workaround to preserve TLS state when calling into Cranelift in bug 1525873
 1549556075 #jsapi opened bug 1525876 (could we unify FILES_PER_UNIFIED_FILE in js/src)
+1549880104 confession asm.js caching removal reviews in bug 1520931
