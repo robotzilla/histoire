@@ -17,3 +17,4 @@
 1549659725 #jsapi Weave string streams together? #279 - First implementation
 1549664773 #jsapi Investigate bwt to reduce the size of string references
 1549881511 #jsapi Investigate bwt to reduce the size of string references
+1549881513 #jsapi Mechanism to take advantage of entropy for user-extensible values
