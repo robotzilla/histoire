@@ -16,3 +16,4 @@
 1549655305 #jsapi  Investigate compressing string references with bitpacker #291
 1549659725 #jsapi Weave string streams together? #279 - First implementation
 1549664773 #jsapi Investigate bwt to reduce the size of string references
+1549881511 #jsapi Investigate bwt to reduce the size of string references
