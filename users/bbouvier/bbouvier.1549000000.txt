@@ -17,3 +17,4 @@
 1549880104 confession asm.js caching removal reviews in bug 1520931
 1549880510 confession read a lot of Cranelift meta crate code to try to make sense of it
 1549989106 confession review comments and landed https://github.com/CraneStation/cranelift/pull/667 (relaxation bug in cranelift)
+1549989224 #jsapi Cranelift: misc refactorings of the meta-crate, including conditional compilation of ISA targets through features in https://github.com/CraneStation/cranelift/pull/673
