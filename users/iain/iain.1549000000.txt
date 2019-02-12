@@ -1,0 +1,1 @@
+1549930788 #jsapi Just finished a prototype of template-based auto-generation of Cache IR opcode lengths and pretty-printing. Not sure if it is promising, horrifying, or both.
