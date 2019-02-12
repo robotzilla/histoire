@@ -20,3 +20,4 @@
 1549881513 #jsapi Mechanism to take advantage of entropy for user-extensible values
 1549989513 #jsapi Embedded sublanguages
 1549989541 #jsapi Investigate mechanisms to reduce the length of the main entropy stream
+1549989629 #jsapi Support JSON mode - I/O
