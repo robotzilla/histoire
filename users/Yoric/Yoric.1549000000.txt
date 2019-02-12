@@ -19,3 +19,4 @@
 1549881511 #jsapi Investigate bwt to reduce the size of string references
 1549881513 #jsapi Mechanism to take advantage of entropy for user-extensible values
 1549989513 #jsapi Embedded sublanguages
+1549989541 #jsapi Investigate mechanisms to reduce the length of the main entropy stream
