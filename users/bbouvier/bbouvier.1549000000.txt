@@ -16,3 +16,4 @@
 1549556075 #jsapi opened bug 1525876 (could we unify FILES_PER_UNIFIED_FILE in js/src)
 1549880104 confession asm.js caching removal reviews in bug 1520931
 1549880510 confession read a lot of Cranelift meta crate code to try to make sense of it
+1549989106 confession review comments and landed https://github.com/CraneStation/cranelift/pull/667 (relaxation bug in cranelift)
