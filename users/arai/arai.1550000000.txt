@@ -1,2 +1,3 @@
 1550011822 #jsapi testing BinAST on win32/android
 1550019321 #jsapi filed bug 1527515 and preparing patch
+1550022191 #jsapi posted bug 1527515 patch
