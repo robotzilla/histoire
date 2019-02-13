@@ -1,2 +1,3 @@
 1550023229 #jsapi Filed Bug 1527532 to separate a change from Bug 1433007
 1550031374 #jsapi Addressed reviews and resubmitted bug 1433007, Also submitted patches for bug 1527225 and bug 1527532
+1550037458 #jsapi Working on outstanding hashtable problem for Bug 1470369
