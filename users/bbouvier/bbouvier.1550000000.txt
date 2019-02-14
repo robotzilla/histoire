@@ -1,3 +1,4 @@
 1550053036 confession reviewed moar patches in bug 1520931
 1550056122 confession worked on bug 1525876 to simplify FILES_PER_UNIFIED_FILE
 1550153394 #jsapi submitted a patch to disable BinAST compilation in bug 1527861
+1550153427 #jsapi submitted a patch to use moz.configure more for Wasm/Nightly flags in bug 1524337
