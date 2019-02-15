@@ -10,3 +10,4 @@
 1550107503 #jsapi filed bug 1527791 and preparing patch
 1550125569 #jsapi landed bug 1524507
 1550195266 #jsapi posted bug 1527768 patch
+1550204056 #jsapi posted bug 1527791 patch
