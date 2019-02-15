@@ -7,3 +7,4 @@
 1550193959 #jsapi Looking at writing a simple patch for Bug 1526257, it's not as simple as I'd thought.
 1550195496 #jsapi landing Bug 1527225
 1550198477 #jsapi Getting a log file for Bug 1523057
+1550203811 #jsapi Here goes, landing Bug 1433007
