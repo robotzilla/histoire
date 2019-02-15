@@ -4,3 +4,4 @@
 1550153427 #jsapi submitted a patch to use moz.configure more for Wasm/Nightly flags in bug 1524337
 1550158505 confession red tape: booked train/hotel for medical assessment, "mutuelle" paperwork, etc.
 1550240542 confession confession, fixed two coverity checks and renamed things in the Wasm baseline compiler in bug 1528184
+1550240560 confession proposed a patch to make clang-format more parallel
