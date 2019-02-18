@@ -17,3 +17,4 @@
 1550471315 #jsapi experiment for bug 1499044
 1550477492 #jsapi reviewed https://github.com/binast/binjs-ref/pull/301
 1550520460 #jsapi preparing for bug 1524967.  this blocks faster prototype-build-test turnaround
+1550526048 #jsapi filed bug 1528837 and preparing patch
