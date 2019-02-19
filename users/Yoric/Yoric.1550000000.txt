@@ -8,3 +8,4 @@
 1550499073 #jsapi Introduce a LRU cache for the content identifier stream - PR
 1550522677 #jsapi Remove unused parts of binjs-generic - https://github.com/binast/binjs-ref/pull/311 - reviewed
 1550592551 #jsapi Entropy 0.4 statistics cleanup - https://github.com/binast/binjs-ref/pull/312
+1550592589 #jsapi Reducing sparsity of indices - https://github.com/binast/binjs-ref/issues/304 - experiments
