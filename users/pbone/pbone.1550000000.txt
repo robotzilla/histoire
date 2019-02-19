@@ -16,3 +16,4 @@
 1550538261 #jsapi About to write a patch for Bug 1506761 but first I want to tidy up some local mercurial history.
 1550545415 #jsapi Filed Bug 1528867
 1550549546 #jsapi Submitting patch for Bug 1506761
+1550554114 #jsapi Submitted patch for Bug 1528867
