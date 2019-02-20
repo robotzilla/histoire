@@ -1,2 +1,3 @@
 1550079832 #jsapi Removing the fun from the project (Bug 1527682)
 1550079927 #jsapi ARM64 jit-test are all green locally, running jsreftests locally (excepting the result another day)
+1550684099 #jsapi Emulating D&I cache coherency in the ARM64 simulator … now tracking all failures to figure out if this is an instrumentation bug or a real bug.
