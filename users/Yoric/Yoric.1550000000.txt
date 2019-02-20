@@ -12,3 +12,4 @@
 1550659869 #jsapi Resolves #313 - Get rid of hardcoded path /tmp - https://github.com/binast/binjs-ref/pull/317
 1550672914 #jsapi Wrote an add-on to scrap JS from websites, for testing purposes.
 1550693642 #jsapi Remove lifetime from Serialization trait - https://github.com/binast/binjs-ref/pull/319 - reviewed
+1550694045 #jsapi Bug 1528837 - Part 1: Rename {ParserBase,SharedContext}::context field to cx_ - reviewed
