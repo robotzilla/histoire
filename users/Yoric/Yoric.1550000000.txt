@@ -9,3 +9,4 @@
 1550522677 #jsapi Remove unused parts of binjs-generic - https://github.com/binast/binjs-ref/pull/311 - reviewed
 1550592551 #jsapi Entropy 0.4 statistics cleanup - https://github.com/binast/binjs-ref/pull/312
 1550592589 #jsapi Reducing sparsity of indices - https://github.com/binast/binjs-ref/issues/304 - experiments
+1550659869 #jsapi Resolves #313 - Get rid of hardcoded path /tmp - https://github.com/binast/binjs-ref/pull/317
