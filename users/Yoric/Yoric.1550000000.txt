@@ -14,3 +14,4 @@
 1550693642 #jsapi Remove lifetime from Serialization trait - https://github.com/binast/binjs-ref/pull/319 - reviewed
 1550694045 #jsapi Bug 1528837 - Part 1: Rename {ParserBase,SharedContext}::context field to cx_ - reviewed
 1550730853 #jsapi Add --gzip switch to allow benchmarking size against gzip #321 -- reviewed
+1550757771 #jsapi Rework predictors and Dictionary<> to minimize &mut requirements.- https://github.com/binast/binjs-ref/pull/322
