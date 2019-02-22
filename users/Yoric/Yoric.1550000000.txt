@@ -22,3 +22,4 @@
 1550839918 #jsapi Bug 1524967 - Check if BinAST auto-generated source is update in build.sh. - reviewed
 1550842785 #jsapi Bug 1529442 - Move BinASTParserBase fields to BinASTParserPerTokenizer.  - reviewed
 1550842858 #jsapi Bug 1529823 - Remove untagged tuple. - reviewed
+1550843005 #jsapi Bug 1529439 - Share variable redeclaration code between regular parser and BinAST parser - reviewed
