@@ -18,3 +18,4 @@
 1550769421 #jsapi Created https://github.com/Yoric/real-js-samples
 1550771673 #jsapi Add a few assertions to ensure that we don't duplicate Asserted names - https://github.com/binast/binjs-ref/pull/323
 1550817318 #jsapi Resolve #304 - Reduce sparsity of shared indices - https://github.com/binast/binjs-ref/pull/325
+1550839774 #jsapi Bug 1528837 - Part 14: Add ParserSharedBase class. - reviewed
