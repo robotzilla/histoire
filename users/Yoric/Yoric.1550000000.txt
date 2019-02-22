@@ -17,3 +17,4 @@
 1550757771 #jsapi Rework predictors and Dictionary<> to minimize &mut requirements.- https://github.com/binast/binjs-ref/pull/322
 1550769421 #jsapi Created https://github.com/Yoric/real-js-samples
 1550771673 #jsapi Add a few assertions to ensure that we don't duplicate Asserted names - https://github.com/binast/binjs-ref/pull/323
+1550817318 #jsapi Resolve #304 - Reduce sparsity of shared indices - https://github.com/binast/binjs-ref/pull/325
