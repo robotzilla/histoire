@@ -19,3 +19,4 @@
 1550771673 #jsapi Add a few assertions to ensure that we don't duplicate Asserted names - https://github.com/binast/binjs-ref/pull/323
 1550817318 #jsapi Resolve #304 - Reduce sparsity of shared indices - https://github.com/binast/binjs-ref/pull/325
 1550839774 #jsapi Bug 1528837 - Part 14: Add ParserSharedBase class. - reviewed
+1550839918 #jsapi Bug 1524967 - Check if BinAST auto-generated source is update in build.sh. - reviewed
