@@ -1,2 +1,3 @@
 1551063161 #jsapi The new GC_NURSERY_BYTES_2 telemetry histogram is now available.  Lookie: https://tinyurl.com/y3vrsyta  most users have really tiny nurseries most of the time since Bug 1433007 landed
 1551063600 #jsapi Landing Bug 1527532
+1551065841 #jsapi Triaging some bugs.
