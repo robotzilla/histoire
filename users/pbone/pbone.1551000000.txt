@@ -4,3 +4,4 @@
 1551068786 #jsapi Writing a patch for Bug 1528159
 1551152383 #jsapi Filed and submitted patches for Bug 1530573 and Bug 1530575
 1551159183 #jsapi I've been working on Bug 1528159 and it appears pretty simple, but I keep finding other problems.  Like it's possible to use gcparam and cause assertions due to the way I did rounding in Bug 1433007
+1551159423 #jsapi Filed Bug 1530583
