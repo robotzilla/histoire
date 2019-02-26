@@ -7,3 +7,4 @@
 1551153311 #jsapi prototyped https://github.com/arai-a/phabrinter
 1551157768 #jsapi partially reviewed bug 1530324
 1551185258 #jsapi reviewed remaining parts of bug 1530324
+1551189378 #jsapi reviewed https://github.com/binast/binjs-ref/pull/330
