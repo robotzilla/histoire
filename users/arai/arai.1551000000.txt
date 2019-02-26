@@ -8,3 +8,4 @@
 1551157768 #jsapi partially reviewed bug 1530324
 1551185258 #jsapi reviewed remaining parts of bug 1530324
 1551189378 #jsapi reviewed https://github.com/binast/binjs-ref/pull/330
+1551189536 #jsapi landed bug 1525855, bug 1530238, and bug 1530389
