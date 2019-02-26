@@ -4,3 +4,4 @@
 1551204943 #jsapi Remove unused get_temporary_file helper - reviewed
 1551205025 #jsapi Add thread stack size wrapper for binjs_decode - reviewed
 1551205172 #jsapi Use std::fs::{write, read_to_string} when possible
+1551205867 #jsapi Adding and calling {TokenReader, TokenWriter}::{enter_scoped_dictionary, exit_scoped_dictionary} - https://github.com/binast/binjs-ref/pull/334
