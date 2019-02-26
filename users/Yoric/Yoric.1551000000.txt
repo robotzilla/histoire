@@ -1,1 +1,2 @@
 1551188782 #jsapi Introducing a mechanism to instruct the encoder/decoder to switch dictionary - https://github.com/binast/binjs-ref/pull/330
+1551188919 #jsapi Add the ability to customize window-len-* from the command-line - landed
