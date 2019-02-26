@@ -3,3 +3,4 @@
 1551195416 #jsapi Getting back in touch with Martin Burtscher.
 1551204943 #jsapi Remove unused get_temporary_file helper - reviewed
 1551205025 #jsapi Add thread stack size wrapper for binjs_decode - reviewed
+1551205172 #jsapi Use std::fs::{write, read_to_string} when possible
