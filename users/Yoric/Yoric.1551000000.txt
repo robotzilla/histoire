@@ -2,3 +2,4 @@
 1551188919 #jsapi Add the ability to customize window-len-* from the command-line - landed
 1551195416 #jsapi Getting back in touch with Martin Burtscher.
 1551204943 #jsapi Remove unused get_temporary_file helper - reviewed
+1551205025 #jsapi Add thread stack size wrapper for binjs_decode - reviewed
