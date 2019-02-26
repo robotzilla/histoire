@@ -1,0 +1,1 @@
+1551195670 confession fixed a silly bug 1530641 (use FrameIter::hasScript() instead of raw script() to check for script existence)
