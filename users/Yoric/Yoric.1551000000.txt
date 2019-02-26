@@ -6,3 +6,4 @@
 1551205172 #jsapi Use std::fs::{write, read_to_string} when possible
 1551205867 #jsapi Adding and calling {TokenReader, TokenWriter}::{enter_scoped_dictionary, exit_scoped_dictionary} - https://github.com/binast/binjs-ref/pull/334
 1551214891 #jsapi Writing yet another size benchmark.
+1551215915 #jsapi This name is both non-const-lexical-bound and var-bound  - filed.
