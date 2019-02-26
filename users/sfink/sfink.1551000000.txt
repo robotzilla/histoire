@@ -1,1 +1,2 @@
 1551219689 #jsapi testing fix for win32/win64 build mixup
+1551219738 #jsapi fixing log overflow problem with new virtual resolution implementation to see if it caused the job to fail
