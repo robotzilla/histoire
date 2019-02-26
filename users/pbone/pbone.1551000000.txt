@@ -2,3 +2,4 @@
 1551063600 #jsapi Landing Bug 1527532
 1551065841 #jsapi Triaging some bugs.
 1551068786 #jsapi Writing a patch for Bug 1528159
+1551152383 #jsapi Filed and submitted patches for Bug 1530573 and Bug 1530575
