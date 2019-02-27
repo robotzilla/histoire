@@ -9,3 +9,4 @@
 1551215915 #jsapi This name is both non-const-lexical-bound and var-bound  - filed.
 1551217306 #jsapi Sublanguage: Arrays of {numbers, strings}
 1551221406 #jsapi Compare compression vs. Alexa top 50
+1551263142 #jsapi Issue 338 - Compare compression against a large sample  - https://github.com/binast/binjs-ref/pull/340
