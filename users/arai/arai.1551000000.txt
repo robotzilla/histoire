@@ -11,3 +11,4 @@
 1551189536 #jsapi landed bug 1525855, bug 1530238, and bug 1530389
 1551233844 #jsapi reviewed bug 1530745
 1551245344 #jsapi prototyping for https://github.com/binast/binjs-ref/issues/335
+1551248034 #jsapi posted https://github.com/binast/binjs-ref/pull/339
