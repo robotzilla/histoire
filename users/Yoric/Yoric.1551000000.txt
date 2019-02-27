@@ -11,3 +11,4 @@
 1551221406 #jsapi Compare compression vs. Alexa top 50
 1551263142 #jsapi Issue 338 - Compare compression against a large sample  - https://github.com/binast/binjs-ref/pull/340
 1551263240 #jsapi Fixes to sizes.py output format - reviewed
+1551269107 #jsapi Sharing binary samples with cyann and Martin Burtscher.
