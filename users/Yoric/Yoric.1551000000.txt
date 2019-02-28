@@ -16,3 +16,4 @@
 1551377252 #jsapi Add yarn.lock  - reviewed
 1551377327 #jsapi Switch benchmark test file to Angular - reviewed
 1551377479 #jsapi Always print output from test_external_roundtrip - reviewed
+1551379401 #jsapi Move FromShift conversion to JavaScript land - reviewed
