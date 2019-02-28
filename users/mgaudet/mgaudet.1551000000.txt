@@ -2,3 +2,4 @@
 1551150376 #jsapi Lost my mind by confusing what patch I landed this morning. I have no found it. I landed Bug 1524419 (not Bug 1526024 like I thought I had).
 1551219836 #jsapi Landed Bug 1526024,  Bug 1519077, and Bug 1530484. Working on setting up a new machine.
 1551318796 #jsapi Spent most of afternoon fathering, and evening fighting VMWare trying to give a VM a static IP (software is the worst).
+1551365201 #jsapi After a long battle, a static IP for my VM has been accomplished. -sigh-
