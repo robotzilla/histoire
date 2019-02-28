@@ -4,3 +4,4 @@
 1551318796 #jsapi Spent most of afternoon fathering, and evening fighting VMWare trying to give a VM a static IP (software is the worst).
 1551365201 #jsapi After a long battle, a static IP for my VM has been accomplished. -sigh-
 1551384760 #jsapi Experimenting with a good-first-bug template
+1551394380 #jsapi Prototyping instrumentation
