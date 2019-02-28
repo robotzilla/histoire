@@ -11,3 +11,4 @@
 1551238846 #jsapi Landing Bug 1506761
 1551239932 #jsapi reviewing Bug 1529428
 1551242550 #jsapi Working on Bug 1530583
+1551325471 #jsapi Been doing some profiling for Bug 1531088,  It's tricky because if the GC starts too soon (to attempt to free memory) it paradoxially frees _less_ memory because of snapshot-at-the-beginning.
