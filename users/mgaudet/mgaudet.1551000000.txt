@@ -5,3 +5,4 @@
 1551365201 #jsapi After a long battle, a static IP for my VM has been accomplished. -sigh-
 1551384760 #jsapi Experimenting with a good-first-bug template
 1551394380 #jsapi Prototyping instrumentation
+1551477525 #jsapi [ShypesDataGathering] Finding myself very thankful I decided to build some examples to run sensitivity analysis on before diving too deep. Current values I've gotten out make no sense so far. Not sure yet whether a bug in analysis or a bug in data production as of yet.
