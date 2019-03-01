@@ -1,3 +1,4 @@
 1551195670 confession fixed a silly bug 1530641 (use FrameIter::hasScript() instead of raw script() to check for script existence)
 1551195684 confession took a train to the paris office for mandatory medical assessment
 1551365563 #jsapi received new machine, installing linux
+1551463164 confession progress on the Cranelift meta rewrite https://github.com/bnjbvr/cranelift/commit/8baf39ba6c3ff09e0c93ee02feeeecb23ac799b5
