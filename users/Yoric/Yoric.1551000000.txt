@@ -18,3 +18,4 @@
 1551377479 #jsapi Always print output from test_external_roundtrip - reviewed
 1551379401 #jsapi Move FromShift conversion to JavaScript land - reviewed
 1551432908 #jsapi Extend the "next in prelude" mechanism to shared dictionary - looks like we can get ~0.5% improvement
+1551432938 #jsapi Bug 1531618 - Detect function declaration without appropriate scope and block it - reviewed
