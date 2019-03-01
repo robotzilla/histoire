@@ -14,3 +14,4 @@
 1551325471 #jsapi Been doing some profiling for Bug 1531088,  It's tricky because if the GC starts too soon (to attempt to free memory) it paradoxially frees _less_ memory because of snapshot-at-the-beginning.
 1551411771 #jsapi Wrote patch for Bug 1528159
 1551414319 #jsapi Submitted patch for Bug 1531540
+1551437452 #jsapi Initial patches for Bug 1531626 are done, they just need testing / double-checking to make sure they handle different possible values for minimum nursery size. particuarly WRT the funky multiple of 4k or NurseryChunkUsableSize requirements we have now, and various boundary conditions.
