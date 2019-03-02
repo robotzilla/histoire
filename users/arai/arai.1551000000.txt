@@ -20,3 +20,4 @@
 1551444047 #jsapi landed bug 1531618
 1551489423 #jsapi reviewed https://github.com/binast/binjs-ref/pull/347
 1551493071 #jsapi reviewed bug 1495072
+1551500889 #jsapi published https://addons.mozilla.org/en-US/firefox/addon/phabrinter/
