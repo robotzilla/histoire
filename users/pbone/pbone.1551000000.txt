@@ -16,3 +16,4 @@
 1551414319 #jsapi Submitted patch for Bug 1531540
 1551437452 #jsapi Initial patches for Bug 1531626 are done, they just need testing / double-checking to make sure they handle different possible values for minimum nursery size. particuarly WRT the funky multiple of 4k or NurseryChunkUsableSize requirements we have now, and various boundary conditions.
 1551654060 #jsapi Landing Bug 1531540
+1551656842 #jsapi Working on Bug 1531626 including review feedback of finished patches plus WIP patches.
