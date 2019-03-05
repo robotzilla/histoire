@@ -6,3 +6,4 @@
 1551384760 #jsapi Experimenting with a good-first-bug template
 1551394380 #jsapi Prototyping instrumentation
 1551477525 #jsapi [ShypesDataGathering] Finding myself very thankful I decided to build some examples to run sensitivity analysis on before diving too deep. Current values I've gotten out make no sense so far. Not sure yet whether a bug in analysis or a bug in data production as of yet.
+1551826981 confession Learned how to stream-parse JSON arrays to deal with data sets too big to just toss on the heap. https://github.com/uhop/stream-json/wiki/StreamArray is surprisingly really nice
