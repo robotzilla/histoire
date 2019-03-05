@@ -6,3 +6,4 @@
 1551780884 #jsapi started generating opcodes.rs in Cranelift#694
 1551784558 #jsapi exercised JavaScript foo in histoire#26
 1551792641 #jsapi adressed nits and landed histoire#26
+1551795048 #jsapi re-enable Cranelift subcrates testing with cranelift#696
