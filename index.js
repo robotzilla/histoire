@@ -254,6 +254,93 @@ function renderUser(name) {
     $LIST.appendChild(li);
 }
 
+function renderResults(userName, showUserLink, start, end, results) {
+    DOM.clearChildren($LIST);
+
+    if (results.length === 0) {
+        $HEADER_TITLE.textContent = "No updates found!";
+    } else {
+       // Sort results by reverse date before rendering them.
+       results.sort((a, b) => {
+           return a.when < b.when  ? 1
+                : a.when >= b.when ? -1
+                                   : 0;
+       });
+       $LIST.classList.add("update");
+       for (const result of results) {
+           addItem(result, showUserLink);
+       }
+    }
+
+    $HEADER_TITLE.textContent = `Updates for ${userName}`;
+
+    var start_input = document.createElement("input");
+    start_input.type = "date";
+    start_input.min = toDateInputString(OLDEST_ERA);
+    start_input.value = toDateInputString(start);
+
+    var end_input = document.createElement("input");
+    end_input.type = "date";
+    end_input.min = toDateInputString(OLDEST_ERA);
+    end_input.value = toDateInputString(end);
+
+    var change_button = document.createElement("button");
+    change_button.textContent = "Change";
+    change_button.addEventListener("click", () => {
+        var new_start = fromDateInputString(start_input.value);
+        var new_end = fromDateInputString(end_input.value);
+        var url = new URL(document.location);
+        url.searchParams.set("start", new_start);
+        url.searchParams.set("end", new_end);
+        document.location.href = url.toString();
+    });
+
+    $HEADER_DATE.appendChild(document.createTextNode("from "));
+    $HEADER_DATE.appendChild(start_input);
+    $HEADER_DATE.appendChild(document.createTextNode(" to "));
+    $HEADER_DATE.appendChild(end_input);
+    $HEADER_DATE.appendChild(document.createTextNode(" "));
+    $HEADER_DATE.appendChild(change_button);
+}
+
+function runTest() {
+    const start = 42;
+    const end = 1337;
+
+    const results = [
+        {
+            era: 42,
+            when: Date.now() / 1000,
+            user: "test user",
+            message: "Bug number test: bug 123",
+            channel: ""
+        },
+        {
+            era: 43,
+            when: Date.now() / 1000,
+            user: "test user",
+            message: "Simple link test: https://github.com/mrgiggles/histoire",
+            channel: ""
+        },
+        {
+            era: 44,
+            when: Date.now() / 1000,
+            user: "test user",
+            message: "Multiple regexp matches with text after: https://github.com/mrgiggles/histoire, bug 12345, text afterwards",
+            channel: ""
+        },
+        {
+            era: 45,
+            when: Date.now() / 1000,
+            user: "test user",
+            message: "Repository test: binjs-ref#334 (nonexistent repo: unknown#42)",
+            channel: ""
+        },
+    ];
+
+    renderResults("testing", /* showUserLink */ true, start, end, results);
+}
+
 function loadUsers() {
     return new Promise(resolve => {
         const xhr = new XMLHttpRequest();
@@ -376,8 +463,6 @@ async function loadUserNotes(user, start, end) {
         end = start;
     }
 
-    DOM.clearChildren($LIST);
-
     const resultPromises = [];
     for (let era = computeEra(end); era >= computeEra(start); era -= ERA_SECONDS) {
         for (const user of users) {
@@ -394,59 +479,20 @@ async function loadUserNotes(user, start, end) {
             })());
         }
     }
+
     // All attempted data is loaded.
     const results = [].concat(...await Promise.all(resultPromises));
-    if (results.length === 0) {
-        $HEADER_TITLE.textContent = "No updates found!";
-    } else {
-       // Sort results by reverse date before rendering them.
-       results.sort((a, b) => {
-           return a.when < b.when  ? 1
-                : a.when >= b.when ? -1
-                                   : 0;
-       });
-       const showUserLink = users.length > 1;
-       $LIST.classList.add("update");
-       for (const result of results) {
-           addItem(result, showUserLink);
-       }
-    }
-
     const userName = user === ALL_USERS ? "all users" : users.join(", ");
-    $HEADER_TITLE.textContent = `Updates for ${userName}`;
-
-    var start_input = document.createElement("input");
-    start_input.type = "date";
-    start_input.min = toDateInputString(OLDEST_ERA);
-    start_input.value = toDateInputString(start);
-
-    var end_input = document.createElement("input");
-    end_input.type = "date";
-    end_input.min = toDateInputString(OLDEST_ERA);
-    end_input.value = toDateInputString(end);
-
-    var change_button = document.createElement("button");
-    change_button.textContent = "Change";
-    change_button.addEventListener("click", () => {
-        var new_start = fromDateInputString(start_input.value);
-        var new_end = fromDateInputString(end_input.value);
-        var url = new URL(document.location);
-        url.searchParams.set("start", new_start);
-        url.searchParams.set("end", new_end);
-        document.location.href = url.toString();
-    });
-
-    $HEADER_DATE.appendChild(document.createTextNode("from "));
-    $HEADER_DATE.appendChild(start_input);
-    $HEADER_DATE.appendChild(document.createTextNode(" to "));
-    $HEADER_DATE.appendChild(end_input);
-    $HEADER_DATE.appendChild(document.createTextNode(" "));
-    $HEADER_DATE.appendChild(change_button);
+    const showUserLink = users.length > 1;
+    renderResults(userName, showUserLink, start, end, results);
 }
 
 var params = new URL(document.location).searchParams;
 var user = params.get("user");
-if (user) {
+var test = params.get("test");
+if (test) {
+    runTest();
+} else if (user) {
     loadUserNotes(user, params.get("start"), params.get("end"));
 } else {
     listUsers();
