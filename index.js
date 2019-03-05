@@ -10,6 +10,30 @@ var LOCALSTORAGE_USERS_LAST_ETAG_KEY = 'users-last-etag';
 
 const ALL_USERS = "*";
 
+// Maps repository name to repository owner.
+const KNOWN_REPOS_OWNERS = {
+    "binjs-ref": "binast",
+    "cranelift": "cranestation",
+    "histoire": "mrgiggles",
+};
+
+const SEARCHES = [
+    {
+        regexp: /bug (\d+)/ig,
+        createLink: match => urls.bug(match[1])
+    },
+    {
+        // Shamelessly taken from Stackoverflow:
+        // https://stackoverflow.com/questions/3809401/what-is-a-good-regular-expression-to-match-a-url
+        regexp: /https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)/ig,
+        createLink: match => match[0]
+    },
+    {
+        regexp: /([-a-zA-Z0-9_]+)#(\d+)/ig,
+        createLink: match => urls.github_pr(match[1], match[2])
+    }
+];
+
 var DOM = {
     create(tag, attrs = {}) {
         const node = document.createElement(tag);
@@ -54,6 +78,10 @@ var urls = {
     },
     user_page(username) {
         return `?user=${username}`;
+    },
+    github_pr(repository, prNumber) {
+        let owner = KNOWN_REPOS_OWNERS[repository.toLowerCase()];
+        return typeof owner === 'undefined' ? null : `https://github.com/${owner}/${repository}/pull/${prNumber}`;
     }
 }
 
@@ -95,41 +123,31 @@ function fromDateInputString(value) {
 
 // Linkify `message` string and add it to `parent` node.
 function linkifyAndAdd(parent, message) {
-    const searches = [
-        {
-            regexp: /bug (\d+)/i,
-            createLink: match => urls.bug(match[1])
-        },
-        {
-            // Shamelessly taken from Stackoverflow:
-            // https://stackoverflow.com/questions/3809401/what-is-a-good-regular-expression-to-match-a-url
-            regexp: /https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)/i,
-            createLink: match => match[0]
+    let matches = [];
+
+    for (let search of SEARCHES) {
+        const { regexp } = search;
+        let match = null;
+        while (match = regexp.exec(message)) {
+            let index = regexp.lastIndex - match[0].length;
+            matches.push({
+                search,
+                match,
+                index
+            });
         }
-    ];
+        regexp.lastIndex = 0;
+    }
 
-    while (true) {
-        let matches = [];
-        for (let search of searches) {
-            const match = message.match(search.regexp);
-            if (match !== null) {
-                matches.push({
-                    search,
-                    match
-                });
-            }
+    matches.sort((a, b) => a.index > b.index);
+
+    for (let i = 0; i < matches.length; i++) {
+        const { search, match } = matches[i];
+
+        const href = search.createLink(match);
+        if (href === null) {
+            continue;
         }
-
-        if (matches.length === 0) {
-            // Exit if no regular expressions matched.
-            break;
-        }
-
-        matches.sort((a, b) => message.indexOf(a.match[0]) > message.indexOf(b.match[0]));
-
-        // Only consider the first match; others will be handled in the next
-        // iterations.
-        const { search, match } = matches[0];
 
         const matched = match[0];
         const beforeText = message.substr(0, message.indexOf(matched));
@@ -137,7 +155,7 @@ function linkifyAndAdd(parent, message) {
 
         parent.appendChild(DOM.createText(beforeText));
 
-        const link = DOM.create("a", {href: search.createLink(match)});
+        const link = DOM.create("a", {href});
         link.textContent = matched;
         parent.appendChild(link);
 
