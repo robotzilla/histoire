@@ -4,3 +4,4 @@
 1551463164 confession progress on the Cranelift meta rewrite https://github.com/bnjbvr/cranelift/commit/8baf39ba6c3ff09e0c93ee02feeeecb23ac799b5
 1551780866 #jsapi reviewed Cranelift#693
 1551780884 #jsapi started generating opcodes.rs in Cranelift#694
+1551784558 #jsapi exercised JavaScript foo in histoire#26
