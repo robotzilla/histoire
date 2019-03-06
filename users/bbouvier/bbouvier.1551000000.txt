@@ -10,3 +10,4 @@
 1551810302 #jsapi bumped Cranelift to 0.29 in bug 1532689 (also tried experiments with conditional compilation, huh)
 1551866799 #jsapi disabled some tests with cranelift in bug 1532714
 1551873459 #jsapi tried to make a minimal test case for a rust bindgen issue and failed utterly
+1551873518 #jsapi cranelift 0.29: added some patches to bug 1532689 (rename fields, refactor things a bit, use conditional compilation to only select the JIT target for each arch)
