@@ -1,1 +1,2 @@
 1551292146 #jsapi Windows broke fmod while fixing fmod.. Bug 1527007
+1551913029 #jsapi Clean up JSScript initialization to not depend on itself (Bug 1533003)
