@@ -19,3 +19,4 @@
 1551656842 #jsapi Working on Bug 1531626 including review feedback of finished patches plus WIP patches.
 1551842000 #jsapi Filed and wrote tiny patch for Bug 517508
 1551842229 #jsapi Continuing work on Bug 1531626
+1551876967 #jsapi Submitting patches for Bug 1531626 and a follow-up patch for Bug 1528159 for review.
