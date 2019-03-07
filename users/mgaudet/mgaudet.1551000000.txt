@@ -9,3 +9,4 @@
 1551826981 confession Learned how to stream-parse JSON arrays to deal with data sets too big to just toss on the heap. https://github.com/uhop/stream-json/wiki/StreamArray is surprisingly really nice
 1551890785 confession Validating shypes data collection; simple scripts produce results I am reasonably happy with, but there are too many anomalies in the logs from a full browser build for me to say yay-or-nay yet.
 1551911513 confession Poking at the GCTracer as a saviour to some of my problems.
+1551997483 confession Stream parsing JSON in rust because node gets slow on big things (also, personal growth opportunity!)
