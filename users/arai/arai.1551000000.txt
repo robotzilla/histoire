@@ -25,3 +25,4 @@
 1551884397 #jsapi reviewed bug 1532265
 1551945002 #jsapi writing syntax-based fuzzer for BinAST
 1551948037 #jsapi my fuzzer hit assertion failure
+1551961973 #jsapi posted binjs-ref#351 patch
