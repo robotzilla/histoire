@@ -1,2 +1,3 @@
 1551198642 #jsapi getting extremely sophisticated help fixing hg in freenet's #mercurial channel
 1551974669 #jsapi landed patches to ship matchAll (bug 1531830)
+1551974838 #jsapi landed Scratchpad (!) patches in bug 1525395, the last dependency of bug 1495072 (faster `await`), but one of the other dependencies didn't actually work (bug 1530833) so I need to re-file
