@@ -398,6 +398,8 @@ async function getUserList() {
         }
     }
 
+    users.sort((a, b) => a.toLowerCase() > b.toLowerCase());
+
     return users;
 }
 
