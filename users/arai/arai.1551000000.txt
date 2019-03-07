@@ -23,3 +23,4 @@
 1551500889 #jsapi published https://addons.mozilla.org/en-US/firefox/addon/phabrinter/
 1551760332 #jsapi filed bug 1532517 and preparing patch
 1551884397 #jsapi reviewed bug 1532265
+1551945002 #jsapi writing syntax-based fuzzer for BinAST
