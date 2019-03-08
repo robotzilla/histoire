@@ -2,3 +2,4 @@
 1552028022 #jsapi posted patches to make XDR code not depend on manually aligning any data within XDR buffers, bug 1533636
 1552028058 #jsapi posted a patch to make an empty OCSP response not be mishandled if Vector::begin() can return nullptr, bug 1533640
 1552028118 #jsapi reviewed BigInt.asUintN fixes
+1552028406 #jsapi having muddled around with cset evolution and phabricator and bookmarks for a few days, I think I know enough now to not footgun myself
