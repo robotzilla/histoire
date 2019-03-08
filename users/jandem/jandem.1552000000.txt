@@ -1,1 +1,2 @@
 1552049266 #jsapi VMFunction refactoring progressing nicely, converted most of them. Bug 1530937
+1552049316 #jsapi refactoring XPCWrappedNativeScope alloc/free to be simpler to hopefully fix some issues, bug 1533302
