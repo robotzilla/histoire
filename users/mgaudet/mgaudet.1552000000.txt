@@ -1,0 +1,1 @@
+1552072563 confession Faced with having to annotate lifetimes for the first time, the programmer instead reaches for the .clone() hammer
