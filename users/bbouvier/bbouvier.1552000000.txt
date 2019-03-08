@@ -1,1 +1,2 @@
 1552041655 #jsapi landed cranelift bump in bug 1532689, re-working feature selection again (to not break MIPS/ppc etc builds)
+1552051007 #jsapi current status: writing a python meta-program to port python meta-program instructions to Rust meta-program instructions in Cranelift
