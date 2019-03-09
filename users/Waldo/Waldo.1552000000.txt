@@ -3,3 +3,4 @@
 1552028058 #jsapi posted a patch to make an empty OCSP response not be mishandled if Vector::begin() can return nullptr, bug 1533640
 1552028118 #jsapi reviewed BigInt.asUintN fixes
 1552028406 #jsapi having muddled around with cset evolution and phabricator and bookmarks for a few days, I think I know enough now to not footgun myself
+1552107545 #jsapi wishing Genesis 3:14 (real wrath-of-God-type stuff) on phabricator
