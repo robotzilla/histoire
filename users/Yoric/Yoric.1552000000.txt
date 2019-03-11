@@ -3,3 +3,4 @@
 1552312683 #jsapi Issue 338 - Compare compression against a large sample - landed
 1552314974 #jsapi Bug 1533620 - Verify that catch scope has correct item - reviewed
 1552317605 #jsapi Bug 1533711 - Provide class with method chain in filter_utils.py for BinAST invalid file test. - reviewed
+1552317825 #jsapi Bug 1532517 - Check identifier syntax in BinTokenReaderMultipart. - reviewed
