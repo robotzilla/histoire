@@ -7,3 +7,4 @@
 1552289572 #jsapi posted bug 1533711 patch
 1552303055 #jsapi looking for a flight that works
 1552315583 #jsapi reviewed https://github.com/binast/binjs-ref/pull/355
+1552320706 #jsapi landed bug 1532517, bug 1533620, and bug 1533711
