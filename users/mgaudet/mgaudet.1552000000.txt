@@ -1,1 +1,2 @@
 1552072563 confession Faced with having to annotate lifetimes for the first time, the programmer instead reaches for the .clone() hammer
+1552317370 confession Reviewing stack of patches for Iain on bug 1533890: Slow and steady wins the race
