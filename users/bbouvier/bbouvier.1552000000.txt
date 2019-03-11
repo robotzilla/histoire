@@ -2,3 +2,4 @@
 1552051007 #jsapi current status: writing a python meta-program to port python meta-program instructions to Rust meta-program instructions in Cranelift
 1552303194 #jsapi updating feature selection patch in bug 1532689 to include testing
 1552331697 #jsapi split commits to help reviews on Cranelift#694 and trying to get rid of the Python generation for instructions
+1552331717 #jsapi get rid of build warnings for tests in cranelift#703
