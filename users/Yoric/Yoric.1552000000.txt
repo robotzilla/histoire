@@ -1,2 +1,3 @@
 1552308765 #jsapi  Bug 1523609 nsChromeRegistryChrome::CheckForNewChrome should not be called during shutdown - I/O
 1552310984 #jsapi Eliminate dynamic trait object in Encoder::encode - reviewed
+1552312683 #jsapi Issue 338 - Compare compression against a large sample - landed
