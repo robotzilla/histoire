@@ -4,3 +4,4 @@
 1552048989 #jsapi reviewed https://github.com/binast/binjs-ref/pull/354
 1552107421 #jsapi revisiting bug 1507375
 1552107673 #jsapi I was waiting for new MS Edge to test their behavior around window.open, but I guess it won't become available shortly
+1552289572 #jsapi posted bug 1533711 patch
