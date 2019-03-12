@@ -1,1 +1,2 @@
 1552397151 #jsapi finally landed faster await (bug 1495072)
+1552397335 #jsapi implemented a follow-up fix for the new `await` semantics in bug 1534392
