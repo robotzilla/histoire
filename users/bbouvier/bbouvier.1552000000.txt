@@ -3,3 +3,4 @@
 1552303194 #jsapi updating feature selection patch in bug 1532689 to include testing
 1552331697 #jsapi split commits to help reviews on Cranelift#694 and trying to get rid of the Python generation for instructions
 1552331717 #jsapi get rid of build warnings for tests in cranelift#703
+1552389865 #confession made a PR for an overly cautious assertion in cranelift#708
