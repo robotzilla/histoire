@@ -5,3 +5,4 @@
 1552331717 #jsapi get rid of build warnings for tests in cranelift#703
 1552389865 #confession made a PR for an overly cautious assertion in cranelift#708
 1552389891 #confession cranelift#694: made the ergonomics of instructions definitions better, and split PR into 4 smaller ones
+1552400504 #jsapi reviewed bug 1529691 to run clang-format in parallel and made an adjustment to job scheduling in bug 1534630
