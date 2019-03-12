@@ -6,3 +6,4 @@
 1552317825 #jsapi Bug 1532517 - Check identifier syntax in BinTokenReaderMultipart. - reviewed
 1552318745 #jsapi Switching dictionaries whenever we encounter a node with a scoped_dic… - landed
 1552319453 #jsapi Move BinaryAST -> Shift JSON conversion to JS side - reviewed
+1552382202 #jsapi Bug 1534516 - Use correct AutoGCRooter::Tag in BinASTParserBase - reviewed
