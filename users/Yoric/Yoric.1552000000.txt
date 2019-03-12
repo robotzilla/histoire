@@ -9,3 +9,4 @@
 1552382202 #jsapi Bug 1534516 - Use correct AutoGCRooter::Tag in BinASTParserBase - reviewed
 1552396881 #jsapi Abstract away AST <-> JSON conversions in Rust - reviewed
 1552396981 #jsapi Looking at bit-patterns in varnum streams.
+1552401913 #jsapi Bug 1505343 - Part 1: Rename binsource => binast - reviewed
