@@ -10,3 +10,4 @@
 1552468933 #confession landed bug 1534630
 1552468947 #confession preparing for intern interview
 1552469000 #confession made pull request to display Cranelift results on AWFY https://github.com/mozilla-frontend-infra/firefox-performance-dashboard/pull/118
+1552478266 #confession fixed binast-disable builds in bug 1534958
