@@ -5,3 +5,4 @@
 1552440235 #jsapi Uploading updated patches for Bug 1531626
 1552446510 #jsapi Triaging new bugs.
 1552451226 #jsapi working on Bug 1518138
+1552536002 #jsapi Investigating Bug 1518138 - there probably wont be a tidy solution because it's an OOM during GC. but maybe I can work-around the problem.
