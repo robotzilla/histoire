@@ -16,3 +16,4 @@
 1552406065 #jsapi opened binjs-ref#358
 1552459493 #jsapi reviewed bug 1491055
 1552530103 #jsapi posted bug 1535206 and bug 1535175 patches
+1552543920 #jsapi posted bug 1535242 and bug 1530544 patches
