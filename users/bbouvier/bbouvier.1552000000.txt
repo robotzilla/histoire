@@ -12,3 +12,4 @@
 1552469000 #confession made pull request to display Cranelift results on AWFY https://github.com/mozilla-frontend-infra/firefox-performance-dashboard/pull/118
 1552478266 #confession fixed binast-disable builds in bug 1534958
 1552494816 #confession discussed with :decoder about fuzzing wasm
+1552586777 #confession started to port Cranelift legalization functions to the Rust crate
