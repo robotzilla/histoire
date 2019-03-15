@@ -13,3 +13,4 @@
 1552478266 #confession fixed binast-disable builds in bug 1534958
 1552494816 #confession discussed with :decoder about fuzzing wasm
 1552586777 #confession started to port Cranelift legalization functions to the Rust crate
+1552672232 #confession read a lot about the Cranelift legalization / type inference code
