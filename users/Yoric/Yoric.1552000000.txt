@@ -15,3 +15,4 @@
 1552414428 #jsapi Run only subset of testcases in roundtrip (fixes #200) - reviewed
 1552575892 #jsapi When writing streams of indices, pack content by bits
 1552595058 #jsapi eTA
+1552644505 #jsapi Move comments inside macros
