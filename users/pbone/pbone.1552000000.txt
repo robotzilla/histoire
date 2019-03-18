@@ -7,3 +7,4 @@
 1552451226 #jsapi working on Bug 1518138
 1552536002 #jsapi Investigating Bug 1518138 - there probably wont be a tidy solution because it's an OOM during GC. but maybe I can work-around the problem.
 1552879039 #jsapi Looking at Bug 1470369 while I wait for Windows stuff to install
+1552885176 #jsapi I got no-where with windbg it seems to be quite terrible.  Trying visual studio shomehow I guess.
