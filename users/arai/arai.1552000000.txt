@@ -21,3 +21,4 @@
 1552572462 #jsapi reviewed https://github.com/binast/binjs-ref/pull/359
 1552583068 #jsapi reviewed bug 1530754
 1552625842 #jsapi reviewed binjs-ref#361
+1552884706 #jsapi posted bug 1535981 patch
