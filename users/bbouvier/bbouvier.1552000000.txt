@@ -14,3 +14,4 @@
 1552494816 #confession discussed with :decoder about fuzzing wasm
 1552586777 #confession started to port Cranelift legalization functions to the Rust crate
 1552672232 #confession read a lot about the Cranelift legalization / type inference code
+1552915929 #jsapi make sure that compiling dead code in ion backend doesn't cause OOMs in bug 1536062
