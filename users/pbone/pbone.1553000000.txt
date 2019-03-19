@@ -1,1 +1,2 @@
 1553038197 #jsapi Reviewed a patch for Bug 1505574
+1553038238 #jsapi Fixed a patch for Bug 1531626 based on review.
