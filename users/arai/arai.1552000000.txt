@@ -24,3 +24,4 @@
 1552884706 #jsapi posted bug 1535981 patch
 1552887698 #jsapi filed bug 1535994 and preparing patch
 1552903856 #jsapi testing bug 1535994 patch, filed bug 1536037
+1552983239 #jsapi landed bug 1535242, bug 1530544, bug 1535243
