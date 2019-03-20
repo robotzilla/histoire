@@ -1,3 +1,4 @@
 1553082481 #jsapi testing bug 1536037 patch
 1553099253 #jsapi reviewed binjs-ref#366
 1553099266 #jsapi testing bug 1536037 patch
+1553114307 #jsapi reviewed bug 1495072 and bug 1537536
