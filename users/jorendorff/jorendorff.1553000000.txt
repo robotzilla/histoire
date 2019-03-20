@@ -1,2 +1,3 @@
 1553114669 #jsapi landed tiny patches in bug 1452473, bug 1534776, bug 1296236, and bug 1296235
 1553114758 #jsapi added a pref in bug 1495072, can reland preffed off after a try run
+1553114844 #jsapi landed another tiny patch in bug 1536887, skipping try because it's so small it could not possibly cause any problems of any kind
