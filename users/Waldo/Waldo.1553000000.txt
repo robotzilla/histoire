@@ -1,0 +1,1 @@
+1553047871 #jsapi figured out why the devtools failure happens for bug 1432176 -- the worker.js combined file is just too big, with too much code, and we parse it a bit too much because one function gets syntax-parsed *and* full-parsed even tho the one follows the other in pretty fast succession by module-DAG construction
