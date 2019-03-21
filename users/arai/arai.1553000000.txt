@@ -3,3 +3,4 @@
 1553099266 #jsapi testing bug 1536037 patch
 1553114307 #jsapi reviewed bug 1495072 and bug 1537536
 1553156128 #jsapi reviewed bug 1520996 patch
+1553166982 #jsapi reviewed binjs-ref#366, binjs-ref#369, binjs-ref#370, binjs-ref#371
