@@ -5,6 +5,4 @@
 1553129521 #jsapi Almost ready to land Bug 1531626 but first I will run some tests to check I havn't missed anything in the refactorings there.
 1553139084 #jsapi Filed Bug 1537652
 1553141775 #jsapi Looking for an easy solution to Bug 1518138
-1553211173 #jsapi Landing
-1553211178 #jsapi undo
 1553211206 #jsapi Landing Bug 1531626 and Bug 1528159
