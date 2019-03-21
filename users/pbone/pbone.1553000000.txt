@@ -4,3 +4,4 @@
 1553058792 #jsapi Working on Bug 1470369, trying to avoid situations where barriers are called during sweeping due to there still being nursery objects.
 1553129521 #jsapi Almost ready to land Bug 1531626 but first I will run some tests to check I havn't missed anything in the refactorings there.
 1553139084 #jsapi Filed Bug 1537652
+1553141775 #jsapi Looking for an easy solution to Bug 1518138
