@@ -1,3 +1,4 @@
 1553088819 #jsapi Introducing a new enum variant BinASTStolen to represent stolen AST nodes - landing
 1553162854 #jsapi Putting together a few ideas on TreeRePair
 1553162958 #jsapi Migrate from FromJSON / ToJSON to Serde - reviewed
+1553163753 #jsapi When enter_scoped_dictionary fails, cleanup before propagating the error - PR
