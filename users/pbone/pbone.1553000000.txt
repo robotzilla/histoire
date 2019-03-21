@@ -2,3 +2,4 @@
 1553038282 #jsapi I fixed a patch for Bug 1531626 based on review.
 1553050629 #jsapi Reading all about the Windows virtual memory system.
 1553058792 #jsapi Working on Bug 1470369, trying to avoid situations where barriers are called during sweeping due to there still being nursery objects.
+1553129521 #jsapi Almost ready to land Bug 1531626 but first I will run some tests to check I havn't missed anything in the refactorings there.
