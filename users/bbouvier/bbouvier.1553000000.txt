@@ -1,3 +1,4 @@
 1553275060 #jsapi Cranelift triage meeting was useful! \o/
 1553275084 #jsapi started rewriting Cranelift meta-language type inference to Rust, fun times
 1553275141 #confession adressed nits and landed bug 1536062 (don't abort ion compilation of wasm modules on unreachable code)
+1553275154 #confession answered to mailling-list about Spidermonkey build issues
