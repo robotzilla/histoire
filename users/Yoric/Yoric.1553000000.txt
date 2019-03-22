@@ -6,3 +6,4 @@
 1553163777 #jsapi Fix: Making sure that DictionaryBuilder::{enter, exit}_scoped_dictionary are actually called - PR
 1553168202 #jsapi Sublanguage support - PR
 1553183868 #jsapi Fixes #373 - Statistics on our use of probabilities - PR
+1553250180 #jsapi [Doc] Documenting a subset of the entropy 0.4 format
