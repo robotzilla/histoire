@@ -8,3 +8,4 @@
 1553531464 #confession reviewed cranelift#712
 1553531508 #confession reviewed and merged cranelift#658
 1553531579 #confession reviewed and merged https://github.com/CraneStation/target-lexicon/pull/8 + looked into how to make this automatic
+1553531603 #confession discussed with Lars about Cranelift questions
