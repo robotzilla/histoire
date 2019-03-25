@@ -6,3 +6,4 @@
 1553275227 #confession thought about ways to make Cranelift better and wrote about them in an email discussion
 1553275252 #confession wasm research intern interview
 1553531464 #confession reviewed cranelift#712
+1553531508 #confession reviewed and merged cranelift#658
