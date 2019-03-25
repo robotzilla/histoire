@@ -9,3 +9,4 @@
 1553215296 #jsapi Filed Bug 1538053
 1553225640 #jsapi More work on Bug 1470369 - it's not possible to statically know if a cell might be nursery allocated, so I can't statically ensure that hash table sweeping is safe.  And updating the barriers isn't safe either because they're called off-thread during sweeping.  We just have to do our best with not compacting these tables during off-thread sweeping.
 1553232865 #jsapi Fixing Bug 1531626 after it was backed-out.
+1553489205 #jsapi Progress on Bug 1470369: in endSweepPhase some xpconnect code can run and cause barriers to be executed in its interrection between ref-counted and GC'd memory.  It's a bit of a mess and so it's just easier to get the nursery evicted before we finish sweeping.
