@@ -5,3 +5,4 @@
 1553275162 #confession thought about and reviewed https://github.com/CraneStation/target-lexicon/pull/6
 1553275227 #confession thought about ways to make Cranelift better and wrote about them in an email discussion
 1553275252 #confession wasm research intern interview
+1553531464 #confession reviewed cranelift#712
