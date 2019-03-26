@@ -14,3 +14,4 @@
 1553493501 #jsapi ...Oh, that only works if it's not possible to yeild during finalisation.  I'll check that... whoops, any background sweeping threads can break this.
 1553493527 #jsapi I think I like 'confession', it's a need record of work. But also makes a great rubber-duck (debugger).
 1553559855 #jsapi I feel myself getting nerdsiped by Bug 1530397, which is probably a good thing so might look at that today.  Oh but I'd also like to finish off some other work..
+1553562344 #jsapi Running more tests for Bug 1470369
