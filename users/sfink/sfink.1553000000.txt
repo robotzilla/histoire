@@ -1,1 +1,2 @@
 1553540392 #jsapi ran out of power and rebooted with the test file I was working on in /tmp, thus losing it. Recovered it from an rr recording.
+1553618744 #jsapi fixed the incremental weakmap / wrapper nuking bug, which then broke lots more stuff (mostly because it doesn't like it when you nuke nursery objects)
