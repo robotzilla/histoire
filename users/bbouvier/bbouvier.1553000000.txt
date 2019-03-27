@@ -10,3 +10,4 @@
 1553531579 #confession reviewed and merged https://github.com/CraneStation/target-lexicon/pull/8 + looked into how to make this automatic
 1553531603 #confession discussed with Lars about Cranelift questions
 1553622024 #jsapi benjamin 0 - borrow checker 1 (just found that one data structure i thought was immutable and could be shared with Rc's is actually mutable)
+1553685066 #jsapi trying to update Cranelift in Spidermonkey, then needed to update a dependency in Cranelift, and then this dependency in a Cranelift's dependency, and then... in Cranelift#715
