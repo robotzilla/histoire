@@ -11,3 +11,4 @@
 1553517740 #jsapi Doc: Attempting to document content streams
 1553517758 #jsapi Doc: Attempting to document content streams
 1553698770 #jsapi Unifying command-line options for Enrich
+1553767000 #jsapi Travis: Attempting to automatize documentation generation
