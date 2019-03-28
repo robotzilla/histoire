@@ -13,3 +13,4 @@
 1553685066 #jsapi trying to update Cranelift in Spidermonkey, then needed to update a dependency in Cranelift, and then this dependency in a Cranelift's dependency, and then... in Cranelift#715
 1553686735 #jsapi prepared Cranelift#705, Cranelift#706 and Cranelift#708 for landing
 1553687421 #jsapi reviewed Cranelift#713
+1553788829 #confession reviewed bug 1539806 and bug 1529957
