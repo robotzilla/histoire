@@ -14,3 +14,4 @@
 1553767000 #jsapi Travis: Attempting to automatize documentation generation
 1553767008 #jsapi Linking entropy.md to documentation
 1553768674 #jsapi Attempting to document the main stream.
+1553851127 #jsapi Resolves #329 - Get rid of untagged_tuple
