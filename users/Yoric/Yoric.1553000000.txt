@@ -15,3 +15,4 @@
 1553767008 #jsapi Linking entropy.md to documentation
 1553768674 #jsapi Attempting to document the main stream.
 1553851127 #jsapi Resolves #329 - Get rid of untagged_tuple
+1553875167 #jsapi Discussing with Legal about publishing a repo of research data.
