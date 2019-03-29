@@ -20,3 +20,4 @@
 1553642398 #jsapi Landing Bug 1539031
 1553655374 #jsapi Working on a work-around for Bug 1518138
 1553817201 #jsapi Posted patch for Bug 1518138
+1553818004 #jsapi Posted patch for Bug 1539341
