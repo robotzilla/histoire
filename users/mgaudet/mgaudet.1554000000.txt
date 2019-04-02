@@ -1,2 +1,3 @@
 1554133437 #jsapi Got distracted trying to to understand fuzzilli (A 'new' JS fuzzer which has produced some interesting spidermonkey results) https://github.com/googleprojectzero/fuzzilli
 1554133472 #jsapi Working on ReceiverGuard
+1554240054 #jsapi Finally got some traction on trying to answer some questions I've had about ICs for a while; starting to gather data, sweet data... now to figure out how to refine said data into a usable product.
