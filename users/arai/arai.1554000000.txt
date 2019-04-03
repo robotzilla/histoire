@@ -7,3 +7,4 @@
 1554201257 #jsapi posted bug 1535994 patches
 1554254882 #jsapi reviewed bug 1541286
 1554271086 #jsapi experiment linking against brotli
+1554293869 #jsapi fixed binjs-ref#388
