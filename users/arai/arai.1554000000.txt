@@ -9,3 +9,4 @@
 1554271086 #jsapi experiment linking against brotli
 1554293869 #jsapi fixed binjs-ref#388
 1554361299 #jsapi preparing template for new format token reader
+1554377242 #jsapi reviewed binjs-ref#391
