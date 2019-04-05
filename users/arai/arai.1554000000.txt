@@ -11,3 +11,4 @@
 1554361299 #jsapi preparing template for new format token reader
 1554377242 #jsapi reviewed binjs-ref#391
 1554391373 #jsapi reviewed binjs-ref#395
+1554452791 #jsapi looking into bug 1539821
