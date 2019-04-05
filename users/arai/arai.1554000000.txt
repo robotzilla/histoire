@@ -12,3 +12,4 @@
 1554377242 #jsapi reviewed binjs-ref#391
 1554391373 #jsapi reviewed binjs-ref#395
 1554452791 #jsapi looking into bug 1539821
+1554461525 #jsapi reviewed bug 1542120 and bug 1542106
