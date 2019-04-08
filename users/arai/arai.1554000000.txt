@@ -18,3 +18,4 @@
 1554710563 #jsapi filed binjs-ref#397
 1554719148 #jsapi looked into bug 1542660
 1554744928 #jsapi filed bug 1542831
+1554745978 #jsapi filed bug 1542838
