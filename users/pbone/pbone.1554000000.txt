@@ -5,3 +5,4 @@
 1554255934 #jsapi Landing bug 1538594 and bug 1540670
 1554264211 #jsapi I have no idea WRT Bug 1275495  Some crashes have bad stacks (I think) others don't.  I guess we have multiple crashes mixed up in js::fun_apply
 1554264458 #jsapi Provided QA info for Bug 1519037
+1554702634 #jsapi Filed two PRs against "rustup" to improve some documentation and error messages.
