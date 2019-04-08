@@ -3,3 +3,4 @@
 1554240054 #jsapi Finally got some traction on trying to answer some questions I've had about ICs for a while; starting to gather data, sweet data... now to figure out how to refine said data into a usable product.
 1554328573 #jsapi Reviewed patches, mentoring, data munging, thinking and talking :)
 1554412959 #jsapi Reviewing patches. Inline cache experiments (initial results negative, alas)
+1554752164 #jsapi Re-read Fast and Precise Hybrid Type Inference for JavaScript, in light of my increased understanding of how SM works. Definitely an easier read these days than the first couple times I read it.
