@@ -22,3 +22,4 @@
 1554749284 #jsapi looked into weird syntax error in BinAST.  not yet reproducible for me
 1554750135 #jsapi reviewed bug 1535626
 1554765578 #jsapi reviewed bug 1542910
+1554793286 #jsapi investigated new Edge's behavior around window.open, and turned out it's same as Chrome (bug 1507375)
