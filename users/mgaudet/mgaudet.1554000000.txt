@@ -4,3 +4,4 @@
 1554328573 #jsapi Reviewed patches, mentoring, data munging, thinking and talking :)
 1554412959 #jsapi Reviewing patches. Inline cache experiments (initial results negative, alas)
 1554752164 #jsapi Re-read Fast and Precise Hybrid Type Inference for JavaScript, in light of my increased understanding of how SM works. Definitely an easier read these days than the first couple times I read it.
+1554776475 #jsapi Still not used to being able to edit Bugzilla comments.
