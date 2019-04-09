@@ -5,3 +5,4 @@
 1554412959 #jsapi Reviewing patches. Inline cache experiments (initial results negative, alas)
 1554752164 #jsapi Re-read Fast and Precise Hybrid Type Inference for JavaScript, in light of my increased understanding of how SM works. Definitely an easier read these days than the first couple times I read it.
 1554776475 #jsapi Still not used to being able to edit Bugzilla comments.
+1554826231 #jsapi clobber build pray clobber build pray
