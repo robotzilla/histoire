@@ -11,3 +11,4 @@
 1554704893 #jsapi Trued to reproduce Bug 1523057 with no luck.
 1554875434 #jsapi Forgot to include a test case with Bug 1540670, forgot to do "hg add".
 1554875464 #jsapi Wrote a simple patch for Bug 1542982.
+1554875546 #jsapi Now working on a benchmark microbenchmark for Bug 1532838, in addition to the realistic benchmark the bug calls for.  It'll be interesting to compare both.
