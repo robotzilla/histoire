@@ -1,1 +1,2 @@
 1554166124 #jsapi reviewing patches to have ECMA-402 invoke UTS 35; the relevant wording is...IMO not particularly pellucid
+1554861485 #jsapi landed correct column numbers for non-BMP UTF-16 parsing and anything but ASCII for actual UTF-8 parsing!  bug 1504947
