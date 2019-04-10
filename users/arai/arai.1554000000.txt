@@ -25,3 +25,4 @@
 1554793286 #jsapi investigated new Edge's behavior around window.open, and turned out it's same as Chrome (bug 1507375)
 1554822229 #jsapi landed bug 1535994
 1554887136 #jsapi landed bug 1535994 again
+1554890591 #jsapi filed bug 1543347
