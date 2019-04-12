@@ -1,1 +1,2 @@
 1555082493 #jsapi put up a patch for review in bug 1539406 (use pinned commits for Cranelift)
+1555082515 #jsapi ported Cranelift legalization to Rust code in Cranelift#733
