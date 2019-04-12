@@ -1,0 +1,1 @@
+1555083009 #jsapi Investigated classification of IC time in profiles, and opened bug https://bugzilla.mozilla.org/show_bug.cgi?id=1544036
