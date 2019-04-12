@@ -1,1 +1,2 @@
 1555083009 #jsapi Investigated classification of IC time in profiles, and opened bug https://bugzilla.mozilla.org/show_bug.cgi?id=1544036
+1555083050 #jsapi The profiler hasn't been auto-updating; the profiler team will be opening a bug to try to figure out why.
