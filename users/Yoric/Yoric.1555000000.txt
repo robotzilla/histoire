@@ -1,3 +1,4 @@
 1555331727 #jsapi Sync with Cloudflare
 1555340522 #jsapi In at least one test, we beat brotli on non-huge files, too.
 1555403439 #jsapi Keeping my calm.
+1555403612 #jsapi Starting conversation on possibly whitelisting cdnjs.
