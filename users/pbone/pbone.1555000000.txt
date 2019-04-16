@@ -1,2 +1,3 @@
 1555312308 #jsapi Started work on a microbenchmark for generational GC cache behaviour: https://github.com/PaulBone/moz-utils/tree/master/nursery-bench
 1555390473 #jsapi Filed two new bugs for minor things and wrote patches for them: Bug 1544648 and Bug 1544651.
+1555390596 #jsapi Writing a GC benchmark and wondering why part-way through the benchmark the tenure rate drops from 28%-ish to 0%-ish. it's supposed to have a really steady state.
