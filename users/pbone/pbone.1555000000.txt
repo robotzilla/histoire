@@ -2,3 +2,4 @@
 1555390473 #jsapi Filed two new bugs for minor things and wrote patches for them: Bug 1544648 and Bug 1544651.
 1555390596 #jsapi Writing a GC benchmark and wondering why part-way through the benchmark the tenure rate drops from 28%-ish to 0%-ish. it's supposed to have a really steady state.
 1555391069 #jsapi Oh, it's because I uncommented the code that disabled pretenuring and forgot to put it back in.
+1555397693 #jsapi Opened a PR against conduit-docs https://github.com/mozilla-conduit/conduit-docs/pull/10 to fix install instructions on Linux for moz-phab
