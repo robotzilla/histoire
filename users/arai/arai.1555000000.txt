@@ -6,3 +6,4 @@
 1555080166 #jsapi reviewed binjs-ref#401
 1555312656 #jsapi prototyping bug 1536037 patch
 1555326695 #jsapi thinking about rope-based faster BytecodeSection composition for bug 1464311
+1555411880 #jsapi filed bug 1544732
