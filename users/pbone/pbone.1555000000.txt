@@ -5,3 +5,4 @@
 1555397693 #jsapi Opened a PR against conduit-docs https://github.com/mozilla-conduit/conduit-docs/pull/10 to fix install instructions on Linux for moz-phab
 1555398072 #jsapi Filed bug 1544673 against moz-phab
 1555460086 #jsapi Landing Bug 1544648 and Bug 1544651
+1555496791 #jsapi Hopefully landing Bug 1542982.  Seems to be quite the backlog on autoland.
