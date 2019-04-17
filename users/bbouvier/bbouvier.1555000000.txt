@@ -2,3 +2,4 @@
 1555082515 #jsapi ported Cranelift legalization to Rust code in Cranelift#733
 1555338096 #jsapi reviewed bug 1544383, bug 1544041, Cranelift#629
 1555338114 #jsapi refactored some simple_preopt code in Cranelift#737
+1555519182 #confession investigating bug 1545086
