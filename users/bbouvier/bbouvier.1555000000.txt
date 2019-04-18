@@ -5,3 +5,4 @@
 1555519182 #confession investigating bug 1545086
 1555606324 #confession investigated why legalization would not happen in https://github.com/CraneStation/cranelift/issues/535
 1555606348 #confession split the gigantic Cranelift#733 PR into smaller commits
+1555606379 #confession fixed bug 1545086 (bad interactions for start function in a function table)
