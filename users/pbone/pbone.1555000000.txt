@@ -8,3 +8,4 @@
 1555496791 #jsapi Hopefully landing Bug 1542982.  Seems to be quite the backlog on autoland.
 1555496807 #jsapi not that I have to do anything. just nice to know the bugs land and get closed off.
 1555545388 #jsapi Attempting to reland Bug 1544648 after a backout.
+1555564562 #jsapi Gave Bug 1518138 quite a bit of thought, wondering if we're OOMing because a GC just hasn't finished yet.
