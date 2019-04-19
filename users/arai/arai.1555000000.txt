@@ -12,3 +12,4 @@
 1555532113 #jsapi prototyping LongJumpTarget for bug 1536037
 1555614843 #jsapi checking the affected parts for having the offset for inter-BytecodeSection jump for bug 1536037
 1555615001 #jsapi filed bug 1545540
+1555700212 #jsapi reviewed bug 1545782
