@@ -1,1 +1,2 @@
 1556038329 #confession bug 1546439 - bump Cranelift to a more recent version
+1556038347 #confession Cranelift: investigate a silly zero check in a divide that shouldn't happen, talk with others about it
