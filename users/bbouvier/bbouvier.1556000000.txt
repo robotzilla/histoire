@@ -2,3 +2,4 @@
 1556038347 #confession Cranelift: investigate a silly zero check in a divide that shouldn't happen, talk with others about it
 1556038373 #confession sync with lars and julian about regalloc
 1556038411 #confession look at ways to use cbindgen for Baldrdash; it may not be the right time yet...
+1556203607 #confession interview + interview feedback for Till's role
