@@ -1,3 +1,4 @@
 1556071313 #jsapi reviewed Bug 1545369
 1556071471 #jsapi I've been working on my nursery size benchmark for Bug 1532838
 1556258382 #jsapi Reporting a11y bugs.
+1556515999 #jsapi I've been working on some benchmarks.  It's comming along okay but it's fairly tedious.  It also looks like I may not be able to tease out the effect I was looking for.
