@@ -4,3 +4,4 @@
 1556038411 #confession look at ways to use cbindgen for Baldrdash; it may not be the right time yet...
 1556203607 #confession interview + interview feedback for Till's role
 1556550247 #confession allow fuzzing Cranelift again (combination of Cranelift#754 and bug 1547682)
+1556550466 #confession reviewed Cranelift#753
