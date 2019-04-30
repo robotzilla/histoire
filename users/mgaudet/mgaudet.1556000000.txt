@@ -1,2 +1,3 @@
 1556056265 #jsapi I seem to have broken raptor. Reviewing patches, mentoring contributor.
 1556571478 #jsapi Starting to poke around in ScriptLoader code. Initial cut is super broken, but, promising.
+1556637631 #jsapi A little sick -- may end up taking afternoon off. In the mean time, finally updating / replacing my linux VM that was created too small for mozilla work. (A plague of `no space left on device`)
