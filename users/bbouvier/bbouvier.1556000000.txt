@@ -9,3 +9,4 @@
 1556793016 #confession landed bug 1547682 and Cranelift#754
 1556793043 #confession landed Cranelift#750
 1556793073 #confession working on ability to add immediate variants for instructions in Cranelift in https://github.com/CraneStation/cranelift/issues/755
+1556811072 #confession interview + feedback for Till's role
