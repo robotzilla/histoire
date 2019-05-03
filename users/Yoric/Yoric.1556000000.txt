@@ -1,3 +1,4 @@
 1556044610 #jsapi Bug 1545751 - In BinAST, pass Context while parsing - submitted
 1556633381 #jsapi Working with rreverser on perf benchmark.
 1556801212 #jsapi Resolve #406 - exit_binding_identifier now handles lazy functions
+1556903663 #jsapi Bug 1230194 thrown exceptions during console evaluation don't have a stack - investigating binjs blocker
