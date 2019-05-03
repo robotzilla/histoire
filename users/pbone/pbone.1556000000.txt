@@ -6,3 +6,4 @@
 1556687117 #jsapi I've been experiementing with Bug 1548182, It's unclear why it regresses a couple of tests, but I'll run a couple more tests.  There's likely a big benifit we could get by doing an even better job of scheduling slices (Bug 1548185)
 1556711393 #jsapi Bug 1548182 wont do what I thought it would do. I closed it.
 1556761367 #jsapi Filed, wrote patch for and now landing Bug 1548161
+1556867418 #jsapi I've collected loads of data for Bug 1532838 and it looks like 256KB is the ideal nursery size for high allocation, low-tenure rate workloads.  I want a couple more datapoints before I can confirm it.
