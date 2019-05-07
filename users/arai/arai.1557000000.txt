@@ -1,2 +1,3 @@
 1557200567 #jsapi posted bug 1549340 patch
 1557202069 #jsapi reviewed https://github.com/binast/binjs-fbssdc/pull/1
+1557202325 #jsapi reviewed bug 1547039
