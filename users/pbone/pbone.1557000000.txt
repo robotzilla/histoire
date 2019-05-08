@@ -2,3 +2,4 @@
 1557140534 #jsapi I've been updating https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey/JSAPI_reference/JS_GetGCParameter with all the info about the various gcparams so that our fuzzers can use this information.
 1557205345 #jsapi Filled out the gcparam documentation at https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey/JSAPI_reference/JS_GetGCParameter
 1557207346 #jsapi Filed and submitted patches for Bug 1549660
+1557294977 #jsapi I added content to an MDN page and broke the layout because I'm not good at "web stuff"
