@@ -5,3 +5,4 @@
 1557389738 #jsapi Enjoying a lot Facebook's answer "no, we're not going to fix our bugs, look, you have bugs, too"
 1557391069 #jsapi Bug 1549953 - Add BinASTTokenReaderContext without implementation - reviewed
 1557411502 #jsapi Bug 1476073 Intermittent toolkit/components/filewatcher/tests/xpcshell/test_remove_non_watched.js | application crashed [@ mozalloc_abort] - investigating
+1557414466 #jsapi Hacking fbssdc into a format.
