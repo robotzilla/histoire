@@ -9,3 +9,4 @@
 1557337022 #jsapi landed bug 1546232
 1557397761 #jsapi posted bug 1549954 patch
 1557397768 #jsapi reviewed https://github.com/binast/binjs-fbssdc/pull/7
+1557398485 #jsapi looking into bug 1549340
