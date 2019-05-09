@@ -6,3 +6,4 @@
 1557297731 #jsapi finished updating docs at https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey/JSAPI_reference/JS_GetGCParameter
 1557297822 #jsapi Landing patches for Bug 1549660
 1557371587 #jsapi Filed Bug 1550382
+1557372707 #jsapi Investigating Bug 1533762 :-(
