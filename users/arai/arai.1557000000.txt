@@ -12,3 +12,4 @@
 1557398485 #jsapi looking into bug 1549340
 1557409309 #jsapi posted bug 1549340 patch
 1557416567 #jsapi reviewed https://github.com/binast/binjs-fbssdc/pull/8
+1557495106 #jsapi almost understand how the new format work
