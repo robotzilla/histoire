@@ -6,3 +6,4 @@
 1557391069 #jsapi Bug 1549953 - Add BinASTTokenReaderContext without implementation - reviewed
 1557411502 #jsapi Bug 1476073 Intermittent toolkit/components/filewatcher/tests/xpcshell/test_remove_non_watched.js | application crashed [@ mozalloc_abort] - investigating
 1557414466 #jsapi Hacking fbssdc into a format.
+1557495610 #jsapi Bug 1543375 [BinAST] Add the binjs-ref encoder to tooltool - I/O
