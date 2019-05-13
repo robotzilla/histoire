@@ -9,3 +9,4 @@
 1557495610 #jsapi Bug 1543375 [BinAST] Add the binjs-ref encoder to tooltool - I/O
 1557495617 #jsapi arai Ah, you too? :)
 1557739778 #jsapi Documenting context-0.1
+1557752024 #jsapi Attempting to specify the format
