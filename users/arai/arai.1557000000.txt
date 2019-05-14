@@ -17,3 +17,4 @@
 1557753407 #jsapi reviewing https://github.com/binast/binjs-fbssdc/pull/10
 1557755481 #jsapi landed bug 1549953
 1557825497 #jsapi filed bug 1551470, bug 1551471, and bug 1551473, prototyping them
+1557830568 #jsapi filed bug 1551489, and bug 1551501
