@@ -1,1 +1,2 @@
 1557356914 #jsapi merge tool of choice is moderately busted, rebasing things has ground to a crawl til sanity can be achieved again
+1557946692 #jsapi posted patches to make column number computations boundedly fast in all cases (bug 1551916)
