@@ -11,3 +11,4 @@
 1557406812 #jsapi I have an interesting idea and will tell you once the try build finishes ;-)
 1557463342 #jsapi My good idea looks quite good (according to perfherder) and I filed Bug 1550660 to follow through with it.
 1557979566 #jsapi I want to refactor our decommit code, I want to decommit various types of things.  I'm kicking around a couple of different ideas for represetning the "to be decommitted things"
+1557986907 #jsapi I now have a patch that incrementalises the decommit phase and runs it on main thread.  Now testing  (Bug 1550660)
