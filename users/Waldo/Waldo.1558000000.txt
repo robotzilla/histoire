@@ -1,2 +1,3 @@
 1558125097 #jsapi closed a three-year-old needinfo on bug 1241949 as obsoleted by subsequent developments and our generally making our encoding story for various chrome scripts sane
 1558400351 #jsapi much churning on UTF-8 to add off-thread compilation support, module compilation support
+1558400412 #jsapi looking at the various ScriptLoader.cpp and plotting how to adapt them for UTF-8, pref-controlled
