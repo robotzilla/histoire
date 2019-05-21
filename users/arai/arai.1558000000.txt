@@ -4,3 +4,4 @@
 1558358250 #jsapi sent email about BinAST/brotli to js-internal
 1558358357 #jsapi sent the email again with maybe-correct From field
 1558395902 #jsapi reviewed bug 1552977 and bug 1552979
+1558400011 #jsapi reviewed bug 1553001
