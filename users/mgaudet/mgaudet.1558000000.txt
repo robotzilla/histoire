@@ -1,2 +1,3 @@
 1558030746 #jsapi I continue to use histedit's `edit` function wrong.
 1558455374 #jsapi Correcting compartment errors in a patch
+1558642962 #jsapi Attempting to use FunctionBox to store arg count during parsing, and reconcile with JSFunction later. Not going well so far... this parser thing is complicated.
