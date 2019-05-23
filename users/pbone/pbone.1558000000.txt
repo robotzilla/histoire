@@ -6,3 +6,4 @@
 1558506021 #jsapi I've been working on incrementallising decommit.  This is useful if decommit runs in the forgroud, which is an option I want to test.
 1558576202 #jsapi landing Bug 1552401
 1558577739 #jsapi Filed
+1558577753 #jsapi Filed Bug 1553710 and will work on it this afternoon.
