@@ -8,3 +8,4 @@
 1558577739 #jsapi Filed
 1558577753 #jsapi Filed Bug 1553710 and will work on it this afternoon.
 1558577796 #jsapi Wrote a patch for Bug 1550660 and am now testing it.
+1558591764 #jsapi Wrote a patch for Bug 1553710 and now testing it.
