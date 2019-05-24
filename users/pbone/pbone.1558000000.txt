@@ -10,3 +10,4 @@
 1558577796 #jsapi Wrote a patch for Bug 1550660 and am now testing it.
 1558591764 #jsapi Wrote a patch for Bug 1553710 and now testing it.
 1558662097 #jsapi Landing Bug 1553710 fingers crossed for a nice memory usage win.
+1558676785 #jsapi Experimenting with yet another tweek to decommit code that may give a performance improvment at a slight cost in memory.  Trying to create less page-out/page-in churn.
