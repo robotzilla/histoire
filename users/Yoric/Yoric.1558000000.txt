@@ -6,3 +6,4 @@
 1558428425 #jsapi Decision Memo.
 1558945807 #jsapi Update itertools. - reviewing
 1558950605 #jsapi Bug 1553482 - Generating BINAST_TOTAL_NUMBER_OF_FIELDS, BINAST_NUMBER_OF_LIST_TYPES; - landed
+1558950615 #jsapi Bug 1553482 - Generating BinASTInterfaceAndField
