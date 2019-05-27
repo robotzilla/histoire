@@ -5,3 +5,4 @@
 1558082176 #jsapi Bug 1551489 - Part 2: Instantiate BinASTParser<BinASTTokenReaderContext>. - reviewed
 1558428425 #jsapi Decision Memo.
 1558945807 #jsapi Update itertools. - reviewing
+1558950605 #jsapi Bug 1553482 - Generating BINAST_TOTAL_NUMBER_OF_FIELDS, BINAST_NUMBER_OF_LIST_TYPES; - landed
