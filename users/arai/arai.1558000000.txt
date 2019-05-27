@@ -15,3 +15,4 @@
 1558653838 #jsapi posted bug 1545540 and bug 1553958 patches
 1558708247 #jsapi prototyping bug 1551878 patch
 1558709952 #jsapi posted bug 1551878 patch
+1558930457 #jsapi testing bug 1549954 patch on bug 1554086 patch
