@@ -1,0 +1,1 @@
+1559073874 #jsapi got DOM workers parsing directly from UTF-8 behind a nightly-enabled pref
