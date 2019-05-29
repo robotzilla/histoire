@@ -1,1 +1,2 @@
 1559021776 #jsapi I appear to have a working patch for Bug 1499570 and am beginning testing.
+1559109756 #jsapi got my glasses fixed, now landing Bug 1499570.
