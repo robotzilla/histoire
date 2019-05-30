@@ -2,3 +2,4 @@
 1559083629 #jsapi 8 reviews in bugs 1553744, 1545540, 1553958, and 1551176 (6 more to go in that one)
 1559083700 #jsapi turfed bug 1540640 to DOM, closed 1544197 as useless
 1559083816 #jsapi requested sec-approval on a thing; put a patch in bug 1555066
+1559247455 #jsapi two more reviews in bug 1545540; landed patches in bug 1549768, bug 1552632, bug 1536851, bug 1546145; sec-approval? in another bug
