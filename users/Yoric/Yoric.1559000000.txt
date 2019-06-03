@@ -4,3 +4,4 @@
 1559563215 #jsapi Bug 1552435 - Reading Huffman tables of sums
 1559563218 #jsapi Bug 1552435 - Reading Huffman tables of optional sums
 1559565734 #jsapi Bug 1552435 - Adapting to brotli reading API
+1559566073 #jsapi Bug 1552435 - Reading Huffman tables of JS numbers
