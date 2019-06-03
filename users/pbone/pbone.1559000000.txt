@@ -11,3 +11,4 @@
 1559278997 #jsapi So Bug 1555558 was backed out due to assertion failures with compacting. but it's a heisenbug. I think I know the cause but I want to catch it just to be sure I'm fixing the right thing
 1559281795 #jsapi found my bug, such a derp.
 1559525548 #jsapi Reviewing Bug 1555935
+1559543006 #jsapi Writing patches for Bug 1476845
