@@ -2,3 +2,4 @@
 1559128279 #jsapi Bug 1551878 - Implement reading string dictionary, without 0x01-escape handling.  - reviewed
 1559164352 #jsapi Bug 1551878 - Implement reading string dictionary, without 0x01-escape handling. - reviewed
 1559563215 #jsapi Bug 1552435 - Reading Huffman tables of sums
+1559563218 #jsapi Bug 1552435 - Reading Huffman tables of optional sums
