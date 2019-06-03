@@ -3,3 +3,4 @@
 1559249277 #jsapi Building myself a map of script parsing and emission to help orient things.
 1559331550 #jsapi The downside to using searchfox all the time is that you'll occasionally miss a great comment earlier in the file
 1559586589 #jsapi Reviewed bug 1467191
+1559594308 #jsapi Dumped the current notes I have about scripts up on github. Intention is to ask people to look over it, potentially help me fill it out, but not tonight. https://github.com/mgaudet/sm-script-notes/blob/master/README.md
