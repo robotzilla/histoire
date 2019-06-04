@@ -12,3 +12,4 @@
 1559281795 #jsapi found my bug, such a derp.
 1559525548 #jsapi Reviewing Bug 1555935
 1559543006 #jsapi Writing patches for Bug 1476845
+1559623086 #jsapi Let it be known asan + jemalloc = always segfaults all the time
