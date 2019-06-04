@@ -13,3 +13,4 @@
 1559525548 #jsapi Reviewing Bug 1555935
 1559543006 #jsapi Writing patches for Bug 1476845
 1559623086 #jsapi Let it be known asan + jemalloc = always segfaults all the time
+1559624848 #jsapi fixing Bug 1556137 - We can avoid memory leaks by allocating memory statically :P
