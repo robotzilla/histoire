@@ -1,1 +1,2 @@
 1559624882 #jsapi setting up my Windows dev environment to try to diagnose crashes resulting from incremental weakmap marking
+1559628078 #jsapi invalidating iterators
