@@ -11,3 +11,4 @@
 1559736818 #jsapi CIR...
 1559822990 #jsapi Bug 1552435 - Reading Huffman tables of string enums
 1559827026 #jsapi Bug 1552435 - Connecting the HuffmanPreludeReader
+1559829146 #jsapi fbssdc - Extending recursion limit
