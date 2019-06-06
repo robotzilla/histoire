@@ -6,3 +6,4 @@
 1559594308 #jsapi Dumped the current notes I have about scripts up on github. Intention is to ask people to look over it, potentially help me fill it out, but not tonight. https://github.com/mgaudet/sm-script-notes/blob/master/README.md
 1559678785 #jsapi Prototyping storing a tree of functions in the parser -- currently missing some inner functions tho
 1559770501 #jsapi taught self a bunch about debugger mochitests. Still haven't fixed issue, but made progress and learned things.
+1559835022 #jsapi Trying to remember the reasoning behind a 3-week old patch's correctness...
