@@ -9,3 +9,4 @@
 1559655995 #jsapi Bug 1552435 - More data on lists
 1559726856 #jsapi  Bug 1549386 PageThumbs.jsm / PageThumbWorker.js do not deal with unicode profile names
 1559736818 #jsapi CIR...
+1559822990 #jsapi Bug 1552435 - Reading Huffman tables of string enums
