@@ -15,3 +15,4 @@
 1559623086 #jsapi Let it be known asan + jemalloc = always segfaults all the time
 1559624848 #jsapi fixing Bug 1556137 - We can avoid memory leaks by allocating memory statically :P
 1559785332 #jsapi Landing Bug 1556137
+1559799765 #jsapi Open telemetry schema PR https://github.com/mozilla-services/mozilla-pipeline-schemas/pull/339
