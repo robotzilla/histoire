@@ -3,3 +3,4 @@
 1559083700 #jsapi turfed bug 1540640 to DOM, closed 1544197 as useless
 1559083816 #jsapi requested sec-approval on a thing; put a patch in bug 1555066
 1559247455 #jsapi two more reviews in bug 1545540; landed patches in bug 1549768, bug 1552632, bug 1536851, bug 1546145; sec-approval? in another bug
+1559944392 #jsapi landed minor patches in bug 1547561, bug 1556136, bug 1555066; sent email about frontend meeting; thought about WeakRefs; helped with a GC/CC issue; worked on bug 1555037
