@@ -18,3 +18,4 @@
 1559898450 #jsapi Trying to get Comms in the loop for the next BinAST partner announcement.
 1559898950 #jsapi Bug 1544734 - Extend the list of BinAST test domains to CloudFlare
 1559899210 #jsapi Bug 1551471 - [BinAST] Sniff BinAST file and dispatch multipart or context - thinking about alternatives.
+1559901496 #jsapi Let's see if `./mach vendor rust` works these days.
