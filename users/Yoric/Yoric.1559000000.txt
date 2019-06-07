@@ -19,3 +19,4 @@
 1559898950 #jsapi Bug 1544734 - Extend the list of BinAST test domains to CloudFlare
 1559899210 #jsapi Bug 1551471 - [BinAST] Sniff BinAST file and dispatch multipart or context - thinking about alternatives.
 1559901496 #jsapi Let's see if `./mach vendor rust` works these days.
+1559907012 #jsapi How do I implement an efficient Huffman lookup?
