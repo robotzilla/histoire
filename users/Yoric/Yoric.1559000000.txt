@@ -16,3 +16,4 @@
 1559829657 #jsapi Having fun dealing with git conflicts vs facebook.
 1559897283 #jsapi binjs-ref Making TypeName more reproducible
 1559898450 #jsapi Trying to get Comms in the loop for the next BinAST partner announcement.
+1559898950 #jsapi Bug 1544734 - Extend the list of BinAST test domains to CloudFlare
