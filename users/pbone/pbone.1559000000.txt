@@ -17,3 +17,4 @@
 1559785332 #jsapi Landing Bug 1556137
 1559799765 #jsapi Open telemetry schema PR https://github.com/mozilla-services/mozilla-pipeline-schemas/pull/339
 1559800676 #jsapi made two mistakes today due to not reading instructions.  Thinking maybe this is not a good day to drive, operate heavy machinary or contribute code to a major piece of internet infrastructure.
+1559884538 #jsapi Nerdsiped by Bug 1557343
