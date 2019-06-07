@@ -4,3 +4,4 @@
 1559706523 #jsapi still prototyping rope-based composition.  this will require several more rewrite around the code that uses BytecodeOffset
 1559788021 #jsapi reviewed bug 1557193
 1559846235 #jsapi reviewed bug 1552435
+1559874453 #jsapi looking into bug 1557056
