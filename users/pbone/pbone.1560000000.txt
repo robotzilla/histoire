@@ -1,0 +1,1 @@
+1560316773 #jsapi I've been working on Bug 1557928 I have a fix and am now adding a refactoring change.  But I'm not sure my fix is "correct" and will have to ask jonco during code review.
