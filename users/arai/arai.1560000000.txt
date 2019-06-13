@@ -3,3 +3,4 @@
 1560222493 #jsapi filed bug 1558385
 1560302939 #jsapi reviewed bug 1555037
 1560332440 #jsapi reviewed bug 1553540
+1560416813 #jsapi reading some documentation about media type
