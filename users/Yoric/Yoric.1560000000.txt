@@ -7,3 +7,4 @@
 1560503048 #jsapi Lightning Talk
 1560905543 #jsapi Brainstorming shared dictionaries, security with annevk, mt.
 1560905557 #jsapi Brainstorming front-end strategies.
+1560975981 #jsapi async/await is not part of ES6
