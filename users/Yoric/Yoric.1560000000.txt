@@ -6,3 +6,4 @@
 1560502110 #jsapi Requirements for user-provided dictionaries - starting the conversation
 1560503048 #jsapi Lightning Talk
 1560905543 #jsapi Brainstorming shared dictionaries, security with annevk, mt.
+1560905557 #jsapi Brainstorming front-end strategies.
