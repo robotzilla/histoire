@@ -8,3 +8,4 @@
 1560517856 #jsapi reviewed bug 1533308
 1560576034 #jsapi reviewed bug 1557738
 1560884588 #jsapi posted bug 1558642 patch
+1560945570 #jsapi bytecode composition patch passed try run, except that I used only one section.  next step is to test with multiple sections
