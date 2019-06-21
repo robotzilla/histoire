@@ -2,3 +2,4 @@
 1561071458 #jsapi bytecode composition with multiple sections now works with some testcases
 1561122423 #jsapi bytecode composition is almost working
 1561136301 #jsapi filed bug 1560561 and bug 1560560
+1561141878 #jsapi bytecode composition patch passed try run, using multiple sections
