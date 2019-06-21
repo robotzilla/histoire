@@ -1,3 +1,4 @@
 1561070889 #jsapi now I feel every each "index into a certain array" should have different type, not `uint32_t`
 1561071458 #jsapi bytecode composition with multiple sections now works with some testcases
 1561122423 #jsapi bytecode composition is almost working
+1561136301 #jsapi filed bug 1560561 and bug 1560560
