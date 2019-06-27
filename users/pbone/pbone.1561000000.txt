@@ -8,3 +8,4 @@
 1561531528 #jsapi I fixed (probably) my patches for Bug 1506733, but ./mach try is hanging so *shrug* I don't know.  I'll lit it wait a few hours and see what happens.
 1561597553 #jsapi a couple of weeks ago I successfully built the shell with address sanitiser. I should have made notes because it's not working today..
 1561598486 #jsapi it's --diable-jemalloc
+1561606099 #jsapi Woo, race condition, havn't had one of those in a while.
