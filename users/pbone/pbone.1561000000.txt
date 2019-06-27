@@ -9,3 +9,4 @@
 1561597553 #jsapi a couple of weeks ago I successfully built the shell with address sanitiser. I should have made notes because it's not working today..
 1561598486 #jsapi it's --diable-jemalloc
 1561606099 #jsapi Woo, race condition, havn't had one of those in a while.
+1561616947 #jsapi I have a "How did this ever work" bug.
