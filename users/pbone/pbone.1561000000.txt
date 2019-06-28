@@ -15,3 +15,4 @@
 1561694774 #jsapi ISP keeps unplugging my internet connection.
 1561726757 #jsapi Getting a new voluneteer's patches landed ;-)
 1561729272 #jsapi I've written a patch to tighten asan (Bug 1561832), but there are asan failures on try.  On monday I will figure out if they're my fault or problems that are now being detected.
+1561729303 #jsapi Updated patches for Bug 1506733, but waiting on the above asan issue.
