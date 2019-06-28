@@ -1,1 +1,2 @@
 1561050733 #jsapi the meta-PR is up! Cranelift#799
+1561724138 #jsapi wrote a long email explaining how to add encodings to a Cranelift contributor
