@@ -2,3 +2,4 @@
 1561724138 #jsapi wrote a long email explaining how to add encodings to a Cranelift contributor
 1561729343 #jsapi reorganized Baldrdash code in bug 1562185
 1561729415 #jsapi fixed a sec bug
+1561739620 #jsapi moar contributor help (followup email + irc)
