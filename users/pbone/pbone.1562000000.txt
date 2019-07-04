@@ -1,1 +1,2 @@
 1562223343 #jsapi Submitted 4 patches for Bug 1562550, but I think there's more to add here.
+1562223420 #jsapi Updated patches for Bug 1506733, I'm confident that this works now.
