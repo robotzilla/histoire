@@ -2,3 +2,4 @@
 1562251843 #jsapi Mildly losing my mind in my local tree... probably time to do some well past due pruning. 'rediscovered' a fix for a patch that was backed out... starting to suspect I landed an old version because of tree confusion.
 1562254825 #jsapi Tracked a curious comment back to "ddc67e87: Initial checkin of JavaScript 1.3, migrated from JSFUN13_BRANCH in /m/src repository"... wonder if it's even still true.
 1562267081 #jsapi Maybe finished my patch... 😮 Been a long time coming :D
+1562356377 #jsapi oops; garbled an old prototype patch of mine by forgetting that despite not having to use `hg add` on changed files, you *do* have to use it on added files; one point for git.
