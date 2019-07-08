@@ -2,3 +2,4 @@
 1562223420 #jsapi Updated patches for Bug 1506733, I'm confident that this works now.
 1562298147 #jsapi I wrote some patches for Bug 1562187 but hit Bug 1563653 while I was trying to test it.
 1562298168 #jsapi Also generally building up a bit of a queue of patches (only 12) that are waiting for the freeze to end.
+1562553807 #jsapi Trying to get a better DSL connection / get fiber.
