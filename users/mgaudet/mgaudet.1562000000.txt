@@ -4,3 +4,4 @@
 1562267081 #jsapi Maybe finished my patch... 😮 Been a long time coming :D
 1562356377 #jsapi oops; garbled an old prototype patch of mine by forgetting that despite not having to use `hg add` on changed files, you *do* have to use it on added files; one point for git.
 1562615721 #jsapi Better understanding how bytecode emission proceeds, with a goal of trying to understand where the GC/no-GC line will be drawn for emitScript when it's possible.
+1562706910 #jsapi Took more notes on bytecode emission; Prototyped deferred lazy-script creation; it compiles is about the sum of the success thus far.
