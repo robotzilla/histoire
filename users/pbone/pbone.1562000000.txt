@@ -6,3 +6,4 @@
 1562629691 #jsapi Soft freeze is thawed. Landing some patches ;-)
 1562638332 #jsapi Submit patches for Bug 1562550
 1562650134 #jsapi Submitting Bug 1562187 patches for review
+1562651090 #jsapi Submitting patches for Bug 1564313
