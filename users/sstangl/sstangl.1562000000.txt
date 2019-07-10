@@ -2,3 +2,4 @@
 1562706060 #jsapi Discussed possible branch design, using jump-blocks and no parameters. Read through EBB code; investigated EBB size (EbbData=4, EbbNode=20); talked with nbp about cache locality issues and data structures. Created a WIP bzr2 CLIF IR instruction using the new branch style. Submitted patch to binaryen to fix compilation failures when running
 1562706615 #jsapi (continued from previous) ...when running Cranelift tests locally (https://github.com/WebAssembly/binaryen/pull/2211). Got bzr2 passing verifier tests.
 1562787617 #jsapi Fixed home Internet connection. Submitted half a year's worth of expense reports. Considered an instruction design proposal from Nicolas -- had the idea also: two people having the same idea means it's maybe not crazy!
+1562794080 #jsapi Worked on defining an argument-less BranchInfo::DoubleDest. SSA conversion seems to require critical-edge splitting. Need to read through frontend SSA code very carefully tomorrow.
