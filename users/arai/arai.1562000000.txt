@@ -2,3 +2,4 @@
 1562604777 #jsapi reviewed bug 1558914 and bug 1564117
 1562676744 #jsapi trying to figure out a way to block spammy slack bots
 1562724308 #jsapi reviewed bug 1564589
+1562853519 #jsapi added spec history to ecma262-compare, for each revision
