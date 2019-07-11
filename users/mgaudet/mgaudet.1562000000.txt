@@ -6,3 +6,4 @@
 1562615721 #jsapi Better understanding how bytecode emission proceeds, with a goal of trying to understand where the GC/no-GC line will be drawn for emitScript when it's possible.
 1562706910 #jsapi Took more notes on bytecode emission; Prototyped deferred lazy-script creation; it compiles is about the sum of the success thus far.
 1562791397 #jsapi Trying to rework my function tree building to piggy-back on ParseContext stack, to avoid lost syntax-only parses
+1562879722 #jsapi Made steady progress on deferred lazyscript allocation (though, one wonders if it's <strike>turtles</strike> bugs all the way down.)
