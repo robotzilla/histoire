@@ -4,3 +4,4 @@
 1562724308 #jsapi reviewed bug 1564589
 1562853519 #jsapi added spec history to ecma262-compare, for each revision
 1562872794 #jsapi landing bug 1563489
+1562935906 #jsapi with 1MB very simple binjs file, achieved 1.8x performance improvement with streaming compilation
