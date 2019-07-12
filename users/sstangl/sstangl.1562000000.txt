@@ -4,3 +4,4 @@
 1562787617 #jsapi Fixed home Internet connection. Submitted half a year's worth of expense reports. Considered an instruction design proposal from Nicolas -- had the idea also: two people having the same idea means it's maybe not crazy!
 1562794080 #jsapi Worked on defining an argument-less BranchInfo::DoubleDest. SSA conversion seems to require critical-edge splitting. Need to read through frontend SSA code very carefully tomorrow.
 1562880043 #jsapi Experimented with overloaded explicit arguments for a DoubleBranch: nbp's idea from two days ago, where a single varargs was used to encode two varargs from both EBBs. Ran into walls. Decided that the zero-argument design was fine.
+1562965138 #jsapi Got a branch-less DoubleDest instruction passing ./test-all.sh. Started working on codegen tests for bnz2.
