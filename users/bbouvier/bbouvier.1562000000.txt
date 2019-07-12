@@ -1,2 +1,3 @@
 1562002924 #jsapi moar contributor help!
 1562930422 #jsapi proposed a fix for bug 1565301
+1562930509 #jsapi opened Cranelift#824 (simple folding and isel optimizations) for bug 1554094
