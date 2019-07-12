@@ -7,3 +7,4 @@
 1562706910 #jsapi Took more notes on bytecode emission; Prototyped deferred lazy-script creation; it compiles is about the sum of the success thus far.
 1562791397 #jsapi Trying to rework my function tree building to piggy-back on ParseContext stack, to avoid lost syntax-only parses
 1562879722 #jsapi Made steady progress on deferred lazyscript allocation (though, one wonders if it's <strike>turtles</strike> bugs all the way down.)
+1562963153 #jsapi learning about how scopes acquire names, in light of a scope missing a name after my patch.
