@@ -1,3 +1,4 @@
 1563184380 #jsapi Bug 1555644 OS.File should fall back to copy+delete if moving a file fails - mentoring
 1563187195 #jsapi Hardware problems.
 1563201321 #jsapi Bug 1557745 [BinAST] We should advertise the BinAST formats that we can read
+1563203963 #jsapi Bug 1557738 - Huffman table lookup - iterating
