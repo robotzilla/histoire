@@ -1,1 +1,2 @@
 1563248394 #jsapi emptied the review queue basically, except for a few ancient ones that are emphatically not finishable tonight
+1563294999 #jsapi reviewed BigInt.prototype.toLocaleString and NumberFormat support for formatting bigint values (bug 1543677)
