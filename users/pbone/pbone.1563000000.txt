@@ -1,2 +1,3 @@
 1563162932 #jsapi Submit a patch for Bug 1565631, but I don't seem to be able to test it.wq
 1563173692 #jsapi Investigating Bug 1565272, I think it's already fixed but while reading I noticed something else, and have some patches.
+1563247066 #jsapi Verified that my fix for Bug 1565631 works and landed the patch
