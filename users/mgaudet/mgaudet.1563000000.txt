@@ -2,3 +2,4 @@
 1563308914 #jsapi Reduced test case to ease investigation of failures.
 1563386142 #jsapi Fixed my delazification problem; issue was the exact same flavour as last time, use-after-free of a stack allocated vector because I'm bad at C++ and C++ is bad at being helpful.
 1563393856 #jsapi Patch has ghosts. (Passes with flying colours in --debug; suspecting memory issues.)
+1563393885 #jsapi (implied, but not stated, fails in --enable-optimize, hence ghosts and memory suspicion)
