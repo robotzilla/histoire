@@ -1,3 +1,4 @@
 1563226514 #jsapi Meetings. Read through legalization code. Convinced self that the sanest thing to do is for the branch instruction to remain unchanged through regalloc.
 1563312578 #jsapi Unfortunately determined (by running into walls) that multiple-target branches is basically impossible in CraneLift due to the requirement of 1:1 CLIF IR : target architecture instruction. But that's OK.
 1563312586 #jsapi Spoke with Nicolas about solving the problem by making an explicit BranchGroup mechanism, and poked around data structures to see how that might work. Will meet tomorrow to talk about it.
+1563398270 #jsapi JS Meeting, unrelated. Met with Nicolas: agreed on BranchGroup design. Lars said overnight that he had a similar thought, so there's consensus. Based on experimentation over the last week it's the best way forward.
