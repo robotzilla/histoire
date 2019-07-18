@@ -3,3 +3,4 @@
 1563312586 #jsapi Spoke with Nicolas about solving the problem by making an explicit BranchGroup mechanism, and poked around data structures to see how that might work. Will meet tomorrow to talk about it.
 1563398270 #jsapi JS Meeting, unrelated. Met with Nicolas: agreed on BranchGroup design. Lars said overnight that he had a similar thought, so there's consensus. Based on experimentation over the last week it's the best way forward.
 1563398277 #jsapi Pull request to use conditional compilation for BB feature-gating: https://github.com/CraneStation/cranelift/pull/856. Started work on enforcing BB semantics in the FunctionBuilder (non-textual interface).
+1563473781 #jsapi Landed feature-gating patch. Finished FunctionBuilder basic block patch. Pull request: https://github.com/CraneStation/cranelift/pull/857. Next step is to convert cranelift-wasm to basic blocks, working my way up to SpiderMonkey.
