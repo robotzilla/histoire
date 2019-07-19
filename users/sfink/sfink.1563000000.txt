@@ -1,2 +1,3 @@
 1563308945 #jsapi plumbed through some bit twiddling acceleration for whole cell store buffer
 1563486632 #jsapi fighting compiler/linker over static constexpr class member
+1563571556 #jsapi memory management reviewage
