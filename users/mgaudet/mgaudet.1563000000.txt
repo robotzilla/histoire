@@ -5,3 +5,4 @@
 1563393885 #jsapi (implied, but not stated, fails in --enable-optimize, hence ghosts and memory suspicion)
 1563398693 #jsapi Thanks UBSan for pointing out my ghost, an uninitialized member that I fixed in an earlier debugging patch that I promptly pruned after not needing it anymore.
 1563463731 #jsapi deferred lazy script initialization works in a lot of cases now. Current issues is with asm.js
+1563561329 #jsapi Deferred lazyscripts work (on my machine), up for feedback, then will probably start eyeballing deferred function allocation.
