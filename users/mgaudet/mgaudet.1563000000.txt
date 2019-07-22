@@ -7,3 +7,4 @@
 1563463731 #jsapi deferred lazy script initialization works in a lot of cases now. Current issues is with asm.js
 1563561329 #jsapi Deferred lazyscripts work (on my machine), up for feedback, then will probably start eyeballing deferred function allocation.
 1563822769 #jsapi Cleaned up LazyScript toStringEnd a bit, fixing the one failing test case I know of for deferred lazy script initialization. Onwared to function.
+1563828698 #jsapi Trying to get a 32 bit build up and running. First time in a long time, and apparently my setup has rotted.
