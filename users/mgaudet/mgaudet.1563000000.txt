@@ -10,3 +10,4 @@
 1563828698 #jsapi Trying to get a 32 bit build up and running. First time in a long time, and apparently my setup has rotted.
 1563905898 #jsapi internet problems for an internet company
 1563909944 #jsapi landed a number of patches, put up a pair of cleanup patches up for review.
+1563910029 #jsapi Trying to figure out how deferred JSFunction allocation is going to work; JSFunction creation story is not as simple as I had thought
