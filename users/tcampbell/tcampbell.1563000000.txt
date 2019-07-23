@@ -5,3 +5,4 @@
 1563486568 #jsapi review backlog fits on one screen... progress.
 1563575912 #jsapi Initial parts of js::BaseScript pushed
 1563575999 #jsapi Beginning reviews of bytecode instrumentation, tioracle, frontend lazyscript deferal, and fission remote-to-local transplants.
+1563896277 #jsapi The unified JSScript data structure starting to become flushed out https://bugzilla.mozilla.org/show_bug.cgi?id=1529456#c1
