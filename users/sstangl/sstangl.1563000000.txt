@@ -6,3 +6,4 @@
 1563473781 #jsapi Landed feature-gating patch. Finished FunctionBuilder basic block patch. Pull request: https://github.com/CraneStation/cranelift/pull/857. Next step is to convert cranelift-wasm to basic blocks, working my way up to SpiderMonkey.
 1563571538 #jsapi Land FunctionBuilder patch. Get local CraneLift repo hooked into SpiderMonkey. Start work on cranelift-wasm BB generation.
 1563830400 #jsapi Meetings. Read parts of wasm spec. Figured out how to use Cranelift to compile C code, so I can generate test cases. Made error messages more helpful. Translated wasm br_if into basic blocks: https://github.com/CraneStation/cranelift/pull/862
+1563918914 #jsapi Merged wasm br_if. Registered at DMV. Meetings. Investigated is_pristine(); filed an issue for tracking EbbState. Worked on cranelift-wasm block-style if statements, but wasn't able to get clang to generate them to verify correctness.
