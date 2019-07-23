@@ -9,3 +9,4 @@
 1563822769 #jsapi Cleaned up LazyScript toStringEnd a bit, fixing the one failing test case I know of for deferred lazy script initialization. Onwared to function.
 1563828698 #jsapi Trying to get a 32 bit build up and running. First time in a long time, and apparently my setup has rotted.
 1563905898 #jsapi internet problems for an internet company
+1563909944 #jsapi landed a number of patches, put up a pair of cleanup patches up for review.
