@@ -1,0 +1,1 @@
+1564000769 #jsapi Refactored flags out of JSFunction to a separate class to allow recycling flag only queries for deferred allocation of JSFunction. Patch needs some naming work, and perhaps a little bit of cleanup, but works!
