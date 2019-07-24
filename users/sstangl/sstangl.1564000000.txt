@@ -1,0 +1,1 @@
+1564002645 #jsapi Reviewed a bunch of patches from Nicolas. Validated hopefully final cranelift-wasm BB patch; submitted as https://github.com/CraneStation/cranelift/pull/867. Built SpiderMonkey with all our Cranelift patches: jit-tests pass now with basic-blocks enabled! https://github.com/CraneStation/cranelift/pull/844#issuecomment-514800239.
