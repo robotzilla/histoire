@@ -1,2 +1,3 @@
 1564000769 #jsapi Refactored flags out of JSFunction to a separate class to allow recycling flag only queries for deferred allocation of JSFunction. Patch needs some naming work, and perhaps a little bit of cleanup, but works!
 1564002921 #jsapi So confused by my compiler errors that I'm putting down the keyboard and walking away; G'night everyone.
+1564078749 #jsapi First successful run of a subset of test cases with deferred function allocation.
