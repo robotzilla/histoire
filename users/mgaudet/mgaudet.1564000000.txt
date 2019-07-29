@@ -4,3 +4,4 @@
 1564171450 #jsapi a slightly messy stack of patches now successfully defers JSFunction allocation to after parsing (in all cases except AsmJS). Cleanup and further testing are next on the roster
 1564172225 #jsapi Amend previous confession -- futher running of the test suite does in fact point out a couple failures I missed. -hangs head in shame-
 1564416445 #jsapi slogging through a rebase and making sure all patches are formatted, running into wild errors :(
+1564435581 #jsapi Updated and uploaded patches for deferred GC thing allocation in parsing.
