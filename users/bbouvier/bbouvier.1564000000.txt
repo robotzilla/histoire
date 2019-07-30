@@ -2,3 +2,4 @@
 1564407602 confession back from PTO; reviewed atomic.fence patch; adjusted patch for asm.js fuzz bug before landing; reading emails while drinking syrup
 1564496770 confession fought the red tape fight, lost it
 1564502391 confession add support to atomic.fence to wasmparser https://github.com/yurydelendik/wasmparser.rs/pull/119
+1564505856 confession discussed plans for SIMD in Cranelift with abrown
