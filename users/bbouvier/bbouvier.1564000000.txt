@@ -5,3 +5,4 @@
 1564505856 confession discussed plans for SIMD in Cranelift with abrown
 1564505886 confession investigated bug 1569137 for jseward
 1564574591 confession address comments in Cranelift#824 and wait before landing
+1564574625 confession look at Cranelift#872 (testing runtime behavior of Cranelift)
