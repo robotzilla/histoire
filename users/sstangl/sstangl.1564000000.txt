@@ -2,3 +2,4 @@
 1564090822 #jsapi Landed patch: cranelift-wasm is now basic-blocks friendly! Still reading through nbp's regalloc patch.
 1564175606 #jsapi Read through nbp's regalloc patch and a whole slew of regalloc code. Investigated codegen issues with basic blocks. Filed https://github.com/CraneStation/cranelift/issues/873, simple and symptomatic of weird codegen. Started planning the cranelift.org design.
 1564423089 #jsapi Meetings. My desktop finally arrived from CA (shipped by Mozilla) -- it was completely destroyed in-transit. The monitor is in pieces, and the desktop case is broken. I can't boot it, but I assume the innards are dead. Documented the damage.
+1564609604 #jsapi Made a start on threading jumps as part of the relaxation pass.
