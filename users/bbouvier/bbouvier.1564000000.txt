@@ -4,3 +4,4 @@
 1564502391 confession add support to atomic.fence to wasmparser https://github.com/yurydelendik/wasmparser.rs/pull/119
 1564505856 confession discussed plans for SIMD in Cranelift with abrown
 1564505886 confession investigated bug 1569137 for jseward
+1564574591 confession address comments in Cranelift#824 and wait before landing
