@@ -8,3 +8,4 @@
 1564574625 confession look at Cranelift#872 (testing runtime behavior of Cranelift)
 1564574653 confession reviewed https://github.com/WebAssembly/spec/pull/1049
 1564650306 confession reviewed Cranelift#882
+1564668625 confession work on sec bug 1566992
