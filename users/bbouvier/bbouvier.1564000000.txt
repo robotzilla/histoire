@@ -7,3 +7,4 @@
 1564574591 confession address comments in Cranelift#824 and wait before landing
 1564574625 confession look at Cranelift#872 (testing runtime behavior of Cranelift)
 1564574653 confession reviewed https://github.com/WebAssembly/spec/pull/1049
+1564650306 confession reviewed Cranelift#882
