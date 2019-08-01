@@ -10,3 +10,4 @@
 1564514432 #jsapi Addressing review feedback on deferred allocation patches, as well as re-ordering stack for better landing
 1564607845 #jsapi Reworking GC management in patch stack. how to root/handle tree is now tomorrow-Matthew's problem.
 1564607957 #jsapi Landed preq patches for allocation deferral
+1564689641 #jsapi trying to land patches, realizing they need fixup, can't abort landing, so... dealing with it.
