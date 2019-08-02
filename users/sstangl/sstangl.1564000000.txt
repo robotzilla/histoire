@@ -4,3 +4,4 @@
 1564423089 #jsapi Meetings. My desktop finally arrived from CA (shipped by Mozilla) -- it was completely destroyed in-transit. The monitor is in pieces, and the desktop case is broken. I can't boot it, but I assume the innards are dead. Documented the damage.
 1564609604 #jsapi Made a start on threading jumps as part of the relaxation pass.
 1564694512 #jsapi Got fold_redundant_jumps() passing tests. Uploaded a WIP patch: https://github.com/CraneStation/cranelift/pull/887. More to be done tomorrow -- more opportunities for folding, and need to validate that ebb parameters don't need special treatment post-regalloc.
+1564782722 #jsapi Debugged fold_redundant_jumps(). Probably the best way to continue is to give the Layout a .branchgroup() iterator, and then use that throughout the codebase to handle basic-block style terminators, where two instructions function as one. Started that work.
