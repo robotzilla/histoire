@@ -2,3 +2,4 @@
 1565008537 confession bug 1571230 (accept "inf" as an infinity value in Spidermonkey textToBinary)
 1565011344 confession reviewed cranelift#891
 1565011370 confession gave help to decoder with a wasm test case
+1565017673 confession reviewed Cranelift#828 again
