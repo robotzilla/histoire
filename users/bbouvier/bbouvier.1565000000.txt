@@ -9,3 +9,4 @@
 1565095750 confession started review of Cranelift#871
 1565101576 confession finished review of Cranelift#871
 1565104289 confession re-read the generalized live range splitting document written by Lars
+1565106135 confession bug 1571732 (reorder indices when disassembling Cranelift code)
