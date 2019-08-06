@@ -4,3 +4,4 @@
 1565011370 confession gave help to decoder with a wasm test case
 1565017673 confession reviewed Cranelift#828 again
 1565020263 confession bump cranelift in spidermonkey in bug 1571464
+1565086976 confession discuss with wingo about tail calls in Spidermonkey
