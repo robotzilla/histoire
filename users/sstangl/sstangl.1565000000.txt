@@ -1,0 +1,1 @@
+1565127382 #jsapi Got parameter rewriting working for fold_redundant_jumps(), and taught it to consider the second-to-last branch if present. Issue now is that SSA values can be defined as parameters in eagerly-removed blocks. Hoist the value? Rewrite its uses?
