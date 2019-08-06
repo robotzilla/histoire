@@ -7,3 +7,4 @@
 1565086976 confession discuss with wingo about tail calls in Spidermonkey
 1565095732 confession commented in bug 1555894 (build time regression b/o Cranelift)
 1565095750 confession started review of Cranelift#871
+1565101576 confession finished review of Cranelift#871
