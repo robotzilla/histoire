@@ -8,3 +8,4 @@
 1565095732 confession commented in bug 1555894 (build time regression b/o Cranelift)
 1565095750 confession started review of Cranelift#871
 1565101576 confession finished review of Cranelift#871
+1565104289 confession re-read the generalized live range splitting document written by Lars
