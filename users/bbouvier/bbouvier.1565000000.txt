@@ -10,3 +10,4 @@
 1565101576 confession finished review of Cranelift#871
 1565104289 confession re-read the generalized live range splitting document written by Lars
 1565106135 confession bug 1571732 (reorder indices when disassembling Cranelift code)
+1565163535 #jsapi will reinstall linux today to set up whole disk encryption. Goal is to be back for monthly meeting, wish me luck!
