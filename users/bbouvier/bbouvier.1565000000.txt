@@ -12,3 +12,4 @@
 1565106135 confession bug 1571732 (reorder indices when disassembling Cranelift code)
 1565163535 #jsapi will reinstall linux today to set up whole disk encryption. Goal is to be back for monthly meeting, wish me luck!
 1565200026 confession managed to reinstall Linux with whole encrypted disk + dual boot on laptop, plus set up most of work related stuff
+1565200054 confession land and re-land bug 1571732
