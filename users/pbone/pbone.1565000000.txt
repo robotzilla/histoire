@@ -1,1 +1,2 @@
 1565056716 #jsapi Diagnosed Bug 1571439
+1565241892 #jsapi I seem to have another race condition in my solution for Bug 1568410.  Trying to reproduce it now..
