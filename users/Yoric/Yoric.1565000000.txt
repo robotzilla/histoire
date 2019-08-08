@@ -1,3 +1,4 @@
 1565013549 #jsapi Bug 1569197 - Stop decompressing content-0.1 data's brotli layer manually
 1565075534 #jsapi Starting to work on testing context-0.1
 1565248973 #jsapi bpy: Added a new subcommand encode-dir to encode entire directories - PR
+1565249499 #jsapi Bug 1572365 [BinAST] fbssdc encoder doesn't implement magic header
