@@ -15,3 +15,4 @@
 1565200054 confession land and re-land bug 1571732
 1565200066 confession painful writeup in bug 1555894
 1565271727 #jsapi now trying to upgrade main desktop machine to get access to more recent Linux kernel, and hopefully fixing all the realtek wifi chipset issues. Wish me luck again!
+1565273988 confession cranelift support for jseward
