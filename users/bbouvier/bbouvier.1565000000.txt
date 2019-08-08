@@ -18,3 +18,4 @@
 1565273988 confession cranelift support for jseward
 1565276370 #jsapi ubuntu upgrade Just Worked ©️
 1565282102 confession cranelift support for Intel people
+1565283474 confession sent a couple cranelift emails about aliases vs copying + monday checkin meeting
