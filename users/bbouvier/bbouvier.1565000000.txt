@@ -21,3 +21,4 @@
 1565283474 confession sent a couple cranelift emails about aliases vs copying + monday checkin meeting
 1565371162 confession fixed up Wifi on main machine... again
 1565371166 confession review for bug 1559963
+1565371949 confession review for bug 1572364
