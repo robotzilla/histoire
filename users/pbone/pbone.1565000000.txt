@@ -2,3 +2,4 @@
 1565241892 #jsapi I seem to have another race condition in my solution for Bug 1568410.  Trying to reproduce it now..
 1565314699 #jsapi Either something is really really wrong with our Mutex implementation or I'm missing something really really obvious and it's going to be a headdesk when I "get it".
 1565314716 #jsapi Probably the latter :-(
+1565326634 #jsapi I think I figured it out.  it's C++ being tricky.
