@@ -2,3 +2,4 @@
 1565214614 #jsapi SSA parameters can now be rewritten; fold_redundant_jumps() produces working code! Unfortunately, it's pretty complicated now. The last thing to do is that we need to allow rewriting if an SSA Value dominates the first_inst but isn't in the parameter list: currently it conservatively passes.
 1565299753 #jsapi Finished the fold_redundant_jumps() pass and put it up for review (https://github.com/CraneStation/cranelift/pull/887)! It fixes the perf regression from the basic-blocks regalloc patch, caused by splitting unused critical edges. The basic-blocks feature can hopefully land soon!
 1565387205 #jsapi Landed fold_redundant_jumps()!
+1565729180 #jsapi Still looking into codegen issues. Lots of low-hanging fruit. Currently trying to get a patch working that avoids `prologue_epilogue()` when the function can't possibly touch stack, bringing codegen similar to GCC for fast functions.
