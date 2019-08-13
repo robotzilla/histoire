@@ -25,3 +25,4 @@
 1565613996 #jsapi setting up Windows build environment to reproduce a specific cranelift bug
 1565618208 confession review for bug 1546138
 1565621619 confession review for bug 1571998
+1565689055 confession bump Cranelift in bug 1573409 so that we can fix bug 1569137
