@@ -5,3 +5,4 @@
 1565326634 #jsapi I think I figured it out.  it's C++ being tricky.
 1565663152 #jsapi Investigating one or two (I don't know yet) around Mutexes.
 1565673921 #jsapi Investigation for Bug 1573266
+1565674375 #jsapi I found an assertion failure while working on Bug 1568410 which pointed to funky problems between this debugging code not being called from ConditionVariable.  Writing moar patches.
