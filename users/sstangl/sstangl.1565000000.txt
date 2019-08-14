@@ -3,3 +3,4 @@
 1565299753 #jsapi Finished the fold_redundant_jumps() pass and put it up for review (https://github.com/CraneStation/cranelift/pull/887)! It fixes the perf regression from the basic-blocks regalloc patch, caused by splitting unused critical edges. The basic-blocks feature can hopefully land soon!
 1565387205 #jsapi Landed fold_redundant_jumps()!
 1565729180 #jsapi Still looking into codegen issues. Lots of low-hanging fruit. Currently trying to get a patch working that avoids `prologue_epilogue()` when the function can't possibly touch stack, bringing codegen similar to GCC for fast functions.
+1565819411 #jsapi Investigating https://bugzilla.mozilla.org/show_bug.cgi?id=1573792. Looks like when rewriting a block out of existence, downstream uses (that are simple renamings) have to be considered also.
