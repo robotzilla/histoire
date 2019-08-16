@@ -8,3 +8,4 @@
 1565674375 #jsapi I found an assertion failure while working on Bug 1568410 which pointed to funky problems between this debugging code not being called from ConditionVariable.  Writing moar patches.
 1565850988 #jsapi Wrote patches for Bug 1574047
 1565872137 #jsapi Submitted patches for Bug 1573774
+1565939102 #jsapi More patches fur Bug 1574047 and now updating the patch for Bug 1573774 from Luke's review.
