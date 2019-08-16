@@ -29,3 +29,4 @@
 1565689112 confession re-review bug 1546138
 1565780557 confession impl Baldrdash for Windows in bug 1573550
 1565946148 confession opened Cranelift#903
+1565951012 confession bug 1573098 (build jsrust unconditionally)
