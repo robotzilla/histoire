@@ -1,0 +1,1 @@
+1566422556 #jsapi Attempted to solve the branch relaxation issue by moving SSA values from parameters into the dependent block. Unfortunately post-regalloc the CFG isn't really SSA: there are hidden invariants like diversions that need maintenance.
