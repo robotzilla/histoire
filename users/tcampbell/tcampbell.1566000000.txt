@@ -1,0 +1,1 @@
+1566395143 #jsapi tracked down memory 'leak' due to |new Function| making private copies of URLs even if they are 3MB data-urls. Bug 1575077
