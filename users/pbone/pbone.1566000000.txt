@@ -4,3 +4,4 @@
 1566448237 #jsapi Posting more patches for Bug 1568410
 1566537345 #jsapi WebReplay is being annoying (Bug 1567793 is blocking Bug 1568740)
 1566800931 #jsapi Spent the day trying to understand language frounted/semantics stuff.  I'm going to need to wait until there are some DOM+JS people awake and maybe pair to learn this part of the engine/DOM.
+1566800983 #jsapi But the good news is I think I've solved the problems for Bug 1568740 and can land this after checking something on Try.
