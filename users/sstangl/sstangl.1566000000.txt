@@ -1,2 +1,3 @@
 1566422556 #jsapi Attempted to solve the branch relaxation issue by moving SSA values from parameters into the dependent block. Unfortunately post-regalloc the CFG isn't really SSA: there are hidden invariants like diversions that need maintenance.
 1566507893 #jsapi Started work on a regalloc-specific branch_folding phase. I believe this will solve the issues with the general approach. It looks promising thus far.
+1566937897 #jsapi Finished the regalloc-specific branch_folding phase (https://github.com/CraneStation/cranelift/pull/950). It works and is correct. Liveness is currently completely re-calculated: it's possible that we could update the bforest data structure to support deletion.
