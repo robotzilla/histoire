@@ -1,3 +1,4 @@
 1566481877 #jsapi reviewing bug 1572013 patches
 1566529731 #jsapi looking into bug 1574163
 1566882722 #jsapi opened binjs-ref#426
+1566912912 #jsapi prototyping BinAST shared dictionary reader
