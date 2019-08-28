@@ -1,1 +1,2 @@
 1566462975 confession landed bug 157449
+1566977398 confession correct, should be bug 1574449 : 3.27 - 5.73% tp5o responsiveness / tp5o_webext responsiveness (linux64-shippable) regression on push d685ba705bc2d2560308f9aa8ef272d03c602fad (Thu August 8 2019)
