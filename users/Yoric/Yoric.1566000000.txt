@@ -5,3 +5,4 @@
 1566478817 #jsapi One test passes \o/
 1566482986 #jsapi Two tests pass \o/
 1566560967 #jsapi Keeping in contact with CloudFlare.
+1566993911 #jsapi Bug 1573674 part 1 - Move JSContext::setPendingException to the cpp file - reviewed
