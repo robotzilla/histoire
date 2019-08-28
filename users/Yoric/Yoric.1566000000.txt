@@ -6,3 +6,4 @@
 1566482986 #jsapi Two tests pass \o/
 1566560967 #jsapi Keeping in contact with CloudFlare.
 1566993911 #jsapi Bug 1573674 part 1 - Move JSContext::setPendingException to the cpp file - reviewed
+1566993928 #jsapi Bug 1573674 part 2 - Don't report OOM exceptions to Nightly-only error interceptor hook - reviewed
