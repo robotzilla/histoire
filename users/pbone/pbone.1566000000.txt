@@ -7,3 +7,4 @@
 1566800983 #jsapi But the good news is I think I've solved the problems for Bug 1568740 and can land this after checking something on Try.
 1566866531 #jsapi Working on some DOM fission stuff.
 1566868945 #jsapi WHo can review dom/bindings/BindingUtils.cpp
+1566972877 #jsapi Still trying to figure out why Bug 1568740 breaks webreplay. I thought I'd fixed it but try says otherwise.  Following up on review feedback for Bug 1576787.  And now reading a paper.
