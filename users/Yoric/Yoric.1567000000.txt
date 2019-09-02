@@ -5,3 +5,4 @@
 1567425620 #jsapi bpy: Added a new subcommand encode-dir to encode entire directories - v2
 1567428213 #jsapi Documenting Context 0.1
 1567432147 #jsapi binjs-ref: Fixing warnings
+1567441463 #jsapi Bump lodash from 4.17.11 to 4.17.15
