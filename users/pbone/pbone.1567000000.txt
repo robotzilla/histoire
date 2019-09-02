@@ -1,3 +1,4 @@
 1567142846 #jsapi Maybe I figured out why Bug 1568740 is breaking webreplay (the 2nd reason, I already fixed #1).
 1567146586 #jsapi I did fix my problems with webreplay, I don't want to land this in soft-freeze though.
 1567466459 #jsapi Pretty sure Bug 1568740 is good to land.
+1567467262 #jsapi Also landing Bug 1576787
