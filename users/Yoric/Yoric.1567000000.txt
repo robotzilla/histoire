@@ -4,3 +4,4 @@
 1567173433 #jsapi  Bug 1575306 Browser mochitests have one instance of JavaScript error: resource://testing-common/PromiseTestUtils.jsm, line 112: uncaught exception: Object for every test
 1567425620 #jsapi bpy: Added a new subcommand encode-dir to encode entire directories - v2
 1567428213 #jsapi Documenting Context 0.1
+1567432147 #jsapi binjs-ref: Fixing warnings
