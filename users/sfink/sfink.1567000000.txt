@@ -1,2 +1,3 @@
 1567199951 #jsapi good news! I am now writing sophisticated enough Rust code that it breaks with new compiler versions. Either that, or I left it broken last time I toched it.
 1567200082 #jsapi I left it broken.
+1567534382 #jsapi my best one-liner in a while: `tac hazards.txt | perl -lne 'print unless /arbitrary function pointer.*ClassOps\.trace/ .. /^\s*$/' | tac`
