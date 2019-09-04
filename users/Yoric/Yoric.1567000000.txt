@@ -7,3 +7,4 @@
 1567432147 #jsapi binjs-ref: Fixing warnings
 1567441463 #jsapi Bump lodash from 4.17.11 to 4.17.15
 1567596905 #jsapi Working on benchmarking BinASTTokenReaderContext.
+1567598716 #jsapi Context 0.1: Generating doc from specs
