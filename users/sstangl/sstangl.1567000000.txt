@@ -1,0 +1,1 @@
+1567630967 #jsapi Took nbp's suggestion and simplified the #950 pull request into the old fold_redundant_jumps() phase: https://github.com/CraneStation/cranelift/pull/972. More perf exploration.
