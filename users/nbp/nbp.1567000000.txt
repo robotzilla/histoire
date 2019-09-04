@@ -1,1 +1,2 @@
 1567614144 #jsapi These days I am measuring things to argument future work on the parser. Therefore, I might be the RULER!
+1567614270 #jsapi last measures are: Throughput on incoming bytes to the content process (user data). JSBC on x64 & ARM64 (my laptop on facebook.com/Disney). L1-{i,d}cache-misses of the frontend (my laptop on facebook.com/Disney).
