@@ -3,3 +3,4 @@
 1567150833 #jsapi reviewed bug 1572013 and bug 1577373
 1567401789 #jsapi reviewed bug 1572013 remaining patches
 1567404005 #jsapi looking into bug 1577613
+1567681157 #jsapi posted bug 1578351
