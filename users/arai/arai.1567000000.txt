@@ -5,3 +5,4 @@
 1567404005 #jsapi looking into bug 1577613
 1567681157 #jsapi posted bug 1578351
 1567717630 #jsapi reviewed bug 1579095
+1567720142 #jsapi filed bug 1579248 and bug 1579249
