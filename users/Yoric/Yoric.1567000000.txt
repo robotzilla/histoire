@@ -9,3 +9,4 @@
 1567596905 #jsapi Working on benchmarking BinASTTokenReaderContext.
 1567598716 #jsapi Context 0.1: Generating doc from specs
 1567761289 #jsapi  Bug 1578351 - Support reading shared dictionary - reviewed
+1567761316 #jsapi Bug 1579095 - FullParseHandler::sourceKind_ should be initialized from its constructor
