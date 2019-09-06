@@ -10,3 +10,4 @@
 1567598716 #jsapi Context 0.1: Generating doc from specs
 1567761289 #jsapi  Bug 1578351 - Support reading shared dictionary - reviewed
 1567761316 #jsapi Bug 1579095 - FullParseHandler::sourceKind_ should be initialized from its constructor
+1567761328 #jsapi Bug 1579095 - FullParseHandler::newReturnExpression should be more lenient on token positions in Binary mode
