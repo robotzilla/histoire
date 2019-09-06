@@ -1,3 +1,4 @@
 1567521182 #jsapi Returned! Processing through emails; thanks so much to everyone who took on review/mentorship for me while I was gone!
 1567613811 #jsapi My leak fix didn't fix the leak which surprises me, so, investigating-I-shall-go... after coffee
 1567705405 #jsapi Hrm. Starting to realize the patch I put together doesn't work in light of fallible operations. Thinking if it can be salvaged.
+1567798252 #jsapi A plague of locusts on the house of whomever implemented OS/X purgable space badly. (and a second plague on whomever made it nigh impossible to figure out -what is eating- said space)
