@@ -1,1 +1,2 @@
 1568052045 #jsapi Investigating how to defer BigInt GC allocation.
+1568069055 #jsapi Prototyped deferred allocation of BigInts, addressed feedback on a patch stack... will land tomorrow.
