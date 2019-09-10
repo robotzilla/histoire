@@ -1,2 +1,3 @@
 1568031108 #jsapi Bug 1579409 - Text parsing should use utf-8
 1568036014 #jsapi binjs-ref stores `3.402823e+38` as `3.4028230000000003e+38`
+1568134721 #jsapi Bug 1580101 - Use raw BinASTKind and BinASTVariant for sorting alphabetically - reviewed
