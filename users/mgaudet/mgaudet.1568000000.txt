@@ -1,3 +1,4 @@
 1568052045 #jsapi Investigating how to defer BigInt GC allocation.
 1568069055 #jsapi Prototyped deferred allocation of BigInts, addressed feedback on a patch stack... will land tomorrow.
 1568154653 #jsapi Looking into deferring regexp allocation, and running into an (apparent) dependence on  the state of TokenStreamAnyChars, which makes it potentially more complicated. More reading to be done.
+1568241733 #jsapi Prototype deferred allocation of Regexps passing local tests
