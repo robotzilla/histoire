@@ -4,3 +4,4 @@
 1568202646 #jsapi Getting started on Huffman tables
 1568289450 #jsapi Bug 1577764 - Introducing HuffmanTableImplementationGeneric
 1568289455 #jsapi Bug 1577764 - Introducing HuffmanTableImplementationSaturated
+1568289469 #jsapi Moar benchmarking.
