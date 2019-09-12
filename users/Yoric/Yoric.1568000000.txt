@@ -3,3 +3,4 @@
 1568134721 #jsapi Bug 1580101 - Use raw BinASTKind and BinASTVariant for sorting alphabetically - reviewed
 1568202646 #jsapi Getting started on Huffman tables
 1568289450 #jsapi Bug 1577764 - Introducing HuffmanTableImplementationGeneric
+1568289455 #jsapi Bug 1577764 - Introducing HuffmanTableImplementationSaturated
