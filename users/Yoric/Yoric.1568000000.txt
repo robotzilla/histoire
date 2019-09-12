@@ -2,3 +2,4 @@
 1568036014 #jsapi binjs-ref stores `3.402823e+38` as `3.4028230000000003e+38`
 1568134721 #jsapi Bug 1580101 - Use raw BinASTKind and BinASTVariant for sorting alphabetically - reviewed
 1568202646 #jsapi Getting started on Huffman tables
+1568289450 #jsapi Bug 1577764 - Introducing HuffmanTableImplementationGeneric
