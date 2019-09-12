@@ -3,3 +3,4 @@
 1568154653 #jsapi Looking into deferring regexp allocation, and running into an (apparent) dependence on  the state of TokenStreamAnyChars, which makes it potentially more complicated. More reading to be done.
 1568241733 #jsapi Prototype deferred allocation of Regexps passing local tests
 1568308325 #jsapi grumbling about FoldConstatns doing GC allocations
+1568329100 #jsapi After shuffling some things around, I can assert no-GC during parse in a good number of cases, tho, js::ReportCompileError fails, so I don't think it'd be realistic to land this.
