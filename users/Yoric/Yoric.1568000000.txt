@@ -5,3 +5,4 @@
 1568289450 #jsapi Bug 1577764 - Introducing HuffmanTableImplementationGeneric
 1568289455 #jsapi Bug 1577764 - Introducing HuffmanTableImplementationSaturated
 1568289469 #jsapi Moar benchmarking.
+1568362447 #jsapi Travis: Separating format check from build step
