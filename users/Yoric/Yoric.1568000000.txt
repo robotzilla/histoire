@@ -9,3 +9,4 @@
 1568369952 #jsapi Triaging Context 0.2 issues.
 1568369962 #jsapi CIR Paperwork, so much fun.
 1568399751 #jsapi Running "Apply and Restart" from the language preferences UI can cause the search engine cache to be corrupted - tech lead-ing
+1568555423 #jsapi OS.File should fall back to copy+delete if moving a file fails - mentoring
