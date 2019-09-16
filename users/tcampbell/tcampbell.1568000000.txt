@@ -1,1 +1,2 @@
 1568154759 #jsapi Attempting to decouple code-coverage from JSScript::realm() during finalizers
+1568597321 #jsapi "GCC miscompilation" was actually a decade old XPCOM bug in the ppc stubs.. Bug 1576303
