@@ -10,3 +10,4 @@
 1568369962 #jsapi CIR Paperwork, so much fun.
 1568399751 #jsapi Running "Apply and Restart" from the language preferences UI can cause the search engine cache to be corrupted - tech lead-ing
 1568555423 #jsapi OS.File should fall back to copy+delete if moving a file fails - mentoring
+1568626045 #jsapi Bug 1555644 - Added fallback to call File.copy and File.remove function if MoveEx function fails - review
