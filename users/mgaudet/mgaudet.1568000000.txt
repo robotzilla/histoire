@@ -6,3 +6,4 @@
 1568329100 #jsapi After shuffling some things around, I can assert no-GC during parse in a good number of cases, tho, js::ReportCompileError fails, so I don't think it'd be realistic to land this.
 1568413882 #jsapi Fixed a lifetime problem spotted by asan, uploaded new patches. Happy Friday all!
 1568655481 #jsapi Reviewed an academic paper
+1568746868 #jsapi Reverse engineering old decisions i made around AsmJS and deferred object allocation. Not at the bottom of the mysteries yet.
