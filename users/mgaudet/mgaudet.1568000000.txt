@@ -7,3 +7,4 @@
 1568413882 #jsapi Fixed a lifetime problem spotted by asan, uploaded new patches. Happy Friday all!
 1568655481 #jsapi Reviewed an academic paper
 1568746868 #jsapi Reverse engineering old decisions i made around AsmJS and deferred object allocation. Not at the bottom of the mysteries yet.
+1568761850 #jsapi Simplifying asmJS handling for deferred allocations
