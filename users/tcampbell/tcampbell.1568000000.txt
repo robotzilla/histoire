@@ -1,3 +1,4 @@
 1568154759 #jsapi Attempting to decouple code-coverage from JSScript::realm() during finalizers
 1568597321 #jsapi "GCC miscompilation" was actually a decade old XPCOM bug in the ppc stubs.. Bug 1576303
 1568747616 #jsapi broke wpt code-coverage job. investigating
+1568832196 #jsapi Making JS::Value a struct instead of a union (Bug 1547824)
