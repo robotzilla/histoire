@@ -14,3 +14,4 @@
 1568733979 #jsapi [BinAST] Make Huffman lookup faster for large tables - filed
 1568734030 #jsapi [BinAST] We might not need Huffman tables to be iterable - filed
 1568904631 #jsapi Done with CIR. Maybe.
+1568960393 #jsapi [BinAST] Make getHuffmanLookup faster - mentoring
