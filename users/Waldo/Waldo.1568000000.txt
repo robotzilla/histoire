@@ -1,2 +1,3 @@
 1568077358 #jsapi wrote and sent https://groups.google.com/forum/#!topic/mozilla.dev.platform/Kk9bADszRMU (tl;dr: the sec-approval process is worth it)
 1568314627 #jsapi wrote patch for a shell testing function for bug 1561567
+1568946079 #jsapi posted the first mess of writable stream patches for a bunch of individual spec algorithms, bug 1582345 and bug 1582348 (all gated by RealmOption, code if actually invoked absolutely would not meaningfully work at all)
