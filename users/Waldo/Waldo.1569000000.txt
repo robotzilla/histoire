@@ -1,1 +1,2 @@
 1569370089 #jsapi submitted https://github.com/freebsd/freebsd/pull/411 and https://github.com/freebsd/freebsd/pull/412 to fix UB in fdlibm upstream (our corresponding bugs are https://bugzilla.mozilla.org/show_bug.cgi?id=1583293 and https://bugzilla.mozilla.org/show_bug.cgi?id=1583645)
+1569450212 #jsapi wrote patches to update fdlibm to pick up some ubsan issue fixes (bug 1583958)
