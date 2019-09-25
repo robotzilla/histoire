@@ -2,3 +2,4 @@
 1569279095 #jsapi Trying to remember what this shelved change was doing, now that I've popped enough changes to make it possible onto the stack.
 1569341615 confession New machine, new problems. Doing machine setup.
 1569424977 #jsapi New machine setup continues as I discover baffling things like high point-to-point latency on my local lan.
+1569430354 #jsapi long deferred network maintenance.... We'll see if that helps latency
