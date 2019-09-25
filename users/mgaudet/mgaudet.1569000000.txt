@@ -4,3 +4,4 @@
 1569424977 #jsapi New machine setup continues as I discover baffling things like high point-to-point latency on my local lan.
 1569430354 #jsapi long deferred network maintenance.... We'll see if that helps latency
 1569443981 #jsapi Playing with removing GcThing allocation from bytecode emitter. Will look at scopes on return from gym
+1569452296 #jsapi scopes are a complication...
