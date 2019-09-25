@@ -3,3 +3,4 @@
 1569308383 #jsapi Attempting to reproduce Bug 1582940
 1569394289 #jsapi I made a patch for Bug 1583400, but it broke a bunch of other things.  Maybe I should fix them or maybe they're supposed to be broken!
 1569394327 #jsapi Also have a couple of patches underway for Bug 1530251
+1569394340 #jsapi And looking at new colo policy.
