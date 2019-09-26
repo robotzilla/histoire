@@ -6,3 +6,4 @@
 1569443981 #jsapi Playing with removing GcThing allocation from bytecode emitter. Will look at scopes on return from gym
 1569452296 #jsapi scopes are a complication...
 1569455481 #jsapi writing an email to not send it, only to make sure I can still explain what I'm trying to do. Answer seems to be yes... but many questions remain about handling scopes.
+1569533344 #jsapi Mapping out how we can remove GC'd things from the process of bytecode emission, trying to find leaf nodes to start tackling.
