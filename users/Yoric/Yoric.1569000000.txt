@@ -1,3 +1,4 @@
 1569397723 #jsapi OS.File should fall back to copy+delete if moving a file fails - mentoring
 1569509430 #jsapi Bug 1578351 - Support reading shared dictionary. - reviewed
 1569516072 #jsapi The password manager just overwrote my password with (literal) `********` - filed.
+1569572772 #jsapi Bug 1581052 - [BinAST] Make getHuffmanLookup faster by inverting bits after reading data - reviewed
