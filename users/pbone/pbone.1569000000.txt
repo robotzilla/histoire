@@ -5,3 +5,4 @@
 1569394327 #jsapi Also have a couple of patches underway for Bug 1530251
 1569394340 #jsapi And looking at new colo policy.
 1569480232 #jsapi I'd like to passive-aggressively complain about some of Firefox's development workflows: https://github.com/mozilla/rr/issues/1887#issuecomment-535362937
+1569823058 #jsapi Filed and writing patches for Bug 1584892
