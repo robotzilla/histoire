@@ -8,3 +8,4 @@
 1569455481 #jsapi writing an email to not send it, only to make sure I can still explain what I'm trying to do. Answer seems to be yes... but many questions remain about handling scopes.
 1569533344 #jsapi Mapping out how we can remove GC'd things from the process of bytecode emission, trying to find leaf nodes to start tackling.
 1569607699 #jsapi wishing for mozilla::Variant::emplace
+1569874501 #jsapi prepping various small patches in my stack for landing to avoid continuing to rebase them forever.
