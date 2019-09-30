@@ -9,3 +9,4 @@
 1569533344 #jsapi Mapping out how we can remove GC'd things from the process of bytecode emission, trying to find leaf nodes to start tackling.
 1569607699 #jsapi wishing for mozilla::Variant::emplace
 1569874501 #jsapi prepping various small patches in my stack for landing to avoid continuing to rebase them forever.
+1569878504 #jsapi I wrote a GC policy that compiled the first time. I am deeply suspicious now.
