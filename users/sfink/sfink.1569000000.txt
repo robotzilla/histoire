@@ -1,2 +1,3 @@
 1569450293 #jsapi cleaning up another mess I created with rooting hazards.
 1569535005 #jsapi only making this confession because I want a URL to this point in the IRC stream, to use in replying to ptomato's review request https://phabricator.services.mozilla.com/D46744
+1569874521 #jsapi attempting to digest https://tc39.es/proposal-weakrefs
