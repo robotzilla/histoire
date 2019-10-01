@@ -4,3 +4,4 @@
 1569572772 #jsapi Bug 1581052 - [BinAST] Make getHuffmanLookup faster by inverting bits after reading data - reviewed
 1569592379 #jsapi Avoid saving a munged password in login storage - I/O
 1569857202 #jsapi Why do I get *worse* results every time I benchmark?
+1569918452 #jsapi Bug 1585246 - Update BinAST.yaml to use ParseInfo - reviewed
