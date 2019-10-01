@@ -10,3 +10,4 @@
 1569607699 #jsapi wishing for mozilla::Variant::emplace
 1569874501 #jsapi prepping various small patches in my stack for landing to avoid continuing to rebase them forever.
 1569878504 #jsapi I wrote a GC policy that compiled the first time. I am deeply suspicious now.
+1569970996 #jsapi Experimented with different approaches on how to defer GC allocation past bytecode emission; I think I've got a reasonable path forward .
