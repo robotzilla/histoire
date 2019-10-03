@@ -8,3 +8,4 @@
 1570091843 #jsapi Bug 1585526 - Part 1: Remove unnecessary Variant::match in HuffmanPreludeReader::pushValue - reviewed
 1570091883 #jsapi Part 1: Move guard.init out of enterTaggedTuple/enterList in order to make it possible to optimize the call away. - reviewed
 1570092418 #jsapi Bug 1585516 - Remove BinASTFields type and parameters - reviewed
+1570092465 #jsapi Bug 1585568 - Part 2: Inline {AutoBase,AutoTaggedTuple,AutoList} methods and remove debug-only fields. - reviewed
