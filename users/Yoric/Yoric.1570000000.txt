@@ -4,3 +4,4 @@
 1570090668 #jsapi Bug 1585234 - Part 1: Remove unnecessary Variant wrap/match on context. - reviewed
 1570090725 #jsapi Bug 1585519 - Part 3: Add MOZ_UNLIKELY to error handling macro - reviewed
 1570090825 #jsapi Bug 1585526 - Part 2: Remove unnecessary Variant::match in BinASTTokenReaderContext::readTagFromTable - reviewed
+1570091602 #jsapi Bug 1585234 - Part 2: Use smaller Variant for context.  - reviewed
