@@ -1,1 +1,2 @@
 1570029477 #jsapi today I learned how to add 'cat facts' to my phabricator home page
+1570116022 #jsapi adding assertions that sweeping doesn't make use of mark state for other zones
