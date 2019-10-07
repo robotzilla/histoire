@@ -1,3 +1,4 @@
 1570081653 #jsapi I wrote some rust code today.
 1570169322 #jsapi I've been trying to debug my patches for Bug 1583400.  But I'm not getting anywhere fast.  I think I'll have to move on with something else.
 1570415174 #jsapi Wrote and now testing a patch for Bug 1585688
+1570420450 #jsapi Filed Bug 1586642
