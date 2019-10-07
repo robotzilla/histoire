@@ -1,2 +1,3 @@
 1570049273 #jsapi cursed bluetooth
 1570466773 #jsapi Got real confused by `using BindingIter = ParseContext::Scope::BindingIter;`
+1570483549 #jsapi Thinking about how to appropriately handle the compilationEnclosingScope
