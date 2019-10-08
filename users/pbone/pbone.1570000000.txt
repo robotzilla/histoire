@@ -6,3 +6,4 @@
 1570421685 #jsapi Submitting patches for Bug 1585159
 1570425269 #jsapi Reading DocumentChannel code, learning..
 1570504349 #jsapi Reading documentchannel code
+1570578805 #jsapi Updated patches (following reviews) and landing Bug 1585159, Also landed Bug 1585688.
