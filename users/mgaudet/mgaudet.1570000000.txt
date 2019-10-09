@@ -5,3 +5,4 @@
 1570555005 #jsapi Reviews
 1570574157 #jsapi Trying to figure out if it's possible to cut apart the gordion knot of environment shapes, needsEnvironment, and parsing.
 1570636773 #jsapi Reviews :)
+1570661960 #jsapi Spent the afternoon starting the process of speculatively sketching out ScopeCreationData... I think it's the right cut, but gonna be a lot of work to get there.
