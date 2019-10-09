@@ -3,3 +3,4 @@
 1570418899 #jsapi looking into allocation in BinAST parser again
 1570501707 #jsapi filed bug 1586649, bug 1586971, bug 1586972, bug 1586975, and bug 1586975
 1570608529 #jsapi posted patch for bug 1587271, bug 1586977, bug 1587238, and bug 1587334
+1570608907 #jsapi filed bug 1587338
