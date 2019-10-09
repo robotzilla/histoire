@@ -1,1 +1,2 @@
 1570081983 #jsapi did most (?) of the updating to a single patch to account for review comments I wrote on it several weeks back
+1570662882 #jsapi wrote a first-pass patch at an ICU API to format a list in specified fashion for https://unicode-org.atlassian.net/browse/ICU-12863
