@@ -4,3 +4,4 @@
 1570488623 #jsapi Undoing some overly aggressive changes in my patch stack as I understand the notion of enclosing scope better.
 1570555005 #jsapi Reviews
 1570574157 #jsapi Trying to figure out if it's possible to cut apart the gordion knot of environment shapes, needsEnvironment, and parsing.
+1570636773 #jsapi Reviews :)
