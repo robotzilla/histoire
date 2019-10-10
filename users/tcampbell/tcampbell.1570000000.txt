@@ -1,1 +1,2 @@
 1570016864 #jsapi migrated off irccloud enterprise *before* it shuts down
+1570726046 #jsapi Figuring out how to remove the LAZY bit from JSFunction
