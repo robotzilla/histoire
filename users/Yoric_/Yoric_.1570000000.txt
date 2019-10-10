@@ -1,2 +1,3 @@
 1570198450 #jsapi In future implementations of Context 0.x, we need a way to assign non-optimal keys if optimal keys are beyond 20 bits - filed
 1570685767 #jsapi Bug 1586971 - Add SingleEntryHuffmanTable - reviewed
+1570685838 #jsapi Bug 1587245 - Add trailing underscore to member field of BinASTTokenReaderContext related classes - reviewed
