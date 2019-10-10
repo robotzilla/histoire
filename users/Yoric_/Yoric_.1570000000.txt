@@ -2,3 +2,4 @@
 1570685767 #jsapi Bug 1586971 - Add SingleEntryHuffmanTable - reviewed
 1570685838 #jsapi Bug 1587245 - Add trailing underscore to member field of BinASTTokenReaderContext related classes - reviewed
 1570685889 #jsapi Bug 1586977 - Remove MapBasedHuffmanTable. - reviewed
+1570685930 #jsapi Bug 1587238 - Remove BinASTTokenReaderContext::variantsTable_ and FlatHuffmanKey.  - reviewed
