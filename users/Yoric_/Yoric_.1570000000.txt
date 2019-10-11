@@ -4,3 +4,4 @@
 1570685889 #jsapi Bug 1586977 - Remove MapBasedHuffmanTable. - reviewed
 1570685930 #jsapi Bug 1587238 - Remove BinASTTokenReaderContext::variantsTable_ and FlatHuffmanKey.  - reviewed
 1570783753 #jsapi Bug 1587663 - Add BinASTSymbol and de-templatize HuffmanTable classes - reviewed
+1570786220 #jsapi Bug 1587271 - Part 2: Use infallible methods for already allocated Vector. - reviewed
