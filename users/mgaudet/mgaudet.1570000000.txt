@@ -8,3 +8,4 @@
 1570661960 #jsapi Spent the afternoon starting the process of speculatively sketching out ScopeCreationData... I think it's the right cut, but gonna be a lot of work to get there.
 1570725891 #jsapi Reviews and re-landing a patch that got backed out
 1570828421 #jsapi Deciding not to land changes two hours before EoD on a Friday.
+1570836377 #jsapi Methinks ScopeProvider ownership issues are Tuesday Matt's Problem
