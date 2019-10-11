@@ -10,3 +10,4 @@
 1570092418 #jsapi Bug 1585516 - Remove BinASTFields type and parameters - reviewed
 1570092465 #jsapi Bug 1585568 - Part 2: Inline {AutoBase,AutoTaggedTuple,AutoList} methods and remove debug-only fields. - reviewed
 1570103991 #jsapi  Bug 1585922 - New function cpuNow() for the JS shell
+1570800316 #jsapi Bug 1587738 - Adding a fastpath for the most common prefixes of a `MultiLookupHuffmanTable`
