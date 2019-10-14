@@ -1,3 +1,4 @@
 1571048166 #jsapi Bug 1587738 - Adding a fastpath for the most common prefixes of a `MultiLookupHuffmanTable`
 1571057274 #jsapi We finally beat the speed of text parsing on Context 0.1. That took more effort than expected!
 1571060780 #jsapi Updating list of worst offenders.
+1571065691 #jsapi [BinAST] Optimize storage within Huffman tables - filed
