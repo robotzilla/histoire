@@ -4,3 +4,4 @@
 1571265987 #jsapi boiling ocean, or so it feels, while seeking a fixed point for this refactoring. Even more irritatingly, this work probably was going to have to be done eventually; I was just hoping to put it off.
 1571328016 #jsapi Splitting things into their own headers while developing this patch seemed like the right choice at the time. The umpteenth circular dependency is making me question my choices.
 1571349464 #jsapi Grumbling about https://searchfox.org/mozilla-central/rev/ebe492edacc75bb122a2b380e4cafcca3470864c/js/src/vm/Scope.cpp#672 and subsequent implications
+1571352551 #jsapi Procrastinating by figuring out suspend / resume in Linux
