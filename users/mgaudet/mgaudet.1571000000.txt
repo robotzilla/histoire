@@ -2,3 +2,4 @@
 1571248699 #jsapi Desperately trying not to boil the ocean with this patch, but the cut points aren't always super obvious.
 1571253984 #jsapi Considering re-inventing moving GC concepts... maybe I should reconsider things... :S
 1571265987 #jsapi boiling ocean, or so it feels, while seeking a fixed point for this refactoring. Even more irritatingly, this work probably was going to have to be done eventually; I was just hoping to put it off.
+1571328016 #jsapi Splitting things into their own headers while developing this patch seemed like the right choice at the time. The umpteenth circular dependency is making me question my choices.
