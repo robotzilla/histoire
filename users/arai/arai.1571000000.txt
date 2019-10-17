@@ -1,1 +1,2 @@
 1571132678 #jsapi posted bug 1588711 patch
+1571300054 #jsapi posted patches for bug 1586975 and bug 1587678
