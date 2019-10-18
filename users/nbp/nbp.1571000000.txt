@@ -1,0 +1,1 @@
+1571401420 #jsapi Compress a simplified JS grammar from ~1 MB to ~16.3 KB (a 98.5% improvement) … let's see if this improve parsing speed
