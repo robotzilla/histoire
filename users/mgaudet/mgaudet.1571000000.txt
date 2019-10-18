@@ -6,3 +6,4 @@
 1571349464 #jsapi Grumbling about https://searchfox.org/mozilla-central/rev/ebe492edacc75bb122a2b380e4cafcca3470864c/js/src/vm/Scope.cpp#672 and subsequent implications
 1571352551 #jsapi Procrastinating by figuring out suspend / resume in Linux
 1571432666 #jsapi Whelp, it's not landable, horribly GC unsafe, and probably broken on the second test case I try it on... but I successfully deferred allocation of one function scope.
+1571439758 #jsapi Thanks Past-Matt for marking that API as MOZ_MUST_USE so I actually remember to check for return value!
