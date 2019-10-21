@@ -7,3 +7,4 @@
 1571352551 #jsapi Procrastinating by figuring out suspend / resume in Linux
 1571432666 #jsapi Whelp, it's not landable, horribly GC unsafe, and probably broken on the second test case I try it on... but I successfully deferred allocation of one function scope.
 1571439758 #jsapi Thanks Past-Matt for marking that API as MOZ_MUST_USE so I actually remember to check for return value!
+1571695735 #jsapi Real design friction trying to get deferred scope allocation working semi-bug free. While some things work, overall it seems to be a house of cards right now.
