@@ -9,3 +9,4 @@
 1571439758 #jsapi Thanks Past-Matt for marking that API as MOZ_MUST_USE so I actually remember to check for return value!
 1571695735 #jsapi Real design friction trying to get deferred scope allocation working semi-bug free. While some things work, overall it seems to be a house of cards right now.
 1571700401 #jsapi Not... "happy" to end my day on a GC bug; but I knew this prototype was playing super fast and loose with GC... which just means it's time to start cleaning that up
+1571786545 #jsapi Ending the day on a different GC problem! Fixed a bunch of GC issues, starting to clean up various uglies.
