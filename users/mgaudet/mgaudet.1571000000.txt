@@ -11,3 +11,4 @@
 1571700401 #jsapi Not... "happy" to end my day on a GC bug; but I knew this prototype was playing super fast and loose with GC... which just means it's time to start cleaning that up
 1571786545 #jsapi Ending the day on a different GC problem! Fixed a bunch of GC issues, starting to clean up various uglies.
 1571868672 #jsapi I made total hash of my query invariants about ten patches ago. Trying to untangle now.
+1571956307 #jsapi Gonna try a new technique, debugging via hazard builds
