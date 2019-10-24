@@ -12,3 +12,4 @@
 1571786545 #jsapi Ending the day on a different GC problem! Fixed a bunch of GC issues, starting to clean up various uglies.
 1571868672 #jsapi I made total hash of my query invariants about ten patches ago. Trying to untangle now.
 1571956307 #jsapi Gonna try a new technique, debugging via hazard builds
+1571958279 #jsapi Made a lot of progress making my prototype GC safe, however, I'm now being bit trying to track down the final issues because hazard builds use GCC, and it reveals a clang bug (open for 5 years, with patch, no landing. *sigh*)
