@@ -1,0 +1,1 @@
+1572008989 #jsapi Simplifying the JSScript/LazyScript::function() handling of laziness. Bug 1589904
