@@ -1,0 +1,1 @@
+1572045064 #jsapi wasted a bunch of time tracking down a 10x perf difference that turned out to be due to a lack of -O3, despite re-configure several times with --enable-optimize. Fixed by nuking my objdir.
