@@ -1,0 +1,1 @@
+1572040858 #jsapi Turns out at least the first part of my GC problem is using reserved bits from the first word of a Cell https://searchfox.org/mozilla-central/source/js/src/gc/Cell.h#61-63
