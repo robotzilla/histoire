@@ -1,1 +1,2 @@
 1572008989 #jsapi Simplifying the JSScript/LazyScript::function() handling of laziness. Bug 1589904
+1572299029 #jsapi Bisected memory/perf regression back to specific one of my patchese. Now to figure out why..
