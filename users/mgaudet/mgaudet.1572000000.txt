@@ -1,2 +1,3 @@
 1572040858 #jsapi Turns out at least the first part of my GC problem is using reserved bits from the first word of a Cell https://searchfox.org/mozilla-central/source/js/src/gc/Cell.h#61-63
 1572303794 #jsapi Deferred allocation of another four types of scopes; getting close to the final set, and after that the long patch cleaning process begins. I think?
+1572378533 #jsapi All scope creation in EmitterScope deferred.
