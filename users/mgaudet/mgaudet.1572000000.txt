@@ -4,3 +4,4 @@
 1572388334 #jsapi Investigating racy failure in patch (26 files changed, 1878 insertions(+), 259 deletions(-)... oops) before trying to cut down to size for landing.
 1572475823 #jsapi Currently trying to figure out what's going on with a couple of test failures. Haven't really pieced it together, but one thing seems to be clear, and invariant I thought held isn't true. Not clear how big a deal that is just yet;
 1572539649 #jsapi Spent this morning building some infrastructure to verify an invariant I think might be getting broken in a test case failure I'm seeing with my patch. Investigate different failure, only to discover invariant verification is totally busted under oom. Oops.
+1572561586 #jsapi OoM tests are forcing some awkward reworking of my patches. Hoping to come out on the other side with something working, tho I may run out of time. We'll see
