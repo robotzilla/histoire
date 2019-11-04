@@ -6,3 +6,4 @@
 1572539649 #jsapi Spent this morning building some infrastructure to verify an invariant I think might be getting broken in a test case failure I'm seeing with my patch. Investigate different failure, only to discover invariant verification is totally busted under oom. Oops.
 1572561586 #jsapi OoM tests are forcing some awkward reworking of my patches. Hoping to come out on the other side with something working, tho I may run out of time. We'll see
 1572635772 #jsapi A green try build for my deferred scopes. \o/ Now to clean this thing up and see if I can subdivide at all for landing.
+1572908325 #jsapi Refactoring and cleaning scope deferral patches. Still a bit to go.
