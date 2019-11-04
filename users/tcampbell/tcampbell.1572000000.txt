@@ -2,3 +2,4 @@
 1572299029 #jsapi Bisected memory/perf regression back to specific one of my patchese. Now to figure out why..
 1572374382 #jsapi Tracked down regression. Trying to land JSFunction::baseScript() again.
 1572470894 #jsapi Got distributed-sccache builds running for windows/linux/android!
+1572877617 #jsapi trying out using ./mach build even for shell builds. So far so good
