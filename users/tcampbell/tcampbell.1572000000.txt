@@ -4,3 +4,4 @@
 1572470894 #jsapi Got distributed-sccache builds running for windows/linux/android!
 1572877617 #jsapi trying out using ./mach build even for shell builds. So far so good
 1572899027 #jsapi JSFunction::baseScript() / BaseScript::function() should now all connect without worrying about LazyScript vs JSScript
+1572965188 #jsapi added './mach jit-test' command
