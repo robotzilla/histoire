@@ -1,0 +1,1 @@
+1573058335 #jsapi I compressed 1MB into 29KB, but parsing is 2x slower … the remaining question is would it be slower if the cache is trashed (L3/Memory) between parsing instances… ?
