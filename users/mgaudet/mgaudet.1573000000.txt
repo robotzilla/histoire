@@ -1,2 +1,3 @@
 1573066379 #jsapi landing an older patch has gone poorly, hoping it sticks this time (try build means it should be good now... :fingers-crossed:)
 1573167279 #jsapi Slowly trying to put together Bug 1592103
+1573171636 #jsapi uuuuuurk. Punched in the face by templates and handle conversions again.
