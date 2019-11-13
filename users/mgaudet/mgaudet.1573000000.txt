@@ -3,3 +3,4 @@
 1573171636 #jsapi uuuuuurk. Punched in the face by templates and handle conversions again.
 1573253339 #jsapi Rough prototype of deferring the allocation of environment shapes is making my poor laptop sound like it's trying to fly away right now -- which is a good start for sure.
 1573601288 #jsapi Cleaning up patches for submission.
+1573657432 #jsapi out sick today.
