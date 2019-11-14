@@ -5,3 +5,4 @@
 1573601288 #jsapi Cleaning up patches for submission.
 1573657432 #jsapi out sick today.
 1573769056 #jsapi Reviews mostly so far today.
+1573773659 #jsapi Thinking about atom usage in the parser
