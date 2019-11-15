@@ -2,3 +2,4 @@
 1573584590 #jsapi polishing up my entrant for Most Bounced Simple Patch contest in https://phabricator.services.mozilla.com/D51492
 1573692438 #jsapi bug 1593399 bounced *again*, this time from disallowed GC statistics phase transition
 1573692473 #jsapi just had to pull the right code out of a later patch in my stack
+1573783381 #jsapi attempting to get a gdb prettyprinter task working
