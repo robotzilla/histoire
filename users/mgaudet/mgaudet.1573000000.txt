@@ -6,3 +6,4 @@
 1573657432 #jsapi out sick today.
 1573769056 #jsapi Reviews mostly so far today.
 1573773659 #jsapi Thinking about atom usage in the parser
+1573860399 #jsapi Trying to understand the impact of atoms on the parser by just putting together some prototypes and seeing what blows up in my face.
