@@ -3,3 +3,4 @@
 1573167484 #jsapi trying to kill vm/Stack.h's dependency on the entirety of the jit (such that touching anything in jit/*.h will tend to rebuild the world); rot appears to be limitable to only those things that need to use JitActivation
 1573173043 #jsapi uuuuuurk. Love tapped by #include bootlegs and implicit ordering dependencies again.
 1573762037 #jsapi filed bug 1596544 to do the last bit of work to ship Intl.Locale, now that TR35 upstream has removed certain separate onerous requirements it used to impose, that meant there would be two different canonicalization operations in Intl functionality
+1573783151 #jsapi TC39 Intl phone call, thought Intl.Locale was good to go at this point and to land but found issues working through the patch -- but probably issues best resolved in the main spec; prepping a patch against current behavior, filing the issue for the main-spec thing shortly
