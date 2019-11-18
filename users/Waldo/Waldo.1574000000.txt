@@ -1,1 +1,2 @@
 1574119310 #jsapi filed Intl.Locale spec issue, with patch, to make CanonicalizeLanguageTag and Intl.Locale act consistently in one aspect
+1574119329 #jsapi https://github.com/tc39/proposal-intl-locale/issues/82 for that issue, https://github.com/tc39/proposal-intl-locale/pull/83 for the patch
