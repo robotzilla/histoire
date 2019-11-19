@@ -1,1 +1,2 @@
 1574189493 #jsapi moving slow and breaking things
+1574205430 #jsapi learned how to run my own CI job locally with the same docker container that taskcluster uses. Required minor bludgeoning of scripts and some creative cutting & pasting, but it works.
