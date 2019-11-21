@@ -1,1 +1,2 @@
 1574357320 #jsapi I can optimize for size, but hardly for speed at the same time :( {achievement unlock: understand pshufb now}
+1574357364 #jsapi ^ working on getting better LR parser performances for JS.
