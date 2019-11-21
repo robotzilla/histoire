@@ -2,3 +2,4 @@
 1574211566 #jsapi Working through review feedback on changes.
 1574292553 #jsapi Rebasing a patch stack slowly.
 1574357165 #jsapi Rebased my own buggy code past a test case I'd landed earlier. Thank goodness... now to fix the bug
+1574370938 #jsapi Trying to sort through the TraceKind magic that powers Rooted to figure out why it doesn't seem to do the thing I think it ought to.
