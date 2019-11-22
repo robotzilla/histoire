@@ -4,3 +4,4 @@
 1574357165 #jsapi Rebased my own buggy code past a test case I'd landed earlier. Thank goodness... now to fix the bug
 1574370938 #jsapi Trying to sort through the TraceKind magic that powers Rooted to figure out why it doesn't seem to do the thing I think it ought to.
 1574376188 #jsapi Maybe getting poked in the eye by a clang-cl bug?
+1574458702 #jsapi LAN failures. /me sighs.
