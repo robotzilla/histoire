@@ -6,3 +6,4 @@
 1574376188 #jsapi Maybe getting poked in the eye by a clang-cl bug?
 1574458702 #jsapi LAN failures. /me sighs.
 1574719246 #jsapi performance tested scopes changes to make sure no noticeable performance impact. We seem to be OK there. 🤞🏻
+1574719321 #jsapi Continuing to explore the range of impact an alternate Atom representation would have through the parser.
