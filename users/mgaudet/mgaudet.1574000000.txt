@@ -8,3 +8,4 @@
 1574719246 #jsapi performance tested scopes changes to make sure no noticeable performance impact. We seem to be OK there. 🤞🏻
 1574719321 #jsapi Continuing to explore the range of impact an alternate Atom representation would have through the parser.
 1574794682 #jsapi Taking a break from slogging through parser atoms code by looking into deferring LazyScript allocation to the end of bytecode emission. Forgot how complicated all this stuff is!
+1574812513 #jsapi Baby steps towards deferral of Function allocation.
