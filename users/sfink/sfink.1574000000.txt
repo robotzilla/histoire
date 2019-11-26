@@ -4,3 +4,4 @@
 1574376243 #jsapi stumbled across another enormous hole in what I thought was being tested. No surprise, but it's busted.
 1574445442 #jsapi fixed a minor problem where it seems like we probably haven't had debug shell builds on Windows for the last year or three (bug 1598709)
 1574719345 #jsapi setting up Windows dev environment to debug unicode issue
+1574799717 #jsapi realizing I have a regex habit. (Fixing minor issue with handling Windows paths with drive letters. There's probably a more principled way to do this. But I'm fond of my hammer.)
