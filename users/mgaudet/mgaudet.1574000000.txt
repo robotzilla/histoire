@@ -10,3 +10,4 @@
 1574794682 #jsapi Taking a break from slogging through parser atoms code by looking into deferring LazyScript allocation to the end of bytecode emission. Forgot how complicated all this stuff is!
 1574812513 #jsapi Baby steps towards deferral of Function allocation.
 1574877533 #jsapi Two years at mozilla today.
+1574897328 #jsapi Yet another FunctionBox flag sync error. Seriously considering bug 1588158 to avoid these things once and for all.
