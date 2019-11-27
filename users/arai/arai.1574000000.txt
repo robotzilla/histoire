@@ -1,3 +1,4 @@
 1574230459 #jsapi opened rust-frontend#7 and jsparagus#33
 1574381425 #jsapi opened rust-frontend#9
 1574434655 #jsapi landed bug 1597152, bug 1597153, bug 1555387, bug 1587271, bug 1596259, bug 1593922, bug 1594322, bug 1593923, and bug 1594318
+1574853883 #jsapi opened rust-frontend#14, jsparagus#38, and jsparagus#39
