@@ -1,0 +1,1 @@
+1574975819 #jsapi I have a fresh copy of irregexp building inside SM, with no changes to the irregexp code that can't be trivially upstreamed to V8.
