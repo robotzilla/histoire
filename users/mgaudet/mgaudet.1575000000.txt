@@ -1,0 +1,1 @@
+1575326987 #jsapi Reconstructing the story of what needs to be done to defer lazy script and function allocation to the end of BCE (after spending some time debugging a self-implemented goof)
