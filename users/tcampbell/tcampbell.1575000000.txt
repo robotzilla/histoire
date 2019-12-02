@@ -1,1 +1,2 @@
 1575032535 #jsapi Tests now green on LazyScript/JSScript merging! (Bug 1529456)
+1575314126 #jsapi Last few script fields moved to BaseScript (Bug 1591598, Bug 1600439)
