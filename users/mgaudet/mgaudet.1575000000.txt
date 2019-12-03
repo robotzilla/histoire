@@ -1,1 +1,2 @@
 1575326987 #jsapi Reconstructing the story of what needs to be done to defer lazy script and function allocation to the end of BCE (after spending some time debugging a self-implemented goof)
+1575397343 #jsapi Trying to sort out an extremely generic failure that comes from deferring LazyScript allocation to after bytecode emisssion
