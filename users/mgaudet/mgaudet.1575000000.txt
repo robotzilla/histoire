@@ -2,3 +2,4 @@
 1575397343 #jsapi Trying to sort out an extremely generic failure that comes from deferring LazyScript allocation to after bytecode emisssion
 1575416679 #jsapi Spent the day pondering isLazyFunctionWithoutEnclosingScope() and its implications for lazy-script deferral -- maybe figured out a way to make it work?
 1575503331 #jsapi Doing some cleanup passes around parser-object-deferral to help make certain aspects clearer.
+1575589580 #jsapi Cleaning up patches from feedback. Potentially changing direction on stencil work (as it's gonna be called now)
