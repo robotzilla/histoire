@@ -1,1 +1,2 @@
 1576011384 #jsapi Cross-cutting issues are sharp..
+1576011465 #jsapi Trying to make BaseScript::enclosingScript() sound and future-proof (Bug 1602878)
