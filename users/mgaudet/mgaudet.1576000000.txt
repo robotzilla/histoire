@@ -1,1 +1,2 @@
 1576003192 #jsapi Oh dear; it seems that the combination of RAII data structures and statefulness in BCE is going to make moving function emission around a bit harder than I expected.
+1576011295 #jsapi this is turning into a more complicated investigation into how the BCE works today 🤷🏽
