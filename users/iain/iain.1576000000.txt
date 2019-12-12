@@ -1,0 +1,1 @@
+1576182649 #jsapi Started out trying to figure out where one variable was initialized in our existing regexp implementation, and came to the conclusion that we've had an optimization to speed up global regexps sitting around for years without attaching it to anything.
