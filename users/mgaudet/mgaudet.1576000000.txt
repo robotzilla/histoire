@@ -2,3 +2,4 @@
 1576011295 #jsapi this is turning into a more complicated investigation into how the BCE works today 🤷🏽
 1576100056 #jsapi Code reviews mostly :)
 1576108496 #jsapi making silly implementation choices and deciding to give up for the day and shovel in the dark instead
+1576194048 #jsapi Reviewed patches this morning, then reworked Scope deferral patch to have better GC behaviour.
