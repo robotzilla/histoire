@@ -3,3 +3,4 @@
 1576100056 #jsapi Code reviews mostly :)
 1576108496 #jsapi making silly implementation choices and deciding to give up for the day and shovel in the dark instead
 1576194048 #jsapi Reviewed patches this morning, then reworked Scope deferral patch to have better GC behaviour.
+1576279039 #jsapi fixed an ownership bug I opened a while back to say I accomplished something today. Gonna look into prefs next
