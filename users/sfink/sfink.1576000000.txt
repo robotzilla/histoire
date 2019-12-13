@@ -1,3 +1,4 @@
 1576175987 mrgiggles playing with gh-pages
 1576279859 #jsapi continued tracing through one of several Bugs That Simply Cannot Happen (bug 1603105 this time)
 1576279995 #jsapi cheap hack in bug 1603627 to allow fuzzers to use JS shell builds from CI
+1576280062 #jsapi discovered that the code I cannot possibly touch because it's unmodified 3rd party is, in fact, our own code that gets layered on. Which means I'm one review away from landing gdb prettyprinter regression tests.
