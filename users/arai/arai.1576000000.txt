@@ -1,1 +1,2 @@
 1576059601 #jsapi reading spec around scope and binding, prototyping early error handling in rust frontend
+1576629441 #jsapi successfully integrated BoundNames related Early Error handling to Rust frontend
