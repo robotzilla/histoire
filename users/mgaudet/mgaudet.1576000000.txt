@@ -5,3 +5,4 @@
 1576194048 #jsapi Reviewed patches this morning, then reworked Scope deferral patch to have better GC behaviour.
 1576279039 #jsapi fixed an ownership bug I opened a while back to say I accomplished something today. Gonna look into prefs next
 1576536879 #jsapi Down the rabbit hole of parameterListEnd -- what a curiosity
+1576706113 #jsapi did a dumb and rebooted my laptop while it had updates pending. Guess it’s gonna do that for an indeterminate amount of time.
