@@ -3,3 +3,4 @@
 1576503420 #jsapi Learned that delazification may *remove* inner functions. Wondering if this affects any of my plans..
 1576509000 #jsapi Closing gap between LazyScript and JSScript use of flags. Bug 1604064, Bug 1604179
 1576595920 #jsapi Making more script flags consistent. (Bug 1604179)
+1576774239 #jsapi Reorganizing JSFunction::flags https://www.irccloud.com/pastebin/ZfP6sYqj/
