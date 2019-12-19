@@ -1,2 +1,3 @@
 1576059601 #jsapi reading spec around scope and binding, prototyping early error handling in rust frontend
 1576629441 #jsapi successfully integrated BoundNames related Early Error handling to Rust frontend
+1576759931 #jsapi modified early error checker not to modify grammar file much.  now we don't need context stack but a found bindings vector
