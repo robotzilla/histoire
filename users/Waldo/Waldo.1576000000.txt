@@ -1,3 +1,4 @@
 1576214642 #jsapi worked on some Intl PRs to get the spec in shape enough for us to ship Intl.Locale
 1576214697 #jsapi changed the endianness macros to macro-functions, so #if MOZ_LITTLE_ENDIAN() in code that hasn't included the relevant header will be a compile error
 1576717283 #jsapi laptop fritzed yesterday, by some luck managed to get a hardware refresh with old SSD swapped into new laptop in not even 20h
+1576717710 #jsapi traveling to TX for Christmas tomorrow, will work at least a half day on planes'n'such, actual work hours TBD; working hours through January 3 should generally be presumed somewhat unpredictable based on family demands, except NYE/NYD are *definitely* off
