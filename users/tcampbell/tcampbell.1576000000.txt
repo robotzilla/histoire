@@ -4,3 +4,4 @@
 1576509000 #jsapi Closing gap between LazyScript and JSScript use of flags. Bug 1604064, Bug 1604179
 1576595920 #jsapi Making more script flags consistent. (Bug 1604179)
 1576774239 #jsapi Reorganizing JSFunction::flags https://www.irccloud.com/pastebin/ZfP6sYqj/
+1576803928 #jsapi Got in a rabbit-hole cleaning up XDR code. Getting closer to LazyScript being subsumed by JSScript.
