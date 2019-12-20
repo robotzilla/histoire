@@ -9,3 +9,4 @@
 1576805049 #jsapi re-greened the gdb prettyprinter test task
 1576805069 #jsapi fixed a minor fuzz bug 1604530
 1576805098 #jsapi triggered mochitest-15 20 times in attempt to reproduce rare bug
+1576805150 #jsapi submitted taskcluster run-task patch for running local docker image using host source tree (bug 1605232)
