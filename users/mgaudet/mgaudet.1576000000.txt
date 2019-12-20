@@ -7,3 +7,4 @@
 1576536879 #jsapi Down the rabbit hole of parameterListEnd -- what a curiosity
 1576706113 #jsapi did a dumb and rebooted my laptop while it had updates pending. Guess it’s gonna do that for an indeterminate amount of time.
 1576713473 #jsapi urk. Wanting to recycle code from not-yet-landed patch, but also don't want to block self on said patch. Time for the history chainsaw? (Fixing fuzzbug, yay fuzzbug!)
+1576810987 #jsapi compiling the shell with --enable-clang-plugin just saved me a backout. \o/
