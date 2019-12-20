@@ -8,3 +8,4 @@
 1576542861 #jsapi attempt 1 failed for the same reason as the last stack I pushed -- I forgot to re-upload to phabricator after updating with review comments and fixes. :-(
 1576805049 #jsapi re-greened the gdb prettyprinter test task
 1576805069 #jsapi fixed a minor fuzz bug 1604530
+1576805098 #jsapi triggered mochitest-15 20 times in attempt to reproduce rare bug
