@@ -1,1 +1,2 @@
 1577070786 #jsapi posted fixed patch for bug 1259822
+1577153504 #jsapi rebased early errors handling onto AST with position information
