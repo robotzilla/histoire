@@ -1,0 +1,1 @@
+1577384987 #jsapi spent the last day figuring out that |void unsetReading() { MOZ_ASSERT(flags() & Flag_Reading); }| should be |void unsetReading() { MOZ_ASSERT(flags() & Flag_Reading); setFlags(flags() & ~Flag_Reading); }|, how's your day going?
