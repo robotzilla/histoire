@@ -1,2 +1,3 @@
 1577143457 #jsapi Working on slowly boiling an ugly patch down to something smaller and more -sparks-joy-. Probably won't finish till I come back next monday tho.
 1577732408 #jsapi Spent a bunch of time being confused about whether or not a change I was working on would work with offthread parse; have decide it's probably cool and am continuing apace.
+1577748845 #jsapi Almost done a pre-req... and also have forgotten why this was a pre-req. Methinks figuring that out is a problem for future matt
