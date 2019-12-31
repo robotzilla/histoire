@@ -1,2 +1,3 @@
 1577737003 #jsapi hacked together a monitor for gdb prettyprinter test failures, trying it out passively now
 1577743756 #jsapi discovered taht tcampbell's gdb prettyprinter problem seems to be in gdb itself. Filed https://sourceware.org/bugzilla/show_bug.cgi?id=25325
+1577827563 #jsapi Review queue cleared. Shiftily averting gaze from old needinfos now.
