@@ -1,2 +1,3 @@
 1578006419 #jsapi Rebase rebase rebase...
 1578092529 #jsapi Celebrated passing Y.js with an inner JSScript deferred allocation until just before JSScript::fullyInitFromEmitter... now to properly implement the various shortcuts and see if I pass other tests than Y.js
+1578330853 #jsapi Grumbling at MOZ_NON_PARAM.
