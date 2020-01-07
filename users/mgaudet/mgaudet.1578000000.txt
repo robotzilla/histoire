@@ -2,3 +2,4 @@
 1578092529 #jsapi Celebrated passing Y.js with an inner JSScript deferred allocation until just before JSScript::fullyInitFromEmitter... now to properly implement the various shortcuts and see if I pass other tests than Y.js
 1578330853 #jsapi Grumbling at MOZ_NON_PARAM.
 1578351015 #jsapi Landed Bug 1592102 -- Thanks to the super kind shepherding of tcampbell, it's a much nicer result than the original patch :)
+1578355317 #jsapi Simple things turn out to be more complicated than expected, and I walk away today more confused than I started.
