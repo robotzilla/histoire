@@ -1,3 +1,4 @@
 1578093220 #jsapi floundering around through promises code trying to figure out how to sensibly optimize away promise creation, but *not* optimize away ignoring an unhandled rejection of that optimized-away promise
 1578437578 #jsapi reviewed bug 1572205
 1578437968 #jsapi reviewed bug 1606511
+1578438008 #jsapi reviewed bug 1607179
