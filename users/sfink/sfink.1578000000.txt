@@ -2,3 +2,4 @@
 1578013937 #jsapi cleaned up a horrific mess in my local repository, probably a result of the clang-format extension bug
 1578097176 #jsapi rebased incremental weakmap patches, fixed 1 bug in the process (I think?)
 1578097334 #jsapi staring helplessly at half a dozen test failures that seem to have nothing to do with my patches but seem very real when I debug them. Checking whether they happen without my stuff applied.
+1578438302 #jsapi running SM(p) in a local docker image in hopes of reproducing bug 1503316
