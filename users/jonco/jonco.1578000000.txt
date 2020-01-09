@@ -1,1 +1,2 @@
 1578419475 #jsapi working on browser integration for FinalizationGroup
+1578569029 #jsapi landed patch to move GC marking information from the chunk trailer into the arena; this enables future improvements but may end up getting backed out if it regresses performance
