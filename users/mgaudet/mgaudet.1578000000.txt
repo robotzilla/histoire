@@ -5,3 +5,4 @@
 1578355317 #jsapi Simple things turn out to be more complicated than expected, and I walk away today more confused than I started.
 1578440371 #jsapi Cleared out a bunch of patches from my rats nest of development (rewriting a couple for clarity). Landed some small cleanup items as well as part of the prep for Bug 1598713.
 1578528507 #jsapi Spent a bunch of time looking into noScriptRval, and ended up with a few asserts and documenting comments.
+1578695423 #jsapi A stack of patches that gets me to  JSScript deferred until JSScript::fullyInitFromEmitter; I just don't understand why my last patch isn't broken
