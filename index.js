@@ -15,6 +15,8 @@ const KNOWN_REPOS_OWNERS = {
     "binjs-ref": "binast",
     "cranelift": "cranestation",
     "histoire": "mrgiggles",
+    "rust-frontend": "mozilla-spidermonkey",
+    "jsparagus": "mozilla-spidermonkey",
 };
 
 const SEARCHES = [
