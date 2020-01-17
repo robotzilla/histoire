@@ -1,2 +1,3 @@
 1579194006 #jsapi Took a break from other things to do a quick mini-exploration of Bug 1609487; unfortunately the easy knob isn't available so will probably stop here for now.
 1579219702 #jsapi trying to be ambitious without making totally unreviewable mega patches. Working on getting a clear story for bytecode emitter not having a script
+1579281110 #jsapi Turns out I was measuring BCE the whole time, but BCE is appreciably faster than I had expected, and so was way lower in the profiles than I figured.
