@@ -3,3 +3,4 @@
 1579281110 #jsapi Turns out I was measuring BCE the whole time, but BCE is appreciably faster than I had expected, and so was way lower in the profiles than I figured.
 1579305607 #jsapi While chasing deferred JSScript decided best to rip out eager allocation mode first to make reasoning clear. Patches in prep, hopefully up for review by monday.
 1579546671 #jsapi shakes fist at asm.js
+1579627356 #jsapi trying and failing to land a stack. Hopefully I can get lando to cooperate in the not too distant future
