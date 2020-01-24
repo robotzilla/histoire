@@ -5,3 +5,4 @@
 1579546671 #jsapi shakes fist at asm.js
 1579627356 #jsapi trying and failing to land a stack. Hopefully I can get lando to cooperate in the not too distant future
 1579651018 #jsapi Off kilter day. Investigating and thinking about killing BytecodeCompiler. Seems... plausible? Not sure if there are deep dark corners that will make me full of regret, but need more time with it.
+1579824281 #jsapi Palpably within reach of removing BytecodeCompiler... but I should stop for the day today
