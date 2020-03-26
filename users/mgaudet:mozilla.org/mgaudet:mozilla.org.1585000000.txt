@@ -1,0 +1,1 @@
+1585264025 #spidermonkey:mozilla.org Working on converting FunctionBox::finish to something that works on a tree walk; which means first validating the integrity of the FunctionTree... working on it.
