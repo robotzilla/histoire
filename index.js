@@ -36,6 +36,12 @@ const SEARCHES = [
     }
 ];
 
+var USER_TO_DISPLAY_NAME = {};
+
+function getDisplayName(user) {
+    return USER_TO_DISPLAY_NAME[user] || user;
+}
+
 var DOM = {
     create(tag, attrs = {}) {
         const node = document.createElement(tag);
@@ -178,7 +184,7 @@ function addItem({era, when, user, message, channel}, showUserLink) {
     const header = DOM.create("div", {class: "update-header"});
 
     const name = DOM.create("strong", {class: "name"});
-    const nameText = DOM.createText(user);
+    const nameText = DOM.createText(getDisplayName(user));
     if (showUserLink) {
         const link = DOM.create("a", {href: urls.user_page(user) });
         link.appendChild(nameText);
@@ -242,7 +248,7 @@ function parseResults(responseText, user, era, start, end) {
     return results;
 }
 
-function renderAllUsersLink(users) {
+function renderAllUsersLink() {
     let li = DOM.create("li");
     let link = DOM.create("a", {href: urls.user_page(ALL_USERS)});
     link.textContent = "All users";
@@ -253,7 +259,7 @@ function renderAllUsersLink(users) {
 function renderUser(name) {
     let li = DOM.create("li");
     let link = DOM.create("a", {href: urls.user_page(name)});
-    link.textContent = name;
+    link.textContent = getDisplayName(name);
     li.appendChild(link);
     $LIST.appendChild(li);
 }
@@ -404,6 +410,27 @@ async function getUserList() {
 
     users.sort((a, b) => a.toLowerCase() > b.toLowerCase());
 
+    USER_TO_DISPLAY_NAME = {};
+
+    let prefixCount = new Map();
+    for (let user of users) {
+        let split = user.split(':');
+        split.pop();
+        let userPrefix = split.join(':');
+
+        let prevCount = prefixCount.get(userPrefix) || [];
+        prevCount.push(user);
+        prefixCount.set(userPrefix, prevCount);
+
+        USER_TO_DISPLAY_NAME[user] = user;
+    }
+
+    for (let [prefix, users] of prefixCount) {
+        if (users.length === 1) {
+            USER_TO_DISPLAY_NAME[users[0]] = prefix;
+        }
+    }
+
     return users;
 }
 
@@ -412,7 +439,7 @@ async function listUsers() {
     if (!users) {
         return;
     }
-    renderAllUsersLink(users);
+    renderAllUsersLink();
     users.map(renderUser);
     $HEADER_TITLE.textContent = "Users";
 }
@@ -488,7 +515,10 @@ async function loadUserNotes(user, start, end) {
 
     // All attempted data is loaded.
     const results = [].concat(...await Promise.all(resultPromises));
-    const userName = user === ALL_USERS ? "all users" : users.join(", ");
+    const userName = user === ALL_USERS
+        ? "all users"
+        : users.map(getDisplayName).join(", ");
+
     const showUserLink = users.length > 1;
     renderResults(userName, showUserLink, start, end, results);
 }
@@ -499,7 +529,10 @@ var test = params.get("test");
 if (test) {
     runTest();
 } else if (user) {
-    loadUserNotes(user, params.get("start"), params.get("end"));
+    (async () => {
+        await getUserList();
+        await loadUserNotes(user, params.get("start"), params.get("end"));
+    })();
 } else {
     listUsers();
 }
