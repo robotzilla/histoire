@@ -1,2 +1,3 @@
 1585220488 confession resurrected confession
 1585221483 confession a few fixes to the gh-pages page of Histoire, to point to the new repository
+1585222045 confession another fix for the frontend (url-encode the username)
