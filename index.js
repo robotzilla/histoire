@@ -67,9 +67,11 @@ var urls = {
         return `http://mozilla.logbot.info/${channel}/link/${when}/${user}`;
     },
     edit(user, era) {
+        user = encodeURIComponent(user);
         return `https://github.com/robotzilla/histoire/edit/master/users/${user}/${user}.${era}.txt`;
     },
     data(user, era) {
+        user = encodeURIComponent(user);
         return `https://raw.githubusercontent.com/robotzilla/histoire/master/users/${user}/${user}.${era}.txt`;
     },
     bug(bugNumber) {
