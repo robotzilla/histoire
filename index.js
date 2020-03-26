@@ -69,8 +69,8 @@ var $HEADER_DATE = DOM.byId('header-date');
 var $LIST = DOM.byId('thelist');
 
 var urls = {
-    logbot(channel, when, user) {
-        return `http://mozilla.logbot.info/${channel}/link/${when}/${user}`;
+    matrixTo(channel) {
+        return `https://matrix.to/#/${channel}`;
     },
     edit(user, era) {
         user = encodeURIComponent(user);
@@ -199,7 +199,7 @@ function addItem({era, when, user, message, channel}, showUserLink) {
     const time = DOM.create("small", {class: "time"});
     let timeText = DOM.createText(toDateString(when));
     if (channel.startsWith("#")) {
-        let href = urls.logbot(channel.substr(1), when, user);
+        let href = urls.matrixTo(channel);
         const link = DOM.create("a", {href});
         link.appendChild(timeText);
         time.appendChild(link);
