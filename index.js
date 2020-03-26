@@ -14,7 +14,7 @@ const ALL_USERS = "*";
 const KNOWN_REPOS_OWNERS = {
     "binjs-ref": "binast",
     "cranelift": "cranestation",
-    "histoire": "mrgiggles",
+    "histoire": "robotzilla",
     "rust-frontend": "mozilla-spidermonkey",
     "jsparagus": "mozilla-spidermonkey",
 };
@@ -67,16 +67,16 @@ var urls = {
         return `http://mozilla.logbot.info/${channel}/link/${when}/${user}`;
     },
     edit(user, era) {
-        return `https://github.com/mrgiggles/histoire/edit/master/users/${user}/${user}.${era}.txt`;
+        return `https://github.com/robotzilla/histoire/edit/master/users/${user}/${user}.${era}.txt`;
     },
     data(user, era) {
-        return `https://raw.githubusercontent.com/mrgiggles/histoire/master/users/${user}/${user}.${era}.txt`;
+        return `https://raw.githubusercontent.com/robotzilla/histoire/master/users/${user}/${user}.${era}.txt`;
     },
     bug(bugNumber) {
         return `https://bugzilla.mozilla.org/show_bug.cgi?id=${bugNumber}`;
     },
     list_users() {
-        return `https://api.github.com/repos/mrgiggles/histoire/contents/users`;
+        return `https://api.github.com/repos/robotzilla/histoire/contents/users`;
     },
     user_page(username) {
         return `?user=${username}`;
@@ -321,14 +321,14 @@ function runTest() {
             era: 43,
             when: Date.now() / 1000,
             user: "test user",
-            message: "Simple link test: https://github.com/mrgiggles/histoire",
+            message: "Simple link test: https://github.com/robotzilla/histoire",
             channel: ""
         },
         {
             era: 44,
             when: Date.now() / 1000,
             user: "test user",
-            message: "Multiple regexp matches with text after: https://github.com/mrgiggles/histoire, bug 12345, text afterwards",
+            message: "Multiple regexp matches with text after: https://github.com/robotzilla/histoire, bug 12345, text afterwards",
             channel: ""
         },
         {
