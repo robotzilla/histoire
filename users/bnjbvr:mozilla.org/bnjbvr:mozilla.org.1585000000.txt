@@ -3,3 +3,4 @@
 1585222045 confession another fix for the frontend (url-encode the username)
 1585222090 #testing:mozilla.org testing mic 1 2 3
 1585222442 #testing:mozilla.org how do you like emojis? 🤔
+1585222742 #spidermonkey:mozilla.org hello confession my old friend, I've come to talk with you again 🎵
