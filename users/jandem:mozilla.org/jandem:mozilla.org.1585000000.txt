@@ -1,0 +1,1 @@
+1585319481 #spidermonkey:mozilla.org simplifying global/eval declaration conflict checking by moving it from the prologue to a separate `JSOp` (bug 1625471)
