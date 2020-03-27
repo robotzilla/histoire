@@ -5,3 +5,4 @@
 1585222442 #testing:mozilla.org how do you like emojis? 🤔
 1585222742 #spidermonkey:mozilla.org hello confession my old friend, I've come to talk with you again 🎵
 1585239685 #spidermonkey:mozilla.org crossing my fingers that it'll work as expected
+1585330420 #spidermonkey:mozilla.org rewrote linear scan in regalloc.rs so it operates on coarse intervals, which makes it much faster to run (compile time)... but much more eager to spill (slower run times).
