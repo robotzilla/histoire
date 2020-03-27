@@ -1,1 +1,2 @@
 1585319481 #spidermonkey:mozilla.org simplifying global/eval declaration conflict checking by moving it from the prologue to a separate `JSOp` (bug 1625471)
+1585319527 #spidermonkey:mozilla.org WarpBuilder prototype now has JSOp parity with IonBuilder (except for Eval) for the slow paths
