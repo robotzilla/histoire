@@ -1,0 +1,1 @@
+1585330036 #spidermonkey:mozilla.org Optimizing the code produced by a code generator is way easier than rewriting thousands of lines by hands. The only problem is knowing what to optimize. https://github.com/mozilla-spidermonkey/jsparagus/issues/362
