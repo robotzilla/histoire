@@ -1,1 +1,2 @@
 1585330036 #spidermonkey:mozilla.org Optimizing the code produced by a code generator is way easier than rewriting thousands of lines by hands. The only problem is knowing what to optimize. https://github.com/mozilla-spidermonkey/jsparagus/issues/362
+1585591006 #js-frontend:mozilla.org I implemented `FilterStates` action, which is meant to peek at the stack to see from which state we reach a given node. This way fold more reduce action, thus (hopefully) drastically reducing the number of shift-per-token to at most 3. Now, it is time to generate these new actions!
