@@ -1,2 +1,3 @@
 1585238590 #spidermonkey:mozilla.org trying out the reincarnation of the confession bot
 1585342942 #spidermonkey:mozilla.org I really ought to stop writing quickie patches on top of my usual teetering piles of other changes, such that the trivial patch gets held up on all the bugs in my other stuff that show up when I do the "obviously fine" try push.
+1585587927 #spidermonkey:mozilla.org I will never truly understand unicode handling in Python 2, no matter how many times I convince myself that I do.
