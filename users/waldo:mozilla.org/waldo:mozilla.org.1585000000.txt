@@ -1,1 +1,2 @@
 1585241017 #spidermonkey:mozilla.org I feel seen.
+1585590178 #spidermonkey:mozilla.org `pipeTo` is starting to really come together in my head conceptually -- code is following too.
