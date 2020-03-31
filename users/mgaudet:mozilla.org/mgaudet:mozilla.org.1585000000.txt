@@ -1,2 +1,3 @@
 1585264025 #spidermonkey:mozilla.org Working on converting FunctionBox::finish to something that works on a tree walk; which means first validating the integrity of the FunctionTree... working on it.
 1585621672 #spidermonkey:mozilla.org Landed preliminary in-tree build documentation (focused on `mach` workflow) on Friday. Looks good! https://firefox-source-docs.mozilla.org/js/build.html
+1585694410 #spidermonkey:mozilla.org After doing the 'simple' version of trying to use a tree-walk to do FunctionBox::finish, I'm relatively convinced that this is just pushing deckchairs around on the titanic. Instead, the right thing to do is going to be to revisit JSFunction allocation deferral, and use the magical transmuatation abilities of an AbstractScopePtr to do the right thing.
