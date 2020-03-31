@@ -1,0 +1,1 @@
+1585670741 #spidermonkey:mozilla.org successfully transitioned code to no-allocation parser atoms interning.  tests running.  parser migration in progress.
