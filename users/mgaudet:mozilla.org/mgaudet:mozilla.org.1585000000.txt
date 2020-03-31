@@ -1,1 +1,2 @@
 1585264025 #spidermonkey:mozilla.org Working on converting FunctionBox::finish to something that works on a tree walk; which means first validating the integrity of the FunctionTree... working on it.
+1585621672 #spidermonkey:mozilla.org Landed preliminary in-tree build documentation (focused on `mach` workflow) on Friday. Looks good! https://firefox-source-docs.mozilla.org/js/build.html
