@@ -1,0 +1,1 @@
+1585746306 #spidermonkey:mozilla.org Add SMDOC for js::BaseScript (Bug 1622589)
