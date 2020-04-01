@@ -1,1 +1,2 @@
 1585746306 #spidermonkey:mozilla.org Add SMDOC for js::BaseScript (Bug 1622589)
+1585751946 #spidermonkey:mozilla.org Time to consider LazyScript / JSScript unified! Closing Bug 1529456.
