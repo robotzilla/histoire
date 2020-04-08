@@ -1,0 +1,1 @@
+1586368262 #js-frontend:mozilla.org Making progress, I am able to convert Reduce actions to Unwind, FilterStates and Replay actions in a timely manner. Now, I only have to support these new actions in the Rust backend and check what the performance profile looks like. (however I had to disable the folding of reduce action after noticing a bug)
