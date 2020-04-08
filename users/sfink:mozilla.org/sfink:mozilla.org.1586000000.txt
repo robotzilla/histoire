@@ -1,0 +1,1 @@
+1586388672 #spidermonkey:mozilla.org wrote benchmarking code showing in some conditions, we can drop 198% of frames. Other scenario drops 71% of frames, which sounds about right until you consider that -106 frames were dropped. Math is hard. Maybe one scenario donated frames to the other?
