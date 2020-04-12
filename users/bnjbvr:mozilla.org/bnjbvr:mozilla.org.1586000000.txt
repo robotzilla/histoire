@@ -1,1 +1,3 @@
 1586708178 confession testing multi line confessions.\n\nThey're much cooler.
+
+1586710115 #testing:mozilla.org trying multi lines confessions, which should work now.\n\nHopefully.
