@@ -8,7 +8,42 @@ var OLDEST_ERA = 1538000000;
 var LOCALSTORAGE_USERS_KEY = 'users';
 var LOCALSTORAGE_USERS_LAST_ETAG_KEY = 'users-last-etag';
 
+const BASE_REPO = 'bnjbvr/histoire';
+
 const ALL_USERS = "*";
+
+const TEST_USER = 'test-user';
+const TEST_CHANNEL = '#test-channel';
+const TEST_USER_UPDATES = [
+    {
+        era: 42,
+        when: Date.now() / 1000,
+        user: TEST_USER,
+        message: "Bug number test: bug 123",
+        channel: "#test-channel"
+    },
+    {
+        era: 43,
+        when: Date.now() / 1000,
+        user: TEST_USER,
+        message: `Simple link test: https://github.com/${BASE_REPO}`,
+        channel: "#test-other"
+    },
+    {
+        era: 44,
+        when: Date.now() / 1000,
+        user: TEST_USER,
+        message: `Multiple regexp matches with text after: https://github.com/${BASE_REPO}, bug 12345, text afterwards`,
+        channel: "#test-channel"
+    },
+    {
+        era: 45,
+        when: Date.now() / 1000,
+        user: TEST_USER,
+        message: "Repository test: binjs-ref#334 (nonexistent repo: unknown#42)",
+        channel: "#test-channel"
+    },
+];
 
 // Maps repository name to repository owner.
 const KNOWN_REPOS_OWNERS = {
@@ -65,6 +100,14 @@ var DOM = {
         while (n = node.lastChild) {
             node.removeChild(n);
         }
+    },
+    anchorToRoute(route) {
+        let link = DOM.create("a", {href: route});
+        link.onclick = async event => {
+            event.preventDefault();
+            await goToRoute(route);
+        };
+        return link;
     }
 };
 
@@ -72,31 +115,44 @@ var $HEADER_TITLE = DOM.byId('header-title');
 var $HEADER_DATE = DOM.byId('header-date');
 var $LIST = DOM.byId('thelist');
 
+DOM.byId('backtoindex').onclick = async () => {
+    await goToRoute('#');
+}
+
 var urls = {
     matrixTo(channel) {
         return `https://matrix.to/#/${channel}`;
     },
     edit(user, era) {
         user = encodeURIComponent(user);
-        return `https://github.com/bnjbvr/histoire/edit/master/users/${user}/${user}.${era}.txt`;
+        return `https://github.com/${BASE_REPO}/edit/master/users/${user}/${user}.${era}.txt`;
     },
     data(user, era) {
         user = encodeURIComponent(user);
-        return `https://raw.githubusercontent.com/bnjbvr/histoire/master/users/${user}/${user}.${era}.txt`;
+        return `https://raw.githubusercontent.com/${BASE_REPO}/master/users/${user}/${user}.${era}.txt`;
     },
     bug(bugNumber) {
         return `https://bugzilla.mozilla.org/show_bug.cgi?id=${bugNumber}`;
     },
     list_users() {
-        return `https://api.github.com/repos/bnjbvr/histoire/contents/users`;
-    },
-    user_page(username) {
-        return `?user=${username}`;
+        return `https://api.github.com/repos/${BASE_REPO}/contents/users`;
     },
     github_pr(repository, prNumber) {
         let owner = KNOWN_REPOS_OWNERS[repository.toLowerCase()];
         return typeof owner === 'undefined' ? null : `https://github.com/${owner}/${repository}/pull/${prNumber}`;
-    }
+    },
+}
+
+var router = {
+    user_page(username) {
+        return `#user=${username}`;
+    },
+    user_page_start_end(username, start, end) {
+        return `#user=${username}&start=${start}&end=${end}`;
+    },
+    room_page(channel) {
+        return `#room=${encodeURIComponent(channel)}`;
+    },
 }
 
 function toDateString(when) {
@@ -197,7 +253,7 @@ function addItem({era, when, user, message, channel}, showUserLink) {
     const name = DOM.create("strong", {class: "name"});
     const nameText = DOM.createText(getDisplayName(user));
     if (showUserLink) {
-        const link = DOM.create("a", {href: urls.user_page(user) });
+        let link = DOM.anchorToRoute(router.user_page(user));
         link.appendChild(nameText);
         name.appendChild(link);
     } else {
@@ -210,8 +266,7 @@ function addItem({era, when, user, message, channel}, showUserLink) {
     const time = DOM.create("small", {class: "time"});
     let timeText = DOM.createText(toDateString(when));
     if (channel.startsWith("#")) {
-        let href = urls.matrixTo(channel);
-        const link = DOM.create("a", {href});
+        const link = DOM.anchorToRoute(router.room_page(channel));
         link.appendChild(timeText);
         time.appendChild(link);
     } else {
@@ -260,7 +315,7 @@ function parseResults(responseText, user, era, start, end) {
 
 function renderAllUsersLink() {
     let li = DOM.create("li");
-    let link = DOM.create("a", {href: urls.user_page(ALL_USERS)});
+    let link = DOM.anchorToRoute(router.user_page(ALL_USERS));
     link.textContent = "All users";
     li.appendChild(link);
     $LIST.appendChild(li);
@@ -268,7 +323,7 @@ function renderAllUsersLink() {
 
 function renderUser(name) {
     let li = DOM.create("li");
-    let link = DOM.create("a", {href: urls.user_page(name)});
+    let link = DOM.anchorToRoute(router.user_page(name));
     link.textContent = getDisplayName(name);
     li.appendChild(link);
     $LIST.appendChild(li);
@@ -306,13 +361,10 @@ function renderResults(userName, showUserLink, start, end, results) {
 
     var change_button = document.createElement("button");
     change_button.textContent = "Change";
-    change_button.addEventListener("click", () => {
+    change_button.addEventListener("click", async () => {
         var new_start = fromDateInputString(start_input.value);
         var new_end = fromDateInputString(end_input.value);
-        var url = new URL(document.location);
-        url.searchParams.set("start", new_start);
-        url.searchParams.set("end", new_end);
-        document.location.href = url.toString();
+        await goToRoute(router.user_page_start_end(userName, new_start, new_end));
     });
 
     $HEADER_DATE.appendChild(document.createTextNode("from "));
@@ -323,42 +375,10 @@ function renderResults(userName, showUserLink, start, end, results) {
     $HEADER_DATE.appendChild(change_button);
 }
 
-function runTest() {
+async function runTest() {
     const start = 42;
     const end = 1337;
-
-    const results = [
-        {
-            era: 42,
-            when: Date.now() / 1000,
-            user: "test user",
-            message: "Bug number test: bug 123",
-            channel: ""
-        },
-        {
-            era: 43,
-            when: Date.now() / 1000,
-            user: "test user",
-            message: "Simple link test: https://github.com/robotzilla/histoire",
-            channel: ""
-        },
-        {
-            era: 44,
-            when: Date.now() / 1000,
-            user: "test user",
-            message: "Multiple regexp matches with text after: https://github.com/robotzilla/histoire, bug 12345, text afterwards",
-            channel: ""
-        },
-        {
-            era: 45,
-            when: Date.now() / 1000,
-            user: "test user",
-            message: "Repository test: binjs-ref#334 (nonexistent repo: unknown#42)",
-            channel: ""
-        },
-    ];
-
-    renderResults("testing", /* showUserLink */ true, start, end, results);
+    await loadUserNotes(TEST_USER, start, end);
 }
 
 function loadUsers() {
@@ -376,7 +396,9 @@ function loadUsers() {
     });
 }
 
-async function getUserList() {
+async function fetchUsers() {
+    $HEADER_TITLE.textContent = "Loading users...";
+
     const xhr = await loadUsers();
 
     let status = (xhr.status / 100 | 0);
@@ -416,6 +438,18 @@ async function getUserList() {
             localStorage.setItem(LOCALSTORAGE_USERS_LAST_ETAG_KEY, etag);
             localStorage.setItem(LOCALSTORAGE_USERS_KEY, JSON.stringify(users))
         }
+    }
+
+    return users;
+}
+
+async function getUserList() {
+    let users;
+    try {
+        users = await fetchUsers();
+    } catch(err) {
+        console.log("error when fetching users, using local storage or test user");
+        users = JSON.parse(localStorage.getItem(LOCALSTORAGE_USERS_KEY) || [TEST_USER]);
     }
 
     users.sort((a, b) => a.toLowerCase() > b.toLowerCase());
@@ -474,42 +508,19 @@ function computeEra(time_sec) {
     return time_sec - (time_sec % ERA_SECONDS);
 }
 
-async function loadUserNotes(user, start, end) {
-    let users;
-    if (user === ALL_USERS) {
-        users = await getUserList();
-        if (!users) {
-            return;
-        }
-    } else {
-        users = user.split(",").filter(x => x);
-    }
+let LOAD_ALL_CACHE = {
+    start: null,
+    end: null,
+    results: []
+};
 
-    if (end) {
-        end = parseInt(end, 10);
-    } else {
-        end = Math.floor(Date.now() / 1000); // ms -> sec
-    }
-    if (start) {
-        start = parseInt(start, 10);
-    } else {
-        start = end - LOOKBACK_SECONDS;
-    }
+async function fetchUpdatesForUsers(users, start, end) {
+    $HEADER_TITLE.textContent = "Loading updates...";
 
-    if (start < OLDEST_ERA) {
-        start = OLDEST_ERA;
-    }
-    if (end < OLDEST_ERA) {
-        end = OLDEST_ERA;
-    }
-    if (end < start) {
-        end = start;
-    }
-
-    const resultPromises = [];
+    const promises = [];
     for (let era = computeEra(end); era >= computeEra(start); era -= ERA_SECONDS) {
         for (const user of users) {
-            resultPromises.push((async () => {
+            promises.push((async () => {
                 const xhr = await loadNotes(user, era);
 
                 // 404 is ok; there might not be any entries for that time
@@ -524,25 +535,141 @@ async function loadUserNotes(user, start, end) {
     }
 
     // All attempted data is loaded.
-    const results = [].concat(...await Promise.all(resultPromises));
-    const userName = user === ALL_USERS
+    return [].concat(...await Promise.all(promises));
+}
+
+async function loadUserNotes(user, start, end, channel = null) {
+    let users, results;
+    if (user === TEST_USER || channel === TEST_CHANNEL) {
+        users = [TEST_USER];
+        results = TEST_USER_UPDATES;
+        start = 1;
+        end = Date.now();
+    } else if (user === ALL_USERS) {
+        users = await getUserList();
+        if (!users) {
+            return;
+        }
+
+        // Check if values are in cache first, before getting the updates from
+        // github.
+        if (LOAD_ALL_CACHE.start === start &&
+            LOAD_ALL_CACHE.end === end)
+        {
+            results = LOAD_ALL_CACHE.results;
+        } else {
+            results = await fetchUpdatesForUsers(users, start, end);
+            LOAD_ALL_CACHE = {
+                start, end, results
+            };
+        }
+    } else {
+        users = user.split(",").filter(x => x);
+        results = await fetchUpdatesForUsers(users, start, end);
+    }
+
+    if (channel !== null) {
+        results = results.filter(resp => resp.channel === channel);
+    }
+
+    const userName = channel !== null
+        ? channel
+        : user == ALL_USERS
         ? "all users"
         : users.map(getDisplayName).join(", ");
 
-    const showUserLink = users.length > 1;
+    const showUserLink = users.length > 1 || channel !== null;
     renderResults(userName, showUserLink, start, end, results);
 }
 
-var params = new URL(document.location).searchParams;
-var user = params.get("user");
-var test = params.get("test");
-if (test) {
-    runTest();
-} else if (user) {
-    (async () => {
-        await getUserList();
-        await loadUserNotes(user, params.get("start"), params.get("end"));
-    })();
-} else {
-    listUsers();
+function parseHash() {
+    var hash = location.hash;
+    if (hash.length > 1 && hash[0] == '#') {
+        hash = hash.substr(1);
+    }
+    if (hash.length > 1 && hash[0] == '/') {
+        hash = hash.substr(1);
+    }
+
+    var params = new Map;
+    for (let pair of hash.split('&')) {
+        if (pair.indexOf('=') === -1) {
+            continue;
+        }
+        let [key, value] = pair.split('=');
+        params.set(key, value);
+    }
+
+    for (let [k, v] of params.entries()) {
+        console.log(k, v);
+    }
+
+    var user = params.get("user");
+    var room = params.get("room");
+    var test = params.get("test");
+
+    var end = params.get("end");
+    if (end) {
+        end = parseInt(end, 10);
+    } else {
+        end = computeEra(Math.floor(Date.now() / 1000));
+    }
+
+    var start = params.get("start");
+    if (start) {
+        start = parseInt(start, 10);
+    } else {
+        start = computeEra(end - LOOKBACK_SECONDS);
+    }
+
+    if (start < OLDEST_ERA) {
+        start = OLDEST_ERA;
+    }
+    if (end < OLDEST_ERA) {
+        end = OLDEST_ERA;
+    }
+
+    if (end < start) {
+        end = start;
+    }
+
+    return {
+        user, room, test, start, end
+    }
 }
+
+window.onpopstate = async () => {
+    await renderRoute();
+};
+
+async function goToRoute(route) {
+    history.pushState(null, null, route);
+    await renderRoute();
+}
+
+async function renderRoute() {
+    DOM.clearChildren($LIST);
+    $LIST.classList = '';
+
+    DOM.clearChildren($HEADER_TITLE);
+    DOM.clearChildren($HEADER_DATE);
+
+    let { user, room, test, start, end} = parseHash();
+
+    if (test) {
+        await runTest();
+    } else if (room) {
+        room = decodeURIComponent(room);
+        await loadUserNotes(ALL_USERS, start, end, room);
+    } else if (user) {
+        await getUserList();
+        await loadUserNotes(user, start, end);
+    } else {
+        await listUsers();
+    }
+};
+
+renderRoute().catch(err => {
+    console.log("Promise error:", err);
+    console.log("Stack:", err.stack);
+});
