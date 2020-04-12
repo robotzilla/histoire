@@ -78,17 +78,17 @@ var urls = {
     },
     edit(user, era) {
         user = encodeURIComponent(user);
-        return `https://github.com/robotzilla/histoire/edit/master/users/${user}/${user}.${era}.txt`;
+        return `https://github.com/bnjbvr/histoire/edit/master/users/${user}/${user}.${era}.txt`;
     },
     data(user, era) {
         user = encodeURIComponent(user);
-        return `https://raw.githubusercontent.com/robotzilla/histoire/master/users/${user}/${user}.${era}.txt`;
+        return `https://raw.githubusercontent.com/bnjbvr/histoire/master/users/${user}/${user}.${era}.txt`;
     },
     bug(bugNumber) {
         return `https://bugzilla.mozilla.org/show_bug.cgi?id=${bugNumber}`;
     },
     list_users() {
-        return `https://api.github.com/repos/robotzilla/histoire/contents/users`;
+        return `https://api.github.com/repos/bnjbvr/histoire/contents/users`;
     },
     user_page(username) {
         return `?user=${username}`;
