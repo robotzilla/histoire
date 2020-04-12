@@ -1,3 +1,1 @@
-1586708178 confession testing multi line confessions.
-
-They're much cooler.
+1586708178 confession testing multi line confessions.\n\nThey're much cooler.
