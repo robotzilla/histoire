@@ -8,7 +8,7 @@ var OLDEST_ERA = 1538000000;
 var LOCALSTORAGE_USERS_KEY = "users";
 var LOCALSTORAGE_USERS_LAST_ETAG_KEY = "users-last-etag";
 
-const BASE_REPO = "bnjbvr/histoire";
+const BASE_REPO = "robotzilla/histoire";
 
 const ALL_USERS = "*";
 
