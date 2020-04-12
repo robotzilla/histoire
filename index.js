@@ -5,15 +5,15 @@ var ERA_SECONDS = 1000000;
 
 var OLDEST_ERA = 1538000000;
 
-var LOCALSTORAGE_USERS_KEY = 'users';
-var LOCALSTORAGE_USERS_LAST_ETAG_KEY = 'users-last-etag';
+var LOCALSTORAGE_USERS_KEY = "users";
+var LOCALSTORAGE_USERS_LAST_ETAG_KEY = "users-last-etag";
 
-const BASE_REPO = 'bnjbvr/histoire';
+const BASE_REPO = "bnjbvr/histoire";
 
 const ALL_USERS = "*";
 
-const TEST_USER = 'test-user';
-const TEST_CHANNEL = '#test-channel';
+const TEST_USER = "test-user";
+const TEST_CHANNEL = "#test-channel";
 const TEST_USER_UPDATES = [
     {
         era: 42,
@@ -40,37 +40,38 @@ const TEST_USER_UPDATES = [
         era: 45,
         when: Date.now() / 1000,
         user: TEST_USER,
-        message: "Repository test: binjs-ref#334 (nonexistent repo: unknown#42)",
+        message:
+            "Repository test: binjs-ref#334 (nonexistent repo: unknown#42)",
         channel: "#test-channel"
-    },
+    }
 ];
 
 // Maps repository name to repository owner.
 const KNOWN_REPOS_OWNERS = {
     "binjs-ref": "binast",
-    "cranelift": "cranestation",
-    "histoire": "robotzilla",
+    cranelift: "cranestation",
+    histoire: "robotzilla",
     "rust-frontend": "mozilla-spidermonkey",
-    "jsparagus": "mozilla-spidermonkey",
+    jsparagus: "mozilla-spidermonkey"
 };
 
 const SEARCHES = [
     {
         regexp: /\\n/g,
-        createRawHtml: () => DOM.create("br"),
+        createRawHtml: () => DOM.create("br")
     },
     {
-        regexp: /bug (\d+)/ig,
+        regexp: /bug (\d+)/gi,
         createLink: match => urls.bug(match[1])
     },
     {
         // Shamelessly taken from Stackoverflow:
         // https://stackoverflow.com/questions/3809401/what-is-a-good-regular-expression-to-match-a-url
-        regexp: /https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)/ig,
+        regexp: /https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)/gi,
         createLink: match => match[0]
     },
     {
-        regexp: /([-a-zA-Z0-9_]+)#(\d+)/ig,
+        regexp: /([-a-zA-Z0-9_]+)#(\d+)/gi,
         createLink: match => urls.github_pr(match[1], match[2])
     }
 ];
@@ -97,12 +98,12 @@ var DOM = {
     },
     clearChildren(node) {
         var n;
-        while (n = node.lastChild) {
+        while ((n = node.lastChild)) {
             node.removeChild(n);
         }
     },
     anchorToRoute(route) {
-        let link = DOM.create("a", {href: route});
+        let link = DOM.create("a", { href: route });
         link.onclick = async event => {
             event.preventDefault();
             await goToRoute(route);
@@ -111,13 +112,13 @@ var DOM = {
     }
 };
 
-var $HEADER_TITLE = DOM.byId('header-title');
-var $HEADER_DATE = DOM.byId('header-date');
-var $LIST = DOM.byId('thelist');
+var $HEADER_TITLE = DOM.byId("header-title");
+var $HEADER_DATE = DOM.byId("header-date");
+var $LIST = DOM.byId("thelist");
 
-DOM.byId('backtoindex').onclick = async () => {
-    await goToRoute('#');
-}
+DOM.byId("backtoindex").onclick = async () => {
+    await goToRoute("#");
+};
 
 var urls = {
     matrixTo(channel) {
@@ -139,9 +140,11 @@ var urls = {
     },
     github_pr(repository, prNumber) {
         let owner = KNOWN_REPOS_OWNERS[repository.toLowerCase()];
-        return typeof owner === 'undefined' ? null : `https://github.com/${owner}/${repository}/pull/${prNumber}`;
-    },
-}
+        return typeof owner === "undefined"
+            ? null
+            : `https://github.com/${owner}/${repository}/pull/${prNumber}`;
+    }
+};
 
 var router = {
     user_page(username) {
@@ -152,30 +155,33 @@ var router = {
     },
     room_page(channel) {
         return `#room=${encodeURIComponent(channel)}`;
-    },
-}
+    }
+};
 
 function toDateString(when) {
-  const date = new Date(when * 1000);
-  try {
-    return new Intl.DateTimeFormat(navigator.languages, {
-      year: 'numeric',
-      month: '2-digit',
-      day: '2-digit',
-      weekday: "short",
-      hour: '2-digit',
-      minute: '2-digit',
-      second: '2-digit',
-      hour12: false
-    }).format(date);
-  } catch (e) {
-    return date.toLocaleString();
-  }
+    const date = new Date(when * 1000);
+    try {
+        return new Intl.DateTimeFormat(navigator.languages, {
+            year: "numeric",
+            month: "2-digit",
+            day: "2-digit",
+            weekday: "short",
+            hour: "2-digit",
+            minute: "2-digit",
+            second: "2-digit",
+            hour12: false
+        }).format(date);
+    } catch (e) {
+        return date.toLocaleString();
+    }
 }
 
 function toDateInputString(when) {
     const date = new Date(when * 1000);
-    return `${date.getFullYear()}-${(date.getMonth() + 1 + "").padStart(2, "0")}-${(date.getDate() + "").padStart(2, "0")}`;
+    return `${date.getFullYear()}-${(date.getMonth() + 1 + "").padStart(
+        2,
+        "0"
+    )}-${(date.getDate() + "").padStart(2, "0")}`;
 }
 
 function fromDateInputString(value) {
@@ -198,7 +204,7 @@ function linkifyAndAdd(parent, message) {
     for (let search of SEARCHES) {
         const { regexp } = search;
         let match = null;
-        while (match = regexp.exec(message)) {
+        while ((match = regexp.exec(message))) {
             let index = regexp.lastIndex - match[0].length;
             matches.push({
                 search,
@@ -216,7 +222,10 @@ function linkifyAndAdd(parent, message) {
 
         const matched = match[0];
         const beforeText = message.substr(0, message.indexOf(matched));
-        const afterText = message.substr(message.indexOf(matched) + matched.length, message.length);
+        const afterText = message.substr(
+            message.indexOf(matched) + matched.length,
+            message.length
+        );
 
         if (search.createLink) {
             const href = search.createLink(match);
@@ -224,7 +233,7 @@ function linkifyAndAdd(parent, message) {
                 continue;
             }
             parent.appendChild(DOM.createText(beforeText));
-            const link = DOM.create("a", {href});
+            const link = DOM.create("a", { href });
             link.textContent = matched;
             parent.appendChild(link);
         } else if (search.createRawHtml) {
@@ -245,12 +254,12 @@ function linkifyAndAdd(parent, message) {
     }
 }
 
-function addItem({era, when, user, message, channel}, showUserLink) {
+function addItem({ era, when, user, message, channel }, showUserLink) {
     const item = DOM.create("li");
 
-    const header = DOM.create("div", {class: "update-header"});
+    const header = DOM.create("div", { class: "update-header" });
 
-    const name = DOM.create("strong", {class: "name"});
+    const name = DOM.create("strong", { class: "name" });
     const nameText = DOM.createText(getDisplayName(user));
     if (showUserLink) {
         let link = DOM.anchorToRoute(router.user_page(user));
@@ -263,7 +272,7 @@ function addItem({era, when, user, message, channel}, showUserLink) {
 
     header.appendChild(DOM.createText(" "));
 
-    const time = DOM.create("small", {class: "time"});
+    const time = DOM.create("small", { class: "time" });
     let timeText = DOM.createText(toDateString(when));
     if (channel.startsWith("#")) {
         const link = DOM.anchorToRoute(router.room_page(channel));
@@ -277,38 +286,40 @@ function addItem({era, when, user, message, channel}, showUserLink) {
     header.appendChild(DOM.createText(" "));
 
     const edit = DOM.create("a", {
-      class: "edit",
-      href: urls.edit(user, era),
-      target: "_blank",
-      "aria-label": "edit",
+        class: "edit",
+        href: urls.edit(user, era),
+        target: "_blank",
+        "aria-label": "edit"
     });
     // https://fontawesome.com/icons/edit?style=regular
-    edit.appendChild(DOM.create("i", {
-      class: "far fa-edit",
-      title: "edit",
-      "aria-hidden": "true",
-    }));
+    edit.appendChild(
+        DOM.create("i", {
+            class: "far fa-edit",
+            title: "edit",
+            "aria-hidden": "true"
+        })
+    );
     header.appendChild(edit);
     item.appendChild(header);
 
-    const body = DOM.create("div", {class: "message"});
+    const body = DOM.create("div", { class: "message" });
     linkifyAndAdd(body, message);
     item.appendChild(body);
 
     $LIST.appendChild(item);
-};
+}
 
 function parseResults(responseText, user, era, start, end) {
     const results = [];
-    for (let line of responseText.split('\n')) {
-        if (line === '') {
+    for (let line of responseText.split("\n")) {
+        if (line === "") {
             continue;
         }
         const [_, when, channel, message] = line.match(/^(\S+) (\S+) (.*)/);
         if (when < start || when > end) {
             continue;
         }
-        results.push({user, era, when, channel, message});
+        results.push({ user, era, when, channel, message });
     }
     return results;
 }
@@ -335,16 +346,14 @@ function renderResults(userName, showUserLink, start, end, results) {
     if (results.length === 0) {
         $HEADER_TITLE.textContent = "No updates found!";
     } else {
-       // Sort results by reverse date before rendering them.
-       results.sort((a, b) => {
-           return a.when < b.when  ? 1
-                : a.when >= b.when ? -1
-                                   : 0;
-       });
-       $LIST.classList.add("update");
-       for (const result of results) {
-           addItem(result, showUserLink);
-       }
+        // Sort results by reverse date before rendering them.
+        results.sort((a, b) => {
+            return a.when < b.when ? 1 : a.when >= b.when ? -1 : 0;
+        });
+        $LIST.classList.add("update");
+        for (const result of results) {
+            addItem(result, showUserLink);
+        }
     }
 
     $HEADER_TITLE.textContent = `Updates for ${userName}`;
@@ -364,7 +373,9 @@ function renderResults(userName, showUserLink, start, end, results) {
     change_button.addEventListener("click", async () => {
         var new_start = fromDateInputString(start_input.value);
         var new_end = fromDateInputString(end_input.value);
-        await goToRoute(router.user_page_start_end(userName, new_start, new_end));
+        await goToRoute(
+            router.user_page_start_end(userName, new_start, new_end)
+        );
     });
 
     $HEADER_DATE.appendChild(document.createTextNode("from "));
@@ -384,12 +395,12 @@ async function runTest() {
 function loadUsers() {
     return new Promise(resolve => {
         const xhr = new XMLHttpRequest();
-        xhr.addEventListener('load', ev => resolve(xhr));
+        xhr.addEventListener("load", ev => resolve(xhr));
         xhr.open("GET", urls.list_users());
 
         let lastEtag = localStorage.getItem(LOCALSTORAGE_USERS_LAST_ETAG_KEY);
         if (lastEtag !== null) {
-            xhr.setRequestHeader('If-None-Match', lastEtag);
+            xhr.setRequestHeader("If-None-Match", lastEtag);
         }
 
         xhr.send();
@@ -401,13 +412,13 @@ async function fetchUsers() {
 
     const xhr = await loadUsers();
 
-    let status = (xhr.status / 100 | 0);
+    let status = (xhr.status / 100) | 0;
     // If the status code isn't in the 200 or 300 family, it's an error.
     if (status !== 2 && status !== 3) {
         let message;
         try {
             let json = JSON.parse(xhr.responseText);
-            if (typeof json.message !== 'undefined') {
+            if (typeof json.message !== "undefined") {
                 message = json.message;
             } else {
                 throw new Error();
@@ -431,12 +442,12 @@ async function fetchUsers() {
             alert("Error when parsing the list of users: " + ex.toString());
             return null;
         }
-        users = json.map(x => x.name).filter(name => name !== '.gitattributes');
+        users = json.map(x => x.name).filter(name => name !== ".gitattributes");
 
-        let etag = xhr.getResponseHeader('ETag');
+        let etag = xhr.getResponseHeader("ETag");
         if (etag !== null) {
             localStorage.setItem(LOCALSTORAGE_USERS_LAST_ETAG_KEY, etag);
-            localStorage.setItem(LOCALSTORAGE_USERS_KEY, JSON.stringify(users))
+            localStorage.setItem(LOCALSTORAGE_USERS_KEY, JSON.stringify(users));
         }
     }
 
@@ -447,9 +458,13 @@ async function getUserList() {
     let users;
     try {
         users = await fetchUsers();
-    } catch(err) {
-        console.log("error when fetching users, using local storage or test user");
-        users = JSON.parse(localStorage.getItem(LOCALSTORAGE_USERS_KEY) || [TEST_USER]);
+    } catch (err) {
+        console.log(
+            "error when fetching users, using local storage or test user"
+        );
+        users = JSON.parse(
+            localStorage.getItem(LOCALSTORAGE_USERS_KEY) || [TEST_USER]
+        );
     }
 
     users.sort((a, b) => a.toLowerCase() > b.toLowerCase());
@@ -458,9 +473,9 @@ async function getUserList() {
 
     let prefixCount = new Map();
     for (let user of users) {
-        let split = user.split(':');
+        let split = user.split(":");
         split.pop();
-        let userPrefix = split.join(':');
+        let userPrefix = split.join(":");
 
         let prevCount = prefixCount.get(userPrefix) || [];
         prevCount.push(user);
@@ -497,8 +512,8 @@ function loadNotes(user, era) {
 
     return new Promise(resolve => {
         const xhr = new XMLHttpRequest();
-        xhr.responseType = 'text';
-        xhr.addEventListener('load', ev => resolve(xhr));
+        xhr.responseType = "text";
+        xhr.addEventListener("load", ev => resolve(xhr));
         xhr.open("GET", urls.data(user, era));
         xhr.send();
     });
@@ -518,24 +533,36 @@ async function fetchUpdatesForUsers(users, start, end) {
     $HEADER_TITLE.textContent = "Loading updates...";
 
     const promises = [];
-    for (let era = computeEra(end); era >= computeEra(start); era -= ERA_SECONDS) {
+    for (
+        let era = computeEra(end);
+        era >= computeEra(start);
+        era -= ERA_SECONDS
+    ) {
         for (const user of users) {
-            promises.push((async () => {
-                const xhr = await loadNotes(user, era);
+            promises.push(
+                (async () => {
+                    const xhr = await loadNotes(user, era);
 
-                // 404 is ok; there might not be any entries for that time
-                // range.
-                if (xhr.status == 404) {
-                    return [];
-                }
+                    // 404 is ok; there might not be any entries for that time
+                    // range.
+                    if (xhr.status == 404) {
+                        return [];
+                    }
 
-                return parseResults(xhr.responseText, user, era, start, end);
-            })());
+                    return parseResults(
+                        xhr.responseText,
+                        user,
+                        era,
+                        start,
+                        end
+                    );
+                })()
+            );
         }
     }
 
     // All attempted data is loaded.
-    return [].concat(...await Promise.all(promises));
+    return [].concat(...(await Promise.all(promises)));
 }
 
 async function loadUserNotes(user, start, end, channel = null) {
@@ -553,14 +580,14 @@ async function loadUserNotes(user, start, end, channel = null) {
 
         // Check if values are in cache first, before getting the updates from
         // github.
-        if (LOAD_ALL_CACHE.start === start &&
-            LOAD_ALL_CACHE.end === end)
-        {
+        if (LOAD_ALL_CACHE.start === start && LOAD_ALL_CACHE.end === end) {
             results = LOAD_ALL_CACHE.results;
         } else {
             results = await fetchUpdatesForUsers(users, start, end);
             LOAD_ALL_CACHE = {
-                start, end, results
+                start,
+                end,
+                results
             };
         }
     } else {
@@ -572,11 +599,12 @@ async function loadUserNotes(user, start, end, channel = null) {
         results = results.filter(resp => resp.channel === channel);
     }
 
-    const userName = channel !== null
-        ? channel
-        : user == ALL_USERS
-        ? "all users"
-        : users.map(getDisplayName).join(", ");
+    const userName =
+        channel !== null
+            ? channel
+            : user == ALL_USERS
+            ? "all users"
+            : users.map(getDisplayName).join(", ");
 
     const showUserLink = users.length > 1 || channel !== null;
     renderResults(userName, showUserLink, start, end, results);
@@ -584,19 +612,19 @@ async function loadUserNotes(user, start, end, channel = null) {
 
 function parseHash() {
     var hash = location.hash;
-    if (hash.length > 1 && hash[0] == '#') {
+    if (hash.length > 1 && hash[0] == "#") {
         hash = hash.substr(1);
     }
-    if (hash.length > 1 && hash[0] == '/') {
+    if (hash.length > 1 && hash[0] == "/") {
         hash = hash.substr(1);
     }
 
-    var params = new Map;
-    for (let pair of hash.split('&')) {
-        if (pair.indexOf('=') === -1) {
+    var params = new Map();
+    for (let pair of hash.split("&")) {
+        if (pair.indexOf("=") === -1) {
             continue;
         }
-        let [key, value] = pair.split('=');
+        let [key, value] = pair.split("=");
         params.set(key, value);
     }
 
@@ -634,8 +662,12 @@ function parseHash() {
     }
 
     return {
-        user, room, test, start, end
-    }
+        user,
+        room,
+        test,
+        start,
+        end
+    };
 }
 
 window.onpopstate = async () => {
@@ -649,12 +681,12 @@ async function goToRoute(route) {
 
 async function renderRoute() {
     DOM.clearChildren($LIST);
-    $LIST.classList = '';
+    $LIST.classList = "";
 
     DOM.clearChildren($HEADER_TITLE);
     DOM.clearChildren($HEADER_DATE);
 
-    let { user, room, test, start, end} = parseHash();
+    let { user, room, test, start, end } = parseHash();
 
     if (test) {
         await runTest();
@@ -667,7 +699,7 @@ async function renderRoute() {
     } else {
         await listUsers();
     }
-};
+}
 
 renderRoute().catch(err => {
     console.log("Promise error:", err);
