@@ -21,6 +21,10 @@ const KNOWN_REPOS_OWNERS = {
 
 const SEARCHES = [
     {
+        regexp: /\\n/g,
+        createRawHtml: () => DOM.create("br"),
+    },
+    {
         regexp: /bug (\d+)/ig,
         createLink: match => urls.bug(match[1])
     },
@@ -154,20 +158,27 @@ function linkifyAndAdd(parent, message) {
     for (let i = 0; i < matches.length; i++) {
         const { search, match } = matches[i];
 
-        const href = search.createLink(match);
-        if (href === null) {
-            continue;
-        }
-
         const matched = match[0];
         const beforeText = message.substr(0, message.indexOf(matched));
         const afterText = message.substr(message.indexOf(matched) + matched.length, message.length);
 
-        parent.appendChild(DOM.createText(beforeText));
-
-        const link = DOM.create("a", {href});
-        link.textContent = matched;
-        parent.appendChild(link);
+        if (search.createLink) {
+            const href = search.createLink(match);
+            if (href === null) {
+                continue;
+            }
+            parent.appendChild(DOM.createText(beforeText));
+            const link = DOM.create("a", {href});
+            link.textContent = matched;
+            parent.appendChild(link);
+        } else if (search.createRawHtml) {
+            const rawHtml = search.createRawHtml();
+            if (rawHtml.length === 0) {
+                continue;
+            }
+            parent.appendChild(DOM.createText(beforeText));
+            parent.appendChild(rawHtml);
+        }
 
         message = afterText;
     }
@@ -223,7 +234,6 @@ function addItem({era, when, user, message, channel}, showUserLink) {
       "aria-hidden": "true",
     }));
     header.appendChild(edit);
-
     item.appendChild(header);
 
     const body = DOM.create("div", {class: "message"});
