@@ -57,3 +57,7 @@ li {
 .update li .message {
     padding: 0 0.5em;
 }
+
+.time * {
+    margin-right: 5px;
+}

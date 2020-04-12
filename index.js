@@ -273,14 +273,18 @@ function addItem({ era, when, user, message, channel }, showUserLink) {
     header.appendChild(DOM.createText(" "));
 
     const time = DOM.create("small", { class: "time" });
-    let timeText = DOM.createText(toDateString(when));
+    let timeSpan = DOM.create("span");
+
     if (channel.startsWith("#")) {
         const link = DOM.anchorToRoute(router.room_page(channel));
-        link.appendChild(timeText);
+        let channelText = DOM.createText(channel);
+        link.appendChild(channelText);
         time.appendChild(link);
-    } else {
-        time.appendChild(timeText);
     }
+
+    let timeText = DOM.createText(toDateString(when));
+    timeSpan.appendChild(timeText);
+    time.appendChild(timeSpan);
     header.appendChild(time);
 
     header.appendChild(DOM.createText(" "));
@@ -356,7 +360,19 @@ function renderResults(userName, showUserLink, start, end, results) {
         }
     }
 
-    $HEADER_TITLE.textContent = `Updates for ${userName}`;
+    if (userName.length > 0 && userName[0] === "#") {
+        // It has to be a channel!
+        DOM.clearChildren($HEADER_TITLE);
+
+        $HEADER_TITLE.appendChild(DOM.createText("Updates for "));
+
+        let link = DOM.create("a", { href: urls.matrixTo(userName) });
+        let linkText = DOM.createText(userName);
+        link.appendChild(linkText);
+        $HEADER_TITLE.appendChild(link);
+    } else {
+        $HEADER_TITLE.textContent = `Updates for ${userName}`;
+    }
 
     var start_input = document.createElement("input");
     start_input.type = "date";
