@@ -1,2 +1,3 @@
 1586294402 #spidermonkey:mozilla.org Remove `BytecodeEmitter::lazyScript` field to reduce BCE accesses to VM. (Bug 1627371)
 1586390176 #spidermonkey:mozilla.org untangling the TreatAsRunOnce logic again.. nearly there
+1586814286 #spidermonkey:mozilla.org Supporting FieldInitializers in stencil. (Bug 1628828)
