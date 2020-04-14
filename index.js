@@ -656,7 +656,7 @@ function parseHash() {
     if (end) {
         end = parseInt(end, 10);
     } else {
-        end = computeEra(Math.floor(Date.now() / 1000));
+        end = computeEra(Math.floor(Date.now() / 1000) + ERA_SECONDS);
     }
 
     var start = params.get("start");
