@@ -1,3 +1,4 @@
 1586708178 confession testing multi line confessions.\n\nThey're much cooler.
 
 1586710115 #testing:mozilla.org trying multi lines confessions, which should work now.\n\nHopefully.
+1586866251 #spidermonkey:mozilla.org added a few new features to botzilla and histoire (show updates by channel, use a basic router to avoid reloading the page during navigation, etc.)
