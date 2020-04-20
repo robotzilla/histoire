@@ -1,1 +1,2 @@
 1587158767 confession Trying to figure out how to kill InternalCreateScript dead, and worried (though, this is unconfirmed; may end up waiting till tomorrow) that there's a gap between how the parser thinks about columns and how scripts do.
+1587417020 confession Whelp. Rebased patches and everything is broken. Methinks it's time to call it for the day. 👋
