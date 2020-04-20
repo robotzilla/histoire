@@ -1,1 +1,2 @@
 1587140287 #spidermonkey:mozilla.org Just sent out one final stack of regexp patches for review, which get the new engine to the point where it is green on try
+1587424591 #spidermonkey:mozilla.org Hooked up the new regexp engine to libFuzzer. Good news: haven't found any non-trivial bugs yet. Bad news: that includes the known bug that I reinserted for testing purposes.
