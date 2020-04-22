@@ -1,0 +1,1 @@
+1587562828 #spidermonkey:mozilla.org now auto-generating reader/writer/spewer boilerplate code for all CacheIR ops
