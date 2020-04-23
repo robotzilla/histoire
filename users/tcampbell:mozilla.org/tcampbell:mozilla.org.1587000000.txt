@@ -1,1 +1,2 @@
 1587518538 confession Have a proposal to compute `NeedsFunctionEnvironmentObjects` in parser. (Bug 1631997)
+1587656293 #spidermonkey:mozilla.org Rewriting all the script flag comments! (Bug 1632273)
