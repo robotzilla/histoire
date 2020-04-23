@@ -1,1 +1,2 @@
 1587562828 #spidermonkey:mozilla.org now auto-generating reader/writer/spewer boilerplate code for all CacheIR ops
+1587623649 #spidermonkey:mozilla.org implementing more cacheir ops in the transpiler so we can evaluate warp perf on sunspider-style benchmarks
