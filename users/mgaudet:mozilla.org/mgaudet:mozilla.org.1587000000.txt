@@ -4,3 +4,4 @@
 1587485166 confession For a quick patch that tries to do the most-obvious-deferral-of-JSScript-allocation, 12 failures is pretty darn good. We've in so much better shape these days.
 1587485166 confession For a quick patch that tries to do the most-obvious-deferral-of-JSScript-allocation, 12 failures is pretty darn good. We've in so much better shape these days.
 1587572780 confession Well, it's only been four months, but I finally have the patch stack that will close out Bug 1607854, and as a cherry-on-top, I actually like the stack.
+1587747741 #spidermonkey:mozilla.org Playing dress-up as a TC39 editor https://github.com/tc39/ecma262/pull/1968 (little minds etc)
