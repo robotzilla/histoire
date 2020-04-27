@@ -1,0 +1,1 @@
+1588021838 #spidermonkey:mozilla.org Resuscitated some of the private fields code that had already been written; an extremely basic test case appears to work as if the code were using public fields... which is totally progress!
