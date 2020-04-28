@@ -1,1 +1,2 @@
 1588021838 #spidermonkey:mozilla.org Resuscitated some of the private fields code that had already been written; an extremely basic test case appears to work as if the code were using public fields... which is totally progress!
+1588111816 #spidermonkey:mozilla.org Spent the day reading André's already in-progress stack for implementing private fields. (@anba++) Tomorrow will probably continue down that road, and re-teach myself all sorts of things about how this engine works that I've forgotten or need to learn.
