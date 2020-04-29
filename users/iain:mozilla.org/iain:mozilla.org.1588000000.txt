@@ -1,0 +1,1 @@
+1588187503 #spidermonkey:mozilla.org Just put up a patch stack for review with "Turn new regexp engine on by default in Nightly" sitting on top. The obslog for that patch goes back to October.
