@@ -1,0 +1,1 @@
+1588175297 #js-frontend:mozilla.org started working on the early error trait to split errors out of ast_builder. Today I refined the labels vec in `ContextMetadata` so that it could be used to cover both loop errors and `is_labelled_function` (experimentally). I want to split out the error related code to see if this is a good idea first.
