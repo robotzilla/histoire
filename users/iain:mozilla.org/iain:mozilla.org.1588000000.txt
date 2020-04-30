@@ -1,1 +1,2 @@
 1588187503 #spidermonkey:mozilla.org Just put up a patch stack for review with "Turn new regexp engine on by default in Nightly" sitting on top. The obslog for that patch goes back to October.
+1588287116 #spidermonkey:mozilla.org Spent all day staring at a 33% performance regression in a regexp microbenchmark, narrowing it down to an 11-instruction hot loop with no meaningful differences between the old and new engines, only to discover that the "regression" went away if I added 4 bytes of nop padding to the regexp prologue
