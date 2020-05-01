@@ -1,0 +1,1 @@
+1588342538 #spidermonkey:mozilla.org Warp codegen for simple loops now matches Ion also in the OSR case
