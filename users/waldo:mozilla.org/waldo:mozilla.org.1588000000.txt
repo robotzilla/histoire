@@ -1,0 +1,1 @@
+1588301091 #spidermonkey:mozilla.org Updated https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl a bunch for locales now supporting `Intl.Locale` objects and using Unicode BCP 47 locale identifiers, not BCP 47 language tags more broadly.
