@@ -1,0 +1,1 @@
+1588805605 confession Eliminating FunctionCreationData type. (Bug 1618636)
