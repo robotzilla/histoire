@@ -1,0 +1,1 @@
+1589227561 confession Support NameResolver with Stencil (Bug 1631407)
