@@ -1,1 +1,2 @@
 1589313877 #spidermonkey:mozilla.org `./mach run --enable-private-fields -e 'class A { #x = 20; g() { return this.#x; } }; var a = new A; print(a.g())' ` => `20`... so that's a first private field reference happening. Long way to go, but it's something
+1589320018 #spidermonkey:mozilla.org Mostly finished some patches for stencil, snapshotting information from the scope chain before parse.
