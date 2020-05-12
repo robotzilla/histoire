@@ -1,1 +1,2 @@
 1589228681 #spidermonkey:mozilla.org The new regexp engine has landed in nightly again. Hopefully it sticks this time.
+1589325571 #spidermonkey:mozilla.org Got named capture replacement working. All the test262 named capture tests are now passing.
