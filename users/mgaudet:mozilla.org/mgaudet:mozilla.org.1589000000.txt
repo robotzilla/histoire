@@ -2,3 +2,4 @@
 1589320018 #spidermonkey:mozilla.org Mostly finished some patches for stencil, snapshotting information from the scope chain before parse.
 1589383410 #spidermonkey:mozilla.org Starting to understand why it's important we try to implement proposals earlier rather than later!
 1589492229 #spidermonkey:mozilla.org Sometimes the best way to figure out how to do something is to just start... so you can figure out why your first pass is wrong. Much learning today, and a little code thrown out for good measure
+1589574043 #spidermonkey:mozilla.org Early experience with using new ops to do private fields is good, though I need to tweak a bit of my hookup strategy to avoid blowing up certain combinations.
