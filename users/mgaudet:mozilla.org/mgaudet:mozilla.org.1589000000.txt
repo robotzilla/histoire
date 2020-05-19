@@ -3,3 +3,4 @@
 1589383410 #spidermonkey:mozilla.org Starting to understand why it's important we try to implement proposals earlier rather than later!
 1589492229 #spidermonkey:mozilla.org Sometimes the best way to figure out how to do something is to just start... so you can figure out why your first pass is wrong. Much learning today, and a little code thrown out for good measure
 1589574043 #spidermonkey:mozilla.org Early experience with using new ops to do private fields is good, though I need to tweak a bit of my hookup strategy to avoid blowing up certain combinations.
+1589924642 #spidermonkey:mozilla.org Have a preliminary patch which adds interpreter support for initializing, reading and writing private fields on classes (with the appropriate type errors thrown) using new opcodes. Working on ensuring baseline / blinterp work properly.
