@@ -1,1 +1,2 @@
 1589227561 confession Support NameResolver with Stencil (Bug 1631407)
+1589914225 #spidermonkey:mozilla.org Moved script-atom pointers into gcthings array. Simpler and ends up saving memory. (Bug 1638470)
