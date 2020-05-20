@@ -1,0 +1,1 @@
+1590011062 #spidermonkey:mozilla.org Writing detailed test cases intended to stress and reveal any flaws in the inline cache bits I did has revealed a problem which shows up in the interpreter instead. Chasing that down, but out of steam for the day.
