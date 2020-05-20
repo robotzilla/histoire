@@ -1,0 +1,1 @@
+1589986124 #spidermonkey:mozilla.org optimizing more Math natives in CacheIR and Warp. Baseline ICs now optimize them like Ion
