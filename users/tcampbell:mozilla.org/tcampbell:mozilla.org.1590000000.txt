@@ -1,1 +1,2 @@
 1590097397 #spidermonkey:mozilla.org Got nerd-sniped by a MIPS patch ended up changing Value.h and StructuredCloning..
+1590179917 #spidermonkey:mozilla.org gc-free bytecode emission seems to finally work and patches aren't even horrific
