@@ -1,2 +1,3 @@
 1590011062 #spidermonkey:mozilla.org Writing detailed test cases intended to stress and reveal any flaws in the inline cache bits I did has revealed a problem which shows up in the interpreter instead. Chasing that down, but out of steam for the day.
 1590096998 #spidermonkey:mozilla.org An act of violence against the codebase allows implemnting one more strange private field semantics... though, less violence than I foresaw
+1590184447 #spidermonkey:mozilla.org Talked about early errors, worked out how UsedNameTracker works by running the algorithm on examples with figurative-pen-and-paper, and then tried (oh, I tried) to improve the documentation around it.
