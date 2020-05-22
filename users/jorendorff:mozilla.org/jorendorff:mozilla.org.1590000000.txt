@@ -1,1 +1,2 @@
 1590011104 #spidermonkey:mozilla.org thought i was going to get a lot done today, but pulled a loose thread on an ES proposal instead
+1590187204 #spidermonkey:mozilla.org did some getting ready for next week's TC39 stuff, since we actually want some stuff to get done; some code reviews for private fields \o/; some snarking on pipeline operator
