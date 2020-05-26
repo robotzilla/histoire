@@ -2,3 +2,4 @@
 1590096998 #spidermonkey:mozilla.org An act of violence against the codebase allows implemnting one more strange private field semantics... though, less violence than I foresaw
 1590184447 #spidermonkey:mozilla.org Talked about early errors, worked out how UsedNameTracker works by running the algorithm on examples with figurative-pen-and-paper, and then tried (oh, I tried) to improve the documentation around it.
 1590441132 #spidermonkey:mozilla.org Earliest success at using UsedNameTracker to catch references to private fields as-of-yet undeclared. Still oodles of work there, but the concept is proved sound.
+1590530301 #spidermonkey:mozilla.org Yesterday's early-errors hack has me down to 47 test262 failures for private fields. The long tail of this feature rapidly approaches.
