@@ -1,1 +1,2 @@
 1590157357 #spidermonkey:mozilla.org Sent intent-to-ship for named captures
+1590613756 #spidermonkey:mozilla.org Upstreamed an irregexp patch to add a nice tidy interface for checking regexp syntax without allocating GC things, only to realize that the new interface didn't actually give us the info we needed to print errors if the check failed
