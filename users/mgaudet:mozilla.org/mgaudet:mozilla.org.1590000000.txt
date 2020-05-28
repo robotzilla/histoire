@@ -5,3 +5,4 @@
 1590530301 #spidermonkey:mozilla.org Yesterday's early-errors hack has me down to 47 test262 failures for private fields. The long tail of this feature rapidly approaches.
 1590613252 #spidermonkey:mozilla.org Kool-aid manning my way through Private Field walls has me at 10 failing test262 tests. Definitely lots of 'proof-of-concept' ideas which will need further munging.
 1590681333 #spidermonkey:mozilla.org Only proxy related test262 test cases to look at. Saving the best for last.
+1590700523 #spidermonkey:mozilla.org Trying to tidy my patch stack into something reviewable; discovered a whoops with my inline cache implementations tho, so that'll be tomorrow's first-at-bat. Then onward to proxies!
