@@ -4,3 +4,4 @@
 1590441132 #spidermonkey:mozilla.org Earliest success at using UsedNameTracker to catch references to private fields as-of-yet undeclared. Still oodles of work there, but the concept is proved sound.
 1590530301 #spidermonkey:mozilla.org Yesterday's early-errors hack has me down to 47 test262 failures for private fields. The long tail of this feature rapidly approaches.
 1590613252 #spidermonkey:mozilla.org Kool-aid manning my way through Private Field walls has me at 10 failing test262 tests. Definitely lots of 'proof-of-concept' ideas which will need further munging.
+1590681333 #spidermonkey:mozilla.org Only proxy related test262 test cases to look at. Saving the best for last.
