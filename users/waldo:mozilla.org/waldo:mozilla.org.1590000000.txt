@@ -2,3 +2,4 @@
 1590017941 #spidermonkey:mozilla.org Wrote some patches to fix warnings in NSS as a palate cleanser.
 1590520362 #spidermonkey:mozilla.org Updating to latest Fedora, sitting around doing mostly nothing waiting...
 1590723891 #spidermonkey:mozilla.org Did some Intl patch reviewing, still have more to go.
+1590723929 #spidermonkey:mozilla.org Also working on some Intl/ICU documentation, to scratch an itch to write some docs today.
