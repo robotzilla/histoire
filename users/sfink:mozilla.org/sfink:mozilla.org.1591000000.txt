@@ -1,0 +1,1 @@
+1591046497 #spidermonkey:mozilla.org it's awfully hard to test duplicate string counting when the GC is automatically deduplicating strings during tenuring. Looking for an easy way to force tenured string allocation and not finding it. Questioning as to whether I want to do the plumbing that would be necessary.
