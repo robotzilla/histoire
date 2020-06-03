@@ -1,0 +1,1 @@
+1591225578 #spidermonkey:mozilla.org Fixed what I hope is the last ignoreCase-without-unicode corner-case bug in upstream irregexp, just in time to discover that ignoreCase-*with*-unicode is broken in a new and different way
