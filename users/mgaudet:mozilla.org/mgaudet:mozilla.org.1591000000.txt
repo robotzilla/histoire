@@ -1,2 +1,3 @@
 1591047693 #spidermonkey:mozilla.org Getting close to having my morass of patches in shape for review; was hoping for today, but will have to be tomorrow, out of time.
 1591133022 #spidermonkey:mozilla.org Spent morning fighting jstestbrowser, because of test case issue. Trying to land first pieces of private fields functionality. Got rest of stack published for feedback/review
+1591213330 #spidermonkey:mozilla.org Grumbling at tests not testing what I thought they were testing.
