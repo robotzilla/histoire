@@ -2,3 +2,4 @@
 1591133022 #spidermonkey:mozilla.org Spent morning fighting jstestbrowser, because of test case issue. Trying to land first pieces of private fields functionality. Got rest of stack published for feedback/review
 1591213330 #spidermonkey:mozilla.org Grumbling at tests not testing what I thought they were testing.
 1591218098 #spidermonkey:mozilla.org Implementing a prototype of better locations for private name tracking was easier than I expected. Given I spent all day looking at other stuff, I'm pretty happy I got that working before EOD!
+1591307014 #spidermonkey:mozilla.org cleaned up some test case issues, focusing on proxy support for private fields right now. A few wrong attempts so far.
