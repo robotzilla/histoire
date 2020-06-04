@@ -1,2 +1,3 @@
 1591053938 #spidermonkey:mozilla.org Finished a lengthy yet solid first draft of care-and-feeding-of-ICU documentation for bug 1642505.
 1591149213 #spidermonkey:mozilla.org Snuck "haruspex" into a comment on a patch.
+1591300010 #spidermonkey:mozilla.org Snuck "tinpot dictator" into documentation.
