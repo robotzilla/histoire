@@ -1,0 +1,1 @@
+1591384880 #spidermonkey:mozilla.org spent more time than I should have optimizing `Object.toString` for things that are not objects because "why, reddit, whyyyy"
