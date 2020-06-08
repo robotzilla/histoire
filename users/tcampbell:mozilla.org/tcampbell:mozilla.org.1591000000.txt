@@ -1,1 +1,2 @@
 1591384880 #spidermonkey:mozilla.org spent more time than I should have optimizing `Object.toString` for things that are not objects because "why, reddit, whyyyy"
+1591646150 #spidermonkey:mozilla.org Adding baseline interpreter labels to profile data. (Bug 1644218)
