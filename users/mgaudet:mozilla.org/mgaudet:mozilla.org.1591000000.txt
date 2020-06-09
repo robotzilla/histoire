@@ -6,3 +6,4 @@
 1591387304 #spidermonkey:mozilla.org Thought a bunch about how we're going to have to handle Proxies + Private Fields. The answer isn't amazing, but should be doable. Monday I'll get deeper into the implementaion, but I started at 5 today, so leaving that till monday.
 1591651398 #spidermonkey:mozilla.org Progress on proxies and private fields. Just had my first simple testcase pass. The patch is made from duct tape and bailing wire, but proves the approach
 1591715113 #spidermonkey:mozilla.org Small tweak to yesterdays duct-tape-and-baling-wire patch, and I now pass all of the test262 tests for private-fields. Still more work to do, but like I'm on the right path
+1591735878 #spidermonkey:mozilla.org Mostly having trouble writing a test case that keeps JS semantics straight in my head, rather than having implementation issues. *facepalm*
