@@ -8,3 +8,4 @@
 1591715113 #spidermonkey:mozilla.org Small tweak to yesterdays duct-tape-and-baling-wire patch, and I now pass all of the test262 tests for private-fields. Still more work to do, but like I'm on the right path
 1591735878 #spidermonkey:mozilla.org Mostly having trouble writing a test case that keeps JS semantics straight in my head, rather than having implementation issues. *facepalm*
 1591738181 #spidermonkey:mozilla.org Private fields on CCWs work right now, and correctly throw when nuked. Tomorrow to figure out DOM objects...
+1591909466 #spidermonkey:mozilla.org Working through review feedback today (thanks everyone!), did a few reviews. Off tomorrow, see y'all Monday!
