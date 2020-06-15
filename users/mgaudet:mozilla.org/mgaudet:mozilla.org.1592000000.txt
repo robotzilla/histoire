@@ -1,0 +1,1 @@
+1592257378 #spidermonkey:mozilla.org All Hands Day One: Definitely not a normal day, but looks like if I want to get GDB skipping working I'm going to have to figure out how to write a regexp that matches mangled names? Or somehow iterate over symbols in python and skip the list of ones that match my regexp.
