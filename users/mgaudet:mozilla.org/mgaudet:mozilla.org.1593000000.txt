@@ -1,0 +1,1 @@
+1593011687 #spidermonkey:mozilla.org Looking at SecurityWrapper.cpp and thinking about private fields: 😬
