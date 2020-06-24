@@ -1,1 +1,2 @@
 1593011687 #spidermonkey:mozilla.org Looking at SecurityWrapper.cpp and thinking about private fields: 😬
+1593017798 #spidermonkey:mozilla.org In w-t-f of the day, if my editor's autoformat deploys on a mochitest, the mochitest hangs. \n\nWhhhhhhy
