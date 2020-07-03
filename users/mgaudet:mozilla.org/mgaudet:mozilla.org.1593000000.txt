@@ -3,3 +3,4 @@
 1593031175 #spidermonkey:mozilla.org Built an _ok_ mochitest for private fields, and learning I have a lot to learn :D
 1593207608 #spidermonkey:mozilla.org Inspired by Iain, I think I have a much nicer way to make my private fields inline caches nice and safe; will have to clean it up tho, and I am out of time. 'See' everyone Thursday next week: 🇨🇦 👋
 1593813149 #spidermonkey:mozilla.org cleaned up my IC implementation patch, solved a bug in it that later test cases found. Starting to try to clean up proxy patches for review.
+1593813200 #spidermonkey:mozilla.org Oh, and readied a patch that will enable test262 tests to be enabled on the bits that work, once the initial stack lands.
