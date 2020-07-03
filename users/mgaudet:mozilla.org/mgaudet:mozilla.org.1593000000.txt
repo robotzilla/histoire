@@ -2,3 +2,4 @@
 1593017798 #spidermonkey:mozilla.org In w-t-f of the day, if my editor's autoformat deploys on a mochitest, the mochitest hangs. \n\nWhhhhhhy
 1593031175 #spidermonkey:mozilla.org Built an _ok_ mochitest for private fields, and learning I have a lot to learn :D
 1593207608 #spidermonkey:mozilla.org Inspired by Iain, I think I have a much nicer way to make my private fields inline caches nice and safe; will have to clean it up tho, and I am out of time. 'See' everyone Thursday next week: 🇨🇦 👋
+1593813149 #spidermonkey:mozilla.org cleaned up my IC implementation patch, solved a bug in it that later test cases found. Starting to try to clean up proxy patches for review.
