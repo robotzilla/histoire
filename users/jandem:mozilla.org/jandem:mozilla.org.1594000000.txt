@@ -1,0 +1,1 @@
+1594293209 #spidermonkey:mozilla.org added support for nursery objects to the transpiler/Warp. Now looking into making IsPackedArray not depend on TI
