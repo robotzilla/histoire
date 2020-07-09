@@ -1,3 +1,4 @@
 1594074285 #spidermonkey:mozilla.org Review feedback-- aiming to hopefully land first batch of private-fields (usable private-fields) code tomorrow.
 1594133610 #spidermonkey:mozilla.org Oof. XDR encode and decode of private field scope kinds disagree on nextFrameSlot... this is unexpected.
 1594150730 #spidermonkey:mozilla.org Landed initial private fields stuff. 🤞 here's hoping it sticks!
+1594261001 #spidermonkey:mozilla.org spent the day working on followups now that the initial private fields patch has stuck ( :tada: ). All good stuff, including some lovely little fuzz bugs to help nail this down.
