@@ -3,3 +3,4 @@
 1594150730 #spidermonkey:mozilla.org Landed initial private fields stuff. 🤞 here's hoping it sticks!
 1594261001 #spidermonkey:mozilla.org spent the day working on followups now that the initial private fields patch has stuck ( :tada: ). All good stuff, including some lovely little fuzz bugs to help nail this down.
 1594414337 #spidermonkey:mozilla.org Why am I out of disk space?.. oh\n\n110G    /home/matthew/.local/share/rr
+1594415185 #spidermonkey:mozilla.org Fixed two fuzzbugs (1 backout because browser), fought mochitests (and lost). Uploaded initial private-field proxy support.
