@@ -1,1 +1,2 @@
 1594051904 #js-stencil:mozilla.org Cleaning up module builder patch for stencil
+1594767832 #js-stencil:mozilla.org Module deferral for stencil has landed. Patches for ScriptSourceObject deferral are up for review.
