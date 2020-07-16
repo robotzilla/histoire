@@ -5,3 +5,4 @@
 1594414337 #spidermonkey:mozilla.org Why am I out of disk space?.. oh\n\n110G    /home/matthew/.local/share/rr
 1594415185 #spidermonkey:mozilla.org Fixed two fuzzbugs (1 backout because browser), fought mochitests (and lost). Uploaded initial private-field proxy support.
 1594760420 #spidermonkey:mozilla.org Wrote down my vague unease about WindowProxy in as much detail as possible to seek help. ¯\_(ツ)_/¯ Here's hoping what we have already does the right thing.
+1594935205 #spidermonkey:mozilla.org Finished implementing one-op private names. Passes all tests locally. Smaller, easier to read implementation (`25 files changed, 272 insertions(+), 381 deletions(-)`), though baseline support is currently using a callVM. The good news is that I think doing an IC should be relatively easy (and probably reuse the HasPropIRGenerator).
