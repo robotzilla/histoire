@@ -1,3 +1,4 @@
 1594051904 #js-stencil:mozilla.org Cleaning up module builder patch for stencil
 1594767832 #js-stencil:mozilla.org Module deferral for stencil has landed. Patches for ScriptSourceObject deferral are up for review.
 1594851649 #js-stencil:mozilla.org all deferals except atoms are now landed \o/
+1594911763 #spidermonkey:mozilla.org Pushed my first ever syntax change for spidermonkey! (Bug 1496852)
