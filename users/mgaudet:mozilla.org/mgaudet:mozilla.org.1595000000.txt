@@ -1,0 +1,1 @@
+1595019527 #spidermonkey:mozilla.org Spent today doing some administrative work, and cleaned up my private field + Proxy patches for landing. \n\nI sorely want to YOLO these patches today, but it's a Friday, and I'm definitely not going to hang around. Monday I guess :)
