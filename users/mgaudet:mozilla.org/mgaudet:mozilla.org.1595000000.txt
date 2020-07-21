@@ -1,2 +1,3 @@
 1595019527 #spidermonkey:mozilla.org Spent today doing some administrative work, and cleaned up my private field + Proxy patches for landing. \n\nI sorely want to YOLO these patches today, but it's a Friday, and I'm definitely not going to hang around. Monday I guess :)
 1595282523 #spidermonkey:mozilla.org Landed preliminary proxy support for private fields (twice). Fought various test harnesses for a good chunk of time; working on enhancing test coverage and shaking out any bugs I -can- find.
+1595366494 #spidermonkey:mozilla.org Investigated some xpcshell issues regarding prefs; what seemed like a harness issue turned out to be some weirdness about realms, creation order etc. Continued work on a test case around adopt node.
