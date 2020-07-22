@@ -2,3 +2,4 @@
 1595282523 #spidermonkey:mozilla.org Landed preliminary proxy support for private fields (twice). Fought various test harnesses for a good chunk of time; working on enhancing test coverage and shaking out any bugs I -can- find.
 1595366494 #spidermonkey:mozilla.org Investigated some xpcshell issues regarding prefs; what seemed like a harness issue turned out to be some weirdness about realms, creation order etc. Continued work on a test case around adopt node.
 1595449497 #spidermonkey:mozilla.org I think I figured out the root cause of my wacky inflatable tube man Xray DOM adoptNode test case being incorrect. I am not sure I could have done it without pernosco.
+1595453643 #spidermonkey:mozilla.org ignoring the irksome fact that my xpcshell tests crash for some not-related-to-me assert, fixed the adoptNode test case. Need to clean up patch badly for landing. Tomorrow.
