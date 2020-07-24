@@ -5,3 +5,4 @@
 1595453643 #spidermonkey:mozilla.org ignoring the irksome fact that my xpcshell tests crash for some not-related-to-me assert, fixed the adoptNode test case. Need to clean up patch badly for landing. Tomorrow.
 1595539335 #spidermonkey:mozilla.org Got distracted for a bit hunting down the history of why you can return from constructors, and how that works a bit. May post writeup eventually.
 1595594063 #spidermonkey:mozilla.org Published [yesterday's investigation into the return behaviour of JS constructors](https://www.mgaudet.ca/technical/2020/7/24/investigating-the-return-behaviour-of-js-constructors)
+1595625417 #spidermonkey:mozilla.org Based on a review comment from Jason, got to a simper design for private field proxies; needs more testing, but I like the patch.
