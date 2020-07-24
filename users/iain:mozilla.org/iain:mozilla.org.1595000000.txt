@@ -1,0 +1,1 @@
+1595626843 #spidermonkey:mozilla.org Trial inlining for warp is working well enough to measure performance. With dumb untuned heuristics, we get a 3.5% speedup on octane and don't hurt speedometer. More tuning to come after I pack up all my worldly possessions and move to BC.
