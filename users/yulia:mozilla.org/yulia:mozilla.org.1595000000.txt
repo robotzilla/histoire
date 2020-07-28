@@ -1,0 +1,1 @@
+1595938046 #spidermonkey:mozilla.org have the frontend part of top level await working afaict, moving on to the vm part
