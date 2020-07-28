@@ -1,0 +1,1 @@
+1595943574 #js-frontend:mozilla.org Rebasing jsparagus patches complete, and compliant with the python type system! Now it is time to profile once more and work on more optimization!
