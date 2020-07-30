@@ -1,0 +1,1 @@
+1596143912 #spidermonkey:mozilla.org implemented IC support for `CheckPrivateField`
