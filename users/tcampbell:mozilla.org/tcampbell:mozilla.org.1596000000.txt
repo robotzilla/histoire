@@ -1,0 +1,1 @@
+1596583152 #js-stencil:mozilla.org Patches for Bug 1653248 are ready for review. They replace `ScopeCreationData` / `EnvironmentShapeCreationData` with a unified `ScopeStencil` and remove the pointer fields in order to support serialization.
