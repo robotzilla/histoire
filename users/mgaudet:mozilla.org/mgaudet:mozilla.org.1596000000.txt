@@ -1,1 +1,2 @@
 1596143912 #spidermonkey:mozilla.org implemented IC support for `CheckPrivateField`
+1596574866 #js-frontend:mozilla.org Landed IC support for CheckPrivateField. Haltingly started work on Warp support, but need Ion IC implementation to make progress there. Finished worker test case (didn't need promises or atomics, tho thanks for the pointer @nbp)
