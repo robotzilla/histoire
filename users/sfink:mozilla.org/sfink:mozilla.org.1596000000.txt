@@ -1,1 +1,2 @@
 1596566597 #spidermonkey:mozilla.org finally landed the patch that adds the ability to find a path from any GC root to the testing function `nearestPaths()`
+1596566646 #spidermonkey:mozilla.org discovered that our extensible string space optimization rarely kicks in during normal load (~0.3% on awsy tp6)
