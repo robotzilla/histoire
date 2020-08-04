@@ -1,0 +1,1 @@
+1596566597 #spidermonkey:mozilla.org finally landed the patch that adds the ability to find a path from any GC root to the testing function `nearestPaths()`
