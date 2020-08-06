@@ -1,0 +1,1 @@
+1596673006 #spidermonkey:mozilla.org Working through what in the world pluggable JSAPI hooks whose operation may potentially cross realms ought look and function like.  What could go wrong?
