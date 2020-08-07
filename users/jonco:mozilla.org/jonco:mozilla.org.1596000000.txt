@@ -1,0 +1,1 @@
+1596790530 #spidermonkey:mozilla.org working on reducing the number of chunks we allocate by moving arenas out of sparsely used chunks, but it's not having the desired effect on AWSY
