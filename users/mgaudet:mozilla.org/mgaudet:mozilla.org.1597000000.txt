@@ -1,1 +1,2 @@
 1597076979 #spidermonkey:mozilla.org Uploaded first pass of ergonomic brand checks code.
+1597080116 #spidermonkey:mozilla.org Declared email bankruptcy on bugmail subscriptions. Got too far behind -- if you didn't ni? me for anything in the last 3 weeks but hoped maybe I'd see it... I won't.
