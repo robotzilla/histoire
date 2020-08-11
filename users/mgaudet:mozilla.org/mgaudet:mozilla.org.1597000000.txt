@@ -1,3 +1,4 @@
 1597076979 #spidermonkey:mozilla.org Uploaded first pass of ergonomic brand checks code.
 1597080116 #spidermonkey:mozilla.org Declared email bankruptcy on bugmail subscriptions. Got too far behind -- if you didn't ni? me for anything in the last 3 weeks but hoped maybe I'd see it... I won't.
 1597095240 #spidermonkey:mozilla.org Writing blog post about implementing private fields
+1597181197 #spidermonkey:mozilla.org Made progress on blog post while processing other news; need to finish section on Proxies, then get first round of review.
