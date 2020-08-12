@@ -2,3 +2,4 @@
 1597080116 #spidermonkey:mozilla.org Declared email bankruptcy on bugmail subscriptions. Got too far behind -- if you didn't ni? me for anything in the last 3 weeks but hoped maybe I'd see it... I won't.
 1597095240 #spidermonkey:mozilla.org Writing blog post about implementing private fields
 1597181197 #spidermonkey:mozilla.org Made progress on blog post while processing other news; need to finish section on Proxies, then get first round of review.
+1597256203 #spidermonkey:mozilla.org finished draft of private fields blog post (if anyone would like to take a peek and make suggestions,  let me know)
