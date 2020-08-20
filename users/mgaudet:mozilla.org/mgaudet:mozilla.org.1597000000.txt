@@ -5,3 +5,4 @@
 1597256203 #spidermonkey:mozilla.org finished draft of private fields blog post (if anyone would like to take a peek and make suggestions,  let me know)
 1597427213 #spidermonkey:mozilla.org Why can I never reliably spell the features I work on... 'visbility... visibilty... visibility', 'ergnomic, ergonmic, ergonomic'
 1597698871 #spidermonkey:mozilla.org too slow to do this parser work today (and too hot; apologies to those where it's actually hot hot).
+1597945381 #spidermonkey:mozilla.org Professional Development - learning about async JS programming: Promises, async await etc.
