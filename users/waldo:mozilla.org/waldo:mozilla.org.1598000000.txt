@@ -1,1 +1,2 @@
 1598301661 #developers:mozilla.org "cycle collection"
+1598382504 #spidermonkey:mozilla.org Maaaybe have a patch finished to make DOM's `AbortSignal` keep strong references to its followers, i.e. the algorithms added to it that run when the signal is aborted, bug 1660555.  Maybe.
