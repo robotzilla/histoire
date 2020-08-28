@@ -1,0 +1,1 @@
+1598627149 #spidermonkey:mozilla.org Start converting callWithABI to include the function signature … after a day, only 8% converted … Time to think whether it might be possible to automate things a bit.
