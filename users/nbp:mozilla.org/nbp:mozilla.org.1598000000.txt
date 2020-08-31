@@ -1,1 +1,2 @@
 1598627149 #spidermonkey:mozilla.org Start converting callWithABI to include the function signature … after a day, only 8% converted … Time to think whether it might be possible to automate things a bit.
+1598882525 #spidermonkey:mozilla.org Running a script to simplify the manual process of updating callWithABI call sites, by copying the signature of the called function next to callWithABI use. (the grep result of the function name). This way, no need to dig in tons of files to do more copy and paste.
