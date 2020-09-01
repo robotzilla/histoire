@@ -1,0 +1,1 @@
+1598978799 #spidermonkey:mozilla.org spending a couple hours setting up android and gdb to run jit-tests locally, then ran failing test, looked at backtrace and fixed it in a few minutes
