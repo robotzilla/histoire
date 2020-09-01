@@ -1,0 +1,1 @@
+1598970521 #spidermonkey:mozilla.org Adding an ES module embedding example to our example repo. Lots of footguns with resolve-hook =\
