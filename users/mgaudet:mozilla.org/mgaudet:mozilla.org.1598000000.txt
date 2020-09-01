@@ -2,3 +2,4 @@
 1598648896 #spidermonkey:mozilla.org Mostly done my blog post about how generators work. Need to fill in some gaps about environments on monday tho.\n\nNext up: taking a closer look at async functions
 1598650011 #spidermonkey:mozilla.org Landed bigint conversion patch, which unblocks stencil stuff!
 1598907976 #spidermonkey:mozilla.org mostly done blog post about generators.
+1598968005 #spidermonkey:mozilla.org Published https://www.mgaudet.ca/technical/2020/9/1/how-do-generators-generate-in-spidermonkey
