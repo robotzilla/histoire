@@ -1,0 +1,1 @@
+1599677226 #spidermonkey:mozilla.org I learned today that a pure refactoring during which you accidentally invert a boolean isn't actually a pure refactoring.
