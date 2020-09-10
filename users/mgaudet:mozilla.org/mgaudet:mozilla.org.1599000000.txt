@@ -1,0 +1,1 @@
+1599740943 #spidermonkey:mozilla.org Just published a blog post sketching out environments and scopes in SpiderMonkey: https://www.mgaudet.ca/technical/2020/9/10/a-brief-note-on-environments-and-scopes-in-spidermonkey
