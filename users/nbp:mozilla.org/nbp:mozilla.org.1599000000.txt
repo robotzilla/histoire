@@ -1,0 +1,1 @@
+1599842878 #spidermonkey:mozilla.org 🤫 Someone is going to abuse the power of C Macros to automagically build a test case which would test if functions calls are respecting the system ABI for all registered (signatures of) functions, i-e. ABI functions and VM functions.
