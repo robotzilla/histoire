@@ -1,0 +1,1 @@
+1600123520 #js-stencil:mozilla.org Added extra optimization to ParserAtoms to mimic JSAtom tricks. (Bug 1664312)
