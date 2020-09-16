@@ -1,1 +1,2 @@
 1600080121 confession testing botzilla confessions
+1600267011 #perftest:mozilla.org we decided in our team meeting to trial confessions for one week with a status update once per day
