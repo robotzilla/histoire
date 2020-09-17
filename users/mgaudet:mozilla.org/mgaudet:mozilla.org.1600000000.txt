@@ -1,0 +1,1 @@
+1600379723 #spidermonkey:mozilla.org Performance investigation; [played with semgrep](https://www.mgaudet.ca/technical/2020/9/17/playing-around-with-semgrep)
