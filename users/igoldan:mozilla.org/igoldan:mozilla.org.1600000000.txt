@@ -1,0 +1,1 @@
+1600354226 confession reviewed Bug 1652681 - Auto zoom when opening Graphs view
