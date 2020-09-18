@@ -1,1 +1,2 @@
 1600430857 #perftest:mozilla.org waiting for some CI tests to confirm the fenix YTP 2020 PR is ready for merge
+1600430925 #perftest:mozilla.org scheduled a planning meeting for documenting which performance tests should be running where
