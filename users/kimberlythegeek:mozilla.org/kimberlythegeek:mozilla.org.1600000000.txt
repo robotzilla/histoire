@@ -4,3 +4,4 @@
 1600449097 #perftest:mozilla.org [Thursday 9-17]  working with performance API, currently trying to get browsertime tests running locally
 1600449131 confession [Thursday 9-17]  submitted patch to update android tests to use 85, needs revision
 1600449266 confession [Friday 9-18] trying to fix local clone of mozilla-central, got corrupted when a ./mach bootstrap was interrupted
+1600449450 #perftest:mozilla.org [Friday 9-18] trying to fix local clone of mozilla-central, got corrupted when a ./mach bootstrap was interrupted
