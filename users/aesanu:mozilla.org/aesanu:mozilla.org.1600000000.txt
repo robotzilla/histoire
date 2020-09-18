@@ -1,1 +1,2 @@
 1600353951 confession Addressed PR requests for Bug 1611158 and did some progress on FXP-1309
+1600438056 #perftest:mozilla.org Discussed and decided to improve the User Guide for FXP-1309
