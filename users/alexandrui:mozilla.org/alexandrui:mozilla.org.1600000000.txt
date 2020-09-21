@@ -1,3 +1,4 @@
 1600430857 #perftest:mozilla.org waiting for some CI tests to confirm the fenix YTP 2020 PR is ready for merge
 1600430925 #perftest:mozilla.org scheduled a planning meeting for documenting which performance tests should be running where
 1600697444 #perftest:mozilla.org fixed locally the perma gdocs for fail on chrome, going to check for chromium and then upload the fixed recording
+1600697494 #perftest:mozilla.org need to fix some local issues with mozilla-central and then analyze why is that much improvement for unity-webgl on browsertime related to webextension
