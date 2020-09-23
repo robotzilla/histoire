@@ -1,2 +1,3 @@
 1600446944 #spidermonkey:mozilla.org Automating 331 ABI functions/signatures in a future proof manner 🙂, such that no more function call would remain untested.
 1600704756 #spidermonkey:mozilla.org C++ type system is wonderfull mess of corner cases … which is even worse when hidden by templates. Let's stop the madness and completly work-around it for testing purposes. Hum … I will fallback on std::integer_sequence as a way to create the content of a buffer at compile time based on template parameters.
+1600879980 #spidermonkey:mozilla.org Finally, all ABI function tests are passing on x64 … time to split patches!
