@@ -1,1 +1,2 @@
 1600123520 #js-stencil:mozilla.org Added extra optimization to ParserAtoms to mimic JSAtom tricks. (Bug 1664312)
+1600989044 #js-stencil:mozilla.org Removing the cloneSingletons mechanism from XDR in favour of consistency with `CopyScript` and the browsers actual use cases. (Bug 1667258)
