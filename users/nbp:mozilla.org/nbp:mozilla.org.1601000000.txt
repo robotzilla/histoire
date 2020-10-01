@@ -1,1 +1,2 @@
 1601053611 #spidermonkey:mozilla.org Attempt at splitting patches evenly among everybody to share the wisdom of the new callWithABI format …
+1601548907 #spidermonkey:mozilla.org Bring back to life an ARM64 computer … 🌩️🌩️🌩️ IT IS ALIVE!!! Now is the time to test the callWithABI patches.
