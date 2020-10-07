@@ -1,0 +1,1 @@
+1602106861 #js-stencil:mozilla.org Making more parts of InstantiateStencils immutable (Bug 1669847)
