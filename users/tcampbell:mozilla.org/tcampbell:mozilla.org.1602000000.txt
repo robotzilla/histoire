@@ -1,1 +1,2 @@
 1602106861 #js-stencil:mozilla.org Making more parts of InstantiateStencils immutable (Bug 1669847)
+1602199206 #js-stencil:mozilla.org Removed debugger realm-wide delazification. (Bug 1623766, Bug 1623763, 1623761)
