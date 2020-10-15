@@ -1,0 +1,1 @@
+1602774183 #js-stencil:mozilla.org reviving JS Shell telemetry to see whether sharing bytecode matters. (without having to build & debug a browser build)
