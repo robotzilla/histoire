@@ -1,0 +1,1 @@
+1603400924 #spidermonkey:mozilla.org Can OSR into a Warp compiled body of an async function; crash on return into baseline Resume tho. (To set expectations: I suspect there's weeks of work left here... the implementation is [like this](http://blogs.solidworks.com/tech/wp-content/uploads/sites/4/redneck-bailing-wire.jpg) right now)
