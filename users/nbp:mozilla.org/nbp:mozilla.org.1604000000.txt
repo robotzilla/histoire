@@ -1,0 +1,1 @@
+1604058457 #spidermonkey:mozilla.org Bug 1661256 is fully landed now! You won't be able to add JIT to C++ function calls which could miss-interpret the arguments without getting a hard failure now (assuming the test case is actually executed in CI)
