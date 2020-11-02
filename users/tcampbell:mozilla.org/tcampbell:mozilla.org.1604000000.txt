@@ -1,1 +1,2 @@
 1604359835 #js-stencil:mozilla.org Cleaning-up XDRScriptStencil to be less fine grain gives some perf improvements (Bug 1674869)
+1604359888 #js-stencil:mozilla.org Trying to use LifoAlloc for speeding up CompilationStencil (Bug 1668672)
