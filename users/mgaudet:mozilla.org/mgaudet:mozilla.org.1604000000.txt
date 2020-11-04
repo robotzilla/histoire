@@ -1,1 +1,2 @@
 1604523354 #spidermonkey:mozilla.org Good news! An async function, with an await, being warp compiled is 7x faster than the baseline revision. Bad news! The checksum I'm computing is wrong. 🤔
+1604528441 #spidermonkey:mozilla.org Solved! off by one error when I tweaked the stack save code I had written. Just as fast, with the correct result now. Also seems to have fixed the couple of jit-test failures I had been ignoring.
