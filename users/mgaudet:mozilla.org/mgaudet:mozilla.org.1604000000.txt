@@ -1,0 +1,1 @@
+1604523354 #spidermonkey:mozilla.org Good news! An async function, with an await, being warp compiled is 7x faster than the baseline revision. Bad news! The checksum I'm computing is wrong. 🤔
