@@ -1,2 +1,3 @@
 1604359835 #js-stencil:mozilla.org Cleaning-up XDRScriptStencil to be less fine grain gives some perf improvements (Bug 1674869)
 1604359888 #js-stencil:mozilla.org Trying to use LifoAlloc for speeding up CompilationStencil (Bug 1668672)
+1604529499 #js-stencil:mozilla.org Migrated ParserScopeData to use LifoAlloc and removed extra copies and allocations. (Bug 1668672 continued)
