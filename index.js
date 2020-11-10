@@ -45,6 +45,13 @@ const TEST_USER_UPDATES = [
             "Repository test: binjs-ref#334 (nonexistent repo: unknown#42)",
         channel: "#test-channel",
     },
+    {
+        era: 46,
+        when: Date.now() / 1000,
+        user: TEST_USER,
+        message: "Unsafe content test <script>alert('oops')</script>",
+        channel: "#test-channel",
+    },
 ];
 
 // Maps repository name to repository owner.
@@ -55,27 +62,6 @@ const KNOWN_REPOS_OWNERS = {
     "rust-frontend": "mozilla-spidermonkey",
     jsparagus: "mozilla-spidermonkey",
 };
-
-const SEARCHES = [
-    {
-        regexp: /\\n/g,
-        createRawHtml: () => DOM.create("br"),
-    },
-    {
-        regexp: /bug (\d+)/gi,
-        createLink: (match) => urls.bug(match[1]),
-    },
-    {
-        // Shamelessly taken from Stackoverflow:
-        // https://stackoverflow.com/questions/3809401/what-is-a-good-regular-expression-to-match-a-url
-        regexp: /https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)/gi,
-        createLink: (match) => match[0],
-    },
-    {
-        regexp: /([-a-zA-Z0-9_]+)#(\d+)/gi,
-        createLink: (match) => urls.github_pr(match[1], match[2]),
-    },
-];
 
 var USER_TO_DISPLAY_NAME = {};
 
@@ -203,64 +189,131 @@ function fromDateInputString(value) {
     return Math.floor(date.getTime() / 1000);
 }
 
-// Linkify `message` string and add it to `parent` node.
-function linkifyAndAdd(parent, message) {
-    let matches = [];
+const MARKDOWN_SEARCHES = [
+    {
+        name: "bug",
+        regexp: /bug (\d+)/gi,
+        createLink: (captures) => urls.bug(captures[0]),
+        numCaptures: 1,
+    },
+    {
+        name: "gh-shorthand",
+        regexp: /([-a-zA-Z0-9_]+)#(\d+)/gi,
+        createLink: (captures) => urls.github_pr(captures[0], captures[1]),
+        numCaptures: 2,
+    },
+];
 
-    for (let search of SEARCHES) {
-        const { regexp } = search;
-        let match = null;
-        while ((match = regexp.exec(message))) {
-            let index = regexp.lastIndex - match[0].length;
-            matches.push({
-                search,
-                match,
-                index,
+const markdownPlugin = (search) => (md) => {
+    md.core.ruler.push(search.name, (state) => {
+        let arrayReplaceAt = md.utils.arrayReplaceAt;
+
+        function splitTextToken(text, level) {
+            let token;
+            let lastPos = 0;
+            let newNodes = [];
+
+            text.replace(search.regexp, function (match, ...rest) {
+                let captures = [];
+                for (let k = 0; k < search.numCaptures; k++) {
+                    captures.push(rest.shift());
+                }
+
+                let offset = rest.shift();
+
+                // Add new tokens to pending list.
+                if (offset > lastPos) {
+                    token = new state.Token("text", "", 0);
+                    token.content = text.slice(lastPos, offset);
+                    newNodes.push(token);
+                }
+
+                let fullUrl = search.createLink(captures);
+
+                if (fullUrl !== null) {
+                    token = new state.Token("link_open", "a", 1);
+                    token.attrs = [["href", fullUrl]];
+                    token.level = level++;
+                    token.markup = search.name;
+                    token.info = "auto";
+                    newNodes.push(token);
+
+                    token = new state.Token("text", "", 0);
+                    token.content = match;
+                    token.level = level;
+                    newNodes.push(token);
+
+                    token = new state.Token("link_close", "a", -1);
+                    token.level = --level;
+                    token.markup = search.name;
+                    token.info = "auto";
+                    newNodes.push(token);
+                } else {
+                    token = new state.Token("text", "", 0);
+                    token.content = match;
+                    token.level = level;
+                    newNodes.push(token);
+                }
+
+                lastPos = offset + match.length;
             });
-        }
-        regexp.lastIndex = 0;
-    }
 
-    matches.sort((a, b) => a.index > b.index);
-
-    for (let i = 0; i < matches.length; i++) {
-        const { search, match } = matches[i];
-
-        const matched = match[0];
-        const beforeText = message.substr(0, message.indexOf(matched));
-        const afterText = message.substr(
-            message.indexOf(matched) + matched.length,
-            message.length
-        );
-
-        if (search.createLink) {
-            const href = search.createLink(match);
-            if (href === null) {
-                continue;
+            if (lastPos < text.length) {
+                // Add the remainder of the text.
+                token = new state.Token("text", "", 0);
+                token.content = text.slice(lastPos);
+                newNodes.push(token);
             }
-            parent.appendChild(DOM.createText(beforeText));
-            const link = DOM.create("a", { href });
-            link.textContent = matched;
-            parent.appendChild(link);
-        } else if (search.createRawHtml) {
-            const rawHtml = search.createRawHtml();
-            if (rawHtml.length === 0) {
-                continue;
-            }
-            parent.appendChild(DOM.createText(beforeText));
-            parent.appendChild(rawHtml);
+
+            return newNodes;
         }
 
-        message = afterText;
-    }
+        let blockTokens = state.tokens;
+        let autolinkLevel = 0;
 
-    if (message) {
-        const text = DOM.createText(message);
-        parent.appendChild(text);
-    }
+        for (let j = 0; j < blockTokens.length; j++) {
+            if (blockTokens[j].type !== "inline") {
+                continue;
+            }
+
+            let tokens = blockTokens[j].children;
+
+            // We scan from the end, to keep position when new tags added.
+            // Use reversed logic in links start/end match
+            for (let i = tokens.length - 1; i >= 0; i--) {
+                let token = tokens[i];
+
+                if (token.type === "link_open" || token.type === "link_close") {
+                    if (token.info === "auto") {
+                        autolinkLevel -= token.nesting;
+                    }
+                }
+
+                if (token.type === "text" && autolinkLevel === 0) {
+                    if (search.regexp.test(token.content)) {
+                        // replace current node
+                        blockTokens[j].children = tokens = arrayReplaceAt(
+                            tokens,
+                            i,
+                            splitTextToken(
+                                token.content,
+                                token.level,
+                                state.Token
+                            )
+                        );
+                    }
+                }
+            }
+        }
+    });
+};
+
+let Markdown = window.markdownit({ breaks: true, linkify: true });
+for (let search of MARKDOWN_SEARCHES) {
+    Markdown = Markdown.use(markdownPlugin(search));
 }
 
-function addItem(
+function renderSingleUpdate(
     { era, when, user, message, channel },
     start,
     end,
@@ -318,7 +371,7 @@ function addItem(
     item.appendChild(header);
 
     const body = DOM.create("div", { class: "message" });
-    linkifyAndAdd(body, message);
+    body.innerHTML = Markdown.render(message);
     item.appendChild(body);
 
     $LIST.appendChild(item);
@@ -375,7 +428,7 @@ function renderResults(
         });
         $LIST.classList.add("update");
         for (const result of results) {
-            addItem(result, start, end, showUserLink);
+            renderSingleUpdate(result, start, end, showUserLink);
         }
     }
 
