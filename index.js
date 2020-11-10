@@ -371,7 +371,7 @@ function renderSingleUpdate(
     item.appendChild(header);
 
     const body = DOM.create("div", { class: "message" });
-    body.innerHTML = Markdown.render(message);
+    body.innerHTML = Markdown.renderInline(message);
     item.appendChild(body);
 
     $LIST.appendChild(item);
