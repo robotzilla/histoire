@@ -419,9 +419,7 @@ function renderResults(
 ) {
     DOM.clearChildren($LIST);
 
-    if (results.length === 0) {
-        $HEADER_TITLE.textContent = "No updates found!";
-    } else {
+    if (results.length) {
         // Sort results by reverse date before rendering them.
         results.sort((a, b) => {
             return a.when < b.when ? 1 : a.when >= b.when ? -1 : 0;
@@ -430,6 +428,11 @@ function renderResults(
         for (const result of results) {
             renderSingleUpdate(result, start, end, showUserLink);
         }
+    } else {
+        let li = DOM.create("li");
+        let text = DOM.createText("No updates found!");
+        li.appendChild(text);
+        $LIST.appendChild(li);
     }
 
     if (userName.length > 0 && userName[0] === "#") {
