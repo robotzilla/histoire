@@ -1,0 +1,1 @@
+1605047954 #spidermonkey:mozilla.org Progress on warp compiled generators; Tomorrow-Matt is going to figure out how to teach `calculatePrevFramePtr` about BaselineJS frames. Don't have the juice for it now :)
