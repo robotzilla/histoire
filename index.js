@@ -12,6 +12,7 @@ const BASE_REPO = "robotzilla/histoire";
 
 const ALL_USERS = "*";
 
+// Testing facilities.
 const TEST_USER = "test-user";
 const TEST_CHANNEL = "#test-channel";
 const TEST_USER_UPDATES = [
@@ -443,11 +444,24 @@ function loadUsers() {
     });
 }
 
+// An in-memory cache for the fetchUsers request.
+let LAST_FETCH_USERS = {
+    timestamp: null,
+    users: null,
+};
+
 // Fetch the user list from Github or from the local storage cache. Each
 // username is fully extended, including the Matrix domain in particular.
 //
 // This is internally facing; prefer using the getUserList() function below.
 async function fetchUsers() {
+    if (
+        !!LAST_FETCH_USERS.users &&
+        Date.now() - LAST_FETCH_USERS.timestamp < 60 * 1000
+    ) {
+        return LAST_FETCH_USERS.users;
+    }
+
     $HEADER_TITLE.textContent = "Loading users...";
 
     const xhr = await loadUsers();
@@ -492,6 +506,8 @@ async function fetchUsers() {
             localStorage.setItem(LOCALSTORAGE_USERS_KEY, JSON.stringify(users));
         }
     }
+
+    LAST_FETCH_USERS = { timestamp: Date.now(), users };
 
     return users;
 }
@@ -548,17 +564,47 @@ async function listUsers() {
     $HEADER_TITLE.textContent = "Users";
 }
 
-function loadNotes(fullUser, era) {
+// In-memory cache for the result of the fetchUpdates function.
+const LAST_FETCH_UPDATES = {};
+
+function fetchUpdates(fullUser, era) {
     // index.html and index.js are loaded through rawgit.com, which routes them
     // through a CDN that caches aggressively. That doesn't work for the data
     // files, which are expected to be updated frequently. So we go through
     // github directly for those -- but note, not the /raw/ URL, since that
     // does not allow CORS, but the raw.githubusercontent.com link.
-
+    const cacheKey = fullUser + "-" + era;
     return new Promise((resolve) => {
+        const cacheEntry = LAST_FETCH_UPDATES[cacheKey];
+        if (typeof cacheEntry !== "undefined") {
+            // Only return the cache entry if it predates the current era, in
+            // which case it's unlikely to have been modified in the meanwhile;
+            // or when we've requested user updates for this user/era less than
+            // a minute ago.
+            let requestedRecently =
+                Date.now() - cacheEntry.timestamp < 60 * 1000;
+            if (era < CURRENT_ERA_START || requestedRecently) {
+                resolve(cacheEntry.value);
+                return;
+            }
+        }
+
         const xhr = new XMLHttpRequest();
         xhr.responseType = "text";
-        xhr.addEventListener("load", (ev) => resolve(xhr));
+        xhr.addEventListener("load", () => {
+            // 404 is ok; there might not be any entries for that time range.
+            let result;
+            if (xhr.status == 404) {
+                result = "";
+            } else {
+                result = xhr.responseText;
+            }
+            LAST_FETCH_UPDATES[cacheKey] = {
+                timestamp: Date.now(),
+                value: result,
+            };
+            resolve(result);
+        });
         xhr.open("GET", urls.data(fullUser, era));
         xhr.send();
     });
@@ -567,12 +613,6 @@ function loadNotes(fullUser, era) {
 function computeEra(time_sec) {
     return time_sec - (time_sec % ERA_SECONDS);
 }
-
-let LOAD_ALL_CACHE = {
-    start: null,
-    end: null,
-    results: [],
-};
 
 async function fetchUpdatesForUsers(fullUsers, start, end) {
     $HEADER_TITLE.textContent = "Loading updates...";
@@ -586,21 +626,8 @@ async function fetchUpdatesForUsers(fullUsers, start, end) {
         for (const fullUser of fullUsers) {
             promises.push(
                 (async () => {
-                    const xhr = await loadNotes(fullUser, era);
-
-                    // 404 is ok; there might not be any entries for that time
-                    // range.
-                    if (xhr.status == 404) {
-                        return [];
-                    }
-
-                    return parseResults(
-                        xhr.responseText,
-                        fullUser,
-                        era,
-                        start,
-                        end
-                    );
+                    const updatesText = await fetchUpdates(fullUser, era);
+                    return parseResults(updatesText, fullUser, era, start, end);
                 })()
             );
         }
@@ -623,19 +650,7 @@ async function loadUserNotes(user, start, end, channel = null) {
         if (!users) {
             return;
         }
-
-        // Check if values are in cache first, before getting the updates from
-        // github.
-        if (LOAD_ALL_CACHE.start === start && LOAD_ALL_CACHE.end === end) {
-            results = LOAD_ALL_CACHE.results;
-        } else {
-            results = await fetchUpdatesForUsers(users, start, end);
-            LOAD_ALL_CACHE = {
-                start,
-                end,
-                results,
-            };
-        }
+        results = await fetchUpdatesForUsers(users, start, end);
     } else {
         users = user.split(",").filter((x) => x);
         results = await fetchUpdatesForUsers(users, start, end);
