@@ -52,6 +52,22 @@ const TEST_USER_UPDATES = [
         message: "Unsafe content test <script>alert('oops')</script>",
         channel: "#test-channel",
     },
+    {
+        era: 47,
+        when: Date.now() / 1000,
+        user: TEST_USER,
+        message: `Something something
+
+on several lines!`,
+        channel: "#test-channel",
+    },
+    {
+        era: 48,
+        when: Date.now() / 1000,
+        user: TEST_USER,
+        message: "Now with...\n\n...backslash n!",
+        channel: "#test-channel",
+    },
 ];
 
 // Maps repository name to repository owner.
@@ -371,7 +387,7 @@ function renderSingleUpdate(
     item.appendChild(header);
 
     const body = DOM.create("div", { class: "message" });
-    body.innerHTML = Markdown.renderInline(message);
+    body.innerHTML = Markdown.renderInline(message.replace(/\\n/g, '\n'));
     item.appendChild(body);
 
     $LIST.appendChild(item);
