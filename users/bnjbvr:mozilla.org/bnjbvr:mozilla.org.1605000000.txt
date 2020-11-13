@@ -1,3 +1,4 @@
 1605032360 #spidermonkey:mozilla.org **turbocharging** [histoire](https://github.com/robotzilla/histoire) with `Markdown` support, aggressive request caching, *bug fixes* and more!
 1605202236 confession hope this `botzilla` thing works 🤞
 1605202250 confession like, for realz
+1605264601 #spidermonkey:mozilla.org fixing the Histoire bugs that mgaudet keeps on finding 😀\n\nalso yesterday i've blogged about [Botzilla/Confession/Histoire](https://blog.benj.me/2020/11/12/botzilla) 😳
