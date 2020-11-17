@@ -1,0 +1,1 @@
+1605571290 #spidermonkey:mozilla.org started looking at the asan crash an external contributor submitted that I've been struggling to upload to Pernosco for a week or so. (Ok, I was otherwise occupied for that week, so I wasn't trying that hard.)
