@@ -1,0 +1,1 @@
+1605620981 #spidermonkey:mozilla.org Pushed Bug 1677657 which ends my very long quest to make script flags actually const and immutable, across all types of scripts and an lazy / non-lazy transitions.
