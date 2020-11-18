@@ -1,1 +1,2 @@
 1605620981 #spidermonkey:mozilla.org Pushed Bug 1677657 which ends my very long quest to make script flags actually const and immutable, across all types of scripts and an lazy / non-lazy transitions.
+1605740671 #spidermonkey:mozilla.org Patches up for Bug 1677580, to remove the `Def{Var,Let,Const,Fun}` Opcodes and simplify global-script prologues significantly.
