@@ -1,0 +1,1 @@
+1605794519 #spidermonkey:mozilla.org Using XDR for the selfhosted code removes 43% of the load time of the JS shell. (Bug 1668361)
