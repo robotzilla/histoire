@@ -2,3 +2,4 @@
 1605218633 #spidermonkey:mozilla.org Exhausted the bad ways of making TrySkipAwait work in Warp; now implementing the better way. \n\nDid a preliminary performance investigation, with TrySkipAwait disabled and with Warp compiled generators, and found ~5% speedup on the JetStream2 subtest 'async-fs'. \n\nLots of progress on getting a cleaner stack, but still a couple of days away from having the stack even remotely ready for review though.
 1605564444 #spidermonkey:mozilla.org After finding a bug in some code I swore was going to bite me in the butt at some point, but that for some reason was totally -fine- for async functions, I've now run my first warp-compiled generator.
 1605822280 #spidermonkey:mozilla.org Seems I have potentially two different GC issues in my warp generators patch stack. :S
+1605910188 #spidermonkey:mozilla.org both GC bugs seem to be fixed. Still some failures on try, but outside the shell. On vacation next week though. 🕶️
