@@ -1,1 +1,2 @@
 1606785149 #spidermonkey:mozilla.org tracked down why hazard analysis missed a problem. Not a bug, a known limitation, but the real problem is that we're handing out (known) footguns without background checks.
+1606785227 #spidermonkey:mozilla.org fixed a bug in how sixgill is finding its target compiler, which caused everything to explode in my face for unknown reasons. My face may not be pretty, but having stuff explode in it isn't improving it either.
