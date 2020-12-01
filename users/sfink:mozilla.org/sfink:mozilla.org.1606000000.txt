@@ -1,0 +1,1 @@
+1606785149 #spidermonkey:mozilla.org tracked down why hazard analysis missed a problem. Not a bug, a known limitation, but the real problem is that we're handing out (known) footguns without background checks.
