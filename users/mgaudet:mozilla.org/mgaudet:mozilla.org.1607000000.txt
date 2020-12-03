@@ -1,0 +1,1 @@
+1607032129 #spidermonkey:mozilla.org Thanks to Iain, I have async functions in warp passing on try. I am expecting to spend tomorrow doing a bit of a self review, but I hope to have patches up by EOD tomorrow!
