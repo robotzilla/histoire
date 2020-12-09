@@ -1,2 +1,3 @@
 1607032129 #spidermonkey:mozilla.org Thanks to Iain, I have async functions in warp passing on try. I am expecting to spend tomorrow doing a bit of a self review, but I hope to have patches up by EOD tomorrow!
 1607091884 #spidermonkey:mozilla.org Posted initial patches for warp compiled async functions... and then noticed that a try build I'd expected to be green had some failures. Most patches can still be reviewed, the patch I have most suspicion of has been flipped to plan-changes to pull from review queue.
+1607531823 #spidermonkey:mozilla.org All my refactoring around warp async functions seems to have dropped a key property: performance... All of a sudden it appears to be slower to warp compile async functions. It used to be faster... :S
