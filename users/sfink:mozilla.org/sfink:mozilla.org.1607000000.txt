@@ -1,0 +1,1 @@
+1607730461 #spidermonkey:mozilla.org I don't know C++. The following returns whatever number I enter on the command line:\nint main(int argc, char **argv) {\n    int i = atoi(argv[1]);\n    char data[i];\n    return sizeof(data);\n}
