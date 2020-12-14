@@ -1,0 +1,1 @@
+1607960952 #js-stencil:mozilla.org Exploring removing SourceExtent from delazification data (Bug 1682315)
