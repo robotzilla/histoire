@@ -1,1 +1,2 @@
 1608147114 #spidermonkey:mozilla.org Ran into a 100% reproducible crash when running a DEBUG browser and trying to use the profiler for anything. Managed to capture in rr, uploaded Pernosco recording to bug 1576173.
+1608156942 #spidermonkey:mozilla.org wasted some time writing a tool to mark local changes as landed (pruning and marking their successors as the landed versions). I hate running into rebase conflicts with stuff I've already landed.
