@@ -1,0 +1,1 @@
+1608143544 #spidermonkey:mozilla.org Optimizing the test suite using XDR for self-hosted code improves the Linux x64 CI, opt: 24min -> 21min (12.5%) & dbg: 37min -> 31min (16.2%).
