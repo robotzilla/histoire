@@ -1,0 +1,1 @@
+1609897604 #js-stencil:mozilla.org Removing `AbstractScriptPtrIter` finally in order to remove cases where frontend still touches the GC. (Bug 1655052)
