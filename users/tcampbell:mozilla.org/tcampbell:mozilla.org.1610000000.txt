@@ -1,2 +1,3 @@
 1610129202 #js-stencil:mozilla.org Getting Bug 1682315 ready for reviews
 1610402914 #spidermonkey:mozilla.org Added some spidermonkey overview documentation to the tree. https://firefox-source-docs.mozilla.org/js/index.html
+1610466620 #spidermonkey:mozilla.org Consolidated the https://spidermonkey.dev/ landing page
