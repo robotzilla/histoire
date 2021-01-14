@@ -2,3 +2,4 @@
 1610402914 #spidermonkey:mozilla.org Added some spidermonkey overview documentation to the tree. https://firefox-source-docs.mozilla.org/js/index.html
 1610466620 #spidermonkey:mozilla.org Consolidated the https://spidermonkey.dev/ landing page
 1610577984 #js-stencil:mozilla.org Put some documentation of Stencil up on Bug 1657243
+1610648265 #js-stencil:mozilla.org Filed Bug 1686775 to explore eagerly parsing small functions with their parents
