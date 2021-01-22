@@ -1,0 +1,1 @@
+1611356066 #js-stencil:mozilla.org After some inspiration from :arai, I think we can simplify field handling and allow syntax parsing class fileds (Bug 1688327)
