@@ -1,0 +1,1 @@
+1611611920 #js-stencil:mozilla.org At this point I seem to be able to read and write stencil format in ScriptPreloader; however, in some circumstances I'm getting a tab crash on load. Further investigation required.
