@@ -1,2 +1,3 @@
 1611611920 #js-stencil:mozilla.org At this point I seem to be able to read and write stencil format in ScriptPreloader; however, in some circumstances I'm getting a tab crash on load. Further investigation required.
 1611697817 #js-stencil:mozilla.org Seem to be reading and writing stencil data as part of script preload cache. However, currently investigating a delazification crash.
+1611787405 #js-stencil:mozilla.org Trying to write a test case for XDR load of lazy functions with non-syntactic scopes; however `evaluate` current [disallows the combination of `loadBytecode` and `environmentObject`](https://searchfox.org/mozilla-central/source/js/src/shell/js.cpp#2274-2275); not clear why to me ATM. \n\nProblem for tomorrow Matt tho.
