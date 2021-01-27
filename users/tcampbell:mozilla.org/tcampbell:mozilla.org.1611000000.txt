@@ -1,2 +1,3 @@
 1611356066 #js-stencil:mozilla.org After some inspiration from :arai, I think we can simplify field handling and allow syntax parsing class fileds (Bug 1688327)
 1611708479 #spidermonkey:mozilla.org Revived patches to allow relazifying async/generator scripts (Bug 1627111)
+1611710461 #js-stencil:mozilla.org Ruled on the potential stencil-mvp regressions. By avoiding the off-thread parser globals, we change GC timing which caused some existing issues to flare up.
