@@ -2,3 +2,4 @@
 1611708479 #spidermonkey:mozilla.org Revived patches to allow relazifying async/generator scripts (Bug 1627111)
 1611710461 #js-stencil:mozilla.org Ruled on the potential stencil-mvp regressions. By avoiding the off-thread parser globals, we change GC timing which caused some existing issues to flare up.
 1611841177 #spidermonkey:mozilla.org Just realized that tzdata updates mention cities in data files, while countries in release notes and that I'm just bad at geography..
+1611954467 #js-stencil:mozilla.org Continuing to tighten the vise on how Gecko may compile and cache JS. (Bug 1689734)
