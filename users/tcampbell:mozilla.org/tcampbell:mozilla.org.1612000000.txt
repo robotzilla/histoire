@@ -1,0 +1,1 @@
+1612192036 #spidermonkey:mozilla.org Prototyping the removal of self-hosting Global/Zone entirely. (Bug 1688794)
