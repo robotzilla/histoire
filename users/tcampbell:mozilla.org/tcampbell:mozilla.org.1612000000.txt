@@ -1,1 +1,2 @@
 1612192036 #spidermonkey:mozilla.org Prototyping the removal of self-hosting Global/Zone entirely. (Bug 1688794)
+1612446739 #js-stencil:mozilla.org Have a working prototype for self-hosting-zone removal  (Bug 1688794)
