@@ -1,1 +1,2 @@
 1612391575 #js-stencil:mozilla.org Patches to change Preloader and StartupCache format are written, but during preparation patches I seem to have broken something. Will have to investigate test failures tomorrow
+1612479681 #js-stencil:mozilla.org Quick fix to try to separate StartupCache and ScriptPreloader leads to memory savings, but session restore degradation. Off tomorrrow, so will investigate more monday
