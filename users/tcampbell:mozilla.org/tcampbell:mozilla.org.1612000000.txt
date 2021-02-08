@@ -2,3 +2,4 @@
 1612446739 #js-stencil:mozilla.org Have a working prototype for self-hosting-zone removal  (Bug 1688794)
 1612538778 #spidermonkey:mozilla.org Synthesize missing constructors in bytecode instead of cloning from self-hosting. (Bug 1690943)
 1612825771 #js-stencil:mozilla.org Removing `CompilationStencilSet` and simplifying APIs (Bug 1691505)
+1612826239 #js-stencil:mozilla.org Next up, removing `ScriptSourceHolder` in favour of `RefPtr<ScriptSource>` (Bug 1691570)
