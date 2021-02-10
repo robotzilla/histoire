@@ -3,3 +3,4 @@
 1612538778 #spidermonkey:mozilla.org Synthesize missing constructors in bytecode instead of cloning from self-hosting. (Bug 1690943)
 1612825771 #js-stencil:mozilla.org Removing `CompilationStencilSet` and simplifying APIs (Bug 1691505)
 1612826239 #js-stencil:mozilla.org Next up, removing `ScriptSourceHolder` in favour of `RefPtr<ScriptSource>` (Bug 1691570)
+1612997703 #js-stencil:mozilla.org Initial version of Stencil public API (Bug 1691612)
