@@ -1,0 +1,1 @@
+1613079597 #js-stencil:mozilla.org Attempting to sketch out what rebuilding ScriptPreloader and StartupCaches around experimental `JS::Stencil` opaque type looks like. Lots of good stuff, some conceptual hurdles, no blockers as of yet
