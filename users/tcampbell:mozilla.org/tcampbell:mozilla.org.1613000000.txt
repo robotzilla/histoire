@@ -1,1 +1,2 @@
 1613080239 #js-stencil:mozilla.org Grinding through removing last gc-ptrs from CompilationStencil (Bug 1692317)
+1613152088 #js-stencil:mozilla.org Landed patches to remove last GC references from CompilationStencil and will now update the public API prototype accordingly
