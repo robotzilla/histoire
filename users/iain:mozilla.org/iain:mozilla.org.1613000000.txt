@@ -1,0 +1,1 @@
+1613182422 #spidermonkey:mozilla.org Implemented regexp captures today, and had the lovely experience of watching my implementation fail every single 262 test, only to realize that the *tests* were wrong. (The patch to update them to use the /d flag is still waiting for review upstream.)
