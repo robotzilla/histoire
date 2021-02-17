@@ -1,0 +1,1 @@
+1613579252 #spidermonkey:mozilla.org looking into [removing ObjectGroup](https://bugzilla.mozilla.org/show_bug.cgi?id=1689413#c3) and shrinking all JS objects
