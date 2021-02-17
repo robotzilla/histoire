@@ -1,2 +1,3 @@
 1613079597 #js-stencil:mozilla.org Attempting to sketch out what rebuilding ScriptPreloader and StartupCaches around experimental `JS::Stencil` opaque type looks like. Lots of good stuff, some conceptual hurdles, no blockers as of yet
 1613482728 #js-stencil:mozilla.org Opened [Bug 1693027](https://bugzilla.mozilla.org/show_bug.cgi?id=1693027) caused by weak enum typing. Posted patches, including a change of JS::TranscodeResult into an `enum class`
+1613594921 #js-stencil:mozilla.org uuuuuuuuugh; `CompilationOptions` continues to be the worst. Working on making the ScriptPreloader manage stencils, and having to figure out what's the appropriate story for CompileOptions is irksome (the OwnedCompileOptions is pretty ugly too)
