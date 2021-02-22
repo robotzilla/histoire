@@ -1,0 +1,1 @@
+1614009957 #js-stencil:mozilla.org Fighting shutdown hang is hard, especially when the code seems to be correct.
