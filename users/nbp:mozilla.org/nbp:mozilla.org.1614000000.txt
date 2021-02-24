@@ -1,1 +1,2 @@
 1614009957 #js-stencil:mozilla.org Fighting shutdown hang is hard, especially when the code seems to be correct.
+1614166529 #spidermonkey:mozilla.org reviewing `InvertCondition` usage … nothing standing out, this function should probably be renamed `SwapDestinations`, to not be confused with cases where we want to `SwapOperands`.
