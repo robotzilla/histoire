@@ -1,0 +1,1 @@
+1614127868 #spidermonkey:mozilla.org shifted the core data structure in the weakmap marking code. FInal score: 9 files changed, 196 insertions(+), 306 deletions(-). Will hopefully magically fix the incremental mode. (It removes the code I was suspicious of, at least.)
