@@ -1,1 +1,2 @@
 1614207610 #spidermonkey:mozilla.org Experimenting with shifting work day by 1hr (in case anyone notices :P) \n\nIn other news, I am attempting to plot the downfall of CompileOptions 🔪.
+1614379789 #js-stencil:mozilla.org My plan to tame CompileOptions is afoot...  probably still a few days worth of work before I'll have a patch or three tho
