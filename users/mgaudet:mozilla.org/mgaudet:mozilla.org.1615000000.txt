@@ -1,0 +1,1 @@
+1615244808 #spidermonkey:mozilla.org Finished a prototype change to how CompileOptions is managed (in particular around the rooted members used as debug metadata); looking at the patch in totality I am going to instead seek a third(?) route, because while this is workable, it's ugly and has some severe layering issues.
