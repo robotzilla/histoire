@@ -1,1 +1,2 @@
 1615323758 #spidermonkey:mozilla.org updating my mercurial repos is corrupting their internal files. Not a good thing.
+1615323830 #spidermonkey:mozilla.org making a fool of myself trying to understand refresh driver and paint timing over in https://phabricator.services.mozilla.com/D107578#3499615
