@@ -1,1 +1,2 @@
 1615225694 #js-stencil:mozilla.org Time to learn about shared memory and IPC in Gecko!
+1615488929 #spidermonkey:mozilla.org Reading files suffixed by `*.java` … I would not have expected so when I committed to work on shared-memory for self-hosted stencil code.
