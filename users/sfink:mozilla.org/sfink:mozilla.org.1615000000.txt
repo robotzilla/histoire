@@ -1,2 +1,3 @@
 1615323758 #spidermonkey:mozilla.org updating my mercurial repos is corrupting their internal files. Not a good thing.
 1615323830 #spidermonkey:mozilla.org making a fool of myself trying to understand refresh driver and paint timing over in https://phabricator.services.mozilla.com/D107578#3499615
+1615518264 #spidermonkey:mozilla.org wrote up a README.txt and uploaded it to https://ftp.mozilla.org/pub/spidermonkey/ (and the releases/ and prereleases/ directories underneath), explaining how to get a recent tarball and pointing to our newer documentation locations.
