@@ -1,3 +1,4 @@
 1615323758 #spidermonkey:mozilla.org updating my mercurial repos is corrupting their internal files. Not a good thing.
 1615323830 #spidermonkey:mozilla.org making a fool of myself trying to understand refresh driver and paint timing over in https://phabricator.services.mozilla.com/D107578#3499615
 1615518264 #spidermonkey:mozilla.org wrote up a README.txt and uploaded it to https://ftp.mozilla.org/pub/spidermonkey/ (and the releases/ and prereleases/ directories underneath), explaining how to get a recent tarball and pointing to our newer documentation locations.
+1615597040 #spidermonkey:mozilla.org great success with Board Game Driven Debugging: I have a mysterious failure in automation. Couldn't reproduce locally after several attempts. Got frustrated, kicked off a last run, went and played a board game instead. Came back, it had reproduced. Realized that my code is totally dependent on idle time, so leaving it alone was exactly what was needed.
