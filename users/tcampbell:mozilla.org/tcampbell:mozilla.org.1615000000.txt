@@ -1,3 +1,4 @@
 1615499470 #spidermonkey:mozilla.org Attempting to wrangle some of our prefs into the StaticPrefs system (Bug 1697904)
 1615509601 #spidermonkey:mozilla.org Relying on phabricator to find me victim reviewers for removing a "javascript" pref that has nothing to do with spidermonkey and is from the before times. What could go wrong? (Bug 1697954)
 1615847297 #spidermonkey:mozilla.org Attempt #2 at trying to yaml-ify some of our prefs (Bug 1697904)
+1615849612 #js-stencil:mozilla.org Reusing Stencils across navigation didn't blow up as much as a expected for a first test 😮
