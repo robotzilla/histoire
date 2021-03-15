@@ -1,2 +1,3 @@
 1615225694 #js-stencil:mozilla.org Time to learn about shared memory and IPC in Gecko!
 1615488929 #spidermonkey:mozilla.org Reading files suffixed by `*.java` … I would not have expected so when I committed to work on shared-memory for self-hosted stencil code.
+1615830506 #spidermonkey:mozilla.org I've finally found the pivot point of the content process, where the Shmen is available and where to punch holes to get it to the init function of the self-hosted code. Now, looking for the opposite in the parent process.
