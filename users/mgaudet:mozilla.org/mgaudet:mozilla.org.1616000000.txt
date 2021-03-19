@@ -1,0 +1,1 @@
+1616190327 #spidermonkey:mozilla.org Rapidly approaching the point where I can put Jason's private methods patch stack out for review. Still a little bit of work left to do, but not enough energy to do it. Debug.frame.eval needs new bytecode to work properly though, so I'm going to punt there for now.
