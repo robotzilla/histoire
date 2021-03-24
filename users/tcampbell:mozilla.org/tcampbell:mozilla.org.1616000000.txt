@@ -1,1 +1,2 @@
 1616536700 #spidermonkey:mozilla.org My nemesis, Bug 1461724, strikes again..
+1616545709 #spidermonkey:mozilla.org Just discovered that the `ip` register on ARM is _not_ the instruction pointer but just a normal scratch register
