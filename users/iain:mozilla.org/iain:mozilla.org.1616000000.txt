@@ -1,0 +1,1 @@
+1616806413 #spidermonkey:mozilla.org Trying out a new masm interface for object allocation that can allocate simple objects without having to pass in a template object, which lets us share baseline IC code. Eliminates almost 2/3 of the *total* number of baseline ICs we compile.
