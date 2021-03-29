@@ -1,0 +1,1 @@
+1617055125 #spidermonkey:mozilla.org Trying to sort through a bytecode emission gap in private method/field patches; hoist on my own petard for not writing a sufficiently comprehensive set of private field patches when I did it originally
