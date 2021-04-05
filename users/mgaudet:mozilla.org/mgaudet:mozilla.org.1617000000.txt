@@ -1,3 +1,4 @@
 1617055125 #spidermonkey:mozilla.org Trying to sort through a bytecode emission gap in private method/field patches; hoist on my own petard for not writing a sufficiently comprehensive set of private field patches when I did it originally
 1617138633 #spidermonkey:mozilla.org Landed Jason's patch stack for Private Method storage after some very patient review from arai (Thank you!)
 1617294316 #spidermonkey:mozilla.org Private Method storage patches backed out for fuzz failures to avoid polluting results for next week; a tiny fantastic fuzz test has found something deeply hinky :) Good job fuzzing cluster + decoder
+1617660136 #spidermonkey:mozilla.org Fixing fuzzbugs on the private method storage patches.
