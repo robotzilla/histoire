@@ -2,3 +2,4 @@
 1617138633 #spidermonkey:mozilla.org Landed Jason's patch stack for Private Method storage after some very patient review from arai (Thank you!)
 1617294316 #spidermonkey:mozilla.org Private Method storage patches backed out for fuzz failures to avoid polluting results for next week; a tiny fantastic fuzz test has found something deeply hinky :) Good job fuzzing cluster + decoder
 1617660136 #spidermonkey:mozilla.org Fixing fuzzbugs on the private method storage patches.
+1617832014 #spidermonkey:mozilla.org Private method patches are awaiting fuzzing. Addressing some Debug-metadata related review feedback (hope those go back for review tomorrow morning). Revived my old ergonomic brand check patches -- seem to work against the still-pending-merge test262 tests, so sending them back out for review.
