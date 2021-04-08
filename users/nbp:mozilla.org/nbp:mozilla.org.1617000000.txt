@@ -1,1 +1,2 @@
 1617289146 #spidermonkey:mozilla.org I have a working shared-memory for self-hosted code. 🎉 Now making a patch, testing on try, asking for feedback and doing the Android part.
+1617905574 #js-stencil:mozilla.org blind patching of Java files … time to send everything to try and wait for the flames. Soon shared memory on Android would be working 😎.
