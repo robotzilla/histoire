@@ -4,3 +4,4 @@
 1617660136 #spidermonkey:mozilla.org Fixing fuzzbugs on the private method storage patches.
 1617832014 #spidermonkey:mozilla.org Private method patches are awaiting fuzzing. Addressing some Debug-metadata related review feedback (hope those go back for review tomorrow morning). Revived my old ergonomic brand check patches -- seem to work against the still-pending-merge test262 tests, so sending them back out for review.
 1617910309 #spidermonkey:mozilla.org Got Xrdp working after changing a configuration parameter [off in the distance](https://unix.stackexchange.com/a/529945/54727)
+1617985359 #spidermonkey:mozilla.org Strings, Ownership, CompileOptions and OOM handling... I am in a hell of my own making 😞
