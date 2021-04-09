@@ -1,0 +1,1 @@
+1618002193 #spidermonkey:mozilla.org Private method patches are being fuzzed, but looking good. Since we have the impending soft freeze, out of an abundance of caution I'll likely wait until the 19th to land them. Popping my work stack back to where I was a couple months ago and trying to reverse-engineer why I ended up where I did... 😬
