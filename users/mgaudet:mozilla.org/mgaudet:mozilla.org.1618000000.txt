@@ -1,2 +1,3 @@
 1618002193 #spidermonkey:mozilla.org Private method patches are being fuzzed, but looking good. Since we have the impending soft freeze, out of an abundance of caution I'll likely wait until the 19th to land them. Popping my work stack back to where I was a couple months ago and trying to reverse-engineer why I ended up where I did... 😬
 1618436827 #spidermonkey:mozilla.org `mach try fuzzy <path to test>` is super cool and I am happy that I know about it (hence me sharing)
+1618519294 #js-stencil:mozilla.org Off to figure out an android only stencil crash. Hoping [these](https://firefox-source-docs.mozilla.org/mobile/android/geckoview/contributor/for-gecko-engineers.html) instructions are going to help me run android x86 mochitests :)
