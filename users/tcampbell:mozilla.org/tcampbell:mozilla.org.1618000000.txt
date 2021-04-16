@@ -1,0 +1,1 @@
+1618585975 #js-stencil:mozilla.org Trying to break out the parse-time self-hosted evaluation code to a seperate patch, eg for `_SetIsInlinableLargeFunction`
