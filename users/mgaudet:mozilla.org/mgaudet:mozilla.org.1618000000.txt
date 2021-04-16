@@ -3,3 +3,4 @@
 1618519294 #js-stencil:mozilla.org Off to figure out an android only stencil crash. Hoping [these](https://firefox-source-docs.mozilla.org/mobile/android/geckoview/contributor/for-gecko-engineers.html) instructions are going to help me run android x86 mochitests :)
 1618523291 #js-stencil:mozilla.org Seem to have the ability too run geckoview mochitests in an Android Emulator. It is however perhaps less helpful than I had expected due to the running inside of an emulator. Still. I'm sure I can use this newfound knowledge for -something- eventuallu
 1618607311 #spidermonkey:mozilla.org Successfully attached with Android Studio's debugger to my stencil failure. Learned a -lot-. Thanks Agi!
+1618610743 #spidermonkey:mozilla.org Post-hoc debugging is so much harder than record and replay. Definitely a script preloader bug, no idea what yet. Will have to wait alas; End of day here!
