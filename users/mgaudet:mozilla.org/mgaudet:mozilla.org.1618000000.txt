@@ -4,3 +4,4 @@
 1618523291 #js-stencil:mozilla.org Seem to have the ability too run geckoview mochitests in an Android Emulator. It is however perhaps less helpful than I had expected due to the running inside of an emulator. Still. I'm sure I can use this newfound knowledge for -something- eventuallu
 1618607311 #spidermonkey:mozilla.org Successfully attached with Android Studio's debugger to my stencil failure. Learned a -lot-. Thanks Agi!
 1618610743 #spidermonkey:mozilla.org Post-hoc debugging is so much harder than record and replay. Definitely a script preloader bug, no idea what yet. Will have to wait alas; End of day here!
+1618868516 #spidermonkey:mozilla.org Think I found my Android bug; gently surprised it didn't show up in more desktop tests. \n\nAlso, waiting for Private Method storage patches to traverse the Autoland queue :) Looks like they'll likely land past EOD today.
