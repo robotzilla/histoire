@@ -1,0 +1,1 @@
+1619034478 #js-stencil:mozilla.org submitted patches to flip StartupCache and ScriptPreloader over the managing and caching stencils instead of scripts.
