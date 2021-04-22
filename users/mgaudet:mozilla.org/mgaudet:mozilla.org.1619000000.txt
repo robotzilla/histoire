@@ -1,2 +1,3 @@
 1619034478 #js-stencil:mozilla.org submitted patches to flip StartupCache and ScriptPreloader over the managing and caching stencils instead of scripts.
 1619059149 #spidermonkey:mozilla.org New test262 tests just imported found a few bugs in private-methods (semantics disagreement on spec I think) and ergonomic brand checks (haven't investigated yet). Thought i had quick fix for first, but haven't quite figured it out yet, so tomorrow problem. Landed and enabled other tests tho!
+1619109323 #js-frontend:mozilla.org The re-working of private methods storage isn't compatible with the current ergonomic brand check code; working on it, but still going to send intent-to-ship for private methods once Bug 1706755 is reviewed and landed.
