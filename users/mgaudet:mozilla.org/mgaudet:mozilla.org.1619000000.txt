@@ -4,3 +4,4 @@
 1619709143 #spidermonkey:mozilla.org My intent to ship [did go out](https://groups.google.com/a/mozilla.org/g/dev-platform/c/NZKUZiN1gag). Awesome
 1619712089 #spidermonkey:mozilla.org Wrote up my [pernosco workflow](www.mgaudet.ca/technical/2021/4/29/my-pernosco-workflow)
 1619733710 #spidermonkey:mozilla.org Almost have a fixed version of ergonomic brand checks, but fighting precedence rules, and it's too damn hot in this office to think straight,  (and EOD).
+1619815741 #spidermonkey:mozilla.org Round two: Late in the day re-landing private fields/methods; I expect it to stick this time tho.
