@@ -1,0 +1,1 @@
+1619823944 #spidermonkey:mozilla.org Spent the week slowly eradicating every trace I could find of the old arguments optimization. Putting up the first half of the patches; second half on Monday
