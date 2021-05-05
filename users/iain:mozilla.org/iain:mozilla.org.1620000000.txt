@@ -1,0 +1,1 @@
+1620251128 #spidermonkey:mozilla.org Spent the better part of a day convincing myself that, yes, our baseline ICs for GetElemSuper really have been silently broken for three years (bug 1709328)
