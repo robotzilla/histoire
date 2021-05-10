@@ -2,3 +2,4 @@
 1620141274 #spidermonkey:mozilla.org Posted my [much delayed Private Field implementation blog post](https://www.mgaudet.ca/technical/2021/5/4/implementing-private-fields-for-javascript)
 1620252359 #spidermonkey:mozilla.org Attempting to improve the situation for devtools + private fields / methods; it's not in great shape... but I might be able to sidestep the worst of it if I can figure out how to never lazy compile in Debugger.frame.eval; tomorrow tho
 1620337664 #spidermonkey:mozilla.org Working on devtools access for private fields and methods. Fields is working, and methods is... progressing. Fields will probably go up for review, but methods may wait for a bit longer; much messier patch
+1620681743 #spidermonkey:mozilla.org Sent intent-to-ship for ergonomic brand checks after Ted kindly pointed out my local release calendar had drifted, giving us two more weeks before soft freeze than I had thought.
