@@ -3,3 +3,4 @@
 1620252359 #spidermonkey:mozilla.org Attempting to improve the situation for devtools + private fields / methods; it's not in great shape... but I might be able to sidestep the worst of it if I can figure out how to never lazy compile in Debugger.frame.eval; tomorrow tho
 1620337664 #spidermonkey:mozilla.org Working on devtools access for private fields and methods. Fields is working, and methods is... progressing. Fields will probably go up for review, but methods may wait for a bit longer; much messier patch
 1620681743 #spidermonkey:mozilla.org Sent intent-to-ship for ergonomic brand checks after Ted kindly pointed out my local release calendar had drifted, giving us two more weeks before soft freeze than I had thought.
+1620839835 #spidermonkey:mozilla.org Trying to come up with hypotheses around Bug 1707979 and family... Nothing reasonable yet.
