@@ -5,3 +5,4 @@
 1620681743 #spidermonkey:mozilla.org Sent intent-to-ship for ergonomic brand checks after Ted kindly pointed out my local release calendar had drifted, giving us two more weeks before soft freeze than I had thought.
 1620839835 #spidermonkey:mozilla.org Trying to come up with hypotheses around Bug 1707979 and family... Nothing reasonable yet.
 1620856839 #spidermonkey:mozilla.org Early investigation on adding static class blocks; prototype parsing is mostly working, but BCE is totally off so far; doing this right is probably going to involve some fairly invasive refactoring in the parser to make all the class field stuff a little more uniform if possible
+1620941243 #spidermonkey:mozilla.org slowly working through bytecode emission for class-static-blocks. See y'all monday, where hopefully I'll land the pref-flip of ergonomic brand checks.
