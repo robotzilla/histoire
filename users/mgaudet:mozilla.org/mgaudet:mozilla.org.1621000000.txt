@@ -1,2 +1,3 @@
 1621348911 #spidermonkey:mozilla.org Ergonomic Brand Checks are in Nightly :)
 1621373241 #spidermonkey:mozilla.org Basic version of class static blocks is running and passing tests. Into the long-tail now :)
+1621461826 #spidermonkey:mozilla.org Class static blocks are nearing reviewability; verifying things work in the debugger, and that source positions roughly make sense is what mostly remains.
