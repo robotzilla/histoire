@@ -1,0 +1,1 @@
+1621469438 #js-stencil:mozilla.org Removing move dynamic behavior of self-hosted cloning to get us closer to directly using stencil (Bug 1710953)
