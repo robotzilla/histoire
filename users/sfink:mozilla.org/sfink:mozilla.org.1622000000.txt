@@ -1,0 +1,1 @@
+1622158383 #spidermonkey:mozilla.org bug 1713235 for fixing bootstrap on CentOS 8
