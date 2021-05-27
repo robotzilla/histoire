@@ -1,0 +1,1 @@
+1622134507 #spidermonkey:mozilla.org Patches landing the prototype for class-static-blocks (`class A { static { /* do a thing */ } }`) have landed, and look like they will stick. The feature isn't going to be enabled for a while though, the specification around `await` is in need of improvement and so we'll need to wait a bit.
