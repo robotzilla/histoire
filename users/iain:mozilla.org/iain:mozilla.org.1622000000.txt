@@ -1,0 +1,1 @@
+1622156806 #spidermonkey:mozilla.org Just spent multiple hours staring at assembly in rr to determine that there's a very subtle bug in the interaction between JSOp::Resume, bhackett's realm instrumentation code, and the interpreterICEntry_ field in BaselineFrame. I might leave solving the problem for tomorrow-Iain
