@@ -1,3 +1,4 @@
 1622134507 #spidermonkey:mozilla.org Patches landing the prototype for class-static-blocks (`class A { static { /* do a thing */ } }`) have landed, and look like they will stick. The feature isn't going to be enabled for a while though, the specification around `await` is in need of improvement and so we'll need to wait a bit.
 1622152876 #spidermonkey:mozilla.org I think I've got debugger support for evaluating private methods... requires a custom bytecode op, but seems to work.
 1622239546 #spidermonkey:mozilla.org Played with [`swc`'s parser](https://swc.rs/). Quick ballpark estimate I'd say our parser is 2-3x faster
+1622498384 #spidermonkey:mozilla.org Arai's fantastic test requests are dramatically improving the debugger-invoking-private-methods patch; figured out a key thinko on my part
