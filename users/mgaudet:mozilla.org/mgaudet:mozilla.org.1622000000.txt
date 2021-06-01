@@ -2,3 +2,4 @@
 1622152876 #spidermonkey:mozilla.org I think I've got debugger support for evaluating private methods... requires a custom bytecode op, but seems to work.
 1622239546 #spidermonkey:mozilla.org Played with [`swc`'s parser](https://swc.rs/). Quick ballpark estimate I'd say our parser is 2-3x faster
 1622498384 #spidermonkey:mozilla.org Arai's fantastic test requests are dramatically improving the debugger-invoking-private-methods patch; figured out a key thinko on my part
+1622568431 #spidermonkey:mozilla.org Private method invocation inside a Debug.eval.frame is coming along nicely; I'm fairly happy with the patch now, pending review comments :)
