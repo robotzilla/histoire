@@ -3,3 +3,4 @@
 1622239546 #spidermonkey:mozilla.org Played with [`swc`'s parser](https://swc.rs/). Quick ballpark estimate I'd say our parser is 2-3x faster
 1622498384 #spidermonkey:mozilla.org Arai's fantastic test requests are dramatically improving the debugger-invoking-private-methods patch; figured out a key thinko on my part
 1622568431 #spidermonkey:mozilla.org Private method invocation inside a Debug.eval.frame is coming along nicely; I'm fairly happy with the patch now, pending review comments :)
+1622843012 #spidermonkey:mozilla.org I may have made a mistake trying to start a release upgrade for my build machine so close to EOD on a friday...
