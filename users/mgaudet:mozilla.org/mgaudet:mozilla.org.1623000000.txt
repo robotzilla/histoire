@@ -1,1 +1,2 @@
 1623793297 #spidermonkey:mozilla.org I continue to be comically inept at Git
+1623963261 #spidermonkey:mozilla.org Working on clarifying private field semantics for exotic browser objects, and learning WPT
