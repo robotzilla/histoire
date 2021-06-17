@@ -1,0 +1,1 @@
+1623963943 #spidermonkey:mozilla.org Stripping down the self-hosting global to prepare for removing it. (Bug 1716901)
