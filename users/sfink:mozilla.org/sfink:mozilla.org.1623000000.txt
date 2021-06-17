@@ -1,1 +1,2 @@
 1623970457 #spidermonkey:mozilla.org Struggling to write a simplified version of an evil fuzzbug test, since in doing so I've already discovered that my initial fix to the fuzzbug was probably a fluke.
+1623971010 #spidermonkey:mozilla.org took a daytime break to work with my kid to try to figure out how to match a web extension's color scheme to the running theme. So far, looks to be surprisingly painful.
