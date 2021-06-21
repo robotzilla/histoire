@@ -1,0 +1,1 @@
+1624307480 #spidermonkey:mozilla.org Wandered into JS_TransplantObject. Uh oh.
