@@ -1,0 +1,1 @@
+1624614609 #spidermonkey:mozilla.org Working on eager delazification: Making sure CompilationInput does not expose `BaseScript* lazy` field publicly, such that we can later use a Stencil in-place of the BaseScript pointer.
