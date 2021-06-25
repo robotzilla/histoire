@@ -2,3 +2,4 @@
 1624312647 #spidermonkey:mozilla.org Seeking assistance with window proxy lifetime questions. It'll be fun to try to formulate questions around stuff I have such a weak understanding of 😕
 1624398290 #spidermonkey:mozilla.org being heartily confused by the dark arts of the web platform.
 1624564489 #spidermonkey:mozilla.org Writing a speculative fix to a ScriptLoader bug; attempting to validate with try
+1624654631 #spidermonkey:mozilla.org Confusing myself following WarpBuilder; time to disappear for a vacation methinks :)
