@@ -1,0 +1,1 @@
+1626347886 #spidermonkey:mozilla.org We can use statistics to justify moving bugs to other components: https://bugzilla.mozilla.org/show_bug.cgi?id=1718960 😄
