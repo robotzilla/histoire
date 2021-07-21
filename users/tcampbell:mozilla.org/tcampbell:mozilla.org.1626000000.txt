@@ -1,1 +1,2 @@
 1626120048 #spidermonkey:mozilla.org Updated the spidermonkey-embedding-examples repo for 91 now that it is in beta.
+1626878727 #js-stencil:mozilla.org Making progress removing hacks from the self-hosting stencil patches
