@@ -1,1 +1,2 @@
 1627341923 #spidermonkey:mozilla.org I don't know the difference between the hazard analysis and root analysis jobs..
+1627508467 #spidermonkey:mozilla.org Got bounced trying to remove self-hosting zone. Now fixing a pre-existing devtools startup race in DOM land..
