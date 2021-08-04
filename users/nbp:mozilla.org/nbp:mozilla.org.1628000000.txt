@@ -1,0 +1,1 @@
+1628086113 #js-stencil:mozilla.org Thinking about `CompilationInput::enclosingScope` uses, and how to replace them by something based on Stencils.
