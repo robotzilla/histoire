@@ -1,1 +1,2 @@
 1628086113 #js-stencil:mozilla.org Thinking about `CompilationInput::enclosingScope` uses, and how to replace them by something based on Stencils.
+1628528774 #js-stencil:mozilla.org Adding `StencilOrGCBaseScript` as well as a `StencilOrGCScope` to wrap the GC pointers and the Stencil structures behind the same interface, and later solve the `ScopeIter` problem of removing GC things from the delazification.
