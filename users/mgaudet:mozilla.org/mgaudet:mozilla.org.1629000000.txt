@@ -1,2 +1,3 @@
 1629145828 #spidermonkey:mozilla.org Experimenting with some core headers in firefox is a paiiiiin... 15 min turnarounds.
 1629296572 #spidermonkey:mozilla.org Hoist on my own petard: WPT overrode my preferences disablement of streams, and so I've got at least a few bugs to sort through this morning in my streams implementation. (Don't think it changes conclusions or discussions, just makes me sad mostly)
+1629319540 #spidermonkey:mozilla.org Rubber ducking by typing your problem into a channel's text box is an unappreciated debugging method
