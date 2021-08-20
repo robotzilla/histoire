@@ -1,0 +1,1 @@
+1629471712 #js-stencil:mozilla.org [deep inside a large set of modifications] Adding `ParserAtomTable::internExternalParserAtomIndex` to import `TaggedParserAtomIndex` from another `CompilationStencil`.
