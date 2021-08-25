@@ -2,3 +2,4 @@
 1629296572 #spidermonkey:mozilla.org Hoist on my own petard: WPT overrode my preferences disablement of streams, and so I've got at least a few bugs to sort through this morning in my streams implementation. (Don't think it changes conclusions or discussions, just makes me sad mostly)
 1629319540 #spidermonkey:mozilla.org Rubber ducking by typing your problem into a channel's text box is an unappreciated debugging method
 1629404221 #spidermonkey:mozilla.org Missing types while trying to explore python codegen code
+1629928898 #spidermonkey:mozilla.org Working on implementing `ReadableStream.tee()`, as it's required to do the fetch integration work I had actually planned on doing today.
