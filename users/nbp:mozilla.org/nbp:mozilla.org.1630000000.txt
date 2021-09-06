@@ -1,0 +1,1 @@
+1630946224 #js-stencil:mozilla.org `15 files changed, 1123 insertions(+), 191 deletions(-)` … Ok, … I am not going to send this for review.\nTime to rewrite it in multiple incremental patches, and use a cleaner interface.
