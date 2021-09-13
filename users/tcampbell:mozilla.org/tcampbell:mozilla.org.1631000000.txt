@@ -1,1 +1,2 @@
 1631311809 #spidermonkey:mozilla.org I have an uncatchable exception triggering a JIT bailout while inside a interrupt callback and am regretting my life choices..
+1631561177 #spidermonkey:mozilla.org Cleaned up some exception handling code to be more explicit (Bug 1730426)
