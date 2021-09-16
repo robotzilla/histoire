@@ -1,2 +1,3 @@
 1631657278 #spidermonkey:mozilla.org Working on making DOM and JS Streams co-exist (not in the same build alas). Struggling through WebIDL code-generation stuff, but making progress!
 1631739542 #spidermonkey:mozilla.org [Initial DOM Streams patch](https://phabricator.services.mozilla.com/D122643) is up for review
+1631825466 #spidermonkey:mozilla.org I seem to have taken a perfectly good GC / CC story and broken it :(
