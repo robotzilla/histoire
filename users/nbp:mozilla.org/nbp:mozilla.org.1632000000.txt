@@ -1,1 +1,2 @@
 1632160398 #js-stencil:mozilla.org Start seeing the lighted end of the delazification with a Stencil … soon being able to write test cases … \o/
+1632160614 #js-stencil:mozilla.org Finally manage to get clang-format to not throw away the formatting of files, no more manual indent nor importing patches from phabricator.
