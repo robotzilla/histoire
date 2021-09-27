@@ -1,0 +1,1 @@
+1632765438 #spidermonkey:mozilla.org Just realized I'm chasing a bit of a wild goose on an assumption I made! (Fetch responses actually have `ReadableStreamDefaultReaders`, not `ReadableStreamBYOBReaders`!)
