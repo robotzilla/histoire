@@ -1,2 +1,3 @@
 1632765438 #spidermonkey:mozilla.org Just realized I'm chasing a bit of a wild goose on an assumption I made! (Fetch responses actually have `ReadableStreamDefaultReaders`, not `ReadableStreamBYOBReaders`!)
 1632865804 #spidermonkey:mozilla.org You learn a surprisingly large amount by just... pushing ahead. Slowly piecing together what the various DOM integration with Streams are going to look like... (was surprised to discover I'll apparently need to have ReadableByteStreamController built for this work too)
+1632936375 #spidermonkey:mozilla.org Really feeling the "I haven't failed, I've just found 10,000 ways that don't work" quote right now 😬
