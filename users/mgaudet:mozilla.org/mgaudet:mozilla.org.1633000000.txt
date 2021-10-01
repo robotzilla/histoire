@@ -1,0 +1,1 @@
+1633124111 #spidermonkey:mozilla.org Have a fairly complete, but not user-exposed implementation of ReadableByteStreamController. This is because Gecko streams, like fetch, are implemented as ReadableStreams with ByteStream controllers, but default readers.
