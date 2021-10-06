@@ -1,2 +1,3 @@
 1633124111 #spidermonkey:mozilla.org Have a fairly complete, but not user-exposed implementation of ReadableByteStreamController. This is because Gecko streams, like fetch, are implemented as ReadableStreams with ByteStream controllers, but default readers.
 1633468617 #spidermonkey:mozilla.org Ooof. Big style error in method naming is going to make me working through my patches a bit of a pain. C'est la vie
+1633545847 #spidermonkey:mozilla.org Just queued the first two DOM ReadableStream patches for landing. (and now have to go out of office 😬)
