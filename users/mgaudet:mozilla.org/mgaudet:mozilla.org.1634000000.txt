@@ -1,1 +1,2 @@
 1634157063 #spidermonkey:mozilla.org DOM `ReadableStream`s just passed their first `fetch` test. 🥳
+1634244450 #spidermonkey:mozilla.org DOM ReadableStreams+fetch is passing a number of WPTs; not 100%, crashing in some places... but we're making progress. \n\nPatches will need a cleanup pass _for sure_.
