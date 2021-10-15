@@ -1,2 +1,3 @@
 1634157063 #spidermonkey:mozilla.org DOM `ReadableStream`s just passed their first `fetch` test. 🥳
 1634244450 #spidermonkey:mozilla.org DOM ReadableStreams+fetch is passing a number of WPTs; not 100%, crashing in some places... but we're making progress. \n\nPatches will need a cleanup pass _for sure_.
+1634334089 #spidermonkey:mozilla.org A successful afternoon of Crash-Whack-A-Mole has me passing a good chunk of the fetch/api/response WPT tests without crashing now (A variety of CC issues found and fixed)... Pretty darn happy with the progress of this week :D
