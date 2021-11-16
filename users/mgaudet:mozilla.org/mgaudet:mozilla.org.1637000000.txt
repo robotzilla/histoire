@@ -1,1 +1,2 @@
 1637083794 #spidermonkey:mozilla.org Just passed all the fetch WPT tests with DOM ReadableStreams
+1637104043 #spidermonkey:mozilla.org Spent the day mostly investigating a bug in our existing streams implementation. In other news, a try build using DOM Streams was... greener than I expected.
