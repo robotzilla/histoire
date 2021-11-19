@@ -2,3 +2,4 @@
 1637104043 #spidermonkey:mozilla.org Spent the day mostly investigating a bug in our existing streams implementation. In other news, a try build using DOM Streams was... greener than I expected.
 1637189199 #spidermonkey:mozilla.org Fixed a crashing mochitest. One step closer to being able to submit these patches for review.
 1637271320 #spidermonkey:mozilla.org Just submitted the patches for Stream all the way from adding byte stream support all the way to Fetch/blob integration. Apologies to s.maug, who will be reviewing the majority of it: ` 50 files changed, 5451 insertions(+), 221 deletions(-)`
+1637360087 #spidermonkey:mozilla.org reviewed code sample test results from another team; made some strides towards reviewing Records and Tuples. Hoping I can finish next week
