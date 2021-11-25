@@ -1,0 +1,1 @@
+1637860568 #js-stencil:mozilla.org Testing the first version of main-thread caching of delazified functions.
