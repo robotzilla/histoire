@@ -9,3 +9,4 @@
 1637873288 #spidermonkey:mozilla.org Fixed a DOM Streams leak related to fetch integration. It's all coming along :D
 1637876740 #spidermonkey:mozilla.org First smoke-testing of DOM streams performance has relaxed me a bit. No proof I'm good enough yet, but nor did everything explode terribly.
 1637958195 #spidermonkey:mozilla.org Cheating at implementing streams (the same way our JS impl has cheated thus far)
+1637966686 #spidermonkey:mozilla.org Implemented the queueing strategies, and their size functions... properly (ish?) this time.
