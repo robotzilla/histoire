@@ -8,3 +8,4 @@
 1637793316 #spidermonkey:mozilla.org Have spent the last couple of days trying to understand leaks that are happening in the Fetch integration of DOM Streams. \n\nThe ownership model is... uncomfortable. So far I can either leak or crash; May need some help with this eventually. Will take another stab tomorrow.
 1637873288 #spidermonkey:mozilla.org Fixed a DOM Streams leak related to fetch integration. It's all coming along :D
 1637876740 #spidermonkey:mozilla.org First smoke-testing of DOM streams performance has relaxed me a bit. No proof I'm good enough yet, but nor did everything explode terribly.
+1637958195 #spidermonkey:mozilla.org Cheating at implementing streams (the same way our JS impl has cheated thus far)
