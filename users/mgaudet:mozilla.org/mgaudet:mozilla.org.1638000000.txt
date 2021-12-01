@@ -1,1 +1,2 @@
 1638311099 #spidermonkey:mozilla.org Small improvements to DOM streams stack. Trying and failing to reproduce a JS streams error; alas.
+1638398585 #spidermonkey:mozilla.org Polishing work on Streams; trying to port jit-tests to xpcshell. Some success... but compartments in Cu.sandbox don't work how I imagined, so gently confused at the moment. \n\nTomorrow Matt problem methinks
