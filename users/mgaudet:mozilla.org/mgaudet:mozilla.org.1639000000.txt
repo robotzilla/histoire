@@ -1,0 +1,1 @@
+1639002427 #spidermonkey:mozilla.org Implementing a living standard is a cursed task; forever thwarted by changes wrought while you build.
