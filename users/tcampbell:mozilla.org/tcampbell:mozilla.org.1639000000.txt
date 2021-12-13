@@ -1,0 +1,1 @@
+1639429762 #spidermonkey:mozilla.org TIL that the AtomZone is a bag of lies and has non-atom things like JIT [trampolines](https://searchfox.org/mozilla-central/rev/21a9b72545da06681db97c4b3a2a6be761f4aae5/js/src/jit/Ion.cpp#108)
