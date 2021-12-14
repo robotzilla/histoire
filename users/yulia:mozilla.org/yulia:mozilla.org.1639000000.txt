@@ -1,0 +1,1 @@
+1639510181 #spidermonkey:mozilla.org we have a working implementation of modules in workers, with dynamic import
