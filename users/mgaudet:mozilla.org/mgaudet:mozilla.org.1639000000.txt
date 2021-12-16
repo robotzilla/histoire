@@ -1,3 +1,4 @@
 1639002427 #spidermonkey:mozilla.org Implementing a living standard is a cursed task; forever thwarted by changes wrought while you build.
 1639172942 #spidermonkey:mozilla.org Got about 1/3 of the way through a big patch stack to review. Back at it Monday.
 1639608361 #spidermonkey:mozilla.org Continuing the review ride :) Making good progress though. (Almost certainly won't be done before friday though)
+1639694559 #spidermonkey:mozilla.org First pass of review feedback on DOM Streams patches done.  Everything else will almost certainly have to wait until 2022...
