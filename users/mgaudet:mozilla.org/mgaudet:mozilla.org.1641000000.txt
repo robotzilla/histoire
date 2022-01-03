@@ -1,0 +1,1 @@
+1641246117 #spidermonkey:mozilla.org 👋 Hello 2022. Dealt with email and various back-from-vacation tasks. Have written some JSAPI tests, and am now being annoyed at `hg absorb` for having made a mistake in a stack. (Don't develop tall stacks people. It's a pain. )
