@@ -1,1 +1,2 @@
 1641246117 #spidermonkey:mozilla.org 👋 Hello 2022. Dealt with email and various back-from-vacation tasks. Have written some JSAPI tests, and am now being annoyed at `hg absorb` for having made a mistake in a stack. (Don't develop tall stacks people. It's a pain. )
+1641336747 #spidermonkey:mozilla.org Landed the patches on Bug 1741941 to get them out of my very tall stack; more work on Bug 1734873 is first order of business tomorrow I think.
