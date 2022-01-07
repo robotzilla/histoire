@@ -1,0 +1,1 @@
+1641564339 #spidermonkey:mozilla.org Delazification off-main-thread started! Ok, it is still crashing … like the past 2 days, but at least the code is now getting executed!
