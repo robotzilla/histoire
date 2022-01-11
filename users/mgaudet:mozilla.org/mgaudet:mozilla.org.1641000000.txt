@@ -2,3 +2,4 @@
 1641336747 #spidermonkey:mozilla.org Landed the patches on Bug 1741941 to get them out of my very tall stack; more work on Bug 1734873 is first order of business tomorrow I think.
 1641420524 #spidermonkey:mozilla.org Cleaned up stream ownership in DOM streams, which I think should be easier to reason about and understand.
 1641511974 #spidermonkey:mozilla.org Cleaned up a variety of knock-on patches that come after the majority of DOM Readable Streams are implemented. Reviewed a few small patches today too.
+1641940990 #spidermonkey:mozilla.org Putting ReadableStreams and Cu.nukeSandbox in a blender, and coming up with a whole bunch of hangs... forward progress in the web in the face of cross-origin stuff????
