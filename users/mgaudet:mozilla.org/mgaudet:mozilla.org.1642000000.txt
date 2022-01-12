@@ -1,0 +1,1 @@
+1642022393 #spidermonkey:mozilla.org Discovering yet new ways JavaScript syntax can surprise me: \n\n```\njs> var cursed = {async "foo.bar"() { print("what") } }\njs> Object.getOwnPropertyNames(cursed)                  \n["foo.bar"]\n```
