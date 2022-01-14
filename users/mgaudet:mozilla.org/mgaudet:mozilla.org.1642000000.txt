@@ -1,2 +1,3 @@
 1642022393 #spidermonkey:mozilla.org Discovering yet new ways JavaScript syntax can surprise me: \n\n```\njs> var cursed = {async "foo.bar"() { print("what") } }\njs> Object.getOwnPropertyNames(cursed)                  \n["foo.bar"]\n```
 1642028220 #spidermonkey:mozilla.org Spent a lot of the day trying to write tests for things that don't happen -- but now I know what can happen, so hopefully I can write tests for things that *do* happen tomorrow
+1642184944 #spidermonkey:mozilla.org Learning how to write a web extension to explore the possibility for things to go horribly wrong with streams; learning that it's harder to get something problematic than I expected (which is good I guess!)
