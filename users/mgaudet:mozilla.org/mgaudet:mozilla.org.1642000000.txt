@@ -5,3 +5,4 @@
 1642195949 #spidermonkey:mozilla.org [Bug 1734873](https://bugzilla.mozilla.org/show_bug.cgi?id=1734873) is on autoland now, which is one of the most important patches for DOM Streams. This marks the point at which the in-tree version of DOM streams is approximately at feature parity with the JS streams implementation.
 1642462365 #spidermonkey:mozilla.org Spent a lot of the day handling fallout from MOZ_CAN_RUN_SCRIPT annotation changes that happened between development of patch and landing. Tracked down a tracing bug thanks to Tom. Mailed a new build to fuzzing for fuzzing.
 1642546881 #spidermonkey:mozilla.org Landing a series of cleanup patches for DOM streams; reviews, and work on test cases.
+1642632127 confession Worked on allowing promises to return values, a blocker to shipping DOM streams
