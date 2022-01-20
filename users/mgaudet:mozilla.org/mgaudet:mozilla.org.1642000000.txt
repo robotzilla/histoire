@@ -6,3 +6,4 @@
 1642462365 #spidermonkey:mozilla.org Spent a lot of the day handling fallout from MOZ_CAN_RUN_SCRIPT annotation changes that happened between development of patch and landing. Tracked down a tracing bug thanks to Tom. Mailed a new build to fuzzing for fuzzing.
 1642546881 #spidermonkey:mozilla.org Landing a series of cleanup patches for DOM streams; reviews, and work on test cases.
 1642632127 confession Worked on allowing promises to return values, a blocker to shipping DOM streams
+1642717117 #spidermonkey:mozilla.org My phabricator dashboard is finally short enough that I no longer have to scroll it, after months of being huge. Landed a few DOM streams changes and blocking changes. Morning and some of the afternoon was eaten by a challenging to reproduce bug, made worse by a weird interaction between [`rr` and startup of fuzzing enabled builds.](https://bugzilla.mozilla.org/show_bug.cgi?id=1751238).
