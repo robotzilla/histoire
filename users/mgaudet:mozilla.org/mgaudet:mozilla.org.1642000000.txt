@@ -7,3 +7,4 @@
 1642546881 #spidermonkey:mozilla.org Landing a series of cleanup patches for DOM streams; reviews, and work on test cases.
 1642632127 confession Worked on allowing promises to return values, a blocker to shipping DOM streams
 1642717117 #spidermonkey:mozilla.org My phabricator dashboard is finally short enough that I no longer have to scroll it, after months of being huge. Landed a few DOM streams changes and blocking changes. Morning and some of the afternoon was eaten by a challenging to reproduce bug, made worse by a weird interaction between [`rr` and startup of fuzzing enabled builds.](https://bugzilla.mozilla.org/show_bug.cgi?id=1751238).
+1642806362 #spidermonkey:mozilla.org a morning of meetings and review, an afternoon of trying to [make heads or tails of globals and streams](https://bugzilla.mozilla.org/show_bug.cgi?id=1750634) (it also doesn't help Chrome and Safari disagree, with JS streams agreeing with Safari and DOM streams agreeing with Chrome)
