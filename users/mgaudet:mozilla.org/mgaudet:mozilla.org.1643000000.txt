@@ -1,1 +1,2 @@
 1643065356 #spidermonkey:mozilla.org Partially reviewed pipeTo, clarified realm semantics, and now am troubled by [intermittent wpt test failures](https://bugzilla.mozilla.org/show_bug.cgi?id=1751790)
+1643300660 #spidermonkey:mozilla.org Successfully sent the [DOM Streams Intent to Ship](https://groups.google.com/a/mozilla.org/g/dev-platform/c/5JS0Kbs41-Q)
