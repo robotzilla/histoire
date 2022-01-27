@@ -1,0 +1,1 @@
+1643307054 #spidermonkey:mozilla.org The eager off-thread delazification has landed! Now is time to play with different strategies to evaluate how it behaves before enabling it.
