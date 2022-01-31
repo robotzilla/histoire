@@ -2,3 +2,4 @@
 1643300660 #spidermonkey:mozilla.org Successfully sent the [DOM Streams Intent to Ship](https://groups.google.com/a/mozilla.org/g/dev-platform/c/5JS0Kbs41-Q)
 1643310032 #spidermonkey:mozilla.org Being baffled by the difference between using `Cu.newSandbox` and creating an iframe with regards to globals... maybe I should just write this as a darn mochitest.
 1643323019 #spidermonkey:mozilla.org Porting a test and being *utterly baffled* as to how it currently works.
+1643669783 #spidermonkey:mozilla.org Streams WPT test written... should have written it as a WPT in the first place.
