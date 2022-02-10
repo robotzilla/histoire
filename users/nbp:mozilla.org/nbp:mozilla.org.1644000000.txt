@@ -1,0 +1,1 @@
+1644505337 #spidermonkey:mozilla.org Extracting JS shell testcase out of mochitest to iterate quickly on Stencil-based delazification issue.
