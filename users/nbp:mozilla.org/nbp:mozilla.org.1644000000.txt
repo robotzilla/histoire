@@ -1,1 +1,2 @@
 1644505337 #spidermonkey:mozilla.org Extracting JS shell testcase out of mochitest to iterate quickly on Stencil-based delazification issue.
+1644596541 #spidermonkey:mozilla.org Wonder if the few failing test cases are failing because of a bad implementation or a bad test cases …
