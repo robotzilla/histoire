@@ -1,3 +1,4 @@
 1644259902 #spidermonkey:mozilla.org Enabling DOM Streams by default just hit autoland. 🤞🤞🤞🤞🤞
 1644518188 #spidermonkey:mozilla.org _swears in (non-)unified build_
 1644592494 #spidermonkey:mozilla.org This message is written from a DOM Streams enabled nightly.
+1644965699 #spidermonkey:mozilla.org Figured out I've been eating [50% slower browser builds](https://bugzilla.mozilla.org/show_bug.cgi?id=1755585) by having the clang-plugin turned on all the time. :(
