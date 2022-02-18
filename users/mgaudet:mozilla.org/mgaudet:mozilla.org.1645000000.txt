@@ -1,1 +1,2 @@
 1645050922 #spidermonkey:mozilla.org Cleaning up DOM Streams stuff today, while starting to page back in old tasks let lay fallow while I worked on Streams. (Hello private fields, my old friend)
+1645224164 #spidermonkey:mozilla.org I **could** start trying to re-internalize the horror of `JS_TransplantObject`... or I could slam my laptop lid and run away starting this long weekend a bit early. \n\nI know which one I am choosing.
