@@ -2,3 +2,4 @@
 1645224164 #spidermonkey:mozilla.org I **could** start trying to re-internalize the horror of `JS_TransplantObject`... or I could slam my laptop lid and run away starting this long weekend a bit early. \n\nI know which one I am choosing.
 1645571473 #spidermonkey:mozilla.org Passing a test by playing with brain-transplant code... :S
 1645653924 #spidermonkey:mozilla.org So close to calling an exorcist, as my WPT test starts to syntax error when I add some commented out code.
+1645655408 #spidermonkey:mozilla.org Amazing. Adding `// promise_test` to the end of this test case causes ergonomic branch check parsing to fail.
