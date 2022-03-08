@@ -1,1 +1,2 @@
 1646319201 #spidermonkey:mozilla.org Treeherder fails to load properly when using concurrent delazification. Let's build a differential test case which will attempt to minimize 1.9 MB of JavaScript as long as errors are different.
+1646748598 #spidermonkey:mozilla.org Trying to reduce treeherder JavaScript source code by automatically starting firefox and comparing the console output. Let's see if [Lithium](https://github.com/MozillaSecurity/lithium) can be used for that once all failures modes of Firefox are worked around …
