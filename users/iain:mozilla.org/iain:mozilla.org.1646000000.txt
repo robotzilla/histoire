@@ -1,0 +1,1 @@
+1646881672 #spidermonkey:mozilla.org I have simple cases of try-finally working in Warp, although I still have to teach the bailout code what to do
