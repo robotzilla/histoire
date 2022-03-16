@@ -1,0 +1,1 @@
+1647451630 #spidermonkey:mozilla.org Doing review feedback on a test case found me a compartment bug. 😕 Not sure how this got missed earlier.
