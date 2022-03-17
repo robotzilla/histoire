@@ -1,1 +1,2 @@
 1647451630 #spidermonkey:mozilla.org Doing review feedback on a test case found me a compartment bug. 😕 Not sure how this got missed earlier.
+1647553738 #spidermonkey:mozilla.org Yet more work on making the weak map illusion work for private fields on exotic objects. Now to figure out how to make a test case that ensures I correctly test RemoteObjectProxy
