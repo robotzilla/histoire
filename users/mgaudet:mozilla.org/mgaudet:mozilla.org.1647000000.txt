@@ -1,2 +1,3 @@
 1647451630 #spidermonkey:mozilla.org Doing review feedback on a test case found me a compartment bug. 😕 Not sure how this got missed earlier.
 1647553738 #spidermonkey:mozilla.org Yet more work on making the weak map illusion work for private fields on exotic objects. Now to figure out how to make a test case that ensures I correctly test RemoteObjectProxy
+1647637879 #spidermonkey:mozilla.org As evilpie points out, WritableStreams and pipeTo is on autoland now. I've also disabled the JS Streams CI build, as it's becoming increasingly unlikely that we will revert DOM streams... and because it was going to be a pain to maintain the dual builds in CI.
