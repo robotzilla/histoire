@@ -1,1 +1,2 @@
 1648042142 #spidermonkey:mozilla.org WritableStreams are enabled on nightly now.
+1648490176 #spidermonkey:mozilla.org Shocked to discover passing a size_t to a uint32_t appears to not be a compiler error... leading to a truncation bug.
