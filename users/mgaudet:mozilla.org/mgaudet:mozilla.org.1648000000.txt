@@ -1,2 +1,3 @@
 1648042142 #spidermonkey:mozilla.org WritableStreams are enabled on nightly now.
 1648490176 #spidermonkey:mozilla.org Shocked to discover passing a size_t to a uint32_t appears to not be a compiler error... leading to a truncation bug.
+1648850428 #spidermonkey:mozilla.org xpcshell skip-if syntax is apparently so far beyond me I cannot get it to *skip the test*. Back unto the breech Monday; for now I stop, lest I yeet my laptop out a window.
