@@ -1,1 +1,2 @@
 1649164189 #spidermonkey:mozilla.org DOM ReadableStreams are now on release 🎉
+1649171976 #spidermonkey:mozilla.org The problem with writing test cases is that you find bugs; we'd have a much lighter workload if we just stopped looking for bugs at all.
