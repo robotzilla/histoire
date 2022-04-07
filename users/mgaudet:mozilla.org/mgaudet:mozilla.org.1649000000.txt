@@ -1,3 +1,4 @@
 1649164189 #spidermonkey:mozilla.org DOM ReadableStreams are now on release 🎉
 1649171976 #spidermonkey:mozilla.org The problem with writing test cases is that you find bugs; we'd have a much lighter workload if we just stopped looking for bugs at all.
 1649279236 #spidermonkey:mozilla.org Chased down a sort of baffling test case result in Addons+Streams; now for someone who knows more than I to weigh in.
+1649367244 #spidermonkey:mozilla.org Making good progress towards getting a prototype of ShadowRealms done (an ugly one tho)
