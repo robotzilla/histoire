@@ -1,0 +1,1 @@
+1649697881 #spidermonkey:mozilla.org Trying to understand why we intentionally create a typed array in the same compartment as an ArrayBuffer even if we use the prototype of current compartment..
