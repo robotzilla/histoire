@@ -3,3 +3,4 @@
 1649279236 #spidermonkey:mozilla.org Chased down a sort of baffling test case result in Addons+Streams; now for someone who knows more than I to weigh in.
 1649367244 #spidermonkey:mozilla.org Making good progress towards getting a prototype of ShadowRealms done (an ugly one tho)
 1649690864 #spidermonkey:mozilla.org Can't do remote development on my build machine because https://update.code.visualstudio.com/ is returning 503. Silly.
+1649800735 #spidermonkey:mozilla.org Congratulations and thanks to krosylight, TransformStreams just merged into central (enabled Nightly Only for now to give us some stabilization time).
