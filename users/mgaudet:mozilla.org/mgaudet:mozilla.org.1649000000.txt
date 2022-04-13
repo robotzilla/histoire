@@ -4,3 +4,4 @@
 1649367244 #spidermonkey:mozilla.org Making good progress towards getting a prototype of ShadowRealms done (an ugly one tho)
 1649690864 #spidermonkey:mozilla.org Can't do remote development on my build machine because https://update.code.visualstudio.com/ is returning 503. Silly.
 1649800735 #spidermonkey:mozilla.org Congratulations and thanks to krosylight, TransformStreams just merged into central (enabled Nightly Only for now to give us some stabilization time).
+1649887414 #spidermonkey:mozilla.org Removed the last hooks for JS Streams from Gecko today. Also, the greyscale demo of transform streams works in today's nightly https://mdn.github.io/dom-examples/streams/grayscale-png/ ( 🎉 )
