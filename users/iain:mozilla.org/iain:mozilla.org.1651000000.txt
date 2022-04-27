@@ -1,0 +1,1 @@
+1651018956 #spidermonkey:mozilla.org Doing brain surgery on the frontend to turn try-finally into boring control flow (jumps and switches). Implementation is still hacky, but it's passing enough tests to give me confidence that this approach will work
