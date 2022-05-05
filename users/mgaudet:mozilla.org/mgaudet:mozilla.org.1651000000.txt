@@ -1,2 +1,3 @@
 1651528872 #spidermonkey:mozilla.org Intent to ship for readable byte streams sent; my hacky ShadowRealms prototype has passed all the shell test262 tests now. Needs to be cleaned up quite a bit, and have host (browser) integration done still.
 1651773281 #spidermonkey:mozilla.org creating the ShadowRealm globals is... more complicated than I expected!
+1651786008 #spidermonkey:mozilla.org First working host integration test case for shadow realms.
