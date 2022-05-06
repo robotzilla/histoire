@@ -1,3 +1,4 @@
 1651528872 #spidermonkey:mozilla.org Intent to ship for readable byte streams sent; my hacky ShadowRealms prototype has passed all the shell test262 tests now. Needs to be cleaned up quite a bit, and have host (browser) integration done still.
 1651773281 #spidermonkey:mozilla.org creating the ShadowRealm globals is... more complicated than I expected!
 1651786008 #spidermonkey:mozilla.org First working host integration test case for shadow realms.
+1651858756 #spidermonkey:mozilla.org I seem to have lost my mind. I was convinced that private methods would brand-check their `this` value, and couldn't figure out how it worked in the spec anymore (especially since the PrivateBrandCheck operation no longer exists in the spec)... yet it seems I was just wrong, and if you do `privateMethod.call(x, ...)`, and `x` isn't branded, things are just kosher.
