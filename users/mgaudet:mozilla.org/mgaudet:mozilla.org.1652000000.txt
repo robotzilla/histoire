@@ -1,0 +1,1 @@
+1652470939 #spidermonkey:mozilla.org Spent a bunch of time debugging a ShadowRealm test case, only to discover that it was working as designed. I'm unsure about that design choice, so [asking about it](https://github.com/tc39/proposal-shadowrealm/issues/361) (regretting not waiting till Monday tho)
