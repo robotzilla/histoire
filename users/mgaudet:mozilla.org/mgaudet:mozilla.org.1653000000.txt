@@ -1,1 +1,2 @@
 1653083614 #spidermonkey:mozilla.org ShadowRealm module loading work... complicated :0
+1653525926 #spidermonkey:mozilla.org Spent way too long debugging a ShadowRealm module import error that turned out to be "File Not Found" (oops). Filed a spec bug in the end, as I think the spec is wrong. https://github.com/tc39/proposal-shadowrealm/issues/363
