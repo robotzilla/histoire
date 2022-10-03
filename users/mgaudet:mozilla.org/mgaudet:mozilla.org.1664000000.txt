@@ -1,1 +1,2 @@
 1664467712 confession Spent time investigating [mold](https://bugzilla.mozilla.org/show_bug.cgi?id=1746462) -- should have really spent more time looking at the units on those link times before getting excited. Turns out, linking is far from the long pole for my builds.
+1664834039 #spidermonkey:mozilla.org Investigating a mysterious unhandled rejection error from Streams code.
