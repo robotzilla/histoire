@@ -1,0 +1,1 @@
+1666043942 #spidermonkey:mozilla.org getting to know the async iteration protocol :D
