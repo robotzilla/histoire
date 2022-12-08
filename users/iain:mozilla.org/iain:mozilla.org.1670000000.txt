@@ -1,0 +1,1 @@
+1670539461 #spidermonkey:mozilla.org Just solved bug 1801794, which turned out to be a poorly written webpage that may or may not get stuck in an infinite loop on page load *depending on the width of your display*
