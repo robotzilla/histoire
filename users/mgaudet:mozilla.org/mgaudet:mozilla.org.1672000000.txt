@@ -1,2 +1,3 @@
 1672806694 confession Spent time thinking about how to reduce parser atomization through guaranteed hash uniqueness
 1672873125 confession Attempting to prove out an approach to managing hash values
+1672959057 #spidermonkey:mozilla.org Array.fromAsync seems to pass the newly created test262 tests. In other news... I think I have given up on my unsafe idea for reducing parser atomization, as i don't think it can be fixed and fast.
