@@ -1,0 +1,1 @@
+1673909705 #spidermonkey:mozilla.org Oof. Spent all day trying to get code coverage in browser builds working more comprehensively; essentially I was looking for [this block](https://searchfox.org/mozilla-central/source/xpcom/base/nscore.h#154-169); but now I can gather data using `mach raptor`
