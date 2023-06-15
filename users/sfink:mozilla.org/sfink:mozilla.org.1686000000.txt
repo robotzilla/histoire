@@ -1,0 +1,1 @@
+1686787635 #spidermonkey:mozilla.org fast path is now a little over twice as fast as slow path, which is good. They're even outputting the same number of characters, which is better. They're not exactly the same characters, which isn't quite as good.
