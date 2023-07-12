@@ -1,0 +1,1 @@
+1689196741 #spidermonkey:mozilla.org I am hoist on my own petard -- reaches for functionality **I** removed from the parser 3 years ago. (Stencil makes this challenging too... hmm)
