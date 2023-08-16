@@ -1,2 +1,3 @@
 1692050603 #spidermonkey:mozilla.org Hmm -- 2 min before EOD got something working... but it's 10% slower rather than faster. Tomorrow problem :)
 1692136163 #spidermonkey:mozilla.org The eternal challenge of doing performance work -- just because it's not wrong enough to crash, doesn't mean it's -right- either.
+1692219408 #spidermonkey:mozilla.org Success! Optimization is activating... in baseline only (seems to be killing ion performance or invalidating ion script?) Will have to investigate more tomorrow.
