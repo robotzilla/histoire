@@ -2,3 +2,4 @@
 1692136163 #spidermonkey:mozilla.org The eternal challenge of doing performance work -- just because it's not wrong enough to crash, doesn't mean it's -right- either.
 1692219408 #spidermonkey:mozilla.org Success! Optimization is activating... in baseline only (seems to be killing ion performance or invalidating ion script?) Will have to investigate more tomorrow.
 1692295433 #spidermonkey:mozilla.org Fought through my mysterious problems (-shakes fist at getting type policy wrong-) to be rewarded with a zero percent speedup :) Glad I took the shortcut of custom coding the IC before doing more work (though, still curious if the approach could work on other things)
+1692308761 #spidermonkey:mozilla.org I miss logbot.
