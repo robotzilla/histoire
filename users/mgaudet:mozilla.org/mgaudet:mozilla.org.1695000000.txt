@@ -1,0 +1,1 @@
+1695765910 #spidermonkey:mozilla.org Automatically generated copy constructors are a pain in the but.
