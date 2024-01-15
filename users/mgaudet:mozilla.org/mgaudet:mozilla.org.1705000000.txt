@@ -1,0 +1,1 @@
+1705356726 #spidermonkey:mozilla.org [JS::WeakCache](https://searchfox.org/mozilla-central/source/js/public/GCHashTable.h#377) != [JS::WeakCache](https://searchfox.org/mozilla-central/source/js/public/SweepingAPI.h#90)... which is confusing.
