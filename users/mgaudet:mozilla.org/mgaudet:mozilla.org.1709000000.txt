@@ -1,1 +1,2 @@
 1709152665 #spidermonkey:mozilla.org Being fully serious, I actually think it's great that the one of the only remaining failures I have is some random ancient jaeger test case. It helps prove the value of our general policy of not trimming down the test suite when we retire some old project.
+1709330482 #spidermonkey:mozilla.org git-branchless and git-cinnnabar seem to hate each other. (shortlog takes 1m44s on my cinnabar repo, and 0.019s in a fresh checkout of gecko-dev )
