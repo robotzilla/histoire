@@ -1,0 +1,1 @@
+1709663070 #spidermonkey:mozilla.org string optimization works, and only slows down jit-test by a factor of 8. Shipit?
