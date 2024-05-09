@@ -1,0 +1,1 @@
+1715284808 #spidermonkey:mozilla.org Today I learned about the self-hosted [`dbg` macro](https://searchfox.org/mozilla-central/source/js/src/builtin/Utilities.js#16-21). Thank goodness... I was almost going to build similar myself
