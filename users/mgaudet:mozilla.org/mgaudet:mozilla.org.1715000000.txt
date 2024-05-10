@@ -1,2 +1,3 @@
 1715284808 #spidermonkey:mozilla.org Today I learned about the self-hosted [`dbg` macro](https://searchfox.org/mozilla-central/source/js/src/builtin/Utilities.js#16-21). Thank goodness... I was almost going to build similar myself
 1715287611 #spidermonkey:mozilla.org Being too clever by half has rendered my ability to write a test case challenging. Ooops
+1715377875 #spidermonkey:mozilla.org usage counter code hooked up to almost all the cases I want; hoping I can clean this into a reviewable stack next week
