@@ -1,0 +1,1 @@
+1716472441 #spidermonkey:mozilla.org document the implementation details of the JIT Spraying mitigation, and work on a metric to measure the progress of JIT Spraying mitigations.
