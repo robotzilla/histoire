@@ -1,1 +1,2 @@
 1716577838 #spidermonkey:mozilla.org I have been recursively too clever. Discovered my cleverness was too clever, so tried to rescue clever... which lead to more cleverness... which afaict is exactly the same as not being clever :P
+1716932779 #spidermonkey:mozilla.org Have spent an unreasonable amount of time dealing with clang-format, whitespace linting & formatting related bounces today
