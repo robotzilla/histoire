@@ -1,0 +1,1 @@
+1720124717 #spidermonkey:mozilla.org jujutsu's management of working directories is great right up until you accidentally add strace.log to one of your commits
