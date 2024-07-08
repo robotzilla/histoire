@@ -1,1 +1,2 @@
 1720124717 #spidermonkey:mozilla.org jujutsu's management of working directories is great right up until you accidentally add strace.log to one of your commits
+1720465777 #spidermonkey:mozilla.org Really wishing I could ask a C++ to trace how it does name lookup. Clang is telling me it can't find a member... and I'm looking straight at it. (and my IDE traces this the same way I do!)
