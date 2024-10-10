@@ -1,1 +1,2 @@
 1728592953 #spidermonkey:mozilla.org Knee deep in https://www.youtube.com/watch?v=AbSehcT19u0
+1728594038 #spidermonkey:mozilla.org I... <del>I feel like I may have</del> definitely just built a bunch of infrastructure which could have been replaced with `newGlobal`. So that's nice. \n\nIf anyone wants tests without prologues... I have patches. \n\nAnd don't need them anymore
