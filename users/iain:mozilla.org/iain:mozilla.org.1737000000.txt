@@ -1,0 +1,1 @@
+1737676430 #spidermonkey:mozilla.org Batching of off-thread baseline compilation is implemented, with a mere 374 jit-test failures
