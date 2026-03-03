@@ -1,0 +1,1 @@
+1772577395 #spidermonkey:mozilla.org Spent some time trying to figure out how I'd broken [this testcase](https://searchfox.org/firefox-main/source/js/src/jit-test/tests/regexp/bug1783830.js) while updating the irregexp shim, only to realize that the bug is in upstream irregexp.
