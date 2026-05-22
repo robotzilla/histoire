@@ -1,0 +1,1 @@
+1779465760 #spidermonkey:mozilla.org I wrote a quick patch to remove the redundant ReturnFromIC op from every CacheIR sequence, and somehow my changes to the pbl build are [crashing Clang](https://treeherder.mozilla.org/logviewer?job_id=568206847&repo=try&task=bmhUUOEjT9CUson-s5ZEsw.0&lineNumber=7299) (but only in CI! It compiles fine locally!)
